@@ -581,7 +581,7 @@
 
     move-result v7
 
-    if-nez v7, :cond_continue_loop
+    if-eqz v7, :cond_continue_loop
 
     const-string v7, "SamsungAccountServerAPI"
 
