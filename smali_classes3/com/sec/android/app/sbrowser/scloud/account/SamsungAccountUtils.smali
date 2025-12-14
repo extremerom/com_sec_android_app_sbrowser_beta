@@ -241,16 +241,6 @@
 
     if-eqz v0, :cond_0
 
-    const-string v2, "com.internet.app.signin"
-
-    iget-object v3, v0, Landroid/accounts/Account;->type:Ljava/lang/String;
-
-    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
     const-string v2, "Delete Account in system setting"
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
