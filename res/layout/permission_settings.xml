@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/permission_main_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.widget.MainSwitch android:id="@id/main_switch" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/main_switch">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/allow_block_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/permission_list" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="0.0dp" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:childDivider="@null" android:divider="@null" android:layout_weight="@integer/history_listview_weight" android:nestedScrollingEnabled="true" android:paddingHorizontal="@dimen/settings_screen_margin" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/no_websites_layout" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/desc_area" android:paddingTop="@dimen/winset_description_margin_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_description_margin_horizontal" android:paddingEnd="@dimen/winset_description_margin_horizontal">
+                    <TextView android:textSize="@dimen/settings_permission_text_size" android:textColor="@color/winset_description_text" android:id="@id/text_desc" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_description_margin_vertical" android:text=" " android:lineSpacingExtra="@dimen/winset_description_line_space" style="@style/RobotoRegular" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/color_palette_list_view_action_bar_bg_color" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" android:defaultFocusHighlightEnabled="false">
+                    <TextView android:textSize="@dimen/history_no_layout_internet_textsize" android:textColor="@color/color_palette_list_view_no_item_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/no_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_permission_website_settings" android:layout_marginStart="@dimen/web_push_notification_end_padding" android:layout_marginEnd="@dimen/web_push_notification_start_padding" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

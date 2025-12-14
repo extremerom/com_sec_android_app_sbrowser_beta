@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/graph_summary_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/privacy_graph_summary_margin_top" android:layout_marginBottom="@dimen/privacy_graph_summary_margin_bottom" android:layout_marginHorizontal="@dimen/privacy_graph_summary_margin_horizontal">
+            <TextView android:textSize="@dimen/privacy_graph_summary_textsize" android:textColor="@color/privacy_graph_summary_color" android:id="@id/graph_summary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RobotoBold" />
+            <TextView android:textSize="@dimen/privacy_graph_sub_summary_textsize" android:textColor="@color/privacy_graph_sub_summary_color" android:id="@id/graph_sub_summary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RobotoRegular" />
+        </LinearLayout>
+        <com.github.mikephil.charting.charts.BarChart android:id="@id/bar_chart" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/privacy_graph_height" android:layout_marginLeft="@dimen/privacy_graph_chart_margin_left" android:layout_marginTop="@dimen/privacy_graph_chart_margin_top" android:layout_marginRight="@dimen/privacy_graph_chart_margin_right" android:layout_marginBottom="@dimen/privacy_graph_chart_margin_bottom" />
+        <View android:id="@id/detail_history_list_view_divider" android:background="@color/winset_list_divider_light" android:layout_width="match_parent" android:layout_height="@dimen/winset_list_item_divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/winset_list_item_divider_margin" android:layout_marginEnd="@dimen/winset_list_item_divider_margin" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:layout_gravity="center_vertical" android:id="@id/pwa_button" android:visibility="gone" android:layout_width="@dimen/location_bar_icon_size" android:layout_height="match_parent" android:tint="@color/locationbar_icon_color" android:contentDescription="@string/options_menu_install_webapp" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

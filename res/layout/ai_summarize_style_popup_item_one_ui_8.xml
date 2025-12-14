@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ai_style_popup_item" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ai_summarize_style_popup_text_size" android:ellipsize="end" android:id="@id/option_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ai_summarize_style_popup_text_margin_start" android:layout_marginVertical="@dimen/ai_summarize_style_popup_item_margin_vertical" style="@style/RobotoRegular" />
+    <ImageView android:id="@id/check_icon" android:visibility="visible" android:layout_width="@dimen/ai_summarize_style_popup_check_icon_size" android:layout_height="@dimen/ai_summarize_style_popup_check_icon_size" android:src="@drawable/ic_tw_dropdown_ic_check" android:tint="@color/ai_summarize_style_popup_selected_item_color" android:layout_alignRight="@id/option_text" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ai_summarize_style_popup_check_icon_margin_start" android:layout_marginEnd="@dimen/ai_summarize_style_popup_check_icon_margin_end" android:layout_alignParentEnd="true" />
+</RelativeLayout>

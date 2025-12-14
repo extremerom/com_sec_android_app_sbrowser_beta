@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_toolbar_color" android:key="pref_custom_tabs_launcher_toolbar_color" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_bottombar_color" android:key="pref_custom_tabs_launcher_bottombar_color" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_navigation_bar_color" android:key="pref_custom_tabs_launcher_navigation_bar_color" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_navigation_bar_divider_color" android:key="pref_custom_tabs_launcher_navigation_bar_divider_color" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_statusbar_color" android:key="pref_custom_tabs_launcher_statusbar_color" android:inputType="text" />
+</PreferenceScreen>

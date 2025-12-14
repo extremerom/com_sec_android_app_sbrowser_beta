@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/promotion_debug_enable_debug_mode" android:key="pref_promotion_debug_enable" android:defaultValue="false" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_promotion_debug_enable" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugListPreference android:entries="@array/promotion_debug_profile_list" android:title="@string/promotion_debug_profile" android:key="pref_promotion_debug_profile" android:summary="%s" android:defaultValue="@string/promotion_debug_profile_server" android:entryValues="@array/promotion_debug_profile_list" sbrowser:debugDefaultValue="@string/promotion_debug_profile_server" sbrowser:debugKey="pref_promotion_debug_profile" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/promotion_debug_enable_instant_mode" android:key="pref_promotion_debug_instant_mode" android:defaultValue="false" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_promotion_debug_instant_mode" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/promotion_debug_enable_toast_message" android:key="pref_promotion_debug_toast_message" android:defaultValue="false" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_promotion_debug_toast_message" />
+    <androidx.preference.Preference android:title="@string/promotion_debug_reset_history" android:key="pref_promotion_reset_history" />
+</androidx.preference.PreferenceScreen>

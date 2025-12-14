@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">សាកល្បង​បន្ទាប់​ពី %d វិនាទី។</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ជ្រើស %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​សឺមី​ទីចំណាំ %d និង​ទីចំណាំ​ទាំងអស់​ក្នុង​នោះ?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​សឺមី​ទីចំណាំ %d?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ផ្លាស់ទី​ធាតុ %1$d ទៅ %2$s។</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ទីចំណាំ</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ថែម​ទីចំណាំ %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ទីចំណាំ %d?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ទីចំណាំ %d រួចរាល់​ក្នុង​ការ​ធ្វើ​សមកាល</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ឃោសនា %d ក្នុង​សប្ដាហ៍​នេះ។</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ឃោសនា %d ក្នុង​ថ្ងៃនេះ។</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ឃោសនា %d លើ​ទំព័រ​ចុងក្រោយ។</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការប្ដូរទិស %d នៅ​សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ការប្ដូរ​ទិស %d អាច​ត្រូវ​បាន​ខ្ទប់​នៅ​សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ផ្ទាំងផុស %d នៅ​សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ផ្ទាំងផុស %d អាច​ត្រូវ​បាន​ខ្ទប់​នៅ​សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ផ្ដល់​ការព្រមាន​សម្រាប់​វិបសៃ %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ចូលមើល​វិបសៃ​ព្យាបាទ %d ដោយ​គ្មាន​ការព្រមាន</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ដង</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ឯកសារ​អូឌីយ៉ូ​សរុប %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ឯកសារ​សរុប %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ទាញយក​ឯកសារ %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ឯកសារ​សរុប %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">រូប​សរុប %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">វីដេអូ​សរុប %d</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ឯកសារ %d?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ផ្លាស់ទី %d ធាតុ ចេញ​ពី​ការទាញយក​សម្ងាត់ ទៅ​ការទាញយក​សាធារណៈ?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ធាតុ %d ពី​ប្រវត្តិ​ទាញយក​របស់​អ្នក?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ទាញយក​រូប %d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">បាន​ទាញយក​រូប 1, រូប 1 បាន​បរាជ័យ</item>
+        <item quantity="other">បាន​ទាញយក​រូប %d, រូប 1 បាន​បរាជ័យ</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">មិន​អាច​ទាញយក​រូប</item>
+        <item quantity="other">មិន​អាច​ទាញយក​រូប</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">បាន​ទាញយក​រូប 1, រូប %d បាន​បរាជ័យ</item>
+        <item quantity="other">បាន​ទាញយក​រូប %1$d, រូប %2$d បាន​បរាជ័យ</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">បាន​ផ្អាក​ការទាញយក</item>
+        <item quantity="other">បាន​ផ្អាក (បាន​ទាញយក​រូប %1$d/%2$d)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ទាញយក​ឯកសារ %d។</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ថ្ងៃ​ទៀត​នឹង​លុប</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ចូលមើល​ទំព័រវិប %1$d នៅ %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ចូលមើល​ទំព័រវិប %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ចូលមើល​ទំព័រវិប %d ម្សិលមិញ</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ធាតុ %d ពី​ប្រវត្តិ​របស់​អ្នក?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ព្យាយាម​បើក Samsung Internet៖ %d ដង</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ព្យាយាម​បើក​កម្មវិធី​អ៊ីនធើណិត៖ %d ដង</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់៖ %d ដង</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​បើក %d ដង</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">មិន​អាច​បើក​វីនដូវ​កម្មវិធី​លើសពី %d។</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ធាតុ %d ពី​ប្រវត្តិ​របស់​អ្នក?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">នឹង​ខ្ទប់​ការជូនដំណឹង​ពី %1$s %2$dថ្ងៃ។</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">មិន​អាច​ថែម​ស្ទីកឃ័រ​លើសពី %d។</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">មិន​អាច​ថែម​ស្ទីកឃ័រ​លើសពី %d។ ចូលទៅ​កម្មវិធីកែ​រូបថត​ក្នុង​វិចិត្រសាល ដើម្បី​លុប​ស្ទីកឃ័រ។</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">អ្នក​ត្រូវតែ​មាន​អាយុ​យ៉ាងតិច %1$d ឆ្នាំ ដើម្បី​ប្រើ %2$s។</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">អ្នក​ត្រូវតែ​មាន​អាយុ​យ៉ាងតិច %dឆ្នាំ ដើម្បី​ប្រើ​មុខងារ​វាងវៃ​កម្រិតខ្ពស់​របស់ Galaxy AI។</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">អ្នក​ត្រូវតែ​មាន​អាយុ​យ៉ាងតិច %dឆ្នាំ ដើម្បី​ប្រើ​មុខងារ​វាងវៃ​នានា។</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ឃោសនា %d</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">កំពុង​ប្រើ %d ខូគី</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការប៉ុនប៉ង​តាមដាន %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ឃោសនា %d ក្នុង​សប្ដាហ៍​នេះ។</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ការពារ​អ្នក​ពី​ការប៉ុនប៉ង​តាមដាន %d ក្នុង​សប្ដាហ៍​នេះ។</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ការពារ​អ្នក​ពី​ការប៉ុនប៉ង​តាមដាន %d ក្នុង​ថ្ងៃនេះ។</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការប្ដូរទិស​មិន​ចង់​បាន %d ក្នុង​សប្ដាហ៍​នេះ។</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ផ្ទាំងផុស %d ក្នុង​សប្ដាហ៍​នេះ។</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​លុប​ផ្លូវកាត់ %d។</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">មិន​អាច​ថែម​ផ្លូវកាត់​លើសពី %d ក្នុង​ពេល​តែមួយ។</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ឧបករណ៍ %d?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ថែម %d ផ្លូវកាត់។</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">លុប​ទំព័រ​ដែល​បាន​រក្សាទុក %d?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​រក្សាទុក %d ទំព័រ</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​រក្សាទុក %d ទំព័រ នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ទំព័រ​ដែល​បាន​រក្សាទុក %d រួចរាល់​ក្នុង​ការ​ធ្វើ​សមកាល</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ការបង្អាក់រំខាន %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការរំខាន %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់ %d កម្មវិធី មិន​ឲ្យ​បើក​អ៊ីនធើណិត</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់ %d កម្មវិធី មិន​ឲ្យ​បើក​កម្មវិធី​អ៊ីនធើណិត​នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ផ្ទាំងផុស %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ផ្ទាំងផុស %d ក្នុង​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការប្ដូរ​ទិស​ថយក្រោយ %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ខ្ទប់​ការប្ដូរ​ទិស​ថយ %d នៅ​ថ្ងៃនេះ</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">អាច​ខ្ទប់​មុខងារ​តាមដាន %d ទៀត</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ជ្រើស %d ថេប ដើម្បី​ឲ្យ​អ្នក​បិទ</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">យើង​បាន​រកឃើញ %d ថេប ដែល​អ្នក​ប្រហែល​ជា​ចង់​បិទ</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">មិន​អាច​ចាក់សោ​លើសពី %d ថេប។</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">បាន​ជ្រើស​ធាតុ %d</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ទំព័រវិប %d</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">វិបសៃ %d</item>
+    </plurals>
+</resources>

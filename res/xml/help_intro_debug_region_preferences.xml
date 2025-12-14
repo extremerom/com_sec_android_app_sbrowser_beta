@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.settings.RadioPreferenceGroup sbrowser:entries="@array/pref_help_intro_debug_region" sbrowser:entryValues="@array/pref_help_intro_debug_region" />
+</androidx.preference.PreferenceScreen>

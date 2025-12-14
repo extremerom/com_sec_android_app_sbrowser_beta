@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/thumbnail_container" android:background="@drawable/web_dark_mode_brightness_thumbnail_background" android:padding="@dimen/web_dark_mode_brightness_thumbnail_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/web_dark_mode_brightness_thumbnail_margin" android:layout_marginEnd="@dimen/web_dark_mode_brightness_thumbnail_margin">
+        <ImageView android:id="@id/image" android:background="@drawable/web_dark_mode_brightness_thumbnail_image_background" android:layout_width="@dimen/web_dark_mode_brightness_thumbnail_image_max_width" android:layout_height="wrap_content" android:src="@drawable/internet_ic_setting_darkmode_image" android:adjustViewBounds="true" />
+        <View android:id="@id/margin_space" android:layout_width="@dimen/web_dark_mode_brightness_thumbnail_padding" android:layout_height="match_parent" />
+        <TextView android:textSize="@dimen/web_dark_mode_brightness_thumbnail_text_size" android:textColor="@color/web_dark_mode_brightness_thumbnail_text" android:layout_gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pref_web_dark_mode_brightness_summary" android:contentDescription="@string/pref_web_dark_mode_brightness_summary" android:importantForAccessibility="yes" />
+    </LinearLayout>
+    <View android:id="@id/dim" android:background="@color/web_dark_mode_brightness_thumbnail_dim" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

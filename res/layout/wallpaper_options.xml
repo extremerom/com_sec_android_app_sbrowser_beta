@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/category_cardview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/wallpaper_categories_container_margin" app:cardBackgroundColor="@color/wallpaper_cardview_card_background_color" app:cardCornerRadius="@dimen/wallpaper_category_cardview_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/option_card_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:id="@id/direction_button" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/wallpaper_category_header_view_height" android:paddingHorizontal="@dimen/wallpaper_category_header_view_horizontal_padding">
+            <TextView android:textSize="@dimen/category_title_text_size" android:textColor="@color/color_palette_wallpaper_cardview_category_title_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallpapersettings_library_btn_next_mtrl" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <include android:layout_gravity="center" android:id="@id/status_layout" android:layout_width="match_parent" android:layout_height="@dimen/wallpaper_category_item_thumbnail_height" layout="@layout/wallpaper_loading_error" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/items_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/category_title_text_size" android:gravity="center" android:orientation="horizontal" android:id="@id/items_text_view" android:paddingBottom="@dimen/wallpaper_category_item_thumbnail_bottom_margin" android:layout_width="match_parent" android:layout_height="@dimen/wallpaper_gallery_picker_container_height" />
+        <TextView android:textSize="@dimen/basic_description_text_size" android:id="@id/permission_text_view" android:paddingBottom="@dimen/wallpaper_thumbnail_cardview_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/wallpaper_category_header_view_horizontal_padding" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

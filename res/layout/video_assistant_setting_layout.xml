@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.common.widget.MainSwitch android:id="@id/main_switch" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/video_assistant_setting_area" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/main_switch">
+        <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/winset_description_margin_vertical" android:fillViewport="true" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/scroll_view_child" android:paddingBottom="@dimen/winset_description_margin_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/image_area" android:background="@drawable/media_assistant_setting_thumbnail_bg" android:paddingTop="@dimen/media_assistant_image_padding" android:paddingBottom="@dimen/media_assistant_image_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_description_margin_vertical" android:paddingStart="@dimen/media_assistant_image_padding" android:paddingEnd="@dimen/media_assistant_image_padding">
+                    <ImageView android:layout_gravity="center" android:id="@id/media_assistant_picture" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/internet_ic_video_setting_portrait" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </LinearLayout>
+                <include layout="@layout/video_assistant_desc_area" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ImageView android:layout_gravity="bottom" android:layout_width="@dimen/basic_corner_radius" android:layout_height="@dimen/basic_corner_radius" android:layout_marginLeft="@dimen/media_assistant_setting_button_margin_start" android:layout_marginTop="@dimen/winset_description_margin_vertical" android:src="@drawable/top_left" android:tint="@color/color_palette_list_view_round_corner_color" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:layout_gravity="bottom" android:layout_width="@dimen/basic_corner_radius" android:layout_height="@dimen/basic_corner_radius" android:layout_marginTop="@dimen/winset_description_margin_vertical" android:layout_marginRight="@dimen/media_assistant_setting_button_margin_start" android:src="@drawable/top_right" android:tint="@color/color_palette_list_view_round_corner_color" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

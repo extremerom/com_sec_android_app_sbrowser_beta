@@ -1,0 +1,19 @@
+.class public interface abstract Lorg/chromium/media/mojom/DeviceSwitchInterface;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lorg/chromium/mojo/bindings/Interface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/chromium/media/mojom/DeviceSwitchInterface$Proxy;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract switchAudioOutputDeviceId(Ljava/lang/String;)V
+.end method

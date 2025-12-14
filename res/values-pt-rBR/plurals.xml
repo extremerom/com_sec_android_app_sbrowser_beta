@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tente depois de %d segundo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tente depois de %d segundos.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d selecionada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d selecionadas</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d pasta de favoritos e todos os favoritos que ela contém?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d pastas de favoritos e todos os favoritos que elas contêm?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d pasta de favoritos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d pastas de favoritos?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d item foi movido para %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d itens foram movidos para %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d favorito</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d favoritos</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d favorito adicionado hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d favoritos adicionados hoje</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d favorito?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d favoritos?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d favorito pronto para sincron.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d favoritos prontos para sincron.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anúncio bloqueado esta semana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anúncios bloqueados esta semana.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anúncio bloqueado hoje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anúncios bloqueados hoje.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anúncio foi bloqueado na última página.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anúncios foram bloqueados na última página.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecionamento bloqueado na última semana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecionamentos bloqueados na última semana</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecionamento pode ter sido bloqueado na última semana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecionamentos podem ter sido bloqueados na última semana</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pop-up bloqueado na última semana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pop-ups bloqueados na última semana</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pop-up pode ter sido bloqueado na última semana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pop-ups podem ter sido bloqueados na última semana</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avisos fornecidos para %d site</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Avisos fornecidos para %d sites</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d site malicioso visitado sem aviso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sites maliciosos visitados sem avisos</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vezes</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d arquivo de áudio</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Total de %d arquivos de áudio</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d documento</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Total de %d documentos</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arquivo baixado hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arquivos baixados hoje</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d arquivo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Total de %d arquivos</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d imagem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Total de %d imagens</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d vídeo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Total de %d vídeos</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d arquivo?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d arquivos?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mover %d item dos downloads secretos para os downloads públicos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mover %d itens dos downloads secretos para os downloads públicos?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Remover %d item do seu histórico de downloads?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Remover %d itens do seu histórico de downloads?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagem baixada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imagens baixadas</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 imagem baixada, 1 imagem com falha</item>
+        <item quantity="other">%d imagens baixadas, 1 imagem com falha</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Não foi possível baixar a imagem</item>
+        <item quantity="other">Não foi possível baixar as imagens</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 imagem baixada, %d imagens com falha</item>
+        <item quantity="other">%1$d imagens baixadas, %2$d imagens com falha</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Download pausado</item>
+        <item quantity="other">Em pausa (%1$d/%2$d imagens baixadas)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d arquivo foi baixado.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d arquivos foram baixados.</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dia até a exclusão</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dias até a exclusão</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d página da web visitada em %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d páginas da web visitadas em %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página da web visitada hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas da web visitadas hoje</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página da web visitada ontem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas da web visitadas ontem</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d item do seu histórico?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d itens do seu histórico?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tentativa de abrir o Samsung Internet: %d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tentativa de abrir o Samsung Internet: %d vezes</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tentativa de abrir o aplicativo Internet: %d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tentativa de abrir o aplicativo Internet: %d vezes</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bloqueado: %d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloqueado: %d vezes</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aberto %d vez</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Aberto %d vezes</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Não é possível abrir mais de %d janela de aplicativo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Não é possível abrir mais de %d janelas de aplicativos.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d item do seu histórico?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d itens do seu histórico?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d segundo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">As notificações do %1$s serão bloqueadas por %2$d dia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">As notificações do %1$s serão bloqueadas por %2$d dias.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Não é possível adicionar mais de %d sticker.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Não é possível adicionar mais de %d stickers.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Não é possível adicionar mais de %d sticker. Vá para o editor de fotos na Galeria para remover stickers.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Não é possível adicionar mais de %d stickers. Vá para o editor de fotos na Galeria para remover stickers.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Você precisa ter pelo menos %1$d ano para usar %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Você precisa ter pelo menos %1$d anos para usar %2$s.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Você precisa ter pelo menos %d ano para usar as funções de inteligência avançada do Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Você precisa ter pelo menos %d anos para usar as funções de inteligência avançada do Galaxy AI.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Você precisa ter pelo menos %d ano para usar as funções inteligentes.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Você precisa ter pelo menos %d anos para usar as funções inteligentes.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anúncio bloqueado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anúncios bloqueados</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cookie em uso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d cookies em uso</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tentativa de rastreamento bloqueada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tentativas de rastreamento bloqueadas</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anúncio bloqueado esta semana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anúncios bloqueados esta semana.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Protegeu você de %d tentativa de rastreamento esta semana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Protegeu você de %d tentativas de rastreamento esta semana.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Protegeu você de %d tentativa de rastreamento hoje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Protegeu você de %d tentativas de rastreamento hoje.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecionamento indesejado bloqueado esta semana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecionamentos indesejados bloqueados esta semana.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pop-up bloqueado esta semana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pop-ups bloqueados esta semana.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atalho foi excluído.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atalhos foram excluídos.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Não é possível adicionar mais de %d atalho de cada vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Não é possível adicionar mais de %d atalhos de cada vez.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Remover %d aparelho?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Remover %d aparelhos?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atalho adicionado.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d atalhos adicionados.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Excluir %d página salva?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Excluir %d páginas salvas?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página salva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas salvas</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página salva hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas salvas hoje</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página salva pronta p/ sinc.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas salvas prontas p/ sinc.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d interrupção hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d interrupções hoje</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d distração bloqueada hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d distrações bloqueadas hoje</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicativo impedido de abrir a Internet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicativos impedidos de abrir a Internet</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplicativo impedido de abrir o aplicativo Internet hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplicativos impedidos de abrir o aplicativo Internet hoje</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pop-up bloqueado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pop-ups bloqueados</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pop-up bloqueado hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pop-ups bloqueados hoje</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecionamento retroativo bloqueado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecionamentos retroativos bloqueados</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecionamento retroativo bloqueado hoje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecionamentos retroativos bloqueados hoje</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mais %d rastreador pode ter sido bloqueado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mais %d rastreadores podem ter sido bloqueados</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aba selecionada para você fechar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d abas selecionadas para você fechar</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Encontramos %d aba que você pode querer fechar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Encontramos %d abas que você pode querer fechar</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Não é possível bloquear mais de %d guia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Não é possível bloquear mais de %d guias.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Expira amanhã</item>
+        <item quantity="other">Expira em %d dias</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item selecionado</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d itens selecionados</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d página da web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d páginas da web</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d site da web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sites da web</item>
+    </plurals>
+</resources>

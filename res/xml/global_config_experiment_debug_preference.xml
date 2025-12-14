@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Weight" android:key="pref_global_config_experiment_weight" />
+    <Preference android:title="Fake Weight" android:key="pref_global_config_experiment_fake_weight" />
+    <Preference android:title="Experiment ID" android:key="pref_global_config_experiment_id" />
+</PreferenceScreen>

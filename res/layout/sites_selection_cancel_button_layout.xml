@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:baselineAligned="false" android:layout_marginStart="@dimen/sites_selection_cancel_btn_margin_start" android:layout_marginEnd="@dimen/sites_selection_cancel_btn_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/selection_cancel_button" android:background="@drawable/basic_cancel_button_background" android:focusable="true" android:clickable="true" android:longClickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:stateListAnimator="?seslSmallTouchAnimator" android:layout_marginHorizontal="@dimen/sites_selection_cancel_btn_margin_horizontal" android:layout_marginVertical="@dimen/sites_selection_cancel_btn_margin_vertical">
+        <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/sites_selection_cancel_btn_text_size" android:textColor="@color/color_palette_sites_button_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/selection_cancel_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" app:textSizeDp="@dimen/sites_selection_cancel_btn_max_text_size" style="@style/RobotoBold" />
+    </FrameLayout>
+</LinearLayout>

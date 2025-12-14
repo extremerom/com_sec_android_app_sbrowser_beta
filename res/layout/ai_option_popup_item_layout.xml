@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ai_option_popup_item" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/ai_sub_popup_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ai_option_popup_icon" android:layout_width="@dimen/ai_sub_option_img_size" android:layout_height="@dimen/ai_sub_option_img_size" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ai_sub_option_text_margin_start" />
+    <TextView android:textSize="@dimen/ai_sub_option_text_size" android:textColor="@color/ai_sub_option_color" android:ellipsize="end" android:id="@id/ai_option_popup_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ai_sub_option_text_drawable_padding" android:layout_marginEnd="@dimen/ai_sub_option_text_margin_end" android:layout_toEndOf="@id/ai_option_popup_icon" style="@style/RobotoRegular" />
+    <LinearLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ai_sub_option_badge_margin_top" android:layout_alignTop="@id/ai_option_popup_textview" android:layout_marginEnd="@dimen/ai_sub_option_badge_margin_end" android:layout_alignEnd="@id/ai_option_popup_textview">
+        <include android:id="@id/ai_option_popup_badge" layout="@layout/badge" />
+    </LinearLayout>
+</RelativeLayout>

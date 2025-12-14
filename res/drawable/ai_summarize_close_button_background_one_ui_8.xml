@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ai_summarize_close_button_drawable_one_ui_8" />
+    <item android:drawable="@drawable/ai_summarize_close_button_ripple_one_ui_8" />
+</layer-list>

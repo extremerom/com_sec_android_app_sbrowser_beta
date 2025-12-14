@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_push_messaging_debug_endpoint_url" android:key="push_messaging.endpoint_url" android:summary="@string/pref_push_messaging_debug_summary" android:defaultValue="https://fcm.googleapis.com/fcm/send/" />
+</PreferenceScreen>

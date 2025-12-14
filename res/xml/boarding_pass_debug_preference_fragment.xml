@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.EditTextPreference android:singleLine="true" android:title="@string/pref_boarding_pass_allowlist_string" android:key="pref_boarding_pass_allowlist" android:defaultValue="" />
+</androidx.preference.PreferenceScreen>

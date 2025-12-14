@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/ai_summarize_popup_menu_ripple_color_one_ui_8" app:seslRecoilMask="@drawable/ai_summarize_menu_container_background_mask" xmlns:app="http://schemas.android.com/apk/res-auto" />

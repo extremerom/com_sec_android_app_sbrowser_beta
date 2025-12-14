@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:id="@id/toolbar_button" android:background="@drawable/toolbar_button_touch_effect" android:focusable="true" android:clickable="true" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="match_parent" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

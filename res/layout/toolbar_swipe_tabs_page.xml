@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.toolbar_swipe.ToolbarSwipePageLayout android:id="@id/swipe_tab_page_layout" android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fake_toolbar" layout="@layout/toolbar" />
+    <ImageView android:id="@id/bitmap_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" />
+    <com.sec.android.app.sbrowser.toolbar_swipe.ToolbarSwipePageImageView android:orientation="vertical" android:id="@id/thumbnail_image" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/fake_bottombar" layout="@layout/bottombar" />
+    <ImageView android:id="@id/bitmap_bottombar" android:layout_width="match_parent" android:layout_height="@dimen/bottombar_height" />
+</com.sec.android.app.sbrowser.toolbar_swipe.ToolbarSwipePageLayout>

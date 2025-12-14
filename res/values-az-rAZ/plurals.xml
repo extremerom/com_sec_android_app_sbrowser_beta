@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saniyə sonra sınayın.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d saniyə sonra sınayın.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seçildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d seçildi</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin qovluğu və onun içərisindəki bütün əlfəcinlər silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin qovluğu və onların içərisindəki bütün əlfəcinlər silinsin?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin qovluğu silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin qovluğu silinsin?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d element %2$s bölməsinə köçürüldü.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d element %2$s bölməsinə köçürüldü.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin bu gün əlavə edildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin bu gün əlavə edildi</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin silinsin?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d əlfəcin sinxronlaşd hazırdır</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d əlfəcin sinxronlaşd hazırdır</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu həftə %d reklam bloklanıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu həftə %d reklam bloklanıb.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d reklam bloklanıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d reklam bloklanıb.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Son səhifədə %d reklam bloklandı.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Son səhifədə %d reklam bloklandı.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Keçən həftə %d yönləndirmə bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Keçən həftə %d yönləndirmə bloklanıb</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Keçən həftə %d yönləndirmə bloklanmış ola bilər</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Keçən həftə %d yönləndirmə bloklanmış ola bilər</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Keçən həftə %d ani bildiriş bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Keçən həftə %d ani bildiriş bloklanıb</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Keçən həftə %d ani bildiriş bloklanmış ola bilər</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Keçən həftə %d ani bildiriş bloklanmış ola bilər</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d veb-sayt üçün xəbərdarlıq edilib</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d veb-sayt üçün xəbərdarlıq edilib</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zərərli veb-sayta xəbərdarlıqsız daxil olunub</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zərərli veb-sayta xəbərdarlıqsız daxil olunub</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dəfə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dəfə</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cəmi %d audio fayl</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cəmi %d audio fayl</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cəmi %d sənəd</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cəmi %d sənəd</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fayl bu gün endirildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fayl bu gün endirildi</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cəmi %d fayl</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cəmi %d fayl</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cəmi %d şəkil</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cəmi %d şəkil</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cəmi %d video</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Cəmi %d video</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fayl silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fayl silinsin?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element gizli yükləmələrdən ümumi yükləmələrə köçürülsün?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d element gizli yükləmələrdən ümumi yükləmələrə köçürülsün?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementi endirmə tarixçəsindən silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elementi endirmə tarixçəsindən silinsin?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d şəkil endirildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d şəkil endirildi</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 şəkil endirildi, 1 şəkil alınmadı</item>
+        <item quantity="other">%d şəkil endirildi, 1 şəkil alınmadı</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Şəkli endirmək olmadı</item>
+        <item quantity="other">Şəkilləri endirmək olmadı</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 şəkil endirildi, %d şəkil alınmadı</item>
+        <item quantity="other">%1$d şəkil endirildi, %2$d şəkil alınmadı</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Yükləməyə pauza verildi</item>
+        <item quantity="other">Pauza verildi (%1$d/%2$d şəkil endirildi)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fayl yüklənib.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fayl yüklənib.</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Silinməyə %d gün qalıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Silinməyə %d gün qalıb</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s tarixində %1$d veb-səhifəyə daxil olunub</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s tarixində %1$d veb-səhifəyə daxil olunub</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vebsəhifəyə bu gün daxil oldu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vebsəhifəyə bu gün daxil oldu</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vebsəhifəyə dünən daxil olundu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d vebsəhifəyə dünən daxil olundu</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element tarixçənizdən silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d element tarixçənizdən silinsin?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Samsung Internet proqramını açmağa cəhd edilib: %d dəfə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Samsung Internet proqramını açmağa cəhd edilib: %d dəfə</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Internet proqramını açmağa cəhd edilib: %d dəfə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Internet proqramını açmağa cəhd edilib: %d dəfə</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bloklanıb: %d dəfə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloklanıb: %d dəfə</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dəfə açıldı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dəfə açıldı</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-dən çox proqram pəncərəsi açmaq olmur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-dən çox proqram pəncərəsi açmaq olmur.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element tarixçənizdən silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d element tarixçənizdən silinsin?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d san</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d san</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s bildirişləri %2$d gün müddətinə bloklanacaq.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s bildirişləri %2$d gün müddətinə bloklanacaq.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-dən çox stiker əlavə etmək olmur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-dən çox stiker əlavə etmək olmur.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ən çoxu %d stiker əlavə etmək mümkündür. Stikerləri silmək üçün Qalereyada fotoredaktora keçin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ən çoxu %d stiker əlavə etmək mümkündür. Stikerləri silmək üçün Qalereyada fotoredaktora keçin.</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s istifadəsi üçün ən azı %1$d yaşınız olmalıdır.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s istifadəsi üçün ən azı %1$d yaşınız olmalıdır.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Galaxy AI-nin qabaqcıl intellekt funksiyalarından istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ağıllı funksiyalardan istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ağıllı funksiyalardan istifadə etmək üçün ən azı %d yaşında olmalısınız.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d reklam bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d reklam bloklanıb</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuki istifadə olunur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kuki istifadə olunur</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d izləmə cəhdi bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d izləmə cəhdi bloklanıb</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu həftə %d reklam bloklanıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu həftə %d reklam bloklanıb.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu həftə %d izləmə cəhdinin qarşısı alınıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu həftə %d izləmə cəhdinin qarşısı alınıb.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d izləmə cəhdinin qarşısı alınıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d izləmə cəhdinin qarşısı alınıb.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu həftə %d arzuolunmaz yönləndirmə bloklanıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu həftə %d arzuolunmaz yönləndirmə bloklanıb.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu həftə %d ani pəncərə bloklanıb.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu həftə %d ani pəncərə bloklanıb.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d qısayol silindi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d qısayol silindi.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eyni anda ən çoxu %d qısayol əlavə etmək olar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Eyni anda ən çoxu %d qısayol əlavə etmək olar.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cihaz silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d cihaz silinsin?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d qısayol əlavə edilib.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d qısayol əlavə edilib.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saxlanmış səhifə silinsin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d saxlanmış səhifə silinsin?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d səhifə saxlandı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d səhifə saxlandı</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d səhifə bu gün saxlandı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d səhifə bu gün saxlandı</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saxlanmış səhifə sinxr hazır</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d saxlanmış səhifə sinxr hazır</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d maneə aşkarlanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d maneə aşkarlanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d yayındırıcı amil bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d yayındırıcı amil bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d proqramın Internet proqramını açması bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d proqramın Internet proqramını açması bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d proqram Internet proqramını açması bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d proqram Internet proqramını açması bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ani bildiriş bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ani bildiriş bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d ani bildiriş bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d ani bildiriş bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d geri yönləndirmə bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d geri yönləndirmə bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu gün %d geri yönləndirmə bloklanıb</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bu gün %d geri yönləndirmə bloklanıb</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Daha %d izləyici bloklanmış ola bilər</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Daha %d izləyici bloklanmış ola bilər</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bağlanılacaq %d tab seçilib</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bağlanılacaq %d tab seçilib</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bağlamaq istəyə biləcəyiniz %d tab tapdıq</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bağlamaq istəyə biləcəyiniz %d tab tapdıq</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Maksimum %d tab-vərəqəni kilidləmək mümkündür.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Maksimum %d tab-vərəqəni kilidləmək mümkündür.</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element seçildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d element seçildi</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d veb-səhifə</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d veb-səhifə</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d veb-sayt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d veb-sayt</item>
+    </plurals>
+</resources>

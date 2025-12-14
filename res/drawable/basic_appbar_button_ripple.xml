@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/basic_ripple_app_bar_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:height="@dimen/basic_app_bar_icon_ripple_size" android:width="@dimen/basic_app_bar_icon_ripple_size">
+        <shape android:shape="oval">
+            <solid android:color="?android:colorAccent" />
+        </shape>
+    </item>
+</ripple>

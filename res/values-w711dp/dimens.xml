@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="help_intro_legal_agree_button_padding_top_bottom">48.0dp</dimen>
+    <dimen name="help_intro_legal_close_app_button_padding_between">108.0dp</dimen>
+    <dimen name="help_intro_legal_close_app_button_width">240.0dp</dimen>
+    <dimen name="help_intro_legal_description_max_width">640.0dp</dimen>
+    <dimen name="help_intro_legal_description_min_width">435.0dp</dimen>
+    <dimen name="help_intro_legal_margin_ratio_below_title">0.1</dimen>
+    <dimen name="help_intro_legal_margin_ratio_top">0.21</dimen>
+</resources>

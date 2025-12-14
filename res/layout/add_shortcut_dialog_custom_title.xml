@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/add_shortcut_dialog_custom_title_text_size" android:textColor="@color/add_shortcut_dialog_title_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/add_shortcut_dialog_custom_title_margin" android:text="@string/add_shortcut" android:layout_marginHorizontal="@dimen/add_shortcut_dialog_custom_title_margin" style="@style/RobotoMedium" />
+    <View android:id="@id/divider" android:background="@color/add_shortcut_dialog_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/add_web_item_divider_height" android:layout_marginTop="@dimen/add_shortcut_dialog_divider_margin" android:layout_marginHorizontal="@dimen/add_shortcut_dialog_divider_margin" />
+</LinearLayout>

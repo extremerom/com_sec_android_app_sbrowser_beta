@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.multi_tab.tab_stack.views.tab_cardlist.TabView android:id="@id/tab_task_view_v2" android:background="@drawable/multi_tab_stack_view_bg_layer" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tab_view_header_v2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tab_view_thumbnail_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/multi_tab_stack_view_thumbnail_margin_top" android:layout_marginBottom="@dimen/multi_tab_stack_view_thumbnail_margin_bottom" android:layout_marginHorizontal="@dimen/multi_tab_stack_view_thumbnail_margin_horizontal">
+        <com.sec.android.app.sbrowser.multi_tab.tab_stack.views.widget.TabThumbnailView android:id="@id/tab_view_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/group_thumbnail_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/multi_tab_stack_view_thumbnail_margin_top" android:layout_marginBottom="@dimen/multi_tab_stack_view_thumbnail_margin_bottom" android:layout_marginHorizontal="@dimen/multi_tab_stack_view_thumbnail_margin_horizontal">
+        <include android:id="@id/group_thumbnail" layout="@layout/multi_tab_stack_group_thumbnail_v2" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/tab_view_stroke" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.sec.android.app.sbrowser.multi_tab.tab_stack.views.widget.RoundedImageView android:id="@id/tab_view_stroke_image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    </FrameLayout>
+</com.sec.android.app.sbrowser.multi_tab.tab_stack.views.tab_cardlist.TabView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/layout_preview_bars_background" />
+        </shape>
+    </item>
+    <item android:top="@dimen/layout_preview_address_bar_bg_margin_vertical" android:bottom="@dimen/layout_preview_address_bar_bg_margin_vertical" android:start="@dimen/layout_preview_address_bar_bg_margin_horizontal" android:end="@dimen/layout_preview_address_bar_bg_margin_horizontal">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/layout_preview_address_bar_background" />
+            <corners android:radius="@dimen/layout_preview_address_bar_radius" />
+        </shape>
+    </item>
+</layer-list>

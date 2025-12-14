@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslCheckedTextView android:ellipsize="marquee" android:id="@id/read_aloud_toolbar_speech_rate_spinner_item" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" android:minHeight="?dropdownListPreferredItemHeight" android:singleLine="true" android:textAlignment="viewStart" android:checkMarkTint="@color/color_palette_list_view_drop_down_list_select_icon_color" style="?spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

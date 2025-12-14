@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnail_image" android:background="@drawable/browsing_assist_thumbnail_background" android:layout_width="0.0dp" android:layout_height="@dimen/settings_browsing_assist_preview_height" android:layout_weight="0.5" />
+    <LinearLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.5" android:layout_marginStart="@dimen/browsing_assist_land_description_margin" android:layout_marginEnd="@dimen/browsing_assist_land_description_margin">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/preference_description_header_text_size" android:textColor="@color/winset_description_text" android:id="@id/browsing_assist_description_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/browsing_assist_description_1" android:lineSpacingExtra="@dimen/preference_description_header_line_spacing_extra" android:paddingStart="@dimen/browsing_assist_land_description_padding" android:paddingEnd="@dimen/browsing_assist_land_description_padding" style="@style/RobotoRegular" />
+    </LinearLayout>
+</LinearLayout>

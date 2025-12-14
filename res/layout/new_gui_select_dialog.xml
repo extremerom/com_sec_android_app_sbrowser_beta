@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/new_gui_dialog_top_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/new_gui_dialog_message_text_size" android:gravity="start" android:id="@id/message_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_use_updated_samsung_internet_dialog_description" android:textDirection="locale" android:layout_marginHorizontal="@dimen/new_gui_dialog_message_horizontal_margin" android:paddingHorizontal="@dimen/new_gui_dialog_message_horizontal_padding" android:paddingVertical="@dimen/new_gui_dialog_message_vertical_padding" />
+        <RadioGroup android:id="@id/style_radio_group" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/new_gui_dialog_radio_group_margin_bottom" android:layout_marginHorizontal="@dimen/new_gui_dialog_radio_group_margin_horizontal">
+            <RadioButton android:textSize="@dimen/new_gui_dialog_radio_button_text_size" android:id="@id/new_style_radio_button" android:background="@drawable/item_background_touch_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/pref_use_a_new_version" android:paddingStart="@dimen/new_gui_dialog_radio_button_padding_start" android:stateListAnimator="?seslMediumTouchAnimator" android:paddingVertical="@dimen/new_gui_dialog_radio_button_padding_vertical" />
+            <RadioButton android:textSize="@dimen/new_gui_dialog_radio_button_text_size" android:id="@id/old_style_radio_button" android:background="@drawable/item_background_touch_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pref_keep_a_previous_version" android:paddingStart="@dimen/new_gui_dialog_radio_button_padding_start" android:stateListAnimator="?seslMediumTouchAnimator" android:paddingVertical="@dimen/new_gui_dialog_radio_button_padding_vertical" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/toolbar_option_menu_grid_item_show_btn_shapes_radius" />
+    <padding android:left="@dimen/toolbar_option_menu_grid_item_show_btn_shapes_padding_horizontal" android:right="@dimen/toolbar_option_menu_grid_item_show_btn_shapes_padding_horizontal" />
+    <solid android:color="@color/toolbar_tools_secondary_text_color" />
+</shape>

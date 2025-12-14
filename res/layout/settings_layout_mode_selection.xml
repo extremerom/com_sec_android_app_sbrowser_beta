@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_setting_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/layout_mode_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/layout_setting_radio_group_margin_vertical">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_mode_compact_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="yes">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_compact_preview" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/layout_setting_mode_text_size" android:id="@id/layout_mode_compact_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_setting_mode_text_margin_top" android:layout_marginBottom="@dimen/layout_setting_mode_text_margin_bottom" android:text="@string/layout_mode_compact" />
+            <RadioButton android:id="@id/layout_mode_compact_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_mode_standard_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="yes">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_standard_preview" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/layout_setting_mode_text_size" android:id="@id/layout_mode_standard_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_setting_mode_text_margin_top" android:layout_marginBottom="@dimen/layout_setting_mode_text_margin_bottom" android:text="@string/layout_mode_standard" />
+            <RadioButton android:id="@id/layout_mode_standard_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_mode_bottom_container" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="yes">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_bottom_preview" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/layout_setting_mode_text_size" android:id="@id/layout_mode_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_setting_mode_text_margin_top" android:layout_marginBottom="@dimen/layout_setting_mode_text_margin_bottom" android:text="@string/layout_mode_bottom" />
+            <RadioButton android:id="@id/layout_mode_bottom_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </RadioGroup>
+</LinearLayout>

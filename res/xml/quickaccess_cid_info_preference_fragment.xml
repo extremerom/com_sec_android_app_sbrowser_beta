@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="EEA Device" android:key="pref_qa_cid_eea_info" />
+    <androidx.preference.Preference android:title="CID" android:key="pref_qa_cid_info" />
+    <androidx.preference.Preference android:title="Reset CID" android:key="pref_qa_cid_reset" android:summary="reset cid to initial value if you edited the cid for debugging" />
+</androidx.preference.PreferenceScreen>

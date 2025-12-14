@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Shpejt përpara %d sekondë</item>
+        <item quantity="other">Shpejt përpara %d sekonda</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Shko prapa %d sekondë</item>
+        <item quantity="other">Shko prapa %d sekonda</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d njoftim i ri</item>
+        <item quantity="other">%d njoftime të reja</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Skadon nesër</item>
+        <item quantity="other">Skadon për %d ditë</item>
+    </plurals>
+</resources>

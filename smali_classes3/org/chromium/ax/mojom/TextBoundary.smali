@@ -1,0 +1,110 @@
+.class public final Lorg/chromium/ax/mojom/TextBoundary;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/chromium/ax/mojom/TextBoundary$EnumType;
+    }
+.end annotation
+
+
+# static fields
+.field public static final CHARACTER:I = 0x1
+
+.field public static final DEFAULT_VALUE:I = 0x0
+
+.field public static final FORMAT_END:I = 0x2
+
+.field public static final FORMAT_START:I = 0x15
+
+.field public static final FORMAT_START_OR_END:I = 0x16
+
+.field public static final LINE_END:I = 0x3
+
+.field public static final LINE_START:I = 0x4
+
+.field public static final LINE_START_OR_END:I = 0x5
+
+.field public static final MAX_VALUE:I = 0x16
+
+.field public static final MIN_VALUE:I = 0x0
+
+.field public static final NONE:I = 0x0
+
+.field public static final OBJECT:I = 0x6
+
+.field public static final PAGE_END:I = 0x7
+
+.field public static final PAGE_START:I = 0x8
+
+.field public static final PAGE_START_OR_END:I = 0x9
+
+.field public static final PARAGRAPH_END:I = 0xa
+
+.field public static final PARAGRAPH_START:I = 0xb
+
+.field public static final PARAGRAPH_START_OR_END:I = 0xc
+
+.field public static final PARAGRAPH_START_SKIPPING_EMPTY_PARAGRAPHS:I = 0x14
+
+.field public static final SENTENCE_END:I = 0xd
+
+.field public static final SENTENCE_START:I = 0xe
+
+.field public static final SENTENCE_START_OR_END:I = 0xf
+
+.field public static final WEB_PAGE:I = 0x10
+
+.field public static final WORD_END:I = 0x11
+
+.field public static final WORD_START:I = 0x12
+
+.field public static final WORD_START_OR_END:I = 0x13
+
+
+# direct methods
+.method public static isKnownValue(I)Z
+    .locals 1
+
+    if-ltz p0, :cond_0
+
+    const/16 v0, 0x16
+
+    if-gt p0, v0, :cond_0
+
+    const/4 p0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public static toKnownValue(I)I
+    .locals 1
+
+    invoke-static {p0}, Lorg/chromium/ax/mojom/TextBoundary;->isKnownValue(I)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public static validate(I)V
+    .locals 0
+
+    return-void
+.end method

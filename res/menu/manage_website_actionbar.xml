@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/internet_ic_search" android:id="@id/website_autofill_action_search" android:title="@string/website_search_options" app:showAsAction="always" />
+    <item android:icon="@drawable/internet_ic_delete" android:id="@id/website_autofill_action" android:title="@string/common_delete" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,27 @@
+{
+  "languagePoliciesInfo": [
+    {
+      "languageCodes": ["ko", "ja", "zh", "zhhk"],
+      "maxLength": 4800,
+      "shortNotePolicy": {
+        "lengths": [800, 1600, 2400],
+        "sentences": [2, 3, 4, 5]
+      },
+      "longNotePolicy": {
+        "lengths": [800, 1600, 2400, 3200, 4000],
+        "sentences": [2, 3, 4, 5, 6, 7]
+      }
+    }
+  ],
+  "defaultPolicyInfo": {
+    "maxLength": 15000,
+    "shortNotePolicy": {
+      "lengths": [1600, 3200, 4800],
+      "sentences": [2, 3, 4, 5]
+    },
+    "longNotePolicy": {
+      "lengths": [1600, 3200, 4800, 6400, 8000],
+      "sentences": [2, 3, 4, 5, 6, 7]
+    }
+  }
+}

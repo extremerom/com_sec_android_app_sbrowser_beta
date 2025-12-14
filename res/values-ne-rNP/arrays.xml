@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>सबै कुकीहरूलाई अनुमति दिनुहोस्</item>
+        <item>तेस्रो-पक्षका कुकीहरूलाई ब्लक गर्नुहोस्</item>
+        <item>सबै कुकीहरूलाई ब्लक गर्नुहोस्</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>उपकरण</item>
+        <item>SD कार्ड</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>पूर्वनिर्धारित</item>
+        <item>द्रुत पहुँच</item>
+        <item>हालको पेज</item>
+        <item>अनुकूल पेज</item>
+    </string-array>
+</resources>

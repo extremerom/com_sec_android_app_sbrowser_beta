@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/autofill_container" android:background="@color/color_palette_settings_list_view_round_corner_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@integer/history_listview_weight">
+        <LinearLayout android:id="@id/autofill_recyclerview_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/autofill" android:paddingBottom="@dimen/basic_list_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:childDivider="@null" android:divider="@null" android:layout_weight="@integer/history_listview_weight" android:nestedScrollingEnabled="true" android:paddingHorizontal="@dimen/settings_screen_margin" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/dummy_bottom_menu_margin" android:background="@color/color_palette_settings_list_view_round_corner_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/basic_bottom_bar_icon_button_height" />
+</LinearLayout>

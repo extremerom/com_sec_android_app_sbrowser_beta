@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/infobar_shadow_layer_1" />
+            <padding android:left="@dimen/infobar_shadow_padding" android:top="@dimen/infobar_shadow_padding" android:right="@dimen/infobar_shadow_padding" android:bottom="@dimen/infobar_shadow_padding" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/infobar_shadow_layer_2" />
+            <padding android:left="@dimen/infobar_shadow_padding" android:top="@dimen/infobar_shadow_padding" android:right="@dimen/infobar_shadow_padding" android:bottom="@dimen/infobar_shadow_padding" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/infobar_shadow_layer_3" />
+            <padding android:left="@dimen/infobar_shadow_padding" android:top="@dimen/infobar_shadow_padding" android:right="@dimen/infobar_shadow_padding" android:bottom="@dimen/infobar_shadow_padding" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/infobar_shadow_layer_4" />
+            <padding android:left="@dimen/infobar_shadow_padding" android:top="@dimen/infobar_shadow_padding" android:right="@dimen/infobar_shadow_padding" android:bottom="@dimen/infobar_shadow_padding" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/infobar_shadow_layer_5" />
+            <padding android:left="@dimen/infobar_shadow_padding" android:top="@dimen/infobar_shadow_padding" android:right="@dimen/infobar_shadow_padding" android:bottom="@dimen/infobar_shadow_padding" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/basic_dialog_background_color" />
+            <corners android:radius="@dimen/infobar_corner_radius" />
+        </shape>
+    </item>
+</layer-list>

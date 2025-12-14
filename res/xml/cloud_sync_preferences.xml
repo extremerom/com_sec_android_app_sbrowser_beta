@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:title="@string/turn_on_auto_sync_title" android:key="turn_on_auto_sync" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/open_tabs" android:key="sync_open_tabs_switch" android:defaultValue="true" app:sa_eventId="@string/sa_event_settings_sync_open_tabs" app:sa_statusId="@string/sa_status_settings_sync_open_tabs" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/bookmark_add" android:key="sync_bookmarks_switch" android:defaultValue="true" app:sa_eventId="@string/sa_event_settings_sync_bookmarks" app:sa_statusId="@string/sa_status_settings_sync_bookmarks" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.settings.sync.ui.ProgressPreference android:title="@string/sync_now" android:key="sync_now" android:summary="@string/sync_with_samsung_cloud" app:sa_eventId="@string/sa_event_settings_sync_now" />
+    <com.sec.android.app.sbrowser.settings.sync.ui.WifiSyncOnlySettingPreference android:title="@string/sync_using" android:key="wifi_sync_only" app:sa_eventId="@string/sa_event_settings_sync_wifi_only" app:sa_eventWidgetId="@string/sa_event_settings_sync_wifi_only_item" app:sa_statusId="@string/sa_status_settings_sync_wifi_only" />
+</PreferenceScreen>

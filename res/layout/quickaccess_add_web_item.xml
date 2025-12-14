@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/item" android:background="@color/color_palette_list_view_item_bg_color" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/add_web_item_margin_start">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/inner_container" android:clickable="false" android:layout_width="@dimen/add_web_item_width" android:layout_height="@dimen/add_web_item_height">
+                <ImageView android:gravity="center" android:id="@id/icon" android:layout_width="@dimen/add_web_item_icon_size" android:layout_height="@dimen/add_web_item_icon_size" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/add_web_item_dominant_text_size" android:textColor="@color/quickaccess_icon_view_item_dominant_text_color" android:gravity="center" android:id="@id/dominant_char" android:visibility="gone" android:layout_width="@dimen/add_web_item_icon_size" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerInParent="true" style="@style/RobotoMedium" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/add_web_item_text_layout_padding_top" android:paddingBottom="@dimen/add_web_item_text_layout_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_web_item_height" android:paddingEnd="@dimen/add_web_item_text_layout_padding_end">
+                <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/add_web_item_title_text_size" android:textColor="@color/add_web_item_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1" style="@style/RobotoRegular" />
+                <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/add_web_item_subtext_size" android:textColor="@color/add_web_item_subtext_color" android:ellipsize="end" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1" style="@style/RobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/item_divider" android:background="@color/add_web_item_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/add_web_item_divider_height" android:layout_marginStart="@dimen/add_web_item_divider_margin_start" android:layout_marginEnd="@dimen/add_web_item_divider_margin_end" />
+    </LinearLayout>
+</FrameLayout>

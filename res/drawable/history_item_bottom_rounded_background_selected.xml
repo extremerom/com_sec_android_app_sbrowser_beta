@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/saved_page_list_item_selected_bg_color" />
+            <corners android:topLeftRadius="0.0dp" android:topRightRadius="0.0dp" android:bottomLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomRightRadius="@dimen/toolbar_option_menu_dialog_radius" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/white" />
+                    <corners android:bottomLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomRightRadius="@dimen/toolbar_option_menu_dialog_radius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <selector>
+            <item android:state_selected="true" android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/color_transparent" />
+                    <corners android:bottomLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomRightRadius="@dimen/toolbar_option_menu_dialog_radius" />
+                </shape>
+            </item>
+            <item android:state_checked="true" android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="?android:colorControlHighlight" />
+                    <corners android:bottomLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomRightRadius="@dimen/toolbar_option_menu_dialog_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

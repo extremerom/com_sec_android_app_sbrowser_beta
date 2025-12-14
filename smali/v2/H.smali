@@ -1,0 +1,33 @@
+.class public final Lv2/H;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Lv2/C1;
+
+.field public final b:LQc/m0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 4
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    sget-object v0, LPc/a;->DROP_OLDEST:LPc/a;
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    invoke-static {v1, v2, v0, v3}, LQc/n0;->b(IILPc/a;I)LQc/m0;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lv2/H;->b:LQc/m0;
+
+    return-void
+.end method

@@ -1,0 +1,65 @@
+{
+  "template": {
+    "schema_name": "com.sec.android.app.sbrowser.multi_tab",
+    "query_template_name": "search"
+  },
+  "query": {
+    "text": "$0",
+    "bool": {
+      "should": [
+        {
+          "wildcard": {
+            "fields": [
+              "title_lowercase",
+              "url"
+            ]
+          }
+        },
+        {
+          "chosung": {
+            "fields": [
+              "title_lowercase"
+            ],
+            "chosung_field": "title_chosung"
+          }
+        },
+        {
+          "chosung": {
+            "fields": [
+              "url"
+            ],
+            "chosung_field": "url_chosung"
+          }
+        },
+        {
+          "phonetic": {
+            "fields": [
+              "title_phonetic"
+            ]
+          }
+        },
+        {
+          "fuzzy": {
+            "fields": [
+              "title_fuzzy"
+            ],
+            "minimum_length": 4,
+            "fuzziness": 1
+          }
+        },
+        {
+          "fuzzy": {
+            "fields": [
+              "url_fuzzy"
+            ],
+            "minimum_length": 4,
+            "fuzziness": 1
+          }
+        }
+      ]
+    }
+  },
+  "sort": {
+    "tabidx_sort": "desc"
+  }
+}

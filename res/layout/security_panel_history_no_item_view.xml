@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/no_item" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/detail_page_no_item_margin" android:layout_marginEnd="@dimen/detail_page_no_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/winset_no_item_text_size" android:textColor="@color/winset_no_item_main_text_color" android:gravity="center" android:id="@id/no_item_text" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/RobotoRegular" />
+</LinearLayout>

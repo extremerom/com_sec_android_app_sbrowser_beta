@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_add_to_note_title" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_add_to_note" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/suggestion_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/suggestion_item_description_text_size" android:textColor="@color/suggestion_group_title_text" android:id="@id/suggestion_group_title" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suggestion_group_title_top_margin" android:layout_marginBottom="@dimen/suggestion_group_title_bottom_margin" android:singleLine="true" android:layout_marginHorizontal="@dimen/suggestion_group_title_horizontal_margin" style="@style/RobotoMedium" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/suggestion" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/suggest_item_margin_start">
+                <RelativeLayout android:layout_gravity="center" android:id="@id/icon_container" android:layout_width="@dimen/suggest_item_icon_container_width" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:id="@id/icon_type" android:layout_width="@dimen/suggest_item_icon_size" android:layout_height="@dimen/suggest_item_icon_size" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                    <include android:id="@id/icon_favicon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/omnibox_basic_suggestion_favicon" />
+                </RelativeLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/suggestion_item_text_padding_vertical" android:paddingBottom="@dimen/suggestion_item_text_padding_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/suggest_item_text_margin_end">
+                    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/suggestion_item_title_text_size" android:textColor="@color/suggestion_text" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/RobotoRegular" />
+                    <TextView android:textAppearance="@style/SettingsThemeListItemSmall" android:textSize="@dimen/suggestion_item_description_text_size" android:textColor="@color/suggestion_small_text" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/RobotoRegular" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

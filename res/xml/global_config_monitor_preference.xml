@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="Feature" android:key="pref_global_config_monitor_feature_name" android:summary="none" android:defaultValue="none" />
+</PreferenceScreen>

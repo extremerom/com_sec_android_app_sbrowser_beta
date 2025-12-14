@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/pref_mass_data_test" android:key="mass_data_test"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_create_massive_saved_pages" android:key="pref_create_massive_saved_pages" />
+    <Preference android:title="@string/pref_create_massive_history" android:key="pref_create_massive_history" />
+    <Preference android:title="@string/pref_create_old_history" android:key="pref_create_old_history" />
+    <Preference android:title="@string/pref_create_massive_bookmarks" android:key="pref_create_massive_bookmarks" />
+    <Preference android:title="@string/pref_create_massive_notifications" android:key="pref_create_massive_notifications" />
+</androidx.preference.PreferenceScreen>

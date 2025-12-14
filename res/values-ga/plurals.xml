@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Triail arís tar éis %d soicind.</item>
+        <item quantity="two">Triail arís tar éis %d shoicind.</item>
+        <item quantity="few">Triail arís tar éis %d shoicind.</item>
+        <item quantity="many">Triail arís tar éis %d soicind.</item>
+        <item quantity="other">Triail arís tar éis %d soicind.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+        <item quantity="other">%d roghnaithe</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d fhillteán leabharmharcanna agus gach leabharmharc ann?</item>
+        <item quantity="two">Scrios %d fhillteán leabharmharcanna agus gach leabharmharc iontu?</item>
+        <item quantity="few">Scrios %d fhillteán leabharmharcanna agus gach leabharmharc iontu?</item>
+        <item quantity="many">Scrios %d bhfillteán leabharmharcanna agus gach leabharmharc iontu?</item>
+        <item quantity="other">Scrios %d fillteán leabharmharcanna agus gach leabharmharc iontu?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d fhillteán leabharmhairc?</item>
+        <item quantity="two">Scrios %d fhillteán leabharmhairc?</item>
+        <item quantity="few">Scrios %d fhillteán leabharmhairc?</item>
+        <item quantity="many">Scrios %d bhfillteán leabharmhairc?</item>
+        <item quantity="other">Scrios %d fillteán leabharmhairc?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mhír bogtha chuig %2$s.</item>
+        <item quantity="two">%1$d mhír bogtha chuig %2$s.</item>
+        <item quantity="few">%1$d mhír bogtha chuig %2$s.</item>
+        <item quantity="many">%1$d mír bogtha chuig %2$s.</item>
+        <item quantity="other">%1$d mír bogtha chuig %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leabharmharc</item>
+        <item quantity="two">%d leabharmharc</item>
+        <item quantity="few">%d leabharmharc</item>
+        <item quantity="many">%d leabharmharc</item>
+        <item quantity="other">%d leabharmharc</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d l.mharc a cuireadh leis inniu</item>
+        <item quantity="two">%d l.mharc a cuireadh leis inniu</item>
+        <item quantity="few">%d l.mharc a cuireadh leis inniu</item>
+        <item quantity="many">%d l.mharc a cuireadh leis inniu</item>
+        <item quantity="other">%d l.mharc a cuireadh leis inniu</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d leabharmharc?</item>
+        <item quantity="two">Scrios %d leabharmharc?</item>
+        <item quantity="few">Scrios %d leabharmharc?</item>
+        <item quantity="many">Scrios %d leabharmharc?</item>
+        <item quantity="other">Scrios %d leabharmharc?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leabharmharc réidh le sioncronú</item>
+        <item quantity="two">%d leabharmharc réidh le sioncronú</item>
+        <item quantity="few">%d leabharmharc réidh le sioncronú</item>
+        <item quantity="many">%d leabharmharc réidh le sioncronú</item>
+        <item quantity="other">%d leabharmharc réidh le sioncronú</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="two">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="few">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="many">Bac curtha ar %d bhfógra an tseachtain seo.</item>
+        <item quantity="other">Bac curtha ar %d fógra an tseachtain seo.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fhógra inniu.</item>
+        <item quantity="two">Bac curtha ar %d fhógra inniu.</item>
+        <item quantity="few">Bac curtha ar %d fhógra inniu.</item>
+        <item quantity="many">Bac curtha ar %d bhfógra inniu.</item>
+        <item quantity="other">Bac curtha ar %d fógra inniu.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fhógra ar an leathanach deireanach.</item>
+        <item quantity="two">Bac curtha ar %d fhógra ar an leathanach deireanach.</item>
+        <item quantity="few">Bac curtha ar %d fhógra ar an leathanach deireanach.</item>
+        <item quantity="many">Bac curtha ar %d bhfógra ar an leathanach deireanach.</item>
+        <item quantity="other">Bac curtha ar %d fógra ar an leathanach deireanach.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atreorú bactha le seachtain anuas</item>
+        <item quantity="two">%d atreorú bactha le seachtain anuas</item>
+        <item quantity="few">%d atreorú bactha le seachtain anuas</item>
+        <item quantity="many">%d n-atreorú bactha le seachtain anuas</item>
+        <item quantity="other">%d atreorú bactha le seachtain anuas</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'fhéadfadh %d atreorú a bheith bactha le seachtain anuas"</item>
+        <item quantity="two">"D'fhéadfadh %d atreorú a bheith bactha le seachtain anuas"</item>
+        <item quantity="few">"D'fhéadfadh %d atreorú a bheith bactha le seachtain anuas"</item>
+        <item quantity="many">"D'fhéadfadh %d n-atreorú a bheith bactha le seachtain anuas"</item>
+        <item quantity="other">"D'fhéadfadh %d atreorú a bheith bactha le seachtain anuas"</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhír aníos bactha le seachtain anuas</item>
+        <item quantity="two">%d mhír aníos bactha le seachtain anuas</item>
+        <item quantity="few">%d mhír aníos bactha le seachtain anuas</item>
+        <item quantity="many">%d mír aníos bactha le seachtain anuas</item>
+        <item quantity="other">%d mír aníos bactha le seachtain anuas</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'fhéadfadh %d mhír aníos a bheith bactha le seachtain anuas"</item>
+        <item quantity="two">"D'fhéadfadh %d mhír aníos a bheith bactha le seachtain anuas"</item>
+        <item quantity="few">"D'fhéadfadh %d mhír aníos a bheith bactha le seachtain anuas"</item>
+        <item quantity="many">"D'fhéadfadh %d mír aníos a bheith bactha le seachtain anuas"</item>
+        <item quantity="other">"D'fhéadfadh %d mír aníos a bheith bactha le seachtain anuas"</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Rabhaidh tugtha i leith %d láithreán gréasáin</item>
+        <item quantity="two">Rabhaidh tugtha i leith %d láithreán gréasáin</item>
+        <item quantity="few">Rabhaidh tugtha i leith %d láithreán gréasáin</item>
+        <item quantity="many">Rabhaidh tugtha i leith %d láithreán gréasáin</item>
+        <item quantity="other">Rabhaidh tugtha i leith %d láithreán gréasáin</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuairt tugtha ar %d láithreán gréasáin mailíseach gan rabhadh</item>
+        <item quantity="two">Cuairt tugtha ar %d láithreán gréasáin mhailíseacha gan rabhaidh</item>
+        <item quantity="few">Cuairt tugtha ar %d láithreán gréasáin mhailíseacha gan rabhaidh</item>
+        <item quantity="many">Cuairt tugtha ar %d láithreán gréasáin mhailíseacha gan rabhaidh</item>
+        <item quantity="other">Cuairt tugtha ar %d láithreán gréasáin mhailíseacha gan rabhaidh</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair</item>
+        <item quantity="two">%d uair</item>
+        <item quantity="few">%d huaire</item>
+        <item quantity="many">%d n-uaire</item>
+        <item quantity="other">%d uair</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chomhad fuaime san iomlán</item>
+        <item quantity="two">%d chomhad fuaime san iomlán</item>
+        <item quantity="few">%d chomhad fuaime san iomlán</item>
+        <item quantity="many">%d gcomhad fuaime san iomlán</item>
+        <item quantity="other">%d comhad fuaime san iomlán</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d doiciméad san iomlán</item>
+        <item quantity="two">%d dhoiciméad san iomlán</item>
+        <item quantity="few">%d dhoiciméad san iomlán</item>
+        <item quantity="many">%d ndoiciméad san iomlán</item>
+        <item quantity="other">%d doiciméad san iomlán</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chomhad a íoslódáladh inniu</item>
+        <item quantity="two">%d chomhad a íoslódáladh inniu</item>
+        <item quantity="few">%d chomhad a íoslódáladh inniu</item>
+        <item quantity="many">%d gcomhad a íoslódáladh inniu</item>
+        <item quantity="other">%d comhad a íoslódáladh inniu</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chomhad san iomlán</item>
+        <item quantity="two">%d chomhad san iomlán</item>
+        <item quantity="few">%d chomhad san iomlán</item>
+        <item quantity="many">%d gcomhad san iomlán</item>
+        <item quantity="other">%d comhad san iomlán</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d íomhá san iomlán</item>
+        <item quantity="two">%d íomhá san iomlán</item>
+        <item quantity="few">%d íomhá san iomlán</item>
+        <item quantity="many">%d n-íomhá san iomlán</item>
+        <item quantity="other">%d íomhá san iomlán</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhíseán san iomlán</item>
+        <item quantity="two">%d fhíseán san iomlán</item>
+        <item quantity="few">%d fhíseán san iomlán</item>
+        <item quantity="many">%d bhfíseán san iomlán</item>
+        <item quantity="other">%d físeán san iomlán</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d chomhad?</item>
+        <item quantity="two">Scrios %d chomhad?</item>
+        <item quantity="few">Scrios %d chomhad?</item>
+        <item quantity="many">Scrios %d gcomhad?</item>
+        <item quantity="other">Scrios %d comhad?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mhír amach as íoslódálacha rúnda chuig íoslódálacha poiblí?</item>
+        <item quantity="two">Bog %d mhír amach as íoslódálacha rúnda chuig íoslódálacha poiblí?</item>
+        <item quantity="few">Bog %d mhír amach as íoslódálacha rúnda chuig íoslódálacha poiblí?</item>
+        <item quantity="many">Bog %d mír amach as íoslódálacha rúnda chuig íoslódálacha poiblí?</item>
+        <item quantity="other">Bog %d mír amach as íoslódálacha rúnda chuig íoslódálacha poiblí?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bain %d mhír ó do stair íoslódála?</item>
+        <item quantity="two">Bain %d mhír ó do stair íoslódála?</item>
+        <item quantity="few">Bain %d mhír ó do stair íoslódála?</item>
+        <item quantity="many">Bain %d mír ó do stair íoslódála?</item>
+        <item quantity="other">Bain %d mír ó do stair íoslódála?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d íomhá íoslódáilte</item>
+        <item quantity="two">%d íomhá íoslódáilte</item>
+        <item quantity="few">%d íomhá íoslódáilte</item>
+        <item quantity="many">%d n-íomhá íoslódáilte</item>
+        <item quantity="other">%d íomhá íoslódáilte</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 íomhá íoslódáilte, theip ar 1 íomhá</item>
+        <item quantity="other">%d íomhá íoslódáilte, theip ar 1 íomhá</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Níorbh fhéidir an íomhá a íoslódáil</item>
+        <item quantity="other">Níorbh fhéidir íomhánna a íoslódáil</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 íomhá íoslódáilte, theip ar %d íomhá</item>
+        <item quantity="other">%1$d íomhá íoslódáilte, theip ar %2$d íomhá</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Íoslódáil curtha ar sos</item>
+        <item quantity="other">Ar sos (%1$d/%2$d íomhá íoslódáilte)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chomhad íoslódáilte.</item>
+        <item quantity="two">%d chomhad íoslódáilte.</item>
+        <item quantity="few">%d chomhad íoslódáilte.</item>
+        <item quantity="many">%d gcomhad íoslódáilte.</item>
+        <item quantity="other">%d comhad íoslódáilte.</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá go dtí scriosadh</item>
+        <item quantity="two">%d lá go dtí scriosadh</item>
+        <item quantity="few">%d lá go dtí scriosadh</item>
+        <item quantity="many">%d lá go dtí scriosadh</item>
+        <item quantity="other">%d lá go dtí scriosadh</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d leathanach gréasáin ar gabhadh chuige ar an %2$s</item>
+        <item quantity="two">%1$d leathanach gréasáin ar gabhadh chucu ar an %2$s</item>
+        <item quantity="few">%1$d leathanach gréasáin ar gabhadh chucu ar an %2$s</item>
+        <item quantity="many">%1$d leathanach gréasáin ar gabhadh chucu ar an %2$s</item>
+        <item quantity="other">%1$d leathanach gréasáin ar gabhadh chucu ar an %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lch. gréasáin a chonacthas inniu</item>
+        <item quantity="two">%d lch. gréasáin a chonacthas inniu</item>
+        <item quantity="few">%d lch. gréasáin a chonacthas inniu</item>
+        <item quantity="many">%d lch. gréasáin a chonacthas inniu</item>
+        <item quantity="other">%d lch. gréasáin a chonacthas inniu</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lch. gréasáin a chonacthas inné</item>
+        <item quantity="two">%d lch. gréasáin a chonacthas inné</item>
+        <item quantity="few">%d lch. gréasáin a chonacthas inné</item>
+        <item quantity="many">%d lch. gréasáin a chonacthas inné</item>
+        <item quantity="other">%d lch. gréasáin a chonacthas inné</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d mhír ó do stair?</item>
+        <item quantity="two">Scrios %d mhír ó do stair?</item>
+        <item quantity="few">Scrios %d mhír ó do stair?</item>
+        <item quantity="many">Scrios %d mír ó do stair?</item>
+        <item quantity="other">Scrios %d mír ó do stair?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iarracht déanta Idirlíon Samsung a oscailt: %d uair</item>
+        <item quantity="two">Iarracht déanta Idirlíon Samsung a oscailt: %d uair</item>
+        <item quantity="few">Iarracht déanta Idirlíon Samsung a oscailt: %d huaire</item>
+        <item quantity="many">Iarracht déanta Idirlíon Samsung a oscailt: %d n-uaire</item>
+        <item quantity="other">Iarracht déanta Idirlíon Samsung a oscailt: %d uair</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iarracht déanta an feidhmchlár Idirlíon a oscailt: %d uair</item>
+        <item quantity="two">Iarracht déanta an feidhmchlár Idirlíon a oscailt: %d uair</item>
+        <item quantity="few">Iarracht déanta an feidhmchlár Idirlíon a oscailt: %d huaire</item>
+        <item quantity="many">Iarracht déanta an feidhmchlár Idirlíon a oscailt: %d n-uaire</item>
+        <item quantity="other">Iarracht déanta an feidhmchlár Idirlíon a oscailt: %d uair</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bactha: %d uair</item>
+        <item quantity="two">Bactha: %d uair</item>
+        <item quantity="few">Bactha: %d huaire</item>
+        <item quantity="many">Bactha: %d n-uaire</item>
+        <item quantity="other">Bactha: %d uair</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oscailte faoi %d</item>
+        <item quantity="two">Oscailte faoi %d</item>
+        <item quantity="few">Oscailte faoi %d</item>
+        <item quantity="many">Oscailte faoi %d</item>
+        <item quantity="other">Oscailte faoi %d</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d fhuinneog feidhmchláir a oscailt.</item>
+        <item quantity="two">Ní féidir níos mó ná %d fhuinneog feidhmchláir a oscailt.</item>
+        <item quantity="few">Ní féidir níos mó ná %d fhuinneog feidhmchláir a oscailt.</item>
+        <item quantity="many">Ní féidir níos mó ná %d bhfuinneog feidhmchláir a oscailt.</item>
+        <item quantity="other">Ní féidir níos mó ná %d fuinneog feidhmchláir a oscailt.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d mhír ó do stair?</item>
+        <item quantity="two">Scrios %d mhír ó do stair?</item>
+        <item quantity="few">Scrios %d mhír ó do stair?</item>
+        <item quantity="many">Scrios %d mír ó do stair?</item>
+        <item quantity="other">Scrios %d mír ó do stair?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soic</item>
+        <item quantity="two">%d shoic</item>
+        <item quantity="few">%d shoic</item>
+        <item quantity="many">%d soic</item>
+        <item quantity="other">%d soic</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuirfear bac ar fhógraí ó %1$s go ceann %2$d lae.</item>
+        <item quantity="two">Cuirfear bac ar fhógraí ó %1$s go ceann %2$d lá.</item>
+        <item quantity="few">Cuirfear bac ar fhógraí ó %1$s go ceann %2$d lá.</item>
+        <item quantity="many">Cuirfear bac ar fhógraí ó %1$s go ceann %2$d lá.</item>
+        <item quantity="other">Cuirfear bac ar fhógraí ó %1$s go ceann %2$d lá.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d ghreamán a chur leis.</item>
+        <item quantity="two">Ní féidir níos mó ná %d ghreamán a chur leis.</item>
+        <item quantity="few">Ní féidir níos mó ná %d ghreamán a chur leis.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ngreamán a chur leis.</item>
+        <item quantity="other">Ní féidir níos mó ná %d greamán a chur leis.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="two">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="few">Ní féidir níos mó ná %d ghreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ngreamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+        <item quantity="other">Ní féidir níos mó ná %d greamán a chur leis. Gabh chuig an eagarthóir grianghraf i nGailearaí le greamáin a bhaint.</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %1$d bhliain d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %1$d bliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %1$d mbliana d'aois ar a laghad le %2$s a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %1$d bliain d'aois ar a laghad le %2$s a úsáid."</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %d bliana d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %d mbliana d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %d bliain d'aois ar a laghad le gnéithe ardintleachta Galaxy AI a úsáid."</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe intleachta a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le gnéithe intleachta a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %d bliana d'aois ar a laghad le gnéithe intleachta a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %d mbliana d'aois ar a laghad le gnéithe intleachta a úsáid."</item>
+        <item quantity="other">"Ní foláir duit a bheith %d bliain d'aois ar a laghad le gnéithe intleachta a úsáid."</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fhógra</item>
+        <item quantity="two">Bac curtha ar %d fhógra</item>
+        <item quantity="few">Bac curtha ar %d fhógra</item>
+        <item quantity="many">Bac curtha ar %d bhfógra</item>
+        <item quantity="other">Bac curtha ar %d fógra</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhianán á úsáid</item>
+        <item quantity="two">%d fhianán á n-úsáid</item>
+        <item quantity="few">%d fhianán á n-úsáid</item>
+        <item quantity="many">%d bhfianán á n-úsáid</item>
+        <item quantity="other">%d fianán á n-úsáid</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d iarracht rianaithe</item>
+        <item quantity="two">Bac curtha ar %d iarracht rianaithe</item>
+        <item quantity="few">Bac curtha ar %d iarracht rianaithe</item>
+        <item quantity="many">Bac curtha ar %d n-iarracht rianaithe</item>
+        <item quantity="other">Bac curtha ar %d iarracht rianaithe</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="two">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="few">Bac curtha ar %d fhógra an tseachtain seo.</item>
+        <item quantity="many">Bac curtha ar %d bhfógra an tseachtain seo.</item>
+        <item quantity="other">Bac curtha ar %d fógra an tseachtain seo.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bhí tú cosanta ar %d iarracht rianaithe an tseachtain seo.</item>
+        <item quantity="two">Bhí tú cosanta ar %d iarracht rianaithe an tseachtain seo.</item>
+        <item quantity="few">Bhí tú cosanta ar %d iarracht rianaithe an tseachtain seo.</item>
+        <item quantity="many">Bhí tú cosanta ar %d n-iarracht rianaithe an tseachtain seo.</item>
+        <item quantity="other">Bhí tú cosanta ar %d iarracht rianaithe an tseachtain seo.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bhí tú cosanta ar %d iarracht rianaithe inniu.</item>
+        <item quantity="two">Bhí tú cosanta ar %d iarracht rianaithe inniu.</item>
+        <item quantity="few">Bhí tú cosanta ar %d iarracht rianaithe inniu.</item>
+        <item quantity="many">Bhí tú cosanta ar %d n-iarracht rianaithe inniu.</item>
+        <item quantity="other">Bhí tú cosanta ar %d iarracht rianaithe inniu.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d atreorú gan iarraidh an tseachtain seo.</item>
+        <item quantity="two">Bac curtha ar %d atreorú gan iarraidh an tseachtain seo.</item>
+        <item quantity="few">Bac curtha ar %d atreorú gan iarraidh an tseachtain seo.</item>
+        <item quantity="many">Bac curtha ar %d n-atreorú gan iarraidh an tseachtain seo.</item>
+        <item quantity="other">Bac curtha ar %d atreorú gan iarraidh an tseachtain seo.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d mhír aníos an tseachtain seo.</item>
+        <item quantity="two">Bac curtha ar %d mhír aníos an tseachtain seo.</item>
+        <item quantity="few">Bac curtha ar %d mhír aníos an tseachtain seo.</item>
+        <item quantity="many">Bac curtha ar %d mír aníos an tseachtain seo.</item>
+        <item quantity="other">Bac curtha ar %d mír aníos an tseachtain seo.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aicearra scriosta.</item>
+        <item quantity="two">%d aicearra scriosta.</item>
+        <item quantity="few">%d aicearra scriosta.</item>
+        <item quantity="many">%d n-aicearra scriosta.</item>
+        <item quantity="other">%d aicearra scriosta.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d aicearra a chur leis ag am amháin.</item>
+        <item quantity="two">Ní féidir níos mó ná %d aicearra a chur leis ag am amháin.</item>
+        <item quantity="few">Ní féidir níos mó ná %d aicearra a chur leis ag am amháin.</item>
+        <item quantity="many">Ní féidir níos mó ná %d n-aicearra a chur leis ag am amháin.</item>
+        <item quantity="other">Ní féidir níos mó ná %d aicearra a chur leis ag am amháin.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bain %d ghléas?</item>
+        <item quantity="two">Bain %d ghléas?</item>
+        <item quantity="few">Bain %d ghléas?</item>
+        <item quantity="many">Bain %d ngléas?</item>
+        <item quantity="other">Bain %d gléas?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aicearra curtha leis.</item>
+        <item quantity="two">%d aicearra curtha leis.</item>
+        <item quantity="few">%d aicearra curtha leis.</item>
+        <item quantity="many">%d n-aicearra curtha leis.</item>
+        <item quantity="other">%d aicearra curtha leis.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d leathanach sábháilte?</item>
+        <item quantity="two">Scrios %d leathanach shábháilte?</item>
+        <item quantity="few">Scrios %d leathanach shábháilte?</item>
+        <item quantity="many">Scrios %d leathanach shábháilte?</item>
+        <item quantity="other">Scrios %d leathanach sábháilte?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leathanach sábháilte</item>
+        <item quantity="two">%d leathanach shábháilte</item>
+        <item quantity="few">%d leathanach shábháilte</item>
+        <item quantity="many">%d leathanach shábháilte</item>
+        <item quantity="other">%d leathanach sábháilte</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leathanach a sábháladh inniu</item>
+        <item quantity="two">%d leathanach a sábháladh inniu</item>
+        <item quantity="few">%d leathanach a sábháladh inniu</item>
+        <item quantity="many">%d leathanach a sábháladh inniu</item>
+        <item quantity="other">%d leathanach a sábháladh inniu</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lch. sábh. réidh le sioncronú</item>
+        <item quantity="two">%d lch. shábh. réidh le sioncronú</item>
+        <item quantity="few">%d lch. shábh. réidh le sioncronú</item>
+        <item quantity="many">%d lch. shábh. réidh le sioncronú</item>
+        <item quantity="other">%d lch. sábh. réidh le sioncronú</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chur isteach inniu</item>
+        <item quantity="two">%d chur isteach inniu</item>
+        <item quantity="few">%d chur isteach inniu</item>
+        <item quantity="many">%d gcur isteach inniu</item>
+        <item quantity="other">%d cur isteach inniu</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d seachrán inniu</item>
+        <item quantity="two">Bac curtha ar %d sheachrán inniu</item>
+        <item quantity="few">Bac curtha ar %d sheachrán inniu</item>
+        <item quantity="many">Bac curtha ar %d seachrán inniu</item>
+        <item quantity="other">Bac curtha ar %d seachrán inniu</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fheidhmchlár Idirlíon a oscailt</item>
+        <item quantity="two">Bac curtha ar %d fheidhmchlár Idirlíon a oscailt</item>
+        <item quantity="few">Bac curtha ar %d fheidhmchlár Idirlíon a oscailt</item>
+        <item quantity="many">Bac curtha ar %d bhfeidhmchlár Idirlíon a oscailt</item>
+        <item quantity="other">Bac curtha ar %d feidhmchlár Idirlíon a oscailt</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d fheidhmchlár an feidhmchlár Idirlíon a oscailt inniu</item>
+        <item quantity="two">Bac curtha ar %d fheidhmchlár an feidhmchlár Idirlíon a oscailt inniu</item>
+        <item quantity="few">Bac curtha ar %d fheidhmchlár an feidhmchlár Idirlíon a oscailt inniu</item>
+        <item quantity="many">Bac curtha ar %d bhfeidhmchlár an feidhmchlár Idirlíon a oscailt inniu</item>
+        <item quantity="other">Bac curtha ar %d feidhmchlár an feidhmchlár Idirlíon a oscailt inniu</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d mhír aníos</item>
+        <item quantity="two">Bac curtha ar %d mhír aníos</item>
+        <item quantity="few">Bac curtha ar %d mhír aníos</item>
+        <item quantity="many">Bac curtha ar %d mír aníos</item>
+        <item quantity="other">Bac curtha ar %d mír aníos</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d mhír aníos inniu</item>
+        <item quantity="two">Bac curtha ar %d mhír aníos inniu</item>
+        <item quantity="few">Bac curtha ar %d mhír aníos inniu</item>
+        <item quantity="many">Bac curtha ar %d mír aníos inniu</item>
+        <item quantity="other">Bac curtha ar %d mír aníos inniu</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bac curtha ar %d atreorú siar</item>
+        <item quantity="two">Bac curtha ar %d atreorú siar</item>
+        <item quantity="few">Bac curtha ar %d atreorú siar</item>
+        <item quantity="many">Bac curtha ar %d n-atreorú siar</item>
+        <item quantity="other">Bac curtha ar %d atreorú siar</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atreorú siar bactha inniu</item>
+        <item quantity="two">%d atreorú siar bactha inniu</item>
+        <item quantity="few">%d atreorú siar bactha inniu</item>
+        <item quantity="many">%d n-atreorú siar bactha inniu</item>
+        <item quantity="other">%d atreorú siar bactha inniu</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'fhéadfadh bac a chur ar %d rianaire eile"</item>
+        <item quantity="two">"D'fhéadfadh bac a chur ar %d rianaire eile"</item>
+        <item quantity="few">"D'fhéadfadh bac a chur ar %d rianaire eile"</item>
+        <item quantity="many">"D'fhéadfadh bac a chur ar %d rianaire eile"</item>
+        <item quantity="other">"D'fhéadfadh bac a chur ar %d rianaire eile"</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d táb roghnaithe duit lena dhúnadh</item>
+        <item quantity="two">%d tháb roghnaithe duit lena ndúnadh</item>
+        <item quantity="few">%d tháb roghnaithe duit lena ndúnadh</item>
+        <item quantity="many">%d dtáb roghnaithe duit lena ndúnadh</item>
+        <item quantity="other">%d táb roghnaithe duit lena ndúnadh</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"D'aimsíomar %d táb a d’fhéadfadh sé gur mhian leat é a dhúnadh"</item>
+        <item quantity="two">"D'aimsíomar %d tháb a d’fhéadfadh sé gur mhian leat iad a dhúnadh"</item>
+        <item quantity="few">"D'aimsíomar %d tháb a d’fhéadfadh sé gur mhian leat iad a dhúnadh"</item>
+        <item quantity="many">"D'aimsíomar %d dtáb a d’fhéadfadh sé gur mhian leat iad a dhúnadh"</item>
+        <item quantity="other">"D'aimsíomar %d táb a d’fhéadfadh sé gur mhian leat iad a dhúnadh"</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d táb a ghlasáil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d tháb a ghlasáil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d tháb a ghlasáil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d dtáb a ghlasáil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d táb a ghlasáil.</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhír roghnaithe</item>
+        <item quantity="two">%d mhír roghnaithe</item>
+        <item quantity="few">%d mhír roghnaithe</item>
+        <item quantity="many">%d mír roghnaithe</item>
+        <item quantity="other">%d mír roghnaithe</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leathanach gréasáin</item>
+        <item quantity="two">%d leathanach gréasáin</item>
+        <item quantity="few">%d leathanach gréasáin</item>
+        <item quantity="many">%d leathanach gréasáin</item>
+        <item quantity="other">%d leathanach gréasáin</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d láithreán gréasáin</item>
+        <item quantity="two">%d láithreán gréasáin</item>
+        <item quantity="few">%d láithreán gréasáin</item>
+        <item quantity="many">%d láithreán gréasáin</item>
+        <item quantity="other">%d láithreán gréasáin</item>
+    </plurals>
+</resources>

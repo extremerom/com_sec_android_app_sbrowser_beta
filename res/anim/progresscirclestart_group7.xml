@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@anim/custom_0_00_0_00_0_00_0_00" android:duration="200" android:valueFrom="-90" android:valueTo="0" android:propertyName="rotation" />
+    </set>
+</set>

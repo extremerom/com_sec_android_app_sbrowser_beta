@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/winset_default_text" android:gravity="center" android:id="@id/open_flip_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:text="@string/secret_mode_open_flip_phone" />
+    <View android:id="@id/preview_image" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/preview_background" android:background="@color/iris_preview_background" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_alignTop="@id/preview_image" android:layout_alignStart="@id/preview_image">
+        <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:alpha="0.1" android:layout_marginEnd="@dimen/iris_ring_margin" />
+        <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:alpha="0.1" />
+    </LinearLayout>
+</merge>

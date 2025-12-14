@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normál</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/hu</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Az összes cookie engedélyezése</item>
+        <item>Külső cookie-k blokkolása</item>
+        <item>Összes cookie blokkolása</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Eszköz</item>
+        <item>SD-kártya</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Alapértelmezés</item>
+        <item>Gyors hozzáférés</item>
+        <item>Jelenlegi oldal</item>
+        <item>Egyéni oldal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/webapk_always_enable_title" android:key="pref_webapk_always_enable" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/webapk_fast_update_enable_title" android:key="pref_webapk_fast_update_enable" android:defaultValue="false" />
+    <androidx.preference.ListPreference android:entries="@array/webapk_profile_list" android:title="@string/webapk_profile_title" android:key="pref_webapk_profile" android:defaultValue="@string/webapk_profile_prd" android:entryValues="@array/webapk_profile_list" />
+</androidx.preference.PreferenceScreen>

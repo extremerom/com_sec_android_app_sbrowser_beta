@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.tab_group.TabGroupColorPicker android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/group_color_picker_layout" android:layout_width="match_parent" android:layout_height="@dimen/tab_group_color_picker_layout_height" android:layout_marginBottom="@dimen/tab_group_color_picker_layout_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/tab_group_color_picker_title_height" android:paddingStart="@dimen/tab_group_color_picker_title_margin_start" android:paddingEnd="@dimen/tab_group_color_picker_title_margin_end">
+        <TextView android:textSize="@dimen/tab_group_color_picker_title_text_size" android:textColor="@color/tab_group_color_picker_title_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/tab_manager_tab_group_color" android:maxLines="1" android:layout_marginEnd="@dimen/tab_group_color_picker_title_text_margin_end" style="@style/RobotoRegular" />
+        <View android:layout_gravity="center_vertical" android:background="@drawable/dotted_line" android:layout_width="match_parent" android:layout_height="match_parent" android:layerType="software" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tab_manager_group_color_grid_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/tab_group_color_grid_margin_top" android:numColumns="6" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/tab_group_color_grid_margin_horizontal" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+</com.sec.android.app.sbrowser.tab_group.TabGroupColorPicker>

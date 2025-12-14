@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:key="pref_autofill_forms_storage_option_desc" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/placeholder" android:background="@drawable/internet_qa_ic_squacle" android:visibility="gone" android:layout_width="@dimen/quickaccess_icon_view_item_width" android:layout_height="@dimen/quickaccess_icon_view_item_height" android:scaleType="fitXY" android:layout_centerInParent="true" android:backgroundTint="@color/icon_view_item_placeholder_tint_color" />
+</RelativeLayout>

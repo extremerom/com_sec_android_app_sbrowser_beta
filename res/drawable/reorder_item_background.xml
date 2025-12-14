@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bookmark_drag_item_bg_color" />
+    <corners android:radius="@dimen/rounded_corner_size" />
+    <stroke android:width="@dimen/show_bookmarks_drag_item_stroke_width" android:color="@color/color_palette_tab_bar_selected_tab_stroke_color" />
+</shape>

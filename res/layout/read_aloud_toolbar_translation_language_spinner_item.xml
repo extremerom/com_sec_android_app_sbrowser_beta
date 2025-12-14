@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslCheckedTextView android:textSize="@dimen/language_picker_item_text_size" android:ellipsize="end" android:id="@id/read_aloud_toolbar_translation_language_spinner_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:minWidth="@dimen/language_picker_dropdown_item_min_width" android:minHeight="@dimen/language_picker_dropdown_item_min_height" android:singleLine="true" android:textAlignment="viewStart" android:checkMarkTint="@color/color_palette_list_view_drop_down_list_select_icon_color" style="?spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

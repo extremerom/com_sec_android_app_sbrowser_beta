@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/group_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingVertical="@dimen/multi_tab_grid_group_thumbnail_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:paddingHorizontal="@dimen/multi_tab_grid_group_thumbnail_margin">
+            <include android:id="@id/group_thumbnail_left_top" layout="@layout/multi_tab_group_thumbnail_item" />
+            <include android:id="@id/group_thumbnail_right_top" layout="@layout/multi_tab_group_thumbnail_item" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:paddingHorizontal="@dimen/multi_tab_stack_view_group_thumbnail_padding">
+            <include android:id="@id/group_thumbnail_left_bottom" layout="@layout/multi_tab_group_thumbnail_item" />
+            <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_margin="@dimen/multi_tab_grid_group_thumbnail_item_margin" android:layout_weight="1.0">
+                <include android:id="@id/group_thumbnail_right_bottom" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/multi_tab_group_thumbnail_item" />
+                <LinearLayout android:gravity="center" android:id="@id/group_thumbnail_more" android:background="@drawable/multi_tab_group_thumbnail_more_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:layout_width="@dimen/multi_tab_group_thumbnail_more_icon_size" android:layout_height="@dimen/multi_tab_group_thumbnail_more_icon_size" android:src="@drawable/internet_ic_more_tabs" android:tint="@color/white" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

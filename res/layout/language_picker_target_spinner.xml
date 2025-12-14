@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/summary_from_to_language_text_size" android:textColor="@color/summary_from_to_language_text_color" android:ellipsize="end" android:id="@id/summary_to_language_spinner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/target_language" android:maxLines="1" android:drawablePadding="6.0dp" android:drawableEnd="@drawable/intelligence_translation_expand_mtrl" android:textAlignment="viewStart" style="@style/RobotoMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

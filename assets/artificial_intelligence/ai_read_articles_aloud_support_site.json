@@ -1,0 +1,986 @@
+{
+  "size": 140,
+  "version": 20241120,
+  "sites": [
+    {
+      "url": "news.samsung.com",
+      "title": "Samsung Newsroom",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "Samsung Global Newsroom - All the latest news, key facts and inspiring stories about Samsung Electronics."
+    },
+    {
+      "url": "chosun.com",
+      "title": "조선일보",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "조선일보 - 1등 디지털뉴스"
+    },
+    {
+      "url": "joongang.co.kr",
+      "title": "중앙일보",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "중앙일보"
+    },
+    {
+      "url": "donga.com",
+      "title": "동아일보",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "동아일보"
+    },
+    {
+      "url": "hankyung.com",
+      "title": "한국경제",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "한국경제 - 성공을 부르는 습관"
+    },
+    {
+      "url": "mk.co.kr",
+      "title": "매일경제",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "매일경제"
+    },
+    {
+      "url": "khan.co.kr",
+      "title": "경향신문",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "경향신문"
+    },
+    {
+      "url": "hani.co.kr",
+      "title": "한겨례",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "한겨레"
+    },
+    {
+      "url": "nikkei.com",
+      "title": "日本経済新聞",
+      "country": "jp",
+      "language": "ja",
+      "pageTitle": "日本経済新聞の電子版。日経や日経B Pの提供する経済、企業、国際、政治、マーケット、情報・通信、社会など各分野のニュース。ビジネス、マネー、IT、スポーツ、住宅、キャリアなどの専門情報も満載。"
+    },
+    {
+      "url": "washingtonpost.com",
+      "title": "The Washington Post",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video - The Washington Post"
+    },
+    {
+      "url": "cnbc.com",
+      "title": "CNBC",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "International Business, World News & Global Stock Market Analysis"
+    },
+    {
+      "url": "bbc.com",
+      "title": "BBC",
+      "country": "*",
+      "language": "en",
+      "pageTitle": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio"
+    },
+    {
+      "url": "naver.com",
+      "title": "네이버",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "NAVER"
+    },
+    {
+      "url": "sohu.com",
+      "title": "搜狐",
+      "country": "rCN",
+      "language": "zh",
+      "pageTitle": "手机搜狐网"
+    },
+    {
+      "url": "m.baidu.com",
+      "title": "百度",
+      "country": "rCN",
+      "language": "zh",
+      "pageTitle": "百度一下"
+    },
+    {
+      "url": "163.com",
+      "title": "网易",
+      "country": "rCN",
+      "language": "zh",
+      "pageTitle": "手机网易网"
+    },
+    {
+      "url": "sina.cn",
+      "title": "新浪",
+      "country": "rCN",
+      "language": "zh",
+      "pageTitle": "手机新浪网"
+    },
+    {
+      "url": "hk01.com",
+      "title": "香港01",
+      "country": "rhk",
+      "language": "zh",
+      "pageTitle": "香港01|hk01.com 倡議型媒體"
+    },
+    {
+      "url": "on.cc",
+      "title": "東網",
+      "country": "rhk",
+      "language": "zh",
+      "pageTitle": "即時新聞｜中港台｜on.cc東網｜東方傳媒機構"
+    },
+    {
+      "url": "udn.com",
+      "title": "聯合新聞網",
+      "country": "rtw",
+      "language": "zh",
+      "pageTitle": "聯合新聞網：觸動未來新識力"
+    },
+    {
+      "url": "ettoday.net",
+      "title": "ETtoday新聞雲",
+      "country": "rtw",
+      "language": "zh",
+      "pageTitle": "ETtoday新聞雲 | Today is my day"
+    },
+    {
+      "url": "daum.net",
+      "title": "다음",
+      "country": "kr",
+      "language": "ko",
+      "pageTitle": "Daum"
+    },
+    {
+      "url": "dailynews.co.th",
+      "title": "Dailynews",
+      "country": "TH",
+      "language": "th",
+      "pageTitle": "เดลินิวส์ | อ่านความจริง อ่านเดลินิวส์"
+    },
+    {
+      "url": "yahoo.com",
+      "title": "Yahoo",
+      "country": "*",
+      "language": "en",
+      "pageTitle": "Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos"
+    },
+    {
+      "url": "usatoday.com",
+      "title": "USA TODAY",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "USA TODAY - Breaking News and Latest News Today"
+    },
+    {
+      "url": "people.com",
+      "title": "People",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "People.com | Celebrity News, Exclusives, Photos and Videos"
+    },
+    {
+      "url": "nypost.com",
+      "title": "New York Post",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "New York Post – Breaking News, Top Headlines, Photos & Videos"
+    },
+    {
+      "url": "dailymail.co.uk",
+      "title": "Daily Mail Online",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "UK Home | Daily Mail Online"
+    },
+    {
+      "url": "newsweek.com",
+      "title": "Newsweek",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "Newsweek - News, Analysis, Politics, Business, Technology"
+    },
+    {
+      "url": "apnews.com",
+      "title": "Associated Press News",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News"
+    },
+    {
+      "url": "nbcnews.com",
+      "title": "NBC News",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "NBC News - Breaking News & Top Stories - Latest World, US & Local News | NBC News"
+    },
+    {
+      "url": "cbsnews.com",
+      "title": "CBS News",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "CBS News - Breaking news, 24/7 live streaming news & top stories"
+    },
+    {
+      "url": "theguardian.com",
+      "title": "The Guardian",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "Latest news, sport and opinion from the Guardian"
+    },
+    {
+      "url": "abcnews.go.com",
+      "title": "ABC News",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "ABC News - Breaking News, Latest News and Videos"
+    },
+    {
+      "url": "huffpost.com",
+      "title": "HuffPost",
+      "country": "us",
+      "language": "en",
+      "pageTitle": "HuffPost - Breaking News, U.S. and World News | HuffPost"
+    },
+    {
+      "url": "bbc.co.uk",
+      "title": "BBC",
+      "country": "gb",
+      "language": "en",
+      "pageTitle": "BBC Home"
+    },
+    {
+      "url": "telegraph.co.uk",
+      "title": "The Telegraph",
+      "country": "gb",
+      "language": "en",
+      "pageTitle": "The Telegraph - Telegraph Online, Daily Telegraph, Sunday Telegraph - Telegraph"
+    },
+    {
+      "url": "thesun.co.uk",
+      "title": "The Sun",
+      "country": "gb",
+      "language": "en",
+      "pageTitle": "News, sport, celebrities and gossip | The Sun"
+    },
+    {
+      "url": "independent.co.uk",
+      "title": "Independent",
+      "country": "gb",
+      "language": "en",
+      "pageTitle": "Independent Asia Edition"
+    },
+    {
+      "url": "news.sky.com",
+      "title": "Sky News",
+      "country": "gb",
+      "language": "en",
+      "pageTitle": "The Latest News from the UK and Around the World | Sky News"
+    },
+    {
+      "url": "news.com.au",
+      "title": "Australia's leading news site",
+      "country": "au",
+      "language": "en",
+      "pageTitle": "Australia's leading news site | news.com.au — Australia’s leading news site"
+    },
+    {
+      "url": "abc.net.au",
+      "title": "Australian Broadcasting Corporation",
+      "country": "au",
+      "language": "en",
+      "pageTitle": "ABC (Australian Broadcasting Corporation)"
+    },
+    {
+      "url": "smh.com.au",
+      "title": "The Sydney Morning Herald",
+      "country": "au",
+      "language": "en",
+      "pageTitle": "Australian Breaking News Headlines & World News Online | SMH.com.au"
+    },
+    {
+      "url": "9news.com.au",
+      "title": "9News",
+      "country": "au",
+      "language": "en",
+      "pageTitle": "9News - Latest news and headlines from Australia and the world"
+    },
+    {
+      "url": "news18.com",
+      "title": "News18",
+      "country": "in",
+      "language": "en",
+      "pageTitle": "News: Today's News Headlines & Daily Updates from Sports, Movies, Politics, Business"
+    },
+    {
+      "url": "indiatimes.com",
+      "title": "indiatimes",
+      "country": "in",
+      "language": "en",
+      "pageTitle": "Indiatimes: Latest in Lifestyle, Health, Fashion, and Wellness"
+    },
+    {
+      "url": "india.com",
+      "title": "India.Com News",
+      "country": "in",
+      "language": "en",
+      "pageTitle": "Latest News, Breaking News, LIVE News, Top News Headlines, Viral Video, Cricket LIVE, Sports, Entertainment, Business, Health, Lifestyle and Utility News | India.Com News"
+    },
+    {
+      "url": "ndtv.com",
+      "title": "NDTV",
+      "country": "in",
+      "language": "en",
+      "pageTitle": "Get Latest News, India News, Breaking News, Today's News - NDTV.com"
+    },
+    {
+      "url": "aajtak.in",
+      "title": "Aaj Tak News",
+      "country": "in",
+      "language": "hi",
+      "pageTitle": "Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest News in Hindi, Breaking News in Hindi, ताजा ख़बरें, Aaj Tak News"
+    },
+    {
+      "url": "livehindustan.com",
+      "title": "Hindustan Hindi News",
+      "country": "in",
+      "language": "hi",
+      "pageTitle": "hindi news, हिंदी न्यूज़ , hindi samachar, latest news in hindi, aaj ki taza khabar, today's news in hindi"
+    },
+    {
+      "url": "abplive.com",
+      "title": "ABP News",
+      "country": "in",
+      "language": "hi",
+      "pageTitle": "Hindi News, Latest Hindi News, हिंदी न्यूज़, हिंदी समाचार, Breaking Hindi News, Today Hindi News, ABP News"
+    },
+    {
+      "url": "francetvinfo.fr",
+      "title": "France Info",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Franceinfo - Actualités en temps réel et info en direct"
+    },
+    {
+      "url": "lefigaro.fr",
+      "title": "Le Figaro",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Le Figaro - Actualité en direct et informations en continu"
+    },
+    {
+      "url": "20minutes.fr",
+      "title": "20 Minutes",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "20 Minutes - Toute l’actualité en direct et les dernières infos en continu"
+    },
+    {
+      "url": "actu.fr",
+      "title": "Actu",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Actu : toute l'information locale et nationale en direct"
+    },
+    {
+      "url": "ladepeche.fr",
+      "title": "La Dépêche",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "La Dépêche : Actualités en temps réel et l'info en continu - ladepeche.fr"
+    },
+    {
+      "url": "leparisien.fr",
+      "title": "Le Parisien",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Actualités en direct et info en continu - Le Parisien"
+    },
+    {
+      "url": "midilibre.fr",
+      "title": "Midi Libre",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Actualités et infos de Montpellier et sa région - À la une - midilibre.fr"
+    },
+    {
+      "url": "sudouest.fr",
+      "title": "Sud Ouest",
+      "country": "fr",
+      "language": "fr",
+      "pageTitle": "Sud Ouest : actualités du jour et info locale en continu"
+    },
+    {
+      "url": "lapresse.ca",
+      "title": "La Presse",
+      "country": "ca",
+      "language": "fr",
+      "pageTitle": "LaPresse.ca | Actualités et Infos au Québec et dans le monde"
+    },
+    {
+      "url": "cbc.ca",
+      "title": "CBC.ca",
+      "country": "ca",
+      "language": "en",
+      "pageTitle": "CBC.ca - watch, listen, and discover with Canada's Public Broadcaster"
+    },
+    {
+      "url": "globalnews.ca",
+      "title": "Global News",
+      "country": "ca",
+      "language": "en",
+      "pageTitle": "Global News | Breaking, Latest News and Video for Canada"
+    },
+    {
+      "url": "bild.de",
+      "title": "BILD.de",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "Aktuelle Nachrichten | BILD.de"
+    },
+    {
+      "url": "t-online.de",
+      "title": "T-Online",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "News & E-Mail bei t-online | Politik, Sport, Unterhaltung & Ratgeber"
+    },
+    {
+      "url": "welt.de",
+      "title": "WELT",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "WELT - Aktuelle Nachrichten, News, Hintergründe & Videos"
+    },
+    {
+      "url": "tagesschau.de",
+      "title": "Tegesschau",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "tagesschau.de - die erste Adresse für Nachrichten und Information | tagesschau.de"
+    },
+    {
+      "url": "spiegel.de",
+      "title": "DER SPIEGEL",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "DER SPIEGEL | Online-Nachrichten"
+    },
+    {
+      "url": "merkur.de",
+      "title": "Münchner Merkur",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "Merkur.de | News aus Politik, Sport, für Verbraucher, der Welt und aus Bayern"
+    },
+    {
+      "url": "focus.de",
+      "title": "FOCUS online",
+      "country": "de",
+      "language": "de",
+      "pageTitle": "FOCUS online - Nachrichten"
+    },
+    {
+      "url": "libero.it",
+      "title": "Libero",
+      "country": "it",
+      "language": "it",
+      "pageTitle": "Libero: Mail, Ricerca e News con aggiornamento quotidiano"
+    },
+    {
+      "url": "ilfattoquotidiano.it",
+      "title": "Il Fatto Quotidiano",
+      "country": "it",
+      "language": "it",
+      "pageTitle": "Il Fatto Quotidiano - News su politica, cronaca, giustizia ed economia"
+    },
+    {
+      "url": "ansa.it",
+      "title": "ANSA",
+      "country": "it",
+      "language": "it",
+      "pageTitle": "Agenzia ANSA: ultime notizie di cronaca, politica e sport - ANSA"
+    },
+    {
+      "url": "fanpage.it",
+      "title": "Fanpage",
+      "country": "it",
+      "language": "it",
+      "pageTitle": "Fanpage.it - Le ultime notizie di oggi in tempo reale"
+    },
+    {
+      "url": "rainews.it",
+      "title": "RaiNews",
+      "country": "it",
+      "language": "it",
+      "pageTitle": "Fanpage.it - Le ultime notizie di oggi in tempo reale"
+    },
+    {
+      "url": "elmundo.es",
+      "title": "El Mundo",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "EL MUNDO - Diario online líder de información en español"
+    },
+    {
+      "url": "elpais.com",
+      "title": "EL PAÍS",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "EL PAÍS: el periódico global"
+    },
+    {
+      "url": "okdiario.com",
+      "title": "OkDiario",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "Okdiario, el digital de Eduardo Inda"
+    },
+    {
+      "url": "larazon.es",
+      "title": "La Razón",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "LA RAZÓN: diario de noticias, actualidad de España y el mundo hoy"
+    },
+    {
+      "url": "elconfidencial.com",
+      "title": "El Confidencial",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "El Confidencial: Toda la actualidad e información de España y del mundo"
+    },
+    {
+      "url": "elespanol.com",
+      "title": "El Español",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "EL ESPAÑOL - Diario digital, plural, libre, indomable, tuyo"
+    },
+    {
+      "url": "infobae.com",
+      "title": "Infobae",
+      "country": "es",
+      "language": "es",
+      "pageTitle": "Infobae América - Infobae"
+    },
+    {
+      "url": "unotv.com",
+      "title": "UnoTV",
+      "country": "mx",
+      "language": "es",
+      "pageTitle": "Últimas Noticias de hoy en México y el mundo en vivo - UnoTV"
+    },
+    {
+      "url": "eluniversal.com.mx",
+      "title": "El Universal",
+      "country": "mx",
+      "language": "es",
+      "pageTitle": "El Universal | El periódico de México líder en noticias y clasificados"
+    },
+    {
+      "url": "elfinanciero.com.mx",
+      "title": "El Financiero",
+      "country": "mx",
+      "language": "es",
+      "pageTitle": "El Financiero | Las noticias de finanzas, economía y política más importantes del país."
+    },
+    {
+      "url": "debate.com.mx",
+      "title": "Debate",
+      "country": "mx",
+      "language": "es",
+      "pageTitle": "Debate | Las noticias más importantes de México y el mundo"
+    },
+    {
+      "url": "milenio.com",
+      "title": "MILENIO",
+      "country": "mx",
+      "language": "es",
+      "pageTitle": "MILENIO | Noticias de hoy en México y el mundo al momento- Grupo Milenio"
+    },
+    {
+      "url": "globo.com",
+      "title": "Globo",
+      "country": "br",
+      "language": "pt",
+      "pageTitle": "globo.com - Absolutamente tudo sobre notícias, esportes e entretenimento"
+    },
+    {
+      "url": "terra.com.br",
+      "title": "El Financiero",
+      "country": "br",
+      "language": "pt",
+      "pageTitle": "El Financiero | Las noticias de finanzas, economía y política más importantes del país."
+    },
+    {
+      "url": "cnnbrasil.com.br",
+      "title": "CNN Brasil",
+      "country": "br",
+      "language": "pt",
+      "pageTitle": "CNN Brasil | Notícias Ao Vivo do Brasil e do Mundo"
+    },
+    {
+      "url": "metropoles.com",
+      "title": "Metrópoles",
+      "country": "br",
+      "language": "pt",
+      "pageTitle": "Metrópoles | O seu portal de notícias "
+    },
+    {
+      "url": "noticias.uol.com.br",
+      "title": "UOL Notícias",
+      "country": "br",
+      "language": "pt",
+      "pageTitle": "UOL Notícias | Notícias do Dia no Brasil e no Mundo"
+    },
+    {
+      "url": "sapo.pt",
+      "title": "SAPO",
+      "country": "pt",
+      "language": "pt",
+      "pageTitle": "SAPO - Última hora e notícias de hoje atualizadas ao minuto"
+    },
+    {
+      "url": "record.pt",
+      "title": "Record",
+      "country": "pt",
+      "language": "pt",
+      "pageTitle": "Record: Tudo sobre desporto. Futebol, mercado, modalidades, resultados e classificações"
+    },
+    {
+      "url": "iol.pt",
+      "title": "IOL",
+      "country": "pt",
+      "language": "pt",
+      "pageTitle": "O portal com os conteúdos e marcas do grupo Media Capital (TVI, CNN, MaisFutebol, SELFIE, VERSA, AWAY, AutoPortal)"
+    },
+    {
+      "url": "cmjornal.pt",
+      "title": "Correio da Manhã",
+      "country": "pt",
+      "language": "pt",
+      "pageTitle": "Correio da Manhã: Portugal, Mundo, Sociedade, Cultura. Classificados"
+    },
+    {
+      "url": "ojogo.pt",
+      "title": "O Jogo",
+      "country": "pt",
+      "language": "pt",
+      "pageTitle": "Jornal diário desportivo que segue toda a atualidade desportiva com independência e rigor jornalístico."
+    },
+    {
+      "url": "yahoo.co.jp",
+      "title": "Yahoo! JAPAN",
+      "country": "JP",
+      "language": "ja",
+      "pageTitle": "日本最大級のポータルサイト。検索、オークション、ニュース、天気、スポーツ、メール、ショッピングなど多数のサービスを展開。あなたの生活をより豊かにする「課題解決エンジン」を目指していきます。"
+    },
+    {
+      "url": "auone.jp",
+      "title": "au Web",
+      "country": "JP",
+      "language": "ja",
+      "pageTitle": "au Webポータル|最新の国内外ニュースをリアルタイムに配信"
+    },
+    {
+      "url": "goo.ne.jp",
+      "title": "Goo",
+      "country": "JP",
+      "language": "ja",
+      "pageTitle": "NTTドコモが運営する安心・安全のポータルサイト。使えば使うほど、あなたの興味・関心、趣味・嗜好を学習し、限られた時間で効率よく「あなた専用」のポータルサイトとして必要な情報を収集することができます。"
+    },
+    {
+      "url": "yomiuri.co.jp",
+      "title": "読売新聞",
+      "country": "JP",
+      "language": "ja",
+      "pageTitle": "読売新聞オンライン : ニュース＆お得サイト"
+    },
+    {
+      "url": "asahi.com",
+      "title": "朝日新聞デジタル",
+      "country": "JP",
+      "language": "ja",
+      "pageTitle": "朝日新聞デジタル：朝日新聞社のニュースサイト"
+    },
+    {
+      "url": "onet.pl",
+      "title": "Onet",
+      "country": "pl",
+      "language": "pl",
+      "pageTitle": "Onet - Jesteś na bieżąco"
+    },
+    {
+      "url": "wp.pl",
+      "title": "Wirtualna Polska",
+      "country": "pl",
+      "language": "pl",
+      "pageTitle": "Wirtualna Polska - Wszystko co ważne"
+    },
+    {
+      "url": "interia.pl",
+      "title": "Interia",
+      "country": "pl",
+      "language": "pl",
+      "pageTitle": "Interia - Polska i świat: informacje, sport, gwiazdy."
+    },
+    {
+      "url": "o2.pl",
+      "title": "O2",
+      "country": "pl",
+      "language": "pl",
+      "pageTitle": "o2 - Blisko Ludzi"
+    },
+    {
+      "url": "fakt.pl",
+      "title": "Fakt",
+      "country": "pl",
+      "language": "pl",
+      "pageTitle": "Fakt.pl – Wiadomości, Wydarzenia, Informacje"
+    },
+    {
+      "url": "thairath.co.th",
+      "title": "Thairath",
+      "country": "TH",
+      "language": "th",
+      "pageTitle": "ไทยรัฐ สำนักข่าวอันดับ 1 ของไทย | ไทยรัฐออนไลน์"
+    },
+    {
+      "url": "vnexpress.net",
+      "title": "Báo VnExpress",
+      "country": "VN",
+      "language": "vi",
+      "pageTitle": "Báo VnExpress - Báo tiếng Việt nhiều người xem nhất"
+    },
+    {
+      "url": "dantri.com.vn",
+      "title": "Báo Dân trí",
+      "country": "VN",
+      "language": "vi",
+      "pageTitle": "Tin tức Việt Nam và quốc tế nóng, nhanh, cập nhật 24h | Báo Dân trí"
+    },
+    {
+      "url": "baomoi.com",
+      "title": "Báo Mới",
+      "country": "VN",
+      "language": "vi",
+      "pageTitle": "Báo Mới - Tin tức 24H, đọc báo mới nhanh nhất hôm nay"
+    },
+    {
+      "url": "thanhnien.vn",
+      "title": "Báo Thanh Niên",
+      "country": "VN",
+      "language": "vi",
+      "pageTitle": "Tin tức 24h mới nhất, tin nhanh, tin nóng hàng ngày | Báo Thanh Niên"
+    },
+    {
+      "url": "rambler.ru",
+      "title": "",
+      "country": "ru",
+      "language": "ru",
+      "pageTitle": ""
+    },
+    {
+      "url": "rbc.ru",
+      "title": "РБК",
+      "country": "ru",
+      "language": "ru",
+      "pageTitle": "Последние новости дня в России и мире сегодня - свежие новости на РБК"
+    },
+    {
+      "url": "lenta.ru",
+      "title": "",
+      "country": "ru",
+      "language": "ru",
+      "pageTitle": ""
+    },
+    {
+      "url": "ria.ru",
+      "title": "РИА",
+      "country": "ru",
+      "language": "ru",
+      "pageTitle": "РИА Новости - события в Москве, России и мире сегодня: темы дня, фото, видео, инфографика, радио"
+    },
+    {
+      "url": "mk.ru",
+      "title": "MK",
+      "country": "ru",
+      "language": "ru",
+      "pageTitle": "Новости России и мира - Новостной портал Московский Комсомолец - MK"
+    },
+    {
+      "url": "detik.com",
+      "title": "detikcom",
+      "country": "id",
+      "language": "id",
+      "pageTitle": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini"
+    },
+    {
+      "url": "kompas.com",
+      "title": "Kompas",
+      "country": "id",
+      "language": "id",
+      "pageTitle": "Berita Terkini Hari Ini, Kabar Akurat Terpercaya - Kompas.com"
+    },
+    {
+      "url": "cnnindonesia.com",
+      "title": "CNN Indonesia",
+      "country": "id",
+      "language": "id",
+      "pageTitle": "CNN Indonesia | Berita Terbaru, Terkini Indonesia, Dunia"
+    },
+    {
+      "url": "idntimes.com",
+      "title": "IDN Times",
+      "country": "id",
+      "language": "id",
+      "pageTitle": "Berita Terkini dan Terbaru Gen Z Hari Ini"
+    },
+    {
+      "url": "sindonews.com",
+      "title": "SINDOnews",
+      "country": "id",
+      "language": "id",
+      "pageTitle": "Berita Terkini dan Informasi Terbaru Hari Ini - SINDOnews"
+    },
+    {
+      "url": "khaleejtimes.com",
+      "title": "Khaleej Times",
+      "country": "ae",
+      "language": "ar",
+      "pageTitle": "Khaleej Times - Dubai News, UAE News, Gulf, News, Latest news, Arab news, Gulf News, Dubai Labour News"
+    },
+    {
+      "url": "aljazeera.net",
+      "title": "aljazeera",
+      "country": "ae",
+      "language": "ar",
+      "pageTitle": "الجزيرة نت: آخر أخبار اليوم حول العالم"
+    },
+    {
+      "url": "nu.nl",
+      "title": "NU",
+      "country": "nl",
+      "language": "nl",
+      "pageTitle": "NU - Het laatste nieuws het eerst op NU.nl"
+    },
+    {
+      "url": "ad.nl",
+      "title": "AD",
+      "country": "nl",
+      "language": "nl",
+      "pageTitle": "AD.nl, het laatste nieuws uit binnen- en buitenland, sport en show | AD.nl"
+    },
+    {
+      "url": "destentor.nl",
+      "title": "DeStentor",
+      "country": "nl",
+      "language": "nl",
+      "pageTitle": "DeStentor.nl, het laatste nieuws uit de regio's rond Apeldoorn, Deventer en Zwolle | destentor.nl"
+    },
+    {
+      "url": "expressen.se",
+      "title": "Expressen",
+      "country": "se",
+      "language": "sv",
+      "pageTitle": "Nyheter - senaste nyheterna i Sverige och världen"
+    },
+    {
+      "url": "gp.se",
+      "title": "Göteborgs-Posten",
+      "country": "se",
+      "language": "sv",
+      "pageTitle": "Nyheter - riktig journalistik gör skillnad - Göteborgs-Posten"
+    },
+    {
+      "url": "omni.se",
+      "title": "Omni",
+      "country": "se",
+      "language": "sv",
+      "pageTitle": "Omni - Alla nyheter. Alla perspektiv."
+    },
+    {
+      "url": "hurriyet.com.tr",
+      "title": "Hürriyet",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "Hürriyet - Haber, Son Dakika Haberler, Güncel Gazete Haberleri"
+    },
+    {
+      "url": "mynet.com",
+      "title": "Mynet",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "Mynet | Haber, Oyun, Video, Spor, Burçlar ve fazlası sizin için burada"
+    },
+    {
+      "url": "sozcu.com.tr",
+      "title": "Sözcü Gazetesi",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "Sözcü Gazetesi - Haberler, son dakika haberleri, güncel haber, köşe yazıları"
+    },
+    {
+      "url": "milliyet.com.tr",
+      "title": "Milliyet",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "Milliyet - Haberler, Son Dakika Haberleri ve Güncel Haber"
+    },
+    {
+      "url": "ensonhaber.com",
+      "title": "El Financiero",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "El Financiero | Las noticias de finanzas, economía y política más importantes del país."
+    },
+    {
+      "url": "haberler.com",
+      "title": "Haber",
+      "country": "tr",
+      "language": "tr",
+      "pageTitle": "En Son Haber: Son Dakika Haberler, Güncel Haberler"
+    },
+    {
+      "url": "hotnews.ro",
+      "title": "HotNews",
+      "country": "ro",
+      "language": "ro",
+      "pageTitle": "HotNews.ro - Știri Non Stop. Citește doar ceea ce merită."
+    },
+    {
+      "url": "adevarul.ro",
+      "title": "adevarul",
+      "country": "ro",
+      "language": "ro",
+      "pageTitle": "Știri, ultima oră, știri locale, video, foto, comunitate | adevarul.ro"
+    },
+    {
+      "url": "libertatea.ro",
+      "title": "Libertatea",
+      "country": "ro",
+      "language": "ro",
+      "pageTitle": "Ziar Online - Site cu Știri de Top din România | Libertatea"
+    },
+    {
+      "url": "stiripesurse.ro",
+      "title": "Stiri pe surse",
+      "country": "ro",
+      "language": "ro",
+      "pageTitle": "Stiri pe surse - Cele mai noi stiri"
+    },
+    {
+      "url": "g4media.ro",
+      "title": "G4Media",
+      "country": "ro",
+      "language": "ro",
+      "pageTitle": "Ultimele știri - G4Media.ro"
+    }
+  ]
+}

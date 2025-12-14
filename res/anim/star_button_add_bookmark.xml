@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/pathinterpolator_33_0_67_100" android:duration="@integer/star_button_add_bookmark_scale_up_duration" android:valueFrom="1.0" android:valueTo="@dimen/location_bar_star_button_vi_scale_index" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@interpolator/pathinterpolator_33_0_67_100" android:duration="@integer/star_button_add_bookmark_scale_up_duration" android:valueFrom="1.0" android:valueTo="@dimen/location_bar_star_button_vi_scale_index" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@interpolator/pathinterpolator_33_0_20_100" android:duration="@integer/star_button_add_bookmark_scale_down_duration" android:startOffset="@integer/star_button_add_bookmark_scale_up_duration" android:valueFrom="@dimen/location_bar_star_button_vi_scale_index" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@interpolator/pathinterpolator_33_0_20_100" android:duration="@integer/star_button_add_bookmark_scale_down_duration" android:startOffset="@integer/star_button_add_bookmark_scale_up_duration" android:valueFrom="@dimen/location_bar_star_button_vi_scale_index" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

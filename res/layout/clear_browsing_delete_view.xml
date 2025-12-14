@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/color_palette_settings_list_view_round_corner_color" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_screen_margin" android:paddingEnd="@dimen/settings_screen_margin">
+        <Spinner android:layout_gravity="start" android:id="@id/clear_browsing_data_spinner" android:layout_width="wrap_content" android:layout_height="@dimen/clear_browsing_data_spinner_height" android:layout_marginTop="@dimen/clear_browsing_data_spinner_vertical_margin" android:layout_marginBottom="@dimen/clear_browsing_data_spinner_vertical_margin" android:layout_marginStart="@dimen/clear_browsing_data_spinner_margin_start" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="fill_horizontal" android:id="@id/clear_browsing_delete_listView" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/settings_delete_browsing_data_bottom_bar_height" android:drawSelectorOnTop="true" android:paddingEnd="@dimen/settings_delete_browsing_data_margin_end" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</RelativeLayout>

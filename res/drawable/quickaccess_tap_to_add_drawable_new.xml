@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/internet_qa_ic_squacle" android:tint="@color/icon_view_item_background_color_new" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/internet_ic_qa_add" android:tint="@color/internet_ic_qa_add_tint_color_new" />
+    </item>
+</layer-list>

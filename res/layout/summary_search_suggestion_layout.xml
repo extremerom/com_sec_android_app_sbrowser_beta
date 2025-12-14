@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/summary_search_suggestion_divider" android:background="@color/summary_search_suggestion_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/summary_search_suggestion_divider_height" android:layout_marginTop="@dimen/summary_search_suggestion_divider_margin_top" />
+    <TextView android:textSize="@dimen/summary_search_suggestion_title_text_size" android:textColor="@color/summary_search_suggestion_title_text_color" android:id="@id/search_suggestion_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/summary_search_suggestion_title_margin_top" android:layout_marginBottom="@dimen/summary_search_suggestion_title_margin_bottom" android:text="@string/ai_summarize_search_suggestion_text" style="@style/RobotoMedium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/search_suggestion_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:layout_marginVertical="@dimen/summary_search_suggestion_recycler_view_margin_vertical" />
+</LinearLayout>

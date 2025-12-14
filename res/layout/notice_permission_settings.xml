@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/winset_list_scrollbar" android:id="@id/permission_scrollview" android:background="@color/settings_about_background_color" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_permission_boday_margin" android:layout_marginRight="@dimen/settings_permission_boday_margin" android:layout_marginBottom="@dimen/winset_description_margin_vertical">
+            <TextView android:textSize="@dimen/winset_list_subheader_text_size" android:textColor="@color/winset_description_text" android:layout_gravity="start|center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_permission_header_margin_bottom" android:text="@string/help_intro_body_header" android:lineSpacingExtra="@dimen/winset_description_line_space" style="@style/RobotoRegular" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_location" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_location" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_location_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_camera" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_camera" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_camera_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_microphone" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_microphone" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_microphone_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_storage_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_storage" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_storage" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_storage_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_photos_and_videos_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_photos_and_videos" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_photos_and_videos" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_photos_and_videos_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_music_and_audio_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_music_and_audio" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_music_and_audio" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_music_and_audio_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_notification_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_notification" android:tint="@color/help_intro_permission_header_text_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_notification" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:id="@id/settings_notice_permission_notification_description" android:text="@string/app_permission_notification_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_nearby_device_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_nearby_devices" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_nearby_devices" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:id="@id/settings_notice_permission_nearby_device_description" android:text="@string/app_permission_nearby_device_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/settings_notice_permission_phone_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/help_intro_permission_icon_size" android:layout_height="@dimen/help_intro_permission_icon_size" android:src="@drawable/ic_perm_group_phone_calls" android:tint="@color/settings_permission_icon_color" android:layout_marginEnd="@dimen/settings_permission_icon_margin_end" />
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/help_intro_permission_body_description_padding_top" android:paddingBottom="@dimen/help_intro_permission_body_description_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/permission_group_title_phone" android:textAlignment="viewStart" style="@style/NoticePermissionTitleStyle" />
+                    <TextView android:text="@string/app_permission_phone_text" style="@style/NoticePermissionDescriptionStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/winset_list_subheader_text_size" android:textColor="@color/winset_description_text" android:layout_gravity="start|center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_permission_footer_margin_top" android:text="@string/app_permission_view_description_new" android:lineSpacingExtra="@dimen/winset_description_line_space" style="@style/RobotoRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

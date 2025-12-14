@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.payments.standard.ui.PaymentRequestUiErrorView android:gravity="center" android:orientation="vertical" android:background="@drawable/payment_sheet_background" sbrowser:maxWidth="@dimen/payments_ui_max_dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payments_error_dialog_spacing" android:layout_marginBottom="@dimen/payments_section_vertical_spacing" android:layout_marginStart="@dimen/payments_error_dialog_spacing" android:layout_marginEnd="@dimen/payments_error_dialog_spacing">
+        <TextView android:textSize="@dimen/payments_error_dialog_title_text_size" android:textColor="@color/payments_error_dialog_title_color" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_error_dialog_spacing" android:text="@string/payments_error_dialog_title" style="@style/sec700" />
+        <TextView android:textSize="@dimen/payments_error_dialog_message_text_size" android:textColor="@color/payments_error_dialog_message_color" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_error_dialog_spacing" android:text="@string/payments_error_dialog_message" style="@style/RobotoRegular" />
+        <com.sec.android.app.sbrowser.common.widget.ShapedButton android:id="@id/ok_button" android:text="@string/ok" style="@style/BasicDialogActionCenterButton" />
+    </LinearLayout>
+</com.sec.android.app.sbrowser.payments.standard.ui.PaymentRequestUiErrorView>

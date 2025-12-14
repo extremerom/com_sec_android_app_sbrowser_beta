@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/intent_blocker_main_layout" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/intent_blocker_no_item_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/intent_blocker_no_item_views" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/winset_list_basic_padding" android:defaultFocusHighlightEnabled="false">
+            <include layout="@layout/intent_blocker_main_desc_view" />
+            <TextView android:textSize="@dimen/saved_page_list_no_text_size" android:textColor="@color/color_palette_list_view_no_item_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/basic_list_bottom_padding" android:text="@string/intent_blocker_no_item_title" android:layout_marginStart="@dimen/detail_page_no_item_margin" android:layout_marginEnd="@dimen/detail_page_no_item_margin" style="@style/RobotoRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/intent_blocker_item_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/intent_blocker_list_view" android:paddingBottom="@dimen/basic_list_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:listSelector="@color/color_transparent" android:drawSelectorOnTop="true" android:divider="@null" android:layout_weight="@integer/history_listview_weight" android:nestedScrollingEnabled="true" android:paddingHorizontal="@dimen/winset_list_basic_padding" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</LinearLayout>

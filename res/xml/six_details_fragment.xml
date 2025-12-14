@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:id="@id/six_view_in_galaxy_store" android:title="@string/six_view_in_galaxy_store" android:key="six_view_in_galaxy_store" android:summary="" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:id="@id/six_allow_in_secret_mode" android:title="@string/six_allow_in_secret_mode" android:key="six_allow_in_secret_mode" android:summary="@string/six_allow_in_secret_mode_desc" searchable="true" />
+    <androidx.preference.Preference android:id="@id/six_add_on_settings" android:title="@string/six_add_on_settings" android:key="six_add_on_settings" android:summary="" />
+    <androidx.preference.Preference android:id="@id/six_permissions" android:title="@string/six_permissions" android:key="six_permissions" android:summary="" />
+    <androidx.preference.Preference android:id="@id/six_uninstall" android:title="@string/six_uninstall" android:key="six_uninstall" android:summary="" />
+</androidx.preference.PreferenceScreen>

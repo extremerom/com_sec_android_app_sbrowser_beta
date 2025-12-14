@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbar_browsing_assist_container" android:background="@drawable/toolbar_button_touch_effect" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="match_parent" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.toolbar.ToolbarImageView android:id="@id/toolbar_browsing_assist" android:background="@drawable/internet_ic_ai_bottom_bar" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:tint="@color/toolbar_icon_color" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/toolbar_browsing_assist_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/toolbar_browsing_assist" android:layout_alignBottom="@id/toolbar_browsing_assist" android:layout_alignStart="@id/toolbar_browsing_assist" android:layout_alignEnd="@id/toolbar_browsing_assist" app:lottie_loop="false" />
+    <LinearLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottombar_more_badge_margin_top" android:layout_alignTop="@id/toolbar_browsing_assist" android:layout_marginEnd="@dimen/bottombar_more_badge_margin_end" android:layout_alignEnd="@id/toolbar_browsing_assist">
+        <include android:id="@id/toolbar_browsing_assist_badge" layout="@layout/badge" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/save_card_infobar_middle_ellipsis_size" android:width="@dimen/save_card_infobar_middle_ellipsis_size" />
+    <solid android:color="@color/save_card_infobar_middle_ellipsis_color" />
+</shape>

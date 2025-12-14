@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/read_aloud_toolbar_border_width" android:color="@color/read_aloud_toolbar_inner_content_container_border_color" />
+    <solid android:color="@color/read_aloud_toolbar_inner_content_background_color" />
+    <corners android:radius="@dimen/read_aloud_toolbar_background_radius" />
+</shape>

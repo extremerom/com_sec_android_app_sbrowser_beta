@@ -1,0 +1,62 @@
+{
+  "template": {
+    "schema_name": "com.sec.android.app.sbrowser.download",
+    "query_template_name": "search"
+  },
+  "query": {
+    "text": "$0",
+    "bool": {
+      "should": [
+        {
+          "wildcard": {
+            "fields": [
+              "title",
+              "url"
+            ],
+            "term_operator": "and"
+          }
+        }
+      ]
+    }
+  },
+  "fallback_queries": [
+    {
+      "text": "$0",
+      "bool": {
+        "should": [
+          {
+            "chosung": {
+              "fields": [
+                "title"
+              ],
+              "chosung_field": "title_chosung",
+              "term_operator": "and"
+            }
+          },
+          {
+            "phonetic": {
+              "fields": [
+                "title_phonetic"
+              ],
+              "term_operator": "and"
+            }
+          },
+          {
+            "fuzzy": {
+              "fields": [
+                "title_fuzzy",
+                "url_fuzzy"
+              ],
+              "minimum_length": 5,
+              "fuzziness": 1,
+              "term_operator": "and"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sort": {
+    "id_sort": "desc"
+  }
+}

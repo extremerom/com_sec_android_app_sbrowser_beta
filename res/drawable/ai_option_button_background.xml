@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/color_control_highlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/discovery_fab_background_radius" />
+            <gradient android:startColor="@color/discovery_fab_button_gradient_background_start_color" android:endColor="@color/discovery_fab_button_gradient_background_end_color" android:angle="0.0" android:type="linear" />
+        </shape>
+    </item>
+</ripple>

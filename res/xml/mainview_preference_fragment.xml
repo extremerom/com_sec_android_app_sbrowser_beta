@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_one_ui_85_features" android:key="pref_enable_one_ui_85_features" sbrowser:debugDefaultValue="false" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_debug_help_intro" android:key="pref_debug_menu_help_intro" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugPreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/smallest_screen_width_dp" android:fragment="com.sec.android.app.sbrowser.settings.debug.SmallestDpDebugPreferenceFragment" />
+    <androidx.preference.Preference android:title="@string/physical_screen_inches" android:key="@string/physical_screen_inches" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_change_ua_refresh" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_change_ua_refresh" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_force_app_search_donation" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_force_app_search_donation" />
+    <androidx.preference.PreferenceCategory android:title="Split Mode" android:selectable="false" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/enable_pagetrans_split" android:key="enable_pagetrans_split" android:defaultValue="false" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_pagetrans_split" />
+</androidx.preference.PreferenceScreen>

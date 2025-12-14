@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_editor_content_spacing" android:paddingStart="@dimen/payments_editor_item_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/payments_editor_hint_text_size" android:textColor="@color/color_palette_list_view_text_field_primary_dark_color" android:id="@id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_editor_label_margin_bottom" style="@style/RobotoRegular" />
+    <com.sec.android.app.sbrowser.payments.standard.widget.prefeditor.ExpandableGridView android:id="@id/icons_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/payments_editor_card_icon_padding" android:verticalSpacing="@dimen/payments_editor_card_icon_padding" android:stretchMode="none" android:columnWidth="@dimen/payments_section_logo_width" android:numColumns="auto_fit" />
+</LinearLayout>

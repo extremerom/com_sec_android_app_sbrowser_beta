@@ -1,0 +1,114 @@
+{
+    "autofillProfiles" : [
+        {
+            "name": "Marion Mitchell Morrison",
+            "email": "marion@me.xyz",
+            "company": "Fox",
+            "address": "123 Zoo St. unit 5",
+            "city": "Hollywood",
+            "state": "CA",
+            "zipcode": "91601",
+            "country": "US",
+            "phone": "16505678910"
+        },
+        {
+            "name": "John Doe",
+            "email": "johndoe@hades.com",
+            "company": "Underworld",
+            "address": "666 Erebus St.",
+            "city": "Elysium",
+            "state": "CA",
+            "zipcode": "91111",
+            "country": "US",
+            "phone": "16502111111"
+        },
+        {
+            "name": "Jane Doe",
+            "email": "janedoe@tertium.com",
+            "company": "Pluto Inc.",
+            "address": "123 Letha Shore.",
+            "city": "Dis",
+            "state": "CA",
+            "zipcode": "91222",
+            "country": "US",
+            "phone": "12345678910"
+        },
+        {
+            "name": "H. R. Giger",
+            "email": "hrgiger@beispiel.com",
+            "company": "Beispiel Inc",
+            "address": "Brandschenkestrasse 110",
+            "city": "Zurich",
+            "state": "",
+            "zipcode": "8002",
+            "country": "CH",
+            "phone": "+41 44-668-1800"
+        },
+        {
+            "name": "Antoine de Saint-Exupéry",
+            "email": "antoine@exemple.com",
+            "company": "Exemple Inc",
+            "address": "8 Rue de Londres",
+            "city": "Paris",
+            "state": "",
+            "zipcode": "75009",
+            "country": "FR",
+            "phone": "+33 (0) 1 42 68 53 00"
+        },
+        {
+            "name": "Park Jae-sang",
+            "email": "park@yeleul.com",
+            "company": "Yeleul Inc",
+            "address": "Gangnam Finance Center 152 Teheran-ro",
+            "city": "Gangnam-Gu",
+            "state": "Seoul",
+            "zipcode": "135-984",
+            "country": "KR",
+            "phone": "+82-2-531-9000"
+        },
+        {
+            "name": "Miku Hatsune",
+            "email": "miku@rei.com",
+            "company": "Rei Inc",
+            "address": "Roppongi Hills Mori Tower 6-10-1 Roppongi, Minato-ku",
+            "city": "",
+            "state": "Tokyo",
+            "zipcode": "106-6126",
+            "country": "JP",
+            "phone": "+81-3-6384-9000"
+        },
+        {
+            "name": "ミク 初音",
+            "email": "miku@rei.com",
+            "company": "例",
+            "address": "港区六本木ヒルズ森タワー 六本木 6-10-1",
+            "city": "",
+            "state": "東京都",
+            "zipcode": "106-6126",
+            "country": "JP",
+            "phone": "03-6384-9000"
+        },
+        {
+            "name": "Genevieve Fox",
+            "email": "",
+            "company": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "zipcode": "",
+            "country": "CA",
+            "phone": "15144445454"
+        },
+        {
+            "name": "Thiago Avila",
+            "email": "",
+            "company": "",
+            "address": "",
+            "city": "",
+            "state": "",
+            "zipcode": "",
+            "country": "BR",
+            "phone": "5521987650000"
+        }
+   ]
+}

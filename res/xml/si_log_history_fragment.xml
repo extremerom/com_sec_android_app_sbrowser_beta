@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_si_logging_history" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_enable_si_logging_debug_history" sbrowser:releaseDefaultValue="false" />
+    <Preference android:title="@string/si_log_debug_history_clear_all" android:key="si_log_clear_all_history" />
+    <EditTextPreference android:title="@string/si_log_debug_history_storage_period" android:key="si_log_storage_period" android:defaultValue="14" />
+    <Preference android:title="@string/si_log_debug_history_item_count" android:key="si_log_history_item_count" />
+    <EditTextPreference android:title="@string/si_log_debug_history_show_list" android:key="si_log_history_list_login" />
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/language_picker_contents_padding_horizontal" android:paddingVertical="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="match_parent" android:layout_height="300.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RadioButton android:id="@id/current_language_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/language_picker_language_button_margin_top" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <RadioGroup android:orientation="vertical" android:id="@id/recommend_language_group" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/current_language_button" />
+            <View android:id="@id/recent_language_divider" android:background="@drawable/dotted_line" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_marginTop="@dimen/language_divider_margin_vertical" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recommend_language_group" />
+            <RadioGroup android:orientation="vertical" android:id="@id/support_language_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/language_divider_margin_vertical" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recent_language_divider" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <View android:id="@id/support_language_divider" android:background="@color/support_language_divider_background" android:layout_width="match_parent" android:layout_height="@dimen/support_language_divider_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

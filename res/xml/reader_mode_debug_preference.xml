@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_reader_mode_debug_always_show_reader_icon" android:summary="Shows reader icon for all pages when reader mode is enabled" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_reader_mode_debug_always_show_reader_icon" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_reader_mode_debug_enable_reader_detection_for_content_urls" android:summary="Enable reader detection for content URLs" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_reader_mode_debug_enable_reader_detection_for_content_urls" />
+</androidx.preference.PreferenceScreen>

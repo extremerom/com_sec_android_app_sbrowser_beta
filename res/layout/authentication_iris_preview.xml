@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/preview" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/preview_background" android:background="@color/iris_preview_background" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_alignTop="@id/preview" android:layout_alignStart="@id/preview">
+        <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:alpha="0.1" android:layout_marginEnd="@dimen/iris_ring_margin" />
+        <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:alpha="0.1" />
+    </LinearLayout>
+</merge>

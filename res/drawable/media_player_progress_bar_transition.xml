@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:id="@id/pressed">
+        <shape>
+            <corners android:radius="@dimen/media_player_progress_bar_expand_radius" />
+        </shape>
+    </item>
+    <item android:id="@id/unpressed">
+        <inset android:insetTop="@dimen/media_player_progress_bar_insets" android:insetBottom="@dimen/media_player_progress_bar_insets">
+            <shape>
+                <corners android:radius="@dimen/media_player_progress_bar_collapse_radius" />
+            </shape>
+        </inset>
+    </item>
+    <transition android:drawable="@drawable/media_player_progress_bar_animation_expand" android:toId="@id/pressed" android:fromId="@id/unpressed" />
+    <transition android:drawable="@drawable/media_player_progress_bar_animation_collapse" android:toId="@id/unpressed" android:fromId="@id/pressed" />
+</animated-selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="sec.actions.intent.OPEN_URL">
+        <parameter name="webPage.name" type="http://schema.org/Text" />
+        <parameter name="webPage.contentUrl" type="http://schema.org/URL" />
+        <fulfillment urlTemplate="intent:{url}#Intent;package=com.sec.android.app.sbrowser;end">
+            <parameter-mapping intentParameter="webPage.name" required="false" urlParameter="name" />
+            <parameter-mapping intentParameter="webPage.contentUrl" required="true" urlParameter="url" />
+        </fulfillment>
+    </action>
+</actions>

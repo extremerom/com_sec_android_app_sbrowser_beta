@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bookmark_widget_new_inside_bg_color_light" />
+    <corners android:radius="@dimen/widget_background_large_radius_size" />
+</shape>

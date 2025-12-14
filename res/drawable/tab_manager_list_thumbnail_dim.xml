@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/multi_tab_list_item_bg_radius" android:topRightRadius="@dimen/multi_tab_list_item_bg_radius" android:bottomRightRadius="@dimen/multi_tab_list_item_bg_radius" />
+    <solid android:color="@color/tab_manager_list_item_thumbnail_dim" />
+</shape>

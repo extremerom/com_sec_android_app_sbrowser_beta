@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/website_data_checkbox" android:background="@null" android:visibility="gone" android:layout_width="@dimen/history_checkbox_spec" android:layout_height="@dimen/history_checkbox_spec" android:checked="false" android:layout_centerVertical="true" android:layout_marginStart="@dimen/website_list_checkbox_margin" android:layout_marginEnd="@dimen/website_list_checkbox_margin_end" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/website_data_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:layout_marginStart="@dimen/website_list_margin_start" android:layout_marginEnd="@dimen/website_list_margin_end" android:layout_toEndOf="@id/website_data_checkbox">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/settings_preference_title_color" android:ellipsize="end" android:id="@id/website_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sbrowser_settings_list_margin_top_bottom" android:layout_marginBottom="@dimen/sbrowser_settings_list_margin_top_bottom" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/website_usage_text_size" android:textColor="@color/preference_website_cache_amount_text" android:id="@id/website_data_item_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" style="@style/RobotoRegular" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/website_data_bottom_divider_layout" android:background="@color/show_bookmarks_list_divider_shadow_color" android:layout_width="match_parent" android:layout_height="@dimen/show_bookmarks_folder_url_list_divider_height" android:layout_marginStart="@dimen/website_list_divider_padding_start" android:layout_marginEnd="@dimen/website_list_divider_padding_end" android:layout_toEndOf="@id/website_data_checkbox" />
+</RelativeLayout>

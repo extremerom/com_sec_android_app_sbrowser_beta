@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </string-array>
+    <string-array name="pref_accept_cookies_label">
+        <item>允許所有 cookie</item>
+        <item>封鎖第三方 cookie</item>
+        <item>封鎖所有 cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>裝置</item>
+        <item>記憶卡</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>預設</item>
+        <item>快速存取</item>
+        <item>目前網頁</item>
+        <item>自訂網頁</item>
+    </string-array>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>yahoo_tw</item>
+        <item>bing</item>
+    </string-array>
+</resources>

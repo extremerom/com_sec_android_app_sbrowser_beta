@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bookmark_bar_no_bookmarks_layout" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="@dimen/bookmark_bar_popup_item_height" android:maxWidth="@dimen/bookmark_bar_popup_max_width" android:minWidth="@dimen/bookmark_bar_popup_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bookmark_bar_popup_list_text_size" android:textColor="@color/bookmark_bar_popup_text_color_no_bookmarks" android:gravity="center" android:id="@id/title" android:paddingTop="@dimen/bookmark_bar_popup_title_top_bottom_padding" android:paddingBottom="@dimen/bookmark_bar_popup_title_top_bottom_padding" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="false" android:fontFamily="sec-roboto-regular" android:layout_marginHorizontal="@dimen/bookmark_bar_popup_no_item_horizontal_margin" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@null" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" android:paddingStart="@dimen/customize_toolbar_urlbar_margin_horizontal" android:paddingEnd="@dimen/customize_toolbar_urlbar_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/customize_toolbar_locationbar_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/location_bar_height" android:layout_centerVertical="true">
+        <ImageView android:layout_width="@dimen/bottombar_button_icon_size" android:layout_height="@dimen/bottombar_button_icon_size" android:src="@drawable/internet_ic_star_off" android:tint="@color/customize_toolbar_locationbar_item_color" android:layout_centerVertical="true" android:layout_marginStart="@dimen/customize_toolbar_location_bar_item_margin" android:layout_alignParentStart="true" android:tintMode="src_in" />
+        <ImageView android:layout_width="@dimen/bottombar_button_icon_size" android:layout_height="@dimen/bottombar_button_icon_size" android:src="@drawable/internet_ic_refresh" android:tint="@color/customize_toolbar_locationbar_item_color" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/customize_toolbar_location_bar_item_margin" android:layout_alignParentEnd="true" android:tintMode="src_in" />
+    </RelativeLayout>
+</RelativeLayout>

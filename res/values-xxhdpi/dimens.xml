@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bookmark_folder_divider_height">2.0px</dimen>
+    <dimen name="content_blocker_divider_height">2.0px</dimen>
+    <dimen name="content_blocker_download_preference_download_button_stroke_size">3.0px</dimen>
+    <dimen name="download_item_separator_height">3.0px</dimen>
+    <dimen name="edit_text_cursor_width">5.0px</dimen>
+    <dimen name="history_navigation_popup_divider_height">2.0px</dimen>
+    <dimen name="notification_list_divider_height">2.0px</dimen>
+    <dimen name="reader_option_popup_divider_height">2.0px</dimen>
+    <dimen name="sesl_glance_list_item_divider_size">2.0px</dimen>
+    <dimen name="sesl_list_divider_height">3.0px</dimen>
+    <dimen name="sesl_switch_divider_height">2.0px</dimen>
+    <dimen name="settings_list_divider_width">2.0px</dimen>
+    <dimen name="show_bookmarks_folder_url_list_divider_height">2.0px</dimen>
+    <dimen name="textextraction_entity_underline_width">1.5dp</dimen>
+    <dimen name="visiontext_entity_underline_width">1.5dp</dimen>
+    <dimen name="winset_action_bar_divider_thickness">3.0px</dimen>
+    <dimen name="winset_list_divider_height">3.0px</dimen>
+    <dimen name="winset_list_item_divider_height">3.0px</dimen>
+</resources>

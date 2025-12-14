@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:gravity="center" android:height="@dimen/quickaccess_checkable_control_bar_checkbox_height" android:width="@dimen/quickaccess_checkable_control_bar_checkbox_width" android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?android:colorAccent" />
+</androidx.appcompat.util.SeslShapeDrawable>

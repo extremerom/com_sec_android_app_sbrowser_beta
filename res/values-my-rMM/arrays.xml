@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>ကွတ်ကီးအားလုံးကို ခွင့်ပြုပါ</item>
+        <item>ပြင်ပအဖွဲ့အစည်း ကွတ်ကီးများကို ပိတ်ပင်ပါ</item>
+        <item>ကွတ်ကီးအားလုံးကို ပိတ်ပင်ပါ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ကိရိယာ</item>
+        <item>SD ကတ်</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>မူရင်းပါပုံစံ</item>
+        <item>အမြန် ဝင်ရောက်သုံးစွဲခွင့်</item>
+        <item>လက်ရှိစာမျက်နှာ</item>
+        <item>စိတ်ကြိုက် စာမျက်နှာ</item>
+    </string-array>
+</resources>

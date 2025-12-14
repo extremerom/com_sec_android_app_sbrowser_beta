@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:id="@id/support_detail_brightness" android:title="@string/floating_feature_lcd_support_detail_brightness" android:key="@string/floating_feature_lcd_support_detail_brightness" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:id="@id/enable_survey_mode" android:title="@string/floating_feature_contextservice_enable_survey_mode" android:key="@string/floating_feature_contextservice_enable_survey_mode" android:defaultValue="false" />
+    <androidx.preference.EditTextPreference android:id="@id/set_fake_id" android:maxLines="1" android:title="@string/floating_feature_set_fake_id" android:key="@string/floating_feature_set_fake_id" android:summary="@string/floating_feature_set_fake_id_summary" />
+</androidx.preference.PreferenceScreen>

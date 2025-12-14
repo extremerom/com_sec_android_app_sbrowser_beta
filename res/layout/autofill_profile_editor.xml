@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/autofill_profile_editor_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/autofill_profile_editor_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/autofill_under_actionbar_margin" android:paddingStart="@dimen/autofill_padding_start" android:paddingEnd="@dimen/autofill_padding_end">
+        <LinearLayout android:orientation="vertical" android:id="@id/autofill_profile_countries_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/autofill_edittext_label_margin_top">
+                <com.sec.android.app.sbrowser.settings.autofill.AutofillLabelText android:textSize="@dimen/autofill_text_view_text_size" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_text_country" style="@style/RobotoRegular" />
+            </LinearLayout>
+            <Spinner android:id="@id/autofill_profile_countries" android:background="@drawable/autofill_spinner_background" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:background="@color/autofill_spinner_underline_color" android:layout_width="match_parent" android:layout_height="@dimen/autofill_spinner_underline_height" android:layout_marginBottom="@dimen/autofill_edittext_margin_bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/autofill_profile_widget_root" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/autofill_phone_number" layout="@layout/autofill_editor_text_field" />
+        <include android:id="@id/autofill_email_address" layout="@layout/autofill_editor_text_field" />
+        <LinearLayout android:id="@id/autofill_credit_card_editor_required_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:textColor="@color/color_palette_list_view_text_field_primary_dark_color" android:id="@id/autofill_required_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/save_card_infobar_body_margin_top" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

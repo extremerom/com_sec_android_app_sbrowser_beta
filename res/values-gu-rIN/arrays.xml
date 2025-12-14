@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>બધી કુકીઝને મંજૂરી આપો</item>
+        <item>તૃતીય-પક્ષ કુકીઝને બ્લૉક કરો</item>
+        <item>બધી કુકીઝને બ્લૉક કરો</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ઉપકરણ</item>
+        <item>SD કાર્ડ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ડિફૉલ્ટ</item>
+        <item>ઝડપી ઍક્સેસ</item>
+        <item>વર્તમાન પૃષ્ઠ</item>
+        <item>કસ્ટમ પૃષ્ઠ</item>
+    </string-array>
+</resources>

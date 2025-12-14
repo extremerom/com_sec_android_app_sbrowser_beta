@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ListLayout" android:background="@color/color_palette_list_view_action_bar_bg_color" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_screen_margin" android:paddingEnd="@dimen/settings_screen_margin">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:background="@color/color_palette_list_view_bottom_bar_bg_color" android:paddingBottom="@dimen/sbrowser_listview_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/history_expandable_list_height" android:listSelector="@color/color_transparent" android:drawSelectorOnTop="true" android:divider="@null" android:layout_weight="@integer/history_listview_weight" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</RelativeLayout>

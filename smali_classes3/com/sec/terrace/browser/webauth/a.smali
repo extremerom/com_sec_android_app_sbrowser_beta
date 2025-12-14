@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/sec/terrace/browser/webauth/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LR5/e;
+
+
+# instance fields
+.field public final synthetic a:Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/sec/terrace/browser/webauth/a;->a:Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onSuccess(Ljava/lang/Object;)V
+    .locals 0
+
+    iget-object p0, p0, Lcom/sec/terrace/browser/webauth/a;->a:Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-static {p0, p1}, Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;->a(Lcom/sec/terrace/browser/webauth/TinGoogleFidoCredentialRequest;Ljava/lang/Boolean;)V
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="Version" android:key="pref_debug_web_dark_custom_version" />
+    <androidx.preference.Preference android:title="@string/pref_debug_web_dark_custom_load_data" android:key="pref_debug_web_dark_custom_load_data" />
+    <androidx.preference.Preference android:title="@string/pref_debug_web_dark_custom_clear_data" android:key="pref_debug_web_dark_custom_clear_data" />
+</androidx.preference.PreferenceScreen>

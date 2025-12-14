@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/autofill_editor_text_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/autofill_edittext_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.sec.android.app.sbrowser.settings.autofill.AutofillEditText android:theme="@style/PaymentTextInputLayout" android:id="@id/edit_text" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/TextFieldErrorAppearance" app:hintTextAppearance="@style/HintTextAppearanceStyle">
+            <androidx.appcompat.widget.AppCompatEditText android:id="@id/text_view" android:saveEnabled="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:privateImeOptions="disableImage=true" android:importantForAccessibility="noHideDescendants" android:backgroundTint="@color/autofill_edit_text_underline_inactive_color" style="@style/AutofillEditText" />
+        </com.sec.android.app.sbrowser.settings.autofill.AutofillEditText>
+    </RelativeLayout>
+</LinearLayout>

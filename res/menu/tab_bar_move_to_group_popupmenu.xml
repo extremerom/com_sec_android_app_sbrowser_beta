@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/tab_bar_group_list" />
+    <group android:id="@id/tab_bar_other_menu">
+        <item android:id="@id/tab_bar_create_new_group" android:visible="true" android:title="@string/tab_manager_create_new_tab_group" />
+    </group>
+</menu>

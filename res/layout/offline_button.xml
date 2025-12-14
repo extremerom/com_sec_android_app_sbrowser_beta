@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/bottombar_textSize" android:layout_gravity="center" android:id="@id/offline_button" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/location_bar_offline_text_max_width" android:text="@string/locationbar_offline_text" android:maxLines="1" android:contentDescription="@string/locationbar_offline_text_tts" sbrowser:textSizeDp="@dimen/bottombar_maxTextSize" style="@style/RobotoRegular"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto" />

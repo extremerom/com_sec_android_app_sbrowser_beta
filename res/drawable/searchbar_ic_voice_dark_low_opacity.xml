@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="44.0dp" android:width="44.0dp" android:viewportWidth="44.0" android:viewportHeight="44.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/search_widget_icon_low_opacity_color_dark" android:pathData="M26.966,21.586L28.57,21.611C28.52,24.907 26.045,27.541 22.802,27.913L22.802,30.969L21.198,30.969L21.198,27.907C17.761,27.478 15.43,24.391 15.43,21.599L17.034,21.599C17.034,23.849 19.079,26.355 22.014,26.355C24.75,26.355 26.925,24.26 26.966,21.586ZM22,13.031C23.741,13.031 25.159,14.448 25.159,16.189L25.149,21.589C25.149,23.329 23.737,24.747 22,24.747C20.259,24.747 18.842,23.329 18.842,21.589L18.842,16.189C18.842,14.448 20.259,13.031 22,13.031Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

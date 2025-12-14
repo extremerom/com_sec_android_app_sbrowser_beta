@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="Update SiteItem" android:key="pref_qa_update_siteitem" android:summary="Execute whole scenario." />
+    <androidx.preference.Preference android:title="Update pending list only" android:key="pref_qa_update_pending_list" />
+    <androidx.preference.Preference android:title="Update SiteItem in pending list" android:key="pref_qa_update_siteitem_in_pending_list" />
+</androidx.preference.PreferenceScreen>

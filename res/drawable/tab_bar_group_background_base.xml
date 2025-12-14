@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tab_bar_group_background" android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_vertical_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tab_bar_button_bg_radius" />
+            <solid />
+        </shape>
+    </item>
+</layer-list>

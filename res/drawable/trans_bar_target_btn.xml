@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/internet_expander_open" android:tint="@color/app_banner_infobar_close_button_image"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

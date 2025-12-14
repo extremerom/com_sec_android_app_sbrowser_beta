@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_palette_list_view_action_bar_bg_color" />
+    <stroke android:width="2.0px" android:color="@color/payments_card_icon_storke_color" />
+    <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp" />
+</shape>

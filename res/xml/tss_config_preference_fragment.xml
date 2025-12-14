@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Fake TSS2.0 model" android:key="pref_debug_tss2_activated" android:summary="enable if you want test TSS2.0 customization" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_debug_tss2_activated" />
+    <androidx.preference.Preference android:title="Activation code" android:key="pref_debug_fake_aid" android:summary="not set" />
+    <androidx.preference.PreferenceCategory android:title="SIM setting" android:selectable="false" />
+    <androidx.preference.Preference android:title="Fake MCCMNC" android:key="pref_debug_fake_mccmnc" android:summary="not set" />
+    <androidx.preference.Preference android:title="Fake SPName" android:key="pref_debug_fake_spname" android:summary="not set" />
+    <androidx.preference.Preference android:title="Fake SPCode" android:key="pref_debug_fake_spcode" android:summary="not set" />
+    <androidx.preference.Preference android:title="Fake SubsetCode" android:key="pref_debug_fake_subsetcode" android:summary="not set" />
+    <androidx.preference.Preference android:title="Reset SIM setting" android:key="pref_debug_reset_sim_setting" />
+</androidx.preference.PreferenceScreen>

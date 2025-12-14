@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/tab_bar_button_ripple_color_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tab_bar_control_button_background" android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_vertical_padding">
+        <shape android:shape="oval">
+            <solid />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/context_menu_dropdown_popup_background_color" />
+    <corners android:radius="@dimen/context_menu_dropdown_popup_radius" />
+    <stroke android:width="@dimen/context_menu_dropdown_popup_stroke_width" android:color="@color/context_menu_dropdown_popup_stroke_color" />
+</shape>

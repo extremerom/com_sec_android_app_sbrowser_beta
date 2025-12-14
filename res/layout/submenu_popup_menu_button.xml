@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/submenu_popup_item_ripple" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/submenu_popup_item_padding_start" android:paddingEnd="@dimen/submenu_popup_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/submenu_popup_menu_item_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/submenu_popup_item_textsize" android:textColor="@color/submenu_popup_item_text_color" android:gravity="center" android:id="@id/submenu_popup_menu_item_text" android:paddingTop="@dimen/submenu_popup_item_padding_top" android:paddingBottom="@dimen/submenu_popup_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="@dimen/submenu_popup_item_height" android:singleLine="true" style="@style/SubmenuPopupMenuItemTextStyle" />
+</LinearLayout>

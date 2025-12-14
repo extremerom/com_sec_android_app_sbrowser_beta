@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.ListPreference android:entries="@array/quickaccess_debug_server_profiles" android:title="@string/server_profile_title" android:key="quickaccess_server_profile" android:summary="%s" android:defaultValue="@string/server_profile_product" android:entryValues="@array/quickaccess_debug_server_profiles" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/enable_show_sync_information" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_show_sync_information" />
+    <androidx.preference.Preference android:title="@string/quickaccess_add_sample_items" android:key="pref_qa_add_sample_items" android:summary="@string/quickaccess_add_sample_items_summary" />
+    <androidx.preference.Preference android:title="@string/quickaccess_add_test_icon" android:key="pref_qa_add_test_icon" android:summary="@string/quickaccess_add_test_icon_summary" />
+    <androidx.preference.Preference android:title="CID Info" android:fragment="com.sec.android.app.sbrowser.settings.debug.QuickAccessCidInfoFragment" />
+    <androidx.preference.Preference android:title="Update Histories" android:fragment="com.sec.android.app.sbrowser.settings.debug.QuickAccessUpdateHistoryPreferenceFragment" />
+    <androidx.preference.Preference android:title="@string/quickaccess_is_default_items_edited" android:key="pref_qa_is_default_items_edited" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugListPreference android:entries="@array/quickaccess_debug_masking_config_entries" android:title="Masking configuration" android:key="quickaccess_masking_config" android:summary="%s" android:defaultValue="@string/quickaccess_masking_config_gap8" android:entryValues="@array/quickaccess_debug_masking_config_entries" sbrowser:debugDefaultValue="@string/quickaccess_masking_config_gap8" sbrowser:debugKey="quickaccess_masking_config" />
+    <androidx.preference.Preference android:title="@string/quickaccess_siteitem_updater" android:fragment="com.sec.android.app.sbrowser.settings.debug.QuickAccessSiteItemUpdaterDebugFragment" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Enable QuickAccess Sync v2" sbrowser:debugDefaultValue="true" sbrowser:debugKey="enable_quickaccess_sync_v2" />
+    <androidx.preference.Preference android:title="Add sample data for Sync V2" android:key="pref_qa_sync_add_sample_items" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Enable adding shortcut with web address" sbrowser:debugDefaultValue="true" sbrowser:debugKey="enable_quickaccess_add_web" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugListPreference android:entries="@array/data_lake_debug_server_profiles" android:title="DataLake Server Profile" android:key="data_lake_server_profile" android:summary="%s" android:defaultValue="@string/server_profile_product" android:entryValues="@array/data_lake_debug_server_profiles" sbrowser:debugDefaultValue="@string/server_profile_product" sbrowser:debugKey="data_lake_server_profile" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Enable DataLake Suggestion" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_data_lake_suggestion" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Enable DataLake Log" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_data_lake_log" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugListPreference android:entries="@array/data_lake_debug_server_profiles" android:title="News Feed Server Profile" android:key="news_feed_server_profile" android:summary="%s" android:defaultValue="@string/server_profile_product" android:entryValues="@array/data_lake_debug_server_profiles" sbrowser:debugDefaultValue="@string/server_profile_product" sbrowser:debugKey="news_feed_server_profile" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="Enable news feed in QuickAccess main layout" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_news_feed_in_quick_access" />
+    <androidx.preference.Preference android:title="Reset promotion" android:key="pref_reset_promotion" />
+</androidx.preference.PreferenceScreen>

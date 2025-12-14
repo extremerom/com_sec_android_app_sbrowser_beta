@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d સેકન્ડ ફાસ્ટ ફૉરવર્ડ કરો</item>
+        <item quantity="other">%d સેકન્ડ ફાસ્ટ ફૉરવર્ડ કરો</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d સેકન્ડ રિવાઇન્ડ કરો</item>
+        <item quantity="other">%d સેકન્ડ રિવાઇન્ડ કરો</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d નવું નોટિફિકેશન</item>
+        <item quantity="other">%d નવા નોટિફિકેશન</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">આવતીકાલે સમયસીમા સમાપ્ત થાય છે</item>
+        <item quantity="other">%d દિવસમાં સમયસીમા સમાપ્ત થાય છે</item>
+    </plurals>
+</resources>

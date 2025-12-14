@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/basic_ripple_raised_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <inset android:insetLeft="@dimen/download_oma_dialog_button_accessibility_inset_left_right" android:insetRight="@dimen/download_oma_dialog_button_accessibility_inset_left_right" android:insetTop="@dimen/download_save_as_title_margin_top" android:insetBottom="@dimen/download_save_as_title_margin_top">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/download_oma_dialog_button_accessibility_radius" />
+                <solid android:color="@color/white" />
+                <padding android:left="@dimen/download_oma_dialog_button_accessibility_shape_padding" android:top="@dimen/download_save_as_title_margin_top" android:right="@dimen/download_oma_dialog_button_accessibility_shape_padding" android:bottom="@dimen/download_save_as_title_margin_top" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/customize_toolbar_drag_shoadow_bg" />
+    <corners android:radius="@dimen/customize_toolbar_select_background_radius" />
+</shape>

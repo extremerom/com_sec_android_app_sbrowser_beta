@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/bookmark_screen_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/select_folder_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bookmark_main_layout" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/folder_navigation_layout" android:background="@drawable/history_item_top_rounded_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:id="@id/path_indicator" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/show_bookmarks_folder_scroll_view_height" android:layout_marginTop="@dimen/show_bookmarks_folder_scroll_view_margin_top" android:layout_marginBottom="@dimen/show_bookmarks_folder_scroll_view_margin_bottom" android:layout_marginStart="@dimen/show_bookmarks_folder_scroll_view_margin_left" android:layout_marginEnd="@dimen/show_bookmarks_folder_scroll_view_margin_right">
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/path_indicator_rel_layout" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                </HorizontalScrollView>
+                <View android:id="@id/folder_path_mask" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/show_bookmarks_folder_scroll_view_height" android:layout_marginTop="@dimen/show_bookmarks_folder_scroll_view_margin_top" android:layout_marginBottom="@dimen/show_bookmarks_folder_scroll_view_margin_top" android:importantForAccessibility="no" android:layout_marginStart="@dimen/show_bookmarks_folder_scroll_view_margin_left" android:layout_marginEnd="@dimen/show_bookmarks_folder_scroll_view_margin_right" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/listview_holder" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@id/bookmark_display_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="@integer/history_listview_weight">
+                    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/bookmark_folder_normal_list" android:background="@null" android:paddingBottom="@dimen/basic_list_bottom_padding" android:visibility="visible" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:drawSelectorOnTop="true" android:divider="@null" android:layout_marginStart="@dimen/sites_list_layout_horizontal_margin" android:layout_marginEnd="@dimen/sites_list_layout_horizontal_margin" android:nestedScrollingEnabled="true" android:paddingHorizontal="@dimen/sites_recycler_view_horizontal_padding" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" style="@style/BookmarkListViewStyle" />
+                </FrameLayout>
+                <include android:id="@id/layout_no_bookmarks" layout="@layout/showbookmarks_no_layout" />
+                <View android:id="@id/dummy_bottom_menu_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/basic_bottom_bar_icon_button_height" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:id="@id/placeholder_scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:nestedScrollingEnabled="true">
+            <View android:id="@id/placeholder" android:background="@color/show_bookmarks_item_selected_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Permitir todos os cookies</item>
+        <item>Bloquear cookies de terceiros</item>
+        <item>Bloquear todos os cookies</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Cartão SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Padrão</item>
+        <item>Acesso rápido</item>
+        <item>Página atual</item>
+        <item>Página personalizada</item>
+    </string-array>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>bing</item>
+        <item>DuckDuckGo</item>
+        <item>youtube</item>
+        <item>uol</item>
+        <item>yahoo_br</item>
+    </string-array>
+</resources>

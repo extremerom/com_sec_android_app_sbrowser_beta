@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_custom_tab_feature_logging" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_custom_tab_feature_logging" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_custom_tab_find_on_page_option_menu" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_custom_tab_find_on_page_option_menu" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_support_twa_immersive_mode" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_support_twa_immersive_mode" />
+    <PreferenceScreen android:title="@string/custom_tabs_launcher_debug_settings_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CustomTabsLauncherDebugPreferenceFragment" />
+</PreferenceScreen>

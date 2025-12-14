@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_editor_content_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/payments_editor_hint_text_size" android:textColor="@color/color_palette_list_view_text_field_primary_dark_color" android:id="@id/spinner_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/payments_editor_dropdown_spinner_padding" style="@style/RobotoRegular" />
+    <Spinner android:theme="@style/PaymentSpinnerStyle" android:id="@id/spinner" android:background="@drawable/autofill_spinner_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payments_dropdown_top_margin" android:dropDownWidth="match_parent" android:paddingStart="@dimen/payments_editor_dropdown_spinner_padding" android:layout_marginStart="@dimen/payments_editor_dropdown_spinner_start_margin" />
+    <View android:background="@color/payment_spinner_underline_color" android:layout_width="match_parent" android:layout_height="@dimen/payments_spinner_underline_height" android:layout_marginStart="@dimen/payments_editor_dropdown_spinner_padding" />
+</LinearLayout>

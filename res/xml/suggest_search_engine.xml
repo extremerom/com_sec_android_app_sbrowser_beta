@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/address_bar_search"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.add_search_engine.AddSearchEnginePreference android:layout="@layout/settings_preference_add_search_engine" android:key="add_search_engine_button" android:fragment="com.sec.android.app.sbrowser.settings.add_search_engine.AddSearchEngineFragment" app:sa_eventId="@string/sa_event_settings_add_search_engine" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/show_suggested_searches_and_wetsites" android:key="search_suggestions" android:defaultValue="true" android:singleLineTitle="false" app:sa_eventId="@string/sa_event_settings_search_suggestions" app:sa_statusId="@string/sa_status_settings_search_suggestions" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/search_widget_save_recent_searches" android:key="save_recent_searches" android:defaultValue="true" searchable="true" />
+</androidx.preference.PreferenceScreen>

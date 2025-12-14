@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Звичайна</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/uk</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Дозволити всі файли cookie</item>
+        <item>Блокувати сторонні файли cookie</item>
+        <item>Блокувати всі файли cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Пристрій</item>
+        <item>SD-карта</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>За замовчуванням</item>
+        <item>Швидкий доступ</item>
+        <item>Поточна сторінка</item>
+        <item>Користувацька сторінка</item>
+    </string-array>
+</resources>

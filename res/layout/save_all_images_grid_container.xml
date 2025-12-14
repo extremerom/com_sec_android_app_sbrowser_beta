@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.save_image.view.grid.ImageGridContainer android:orientation="vertical" android:background="@color/color_palette_save_all_images_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/save_all_images_loading_progress_bar" android:layout_width="match_parent" android:layout_height="@dimen/save_all_images_save_all_images_loading_progress_bar_height" android:max="100" android:progressTint="@color/save_all_images_loading_progress_bar_color" android:progressBackgroundTint="@color/save_all_images_loading_progress_bar_bg_color" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <com.sec.android.app.sbrowser.save_image.view.grid.ImageGridView android:id="@id/save_all_images_grid_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls" android:importantForAccessibility="no" android:layout_marginStart="@dimen/save_all_images_grid_spacing_size" android:layout_marginEnd="@dimen/save_all_images_grid_spacing_size" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+    <include android:id="@id/save_all_images_grid_bottombar" layout="@layout/save_all_images_grid_bottombar" />
+</com.sec.android.app.sbrowser.save_image.view.grid.ImageGridContainer>

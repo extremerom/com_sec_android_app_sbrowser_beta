@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/enable_va_next_button" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_va_next_button" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/enable_va_gesture_button" sbrowser:debugDefaultValue="false" sbrowser:debugKey="enable_va_gesture_button" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/disable_html_media_source" sbrowser:debugKey="disable_html_media_source" />
+    <androidx.preference.Preference android:title="@string/insert_video_history_data" android:key="insert_video_history_data" />
+</androidx.preference.PreferenceScreen>

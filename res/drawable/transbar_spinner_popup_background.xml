@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/settings_spinner_popup_background_color" />
+    <padding android:top="@dimen/trans_bar_container_spinner_popup_padding_top" android:bottom="@dimen/trans_bar_container_spinner_popup_padding_bottom" />
+    <corners android:radius="@dimen/payments_spinner_rounded_corner_radius" />
+</shape>

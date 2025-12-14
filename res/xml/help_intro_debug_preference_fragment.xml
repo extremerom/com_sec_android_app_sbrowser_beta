@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_help_intro" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_enable_help_intro" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_region_code" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugRegionCodePreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_terms_os_service_major_version" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugTosMajorVersionPreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_privacy_policy_major_version" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugPpMajorVersionPreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_terms_os_service_minor_version" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugTosMinorVersionPreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_privacy_policy_minor_version" android:fragment="com.sec.android.app.sbrowser.settings.debug.HelpIntroDebugPpMinorVersionPreferenceFragment" />
+</androidx.preference.PreferenceScreen>

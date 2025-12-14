@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Zezwalaj na wszystkie pliki cookie</item>
+        <item>Blokuj pliki cookie innych firm</item>
+        <item>Blokuj wszystkie cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Maszina</item>
+        <item>Karta SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Dōmyślno</item>
+        <item>Szybki dostęp</item>
+        <item>Terŏźno zajta</item>
+        <item>Zajta ôryginalno</item>
+    </string-array>
+</resources>

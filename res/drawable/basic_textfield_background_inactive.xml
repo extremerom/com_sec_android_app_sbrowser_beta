@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <padding android:bottom="@dimen/basic_textfield_password_padding_bottom" />
+            <size android:height="@dimen/basic_textfield_line_inactive_height" />
+            <solid android:color="@color/basic_textfield_line_inactive_color" />
+        </shape>
+    </item>
+</layer-list>

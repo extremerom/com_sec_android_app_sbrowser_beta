@@ -1,0 +1,14 @@
+// This json file will contain a list of extensions that will be included
+// in the installer.
+
+// SIX_DEFAULT_EXTENSIONS
+{
+    "khmmfcceknncifmkiimjnnjldibgajpl": {
+        //  When downloading crx file, only "external_update_url" must exist.
+        // "external_update_url": "",
+        //  When preloading crx file, both the following lines must exist together.
+        "external_crx": "webtrans.crx",
+        "external_version": "3.015.036"
+    }
+}
+// SIX_DEFAULT_EXTENSIONS

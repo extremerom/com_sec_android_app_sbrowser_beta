@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="max_drag_view_screen_width_ratio">0.55</dimen>
+    <dimen name="sesl_suggestive_dialog_min_width_major">384.0dp</dimen>
+    <dimen name="sesl_suggestive_dialog_min_width_minor">384.0dp</dimen>
+    <dimen name="sesl_suggestive_dialog_title_padding_top">20.0dp</dimen>
+    <dimen name="style_graph_medium_title_text_size">@dimen/arc_progress_text_dp_40</dimen>
+    <dimen name="style_graph_small_display_text_size">18.0dp</dimen>
+    <dimen name="style_graph_small_title_text_size">@dimen/arc_progress_text_dp_34</dimen>
+    <dimen name="style_multi_textblock_medium_display_text_size">22.0dp</dimen>
+    <dimen name="style_multi_textblock_small_display_text_size">14.0dp</dimen>
+    <dimen name="style_multi_textblock_widesmall_display_text_size">18.0dp</dimen>
+</resources>

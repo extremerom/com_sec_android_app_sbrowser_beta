@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="help_intro_legal_close_app_button_padding_between">24.0dp</dimen>
+    <dimen name="help_intro_legal_description_max_width">450.0dp</dimen>
+    <dimen name="help_intro_legal_description_min_width">410.0dp</dimen>
+    <dimen name="help_intro_legal_margin_ratio_below_title">0.08</dimen>
+    <dimen name="help_intro_legal_margin_ratio_top">0.14</dimen>
+    <dimen name="help_intro_legal_padding_start_end">88.0dp</dimen>
+    <dimen name="trans_bar_container_margin_end">24.0dp</dimen>
+    <dimen name="trans_bar_container_margin_end_v2">18.0dp</dimen>
+    <dimen name="trans_bar_container_margin_start">32.0dp</dimen>
+    <dimen name="trans_bar_container_margin_start_v2">48.0dp</dimen>
+    <dimen name="trans_bar_container_round_btn_ripple_padding_size_v2">6.0dp</dimen>
+    <dimen name="trans_bar_container_tran_btn_margin_end">40.0dp</dimen>
+    <dimen name="trans_bar_container_tran_btn_margin_end_v2">10.0dp</dimen>
+    <dimen name="trans_bar_container_width">588.0dp</dimen>
+</resources>

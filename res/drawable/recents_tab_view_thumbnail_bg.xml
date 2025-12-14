@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/recents_tab_view_rounded_corners_radius" android:bottomRightRadius="@dimen/recents_tab_view_rounded_corners_radius" />
+    <stroke android:width="@dimen/tab_manager_thumbnail_stroke_thickness" android:color="@color/tab_manager_thumbnail_stroke" />
+</shape>

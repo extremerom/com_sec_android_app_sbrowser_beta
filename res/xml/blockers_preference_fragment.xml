@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_support_content_blocker" sbrowser:debugDefaultValue="true" sbrowser:debugKey="support_content_blocker" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_support_content_blocker_sitekey" sbrowser:debugDefaultValue="true" sbrowser:debugKey="support_content_blocker_sitekey" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_content_blocker_use_test_config" sbrowser:debugDefaultValue="false" sbrowser:debugKey="content_blocker_use_test_config" />
+    <ListPreference android:entries="@array/pref_blockers_temporarily_unblock_ads_supported" android:title="@string/pref_support_content_blocker_temporarily_unblock_ads" android:key="support_content_blocker_temporarily_unblock_ads" android:summary="%s" android:defaultValue="default" android:entryValues="@array/pref_blockers_temporarily_unblock_ads_supported" />
+    <androidx.preference.EditTextPreference android:title="@string/pref_content_blocker_test_config_timestamp" android:key="content_blocker_test_config_timestamp" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_aaa_bait_element_detection" sbrowser:debugDefaultValue="true" sbrowser:key="enable_aaa_bait_element_detection" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_aaa_bait_javascript_detection" sbrowser:debugDefaultValue="true" sbrowser:key="enable_aaa_bait_javascript_detection" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_blockers_enabled_or_disabled" android:fragment="com.sec.android.app.sbrowser.settings.debug.EnableDisableBlockersPreferenceFragment" />
+</androidx.preference.PreferenceScreen>

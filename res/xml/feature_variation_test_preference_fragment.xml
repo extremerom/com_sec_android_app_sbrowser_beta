@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:title="@string/feature_variation_restore_previous_values_title" android:key="@string/feature_variation_restore_previous_values_title" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_sales_code_title" android:key="@string/feature_variation_sales_code_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.SalesCodePreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_country_code_title" android:key="@string/feature_variation_country_code_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CountryCodePreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_country_iso_code_title" android:key="@string/feature_variation_country_iso_code_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CountryIsoCodePreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_csc_feature_title" android:key="@string/feature_variation_csc_feature_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CscFeaturePreferenceFragment" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_floating_feature_title" android:key="@string/feature_variation_floating_feature_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.FloatingFeaturePreferenceFragment" />
+    <androidx.preference.ListPreference android:title="@string/feature_variation_load_csc_title" android:key="@string/feature_variation_load_csc_title" android:dialogTitle="@string/feature_variation_load_csc_title" />
+</androidx.preference.PreferenceScreen>

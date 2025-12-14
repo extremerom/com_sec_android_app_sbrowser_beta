@@ -1,0 +1,37 @@
+{
+  "news": {
+    "domain": [
+      "amp.cnn.com",
+      "abcnews.go.com",
+      "afp.com",
+      "bbc.com",
+      "bloomberg.com",
+      "businessinsider.com",
+      "buzzfeed.com",
+      "cbsnews.com",
+      "chicagotribune.com",
+      "cnn.com",
+      "dailymail.co.uk",
+      "edition.cnn.com",
+      "forbes.com",
+      "foxnews.com",
+      "news.google.com",
+      "huffpost.com",
+      "latimes.com",
+      "nbcnews.com",
+      "nypost.com",
+      "npr.org",
+      "nydailynews.com",
+      "nytimes.com",
+      "reuters.com",
+      "techcrunch.com",
+      "theguardian.com",
+      "independent.co.uk",
+      "theverge.com",
+      "usatoday.com",
+      "wsj.com",
+      "washingtonpost.com",
+      "news.yahoo.com"
+    ]
+  }
+}

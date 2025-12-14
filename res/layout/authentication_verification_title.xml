@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/auth_verification_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/basic_dialog_margin_top" android:layout_marginBottom="@dimen/basic_dialog_title_margin_bottom" android:text="@string/auth_verification_title" android:maxLines="4" style="@style/BasicDialogTitle" />
+    <LinearLayout android:gravity="center" android:id="@id/auth_verification_samsungpass" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="center" android:id="@id/samsung_pass_logo" android:layout_width="@dimen/samsung_pass_logo_width" android:layout_height="@dimen/samsung_pass_logo_height" android:layout_marginTop="@dimen/basic_dialog_margin_top" android:layout_marginBottom="@dimen/basic_dialog_title_margin_bottom" android:src="@drawable/logo_samsung_pass" android:tint="@color/basic_description_text_color" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    </LinearLayout>
+</merge>

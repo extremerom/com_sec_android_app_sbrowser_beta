@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_banner_infobar_close_button_image">#575757</color>
+    <color name="iris_preview_background">#000000</color>
+    <color name="tab_manager_checkbox_tint_color">#fafafa</color>
+</resources>

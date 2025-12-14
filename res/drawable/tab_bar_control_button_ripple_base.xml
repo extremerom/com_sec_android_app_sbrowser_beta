@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/tab_bar_button_ripple_color_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_shadow_bottom_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/tab_bar_control_button_shadow_color_1" />
+        </shape>
+    </item>
+    <item android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_shadow_bottom_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/tab_bar_control_button_shadow_color_2" />
+        </shape>
+    </item>
+    <item android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_shadow_bottom_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/tab_bar_control_button_shadow_color_3" />
+        </shape>
+    </item>
+    <item android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_shadow_bottom_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/tab_bar_control_button_shadow_color_4" />
+        </shape>
+    </item>
+    <item android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_shadow_bottom_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/tab_bar_control_button_shadow_color_5" />
+        </shape>
+    </item>
+    <item android:id="@id/tab_bar_control_button_background" android:top="@dimen/tab_bar_control_button_vertical_padding" android:bottom="@dimen/tab_bar_control_button_vertical_padding">
+        <shape android:shape="oval">
+            <solid />
+        </shape>
+    </item>
+</ripple>

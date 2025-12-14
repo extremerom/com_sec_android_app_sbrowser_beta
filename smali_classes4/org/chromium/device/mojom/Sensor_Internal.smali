@@ -1,0 +1,51 @@
+.class Lorg/chromium/device/mojom/Sensor_Internal;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorConfigureReadingChangeNotificationsParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorResumeParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorSuspendParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorRemoveConfigurationParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsProxyToResponder;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsForwardToCallback;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsProxyToResponder;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsForwardToCallback;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationParams;,
+        Lorg/chromium/device/mojom/Sensor_Internal$Stub;,
+        Lorg/chromium/device/mojom/Sensor_Internal$Proxy;
+    }
+.end annotation
+
+
+# static fields
+.field public static final MANAGER:Lorg/chromium/mojo/bindings/Interface$Manager;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lorg/chromium/mojo/bindings/Interface$Manager<",
+            "Lorg/chromium/device/mojom/Sensor;",
+            "Lorg/chromium/device/mojom/Sensor$Proxy;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lorg/chromium/device/mojom/Sensor_Internal$1;
+
+    invoke-direct {v0}, Lorg/chromium/device/mojom/Sensor_Internal$1;-><init>()V
+
+    sput-object v0, Lorg/chromium/device/mojom/Sensor_Internal;->MANAGER:Lorg/chromium/mojo/bindings/Interface$Manager;
+
+    return-void
+.end method

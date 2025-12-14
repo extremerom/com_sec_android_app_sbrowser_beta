@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/media_player_progress_stroke">
+        <shape>
+            <stroke android:width="@dimen/media_player_progress_bar_stroke_width" android:color="@color/media_player_progress_bar_stroke_color" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background" android:tint="@color/media_player_timeline_bar_bg_tint_color" android:height="@dimen/media_player_progress_bar_expanded_height" android:drawable="@drawable/media_player_progress_bar_transition" />
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress" android:tint="@color/media_player_timeline_bar_bg_secondary_color" android:height="@dimen/media_player_progress_bar_expanded_height">
+        <clip android:drawable="@drawable/media_player_progress_bar_transition" />
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress" android:tint="@color/media_player_timeline_thumb_color" android:height="@dimen/media_player_progress_bar_expanded_height">
+        <clip android:drawable="@drawable/media_player_progress_bar_transition" />
+    </item>
+</layer-list>

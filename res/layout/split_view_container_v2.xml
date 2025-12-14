@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/split_view_with_blur_layout" android:tag="layout/split_view_container_v2_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/split_view_webpage_blur_view" android:background="@color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.material.oneui.floatingdock.FloatingPaneLayout android:id="@id/ai_summarize_result_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/result_layout_content" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/result_layout_minimize" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/summary_panel_minimize_layout" />
+        </LinearLayout>
+    </com.google.android.material.oneui.floatingdock.FloatingPaneLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbar_settings_container" android:background="@drawable/toolbar_button_touch_effect" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="match_parent" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/toolbar_settings" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottombar_settings_selector" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_menu_badge_margin_top" android:layout_alignTop="@id/toolbar_settings" android:layout_marginEnd="@dimen/toolbar_menu_badge_margin_end" android:layout_alignEnd="@id/toolbar_settings">
+        <include android:id="@id/toolbar_settings_badge" layout="@layout/badge" />
+    </LinearLayout>
+</RelativeLayout>

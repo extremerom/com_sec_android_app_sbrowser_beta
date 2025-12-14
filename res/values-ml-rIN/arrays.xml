@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>കുക്കികൾ എല്ലാം അനുവദിക്കുക</item>
+        <item>മൂന്നാം കക്ഷി കുക്കികളെ തടയുക</item>
+        <item>കുക്കികളെ എല്ലാം തടയുക</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ഉപകരണം</item>
+        <item>SD കാര്‍‌ഡ്</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ഡിഫോൾട്ട്</item>
+        <item>ദ്രുത ആക്സസ്</item>
+        <item>നിലവിലെ പേജ്</item>
+        <item>ഇച്ഛാനുസൃത പേജ്</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/internet_ic_search" android:id="@id/sites_search_bookmark" android:visible="false" android:title="@string/sites_search_options" app:showAsAction="always" />
+    <item android:id="@id/select_bookmarks" android:visible="false" android:title="@string/show_bookmarks_action_bar_edit" android:showAsAction="never" />
+    <item android:id="@id/sort_bookmarks" android:visible="false" android:title="@string/show_bookmarks_action_bar_sort" android:showAsAction="never" />
+    <item android:id="@id/create_folder" android:visible="false" android:title="@string/show_bookmarks_create_command" android:showAsAction="never" />
+</menu>

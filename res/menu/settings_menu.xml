@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/cardboard_menu_option_use_another_device" android:title="@string/use_another_device" />
+    <item android:id="@id/cardboard_menu_option_product_safety" android:title="@string/cardboard_product_safety" />
+</menu>

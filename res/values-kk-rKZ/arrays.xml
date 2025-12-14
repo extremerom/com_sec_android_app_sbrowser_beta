@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Сookie файлдарына рұқсат ету</item>
+        <item>Үшінші тарап cookie файлдарын бұғаттау</item>
+        <item>Барлық cookie файлдарын бұғаттау</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Құрылғы</item>
+        <item>SD карта</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Әдепкі</item>
+        <item>Жылдам қатынасу</item>
+        <item>Ағымдағы бет</item>
+        <item>Реттелмелі бет</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_use_memory_pressure_listener" android:summary="@string/pref_use_memory_pressure_listener" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_use_memory_pressure_listener" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_use_intent_based_terrace_callback" android:summary="@string/pref_use_intent_based_terrace_callback" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_use_intent_based_terrace_callback" />
+</androidx.preference.PreferenceScreen>

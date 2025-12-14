@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>تمام کوکیز کو اجازت دیں</item>
+        <item>فریق ثالث کوکیز بلاک کریں</item>
+        <item>سبھی کوکیز بلاک کریں</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>آلہ</item>
+        <item>‏SD کارڈ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ڈیفالٹ</item>
+        <item>فوری رسائی</item>
+        <item>موجودہ صفحہ</item>
+        <item>صفحہ حسب ضرورت بنائيں</item>
+    </string-array>
+</resources>

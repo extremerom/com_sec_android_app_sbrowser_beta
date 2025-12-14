@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:id="@id/auth_verification_biometrics_icons" android:visibility="gone" android:layout_width="@dimen/bio_guide_images_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bio_guide_images_margin_bottom">
+        <ImageView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" android:src="@drawable/iris_recognize_ic_iris" android:tint="@color/bio_guide_image_color" />
+        <ImageView android:layout_gravity="center" android:layout_marginStart="@dimen/secret_mode_biometrics_guide_image_divider_margin" android:layout_marginEnd="@dimen/secret_mode_biometrics_guide_image_divider_margin" style="@style/BioAuthImageDivider" />
+        <ImageView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" android:src="@drawable/iris_recognize_ic_fingerprint" android:tint="@color/bio_guide_image_color" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:id="@id/auth_verification_intelligent_scan_multi_icons" android:visibility="gone" android:layout_width="@dimen/bio_guide_images_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bio_guide_images_margin_bottom">
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/basic_description_text_color" app:lottie_fileName="intelligent_scan_unlocking_ic_morph_no_margin.json" app:lottie_loop="true" />
+        <ImageView android:layout_gravity="center" android:layout_marginStart="@dimen/secret_mode_biometrics_guide_image_divider_margin" android:layout_marginEnd="@dimen/secret_mode_biometrics_guide_image_divider_margin" style="@style/BioAuthImageDivider" />
+        <ImageView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" android:src="@drawable/iris_recognize_ic_fingerprint" android:tint="@color/bio_guide_image_color" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.FontSizePreview android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SeekBarPreferenceCustom android:title="@string/font_size_scaling" android:key="text_scale" android:defaultValue="1.0" app:cmax="2.0" app:cmin="0.5" app:cstep="0.05" app:csummary="true" app:sa_eventId="@string/sa_event_settings_webpage_text_size_change" app:sa_statusId="@string/sa_status_settings_webpage_text_size_change" />
+</androidx.preference.PreferenceScreen>

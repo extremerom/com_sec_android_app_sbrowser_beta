@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Нормално</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/bg</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Позволяване на всички бисквитки</item>
+        <item>Блокиране на бисквитки на трети лица</item>
+        <item>Блокиране на всички бисквитки</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Устройство</item>
+        <item>SD карта</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>По подразбиране</item>
+        <item>Бърз достъп</item>
+        <item>Текуща страница</item>
+        <item>Персонализирана страница</item>
+    </string-array>
+</resources>

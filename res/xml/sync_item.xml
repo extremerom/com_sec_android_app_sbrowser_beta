@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync_items>
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.OpenTabSyncClientImpl" contents_id="P56GWW8N4r" interface="IRecordDataClient" name="SBROWSER_OPENTAB" table_name="kvs.sbrowsertabs" table_version="1" type="sync" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.BookmarkSyncClientImpl" contents_id="4OuNBe4y9z" interface="IRecordDataClient" name="SBROWSER_BOOKMARK" table_name="kvs.bookmark" table_version="1" type="sync" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.QuickAccessSyncClientImpl" interface="IRecordSyncClient" name="SBROWSER_QUICKACCESS" server_type="data" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.SavedPageSyncClientImpl" data_version="0" interface="ISCloudSyncClient" name="SBROWSER_SAVEDPAGES" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.SavedPageRecordDataSyncClientImpl" contents_id="Iba9EFx3Qc" hash_column_name="mhtml" interface="IRecordDataClient" name="SBROWSER_SAVEDPAGES2" sync_type="stream_sync" table_name="com.samsung.sbrowser.saved_page" table_version="1" type="sync" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.QuickAccessRecordDataSyncClientImpl" contents_id="qzac7cSzXP" interface="IRecordDataClient" name="SBROWSER_QUICKACCESS2" sync_type="from_checkpoint_sync" table_name="com.samsung.sbrowser.quickaccess2" table_version="1" type="sync" />
+    <sync_item client_impl_class="com.sec.android.app.sbrowser.sync.HistorySyncClientImpl" contents_id="d8gjv0w9qx" interface="IRecordDataClient" name="SBROWSER_HISTORY" sync_type="stream_sync" table_name="com.samsung.sbrowser.history" table_version="1" type="sync" />
+</sync_items>

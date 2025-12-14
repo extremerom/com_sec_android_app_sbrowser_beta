@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/news_feed_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/news_feed_item_divider" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/news_feed_item_layout" android:background="@drawable/news_item_background_ripple" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.sec.android.app.sbrowser.quickaccess.ui.base.RoundedCornerImageView android:id="@id/news_icon_image" android:layout_width="0.0dp" android:layout_height="0.0dp" android:cropToPadding="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/news_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/news_feed_title_text_size" android:ellipsize="end" android:id="@id/news_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" android:breakStrategy="simple" style="@style/RobotoRegular" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/news_feed_sub_title_layout_top_margin">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/news_source_icon" android:visibility="gone" android:layout_width="@dimen/news_feed_source_icon_dimension" android:layout_height="@dimen/news_feed_source_icon_dimension" android:layout_marginRight="@dimen/news_feed_source_icon_right_margin" android:contentDescription="Source icon" />
+                <TextView android:textSize="@dimen/news_feed_sub_title_text_size" android:ellipsize="end" android:id="@id/news_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/news_feed_sub_title_source_max_width" android:maxLines="1" android:textAlignment="viewStart" style="@style/RobotoRegular" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/url_time_seperator" android:layout_width="@dimen/news_feed_sub_title_seperator_margin" android:layout_height="@dimen/news_feed_sub_title_seperator_margin" android:layout_marginLeft="@dimen/news_feed_sub_title_seperator_margin" android:layout_marginRight="@dimen/news_feed_sub_title_seperator_margin" android:contentDescription="dot" />
+                <TextView android:textSize="@dimen/news_feed_sub_title_text_size" android:ellipsize="end" android:id="@id/news_last_updated_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" style="@style/RobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

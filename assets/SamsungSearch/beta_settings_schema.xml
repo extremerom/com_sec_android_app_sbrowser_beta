@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2024 Samsung Electronics. All Rights Reserved
+
+    PROPRIETARY/CONFIDENTIAL
+
+    This software is the confidential and proprietary information of
+    SAMSUNG ELECTRONICS ("Confidential Information").
+    You shall not disclose such Confidential Information and shall
+    use it only in accordance with the terms of the license agreement
+    you entered into with SAMSUNG ELECTRONICS. SAMSUNG make no
+    representations or warranties about the suitability
+    of the software, either express or implied, including but not
+    limited to the implied warranties of merchantability, fitness for a
+    particular purpose, or non-infringement. SAMSUNG shall not be liable
+    for any damages suffered by licensee as a result of using, modifying
+    or distributing this software or its derivatives.
+-->
+<schema name="com.sec.android.app.sbrowser.beta.settings" version="1">
+    <defaultAnalyzer class="bs.LowerCaseSpaceAnalyzer" />
+    <fieldType name="string" class="StringField" dataType="String"/>
+    <fieldType name="text" class="TextField" dataType="String"/>
+    <fieldType name="sort" class="SortedDocValuesField" dataType="BytesRef"/>
+    <fieldType name="long_numeric_field" class="NumericDocValuesField" dataType="long"/>
+    <fieldType name="int_stored" class="StoredField" dataType="long"/>
+    <fieldType name="int_sorted" class="NumericDocValuesField" dataType="long"/>
+    <fieldType name="chosung" dataType="string" class="TextField">
+        <analyzer type="index" class="bs.korean.ChosungAnalyzer" keepOtherLang="true"
+            removeSpace="true"/>
+    </fieldType>
+    <fieldType name="spell" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.ConsonantAnalyzer" lang="ko"/>
+        </analyzer>
+    </fieldType>
+    <fieldType name="phonetic_field" dataType="String" class="TextField">
+        <analyzer class="bs.core.PerLanguageAnalyzer">
+            <subAnalyzer class="bs.korean.phonetic.KoreanPhoneticAnalyzer" lang="ko"
+                enableLinkingRule="false"/>
+            <subAnalyzer class="bs.latin.PhoneticAnalyzer" lang="la" minLength="4"/>
+        </analyzer>
+    </fieldType>
+
+    <field name="title" type="text"/>
+    <field name="title_eng" type="text"/>
+    <field name="preference_key" type="text"/>
+    <field name="_id" type="string"/>
+    <field name="id_comp" type="string"/>
+    <field name="id_sort" type="int_sorted" src="id_comp"/>
+    <field name="title_fuzzy" type="spell" src="title" stored="false"/>
+    <field name="title_chosung" type="chosung" stored="false" src="title"/>
+    <field name="title_phonetic" type="phonetic_field" stored="false" src="title"/>
+    <field name="title_eng_fuzzy" type="spell" src="title_eng" stored="false"/>
+    <field name="title_eng_phonetic" type="phonetic_field" stored="false" src="title_eng"/>
+</schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/show_no_bookmark_folder_url_list_divider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.7" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:defaultFocusHighlightEnabled="false">
+            <TextView android:textSize="@dimen/saved_page_list_no_text_size" android:textColor="@color/color_palette_list_view_no_item_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/no_bookmarks_text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_bookmarks_no_bookmarks_title" android:maxLines="1" style="@style/RobotoRegular" />
+            <TextView android:textSize="@dimen/show_no_bookmarks_layout_internet_text2_size" android:textColor="@color/show_no_bookmark_item_text_color_secret_mode" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/bookmark_no_private_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/saved_page_no_items_additional_text_margin_top" android:text="@string/bookmark_no_item_secret" android:maxLines="4" android:lineSpacingExtra="@dimen/no_bookmarks_text_line_spacing" android:fontFamily="sec-roboto-regular" android:layout_marginStart="@dimen/secret_saved_page_text_no_item_description_margin" android:layout_marginEnd="@dimen/secret_saved_page_text_no_item_description_margin" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

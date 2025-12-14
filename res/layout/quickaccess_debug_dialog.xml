@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/quickaccess_dialog_edit_text_size" android:textColor="@color/quickaccess_dialog_edit_text_color" android:textColorHint="@color/quickaccess_dialog_edit_text_color_hint" android:ellipsize="end" android:gravity="bottom" android:id="@id/edit_text" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quickaccess_dialog_edit_text_margin_top" android:layout_marginBottom="@dimen/quickaccess_dialog_edit_text_margin_bottom" android:singleLine="true" android:inputType="text" android:imeOptions="flagNoFullscreen|flagNoExtractUi" android:textCursorDrawable="@drawable/quickaccess_dialog_edit_text_cursor" android:importantForAccessibility="yes" android:textDirection="firstStrong" android:paddingStart="@dimen/quickaccess_dialog_edit_text_padding_start" android:layout_marginStart="@dimen/quickaccess_dialog_edit_text_margin_start" android:layout_marginEnd="@dimen/quickaccess_dialog_edit_text_margin_end" style="@style/RobotoRegular" />
+    </LinearLayout>
+</ScrollView>

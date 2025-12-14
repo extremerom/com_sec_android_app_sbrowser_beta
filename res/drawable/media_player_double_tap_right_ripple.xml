@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/media_player_double_tap_animation_radius" android:bottomLeftRadius="@dimen/media_player_double_tap_animation_radius" />
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">വേഗത്തിൽ %d സെക്കൻഡ് മുന്നോട്ട് നീക്കുക</item>
+        <item quantity="other">വേഗത്തിൽ %d സെക്കൻഡ് മുന്നോട്ട് നീക്കുക</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d സെക്കൻഡ് പിന്നോട്ട് നീക്കുക</item>
+        <item quantity="other">%d സെക്കൻഡ് പിന്നോട്ട് നീക്കുക</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">നാളെ കാലഹരണപ്പെടും</item>
+        <item quantity="other">%d ദിവസത്തിനുള്ളിൽ കാലഹരണപ്പെടും</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:title="Support" android:key="pref_debug_unified_home_page_support" />
+    <androidx.preference.Preference android:title="UnifiedHomePage url" android:key="pref_debug_unified_home_page_url" />
+    <androidx.preference.Preference android:title="UnifiedHomePage version" android:key="pref_debug_unified_home_page_version" />
+</androidx.preference.PreferenceScreen>

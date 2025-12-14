@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/media_player_gesture_view_width" />
+            <corners android:radius="@dimen/media_player_gesture_view_radius" />
+            <solid android:color="@color/media_player_gesture_bg_color" />
+        </shape>
+    </item>
+</layer-list>

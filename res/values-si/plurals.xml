@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තත්පර %dකට පසුව උත්සාහ කරන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තත්පර %dකට පසුව උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dක් තේරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dක් තේරිණි</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පිටුසන් ෆෝල්ඩරයක් සහ එහි ඇති පිටුසන් සියල්ල මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් ෆෝල්ඩර %dක් සහ ඒවායේ ඇති පිටුසන් සියල්ල මකන්න ද?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පිටුසන් ෆෝල්ඩරයක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් ෆෝල්ඩර %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අයිතම %1$dක් %2$s වෙත ගෙන යැවිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %1$dක් %2$s වෙත ගෙන යැවිණි.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පිටුසනක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් %dක්</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටුසන් %dක් අද එක් කෙරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් %dක් අද එක් කෙරිණි</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටුසන් %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටුසන් %dක් සමමුහුවට සූදානම්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටුසන් %dක් සමමුහුවට සූදානම්</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සතියේ %d දැන්වීමක් අවහිර කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සතියේ දැන්වීම් %dක් අවහිර කර ඇත.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අද %d දැන්වීමක් අවහිර කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අද දැන්වීම් %dක් අවහිර කර ඇත.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අවසන් පිටුවෙහි දැන්වීම් %dක් අවහිර කෙරිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අවසන් පිටුවෙහි දැන්වීම් %dක් අවහිර කෙරිණි.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පසුගිය සතියේ %d යළි යොමු කිරීමක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුගිය සතියේ යළි යොමු කිරීම් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පසුගිය සතියේ %d යළි යොමු කිරීමක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුගිය සතියේ යළි යොමු කිරීම් %dක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පසුගිය සතියේ පොප්-අප් %dක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුගිය සතියේ පොප්-අප් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පසුගිය සතියේ පොප්-අප් %dක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුගිය සතියේ පොප්-අප් %dක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වෙබ් අඩවියක් සඳහා අනතුරු ඇඟවීම් සපයා ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් අඩවි %dක් සඳහා අනතුරු ඇඟවීම් සපයා ඇත</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d අනිෂ්ට වෙබ් අඩවියක් අනතුරු ඇඟවීමකින් තොරව පිවිස ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනිෂ්ට වෙබ් අඩවි %dක් අනතුරු ඇඟවීමකින් තොරව පිවිස ඇත</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වරක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d වරක්</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුළු වශයෙන් ශ්‍රව්‍ය ගොනු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මුළු වශයෙන් ශ්‍රව්‍ය ගොනු %dක්</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුළු වශයෙන් ලේඛන %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මුළු වශයෙන් ලේඛන %dක්</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ගොනු %dක් අද බාගැනිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගොනු %dක් අද බාගැනිණි</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුළු වශයෙන් ගොනු %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මුළු වශයෙන් ගොනු %dක්</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුළු වශයෙන් අනුරූ %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මුළු වශයෙන් අනුරූ %dක්</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මුළු වශයෙන් වීඩියෝ %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මුළු වශයෙන් වීඩියෝ %dක්</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ගොනුවක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගොනු %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">රහස්‍ය බාගැනීම්වලින් %d අයිතමයක් පොදු බාගැනීම් වෙත ගෙන යන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">රහස්‍ය බාගැනීම්වලින් අයිතම %dක් පොදු බාගැනීම් වෙත ගෙන යන්න ද?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ බාගැනීම් ඉතිහාසයෙන් අයිතම %d ඉවත් කරන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ බාගැනීම් ඉතිහාසයෙන් අයිතම %d ඉවත් කරන්න ද?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනුරූ %dක් බාගැනිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුරූ %dක් බාගැනිණි</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">අනුරූ 1ක් බාගැනිණි, අනුරූ 1ක් අසමත් විය</item>
+        <item quantity="other">අනුරූ %dක් බාගැනිණි, අනුරූ 1ක් අසමත් විය</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">අනුරුව බාගත නොහැකි විය</item>
+        <item quantity="other">අනුරූ බාගත නොහැකි විය</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">අනුරූ 1ක් බාගැනිණි, අනුරූ %dක් අසමත් විය</item>
+        <item quantity="other">අනුරූ %1$dක් බාගැනිණි, අනුරූ %2$dක් අසමත් විය</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">බාගැනීම විරාමයි</item>
+        <item quantity="other">විරාමයි (අනුරූ %1$d/%2$d බාගැනිණි)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ගොනු %dක් බාගැනිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ගොනු %dක් බාගැනිණි.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">තත්පර %dක් වේගයෙන් ඉදිරියට</item>
+        <item quantity="other">තත්පර %dක් වේගයෙන් ඉදිරියට</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">තත්පර %dක් ආපස්සට</item>
+        <item quantity="other">තත්පර %dක් ආපස්සට</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මකා දැමීම තෙක් %d දිනක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මකා දැමීම තෙක් දින %dක්</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d වෙබ් පිටුවකට %2$s හි පැමිණියා</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් පිටු %1$dකට %2$s හි පැමිණියා</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වෙබ් පිටු %dකට අද පිවිසියා</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් පිටු %dකට අද පිවිසියා</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">වෙබ් පිටු %dකට ඊයේ පිවිසියා</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් පිටු %dකට ඊයේ පිවිසියා</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ඉතිහාසයෙන් අයිතම %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ඉතිහාසයෙන් අයිතම %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Samsung Internet විවෘත කිරීමට උත්සාහ කළා: %d වරක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Samsung Internet විවෘත කිරීමට උත්සාහ කළා: %d වරක්</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අන්තර්ජාල යෙදුම විවෘත කිරීමට උත්සාහ කළා: %d වරක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අන්තර්ජාල යෙදුම විවෘත කිරීමට උත්සාහ කළා: %d වරක්</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අවහිරයි: %d වරක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අවහිරයි: %d වරක්</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වරක් විවෘතයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d වරක් විවෘතයි</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">යෙදුම් කවුළු %dකට වඩා විවෘත කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">යෙදුම් කවුළු %dකට වඩා විවෘත කළ නොහැක.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබේ ඉතිහාසයෙන් අයිතම %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබේ ඉතිහාසයෙන් අයිතම %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තත් %dක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තත් %dක්</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s වෙතින් දැනුම්දීම් %2$d දිනක් සඳහා අවහිර කරනු ලැබේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s වෙතින් දැනුම්දීම් දින %2$dක් සඳහා අවහිර කරනු ලැබේ.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ස්ටිකර් %dකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ස්ටිකර් %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ස්ටිකරයකට වඩා එක් කළ නොහැක. ස්ටිකර් ඉවත් කිරීමට ගැලරියේ ඡායාරූප සංස්කාරකය වෙත යන්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ස්ටිකර් %dකට වඩා එක් කළ නොහැක. ස්ටිකර් ඉවත් කිරීමට ගැලරියේ ඡායාරූප සංස්කාරකය වෙත යන්න.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %1$dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s භාවිතා කිරීමට ඔබ අඩු තරමින් වයස අවුරුදු %1$dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Galaxy AI හි උසස් බුද්ධි විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">බුද්ධිමත් විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">බුද්ධිමත් විශේෂාංග භාවිතය සඳහා ඔබට අඩු තරමින් වයස අවුරුදු %dක් වීමට අවශ්‍ය වේ.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d දැන්වීමක් අවහිරයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">දැන්වීම් %dක් අවහිරයි</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d කුකියක් භාවිතයේ ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">කුකීස් %dක් භාවිතයේ ඇත</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ලුහුබැඳීමේ උත්සාහයක් අවහිරයි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ලුහුබැඳීමේ උත්සාහයන් %dක් අවහිරයි</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සතියේ %d දැන්වීමක් අවහිර කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සතියේ දැන්වීම් %dක් අවහිර කර ඇත.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සතියේ %d හඹා යාමේ උත්සාහයකින් ඔබව ආරක්ෂා කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සතියේ හඹා යාමේ උත්සාහයන් %dකින් ඔබව ආරක්ෂා කර ඇත.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අද %d හඹා යාමේ උත්සාහයකින් ඔබව ආරක්ෂා කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අද හඹා යාමේ උත්සාහයන් %dකින් ඔබව ආරක්ෂා කර ඇත.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සතියේ %d අනවශ්‍ය යළි යොමු කිරීමක් අවහිර කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සතියේ අනවශ්‍ය යළි යොමු කිරීම් %dක් අවහිර කර ඇත.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙම සතියේ පොප්-අප් %dක් අවහිර කර ඇත.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">මෙම සතියේ පොප්-අප්ස් %dක් අවහිර කර ඇත.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d කෙටිමඟක් මකන ලදි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">කෙටිමං %dක් මකන ලදි.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">එකවර %d කෙටිමඟකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">එකවර කෙටිමං %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d උපාංගයක් ඉවත් කරන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">උපාංග %dක් ඉවත් කරන්න ද?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d කෙටිමඟක් එක් කෙරිණි.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">කෙටිමං %dක් එක් කෙරිණි.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සුරැකි පිටු %dක් මකන්න ද?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සුරැකි පිටු %dක් මකන්න ද?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටු %dක් සුරැකිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටු %dක් සුරැකිණි</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පිටු %dක් අද සුරැකිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පිටු %dක් අද සුරැකිණි</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සුරැකි පිටු %dක් සමමුහුවට සූදානම්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">සුරැකි පිටු %dක් සමමුහුවට සූදානම්</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අද %d බාධා කිරීමක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අද බාධා කිරීම් %dක්</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අද %d අවධානය වෙනතකට යොමු කිරීමක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අද අවධානය වෙනතකට යොමු කිරීම් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අන්තර්ජාලය විවෘත කිරීමෙන් %d යෙදුමක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අන්තර්ජාලය විවෘත කිරීමෙන් යෙදුම් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අද අන්තර්ජාලය යෙදුම විවෘත කිරීමෙන් %d යෙදුමක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අද අන්තර්ජාලය යෙදුම විවෘත කිරීමෙන් යෙදුම් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පොප්-අප් එකක් අවහිර කරන ලදි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පොප්-අප්ස් %dක් අවහිර කරන ලදි</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පොප්-අප් එකක් අද අවහිර කරන ලදි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පොප්-අප්ස් %dක් අද අවහිර කරන ලදි</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පසුපසට හරවා යැවීමක් අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුපසට හරවා යැවීම් %dක් අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පසුපසට හරවා යැවීමක් අද අවහිර කර ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පසුපසට හරවා යැවීම් %dක් අද අවහිර කර ඇත</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">තව %d නිරීක්ෂකයක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">තව නිරීක්ෂක %dක් අවහිර කිරීමට ඉඩ තිබුණි</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබට වැසීමට %d ටැබයක් තෝරා ඇත</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබට වැසීමට ටැබ් %dක් තෝරා ඇත</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබට වැසීමට අවශ්‍ය %d ටැබයක් අපට හමු විය</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබට වැසීමට අවශ්‍ය ටැබ් %dක් අපට හමු විය</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පටිති %dකට වඩා අගුළු දැමිය නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පටිති %dකට වඩා අගුළු දැමිය නොහැක.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">හෙට කල් ඉකුත් වෙයි</item>
+        <item quantity="other">දින %dකින් කල් ඉකුත් වෙයි</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අයිතම %dක් තේරිණි</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අයිතම %dක් තේරිණි</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වෙබ් පිටුවක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් පිටු %dක්</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d වෙබ් අඩවියක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">වෙබ් අඩවි %dක්</item>
+    </plurals>
+</resources>

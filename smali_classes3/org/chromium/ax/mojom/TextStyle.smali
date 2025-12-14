@@ -1,0 +1,29 @@
+.class public final Lorg/chromium/ax/mojom/TextStyle;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/chromium/ax/mojom/TextStyle$EnumType;
+    }
+.end annotation
+
+
+# static fields
+.field public static final BOLD:I = 0x1
+
+.field public static final ITALIC:I = 0x2
+
+.field public static final LINE_THROUGH:I = 0x4
+
+.field public static final MAX_VALUE:I = 0x5
+
+.field public static final MIN_VALUE:I = 0x0
+
+.field public static final NONE:I = 0x0
+
+.field public static final OVERLINE:I = 0x5
+
+.field public static final UNDERLINE:I = 0x3

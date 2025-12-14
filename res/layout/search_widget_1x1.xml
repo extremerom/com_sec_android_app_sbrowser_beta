@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/search_widget_background_image_view_layout" android:layout_width="@dimen/search_widget_icon_size" android:layout_height="@dimen/search_widget_icon_size">
+        <ImageView android:id="@id/search_widget_background_image_view" android:layout_width="@dimen/search_widget_icon_size" android:layout_height="@dimen/search_widget_icon_size" />
+    </LinearLayout>
+    <ImageView android:id="@id/sbrowser_icon" android:layout_width="@dimen/search_widget_icon_size" android:layout_height="@dimen/search_widget_icon_size" android:src="@drawable/searchbar_ic_internet_light" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/search_widget_background_border" android:layout_width="@dimen/search_widget_icon_size" android:layout_height="@dimen/search_widget_height" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_debug_read_aloud_translation" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_read_aloud_translation" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_debug_read_articles_aloud" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_read_articles_aloud" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_debug_read_articles_aloud_unlimit_count" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_read_articles_aloud_unlimit_count" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_debug_ai_brief_ignore_interval" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_ai_brief_ignore_interval" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/awesome_intelligence_button_text" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_awesome_intelligence" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_debug_result_view" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_debug_result_view" />
+</PreferenceScreen>

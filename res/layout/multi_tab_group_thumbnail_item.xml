@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_margin="@dimen/multi_tab_grid_group_thumbnail_item_margin" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.multi_tab.tab_stack.views.widget.RoundedImageView android:id="@id/group_thumb_item_img" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/multi_tab_group_thumbnail_item_margin_for_stroke" android:scaleType="matrix" apps:roundedCornerRadius="@dimen/multi_tab_group_thumbnail_radius" apps:roundedCorners="all" />
+    <ImageView android:id="@id/group_thumb_item_favicon" android:layout_width="@dimen/multi_tab_group_thumbnail_favicon_size" android:layout_height="@dimen/multi_tab_group_thumbnail_favicon_size" android:layout_marginTop="@dimen/multi_tab_group_thumbnail_favicon_top_margin" android:layout_marginStart="@dimen/multi_tab_group_thumbnail_favicon_start_margin" />
+    <View android:id="@id/group_thumb_item_stroke" android:background="@drawable/multi_tab_group_item_stroke" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

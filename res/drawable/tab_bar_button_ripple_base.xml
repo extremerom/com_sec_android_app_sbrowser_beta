@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/tab_bar_button_ripple_color_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_vertical_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tab_bar_button_bg_radius" />
+            <solid android:color="#ffffff" />
+            <stroke />
+        </shape>
+    </item>
+    <item android:id="@id/tab_bar_button_ripple_base" android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_vertical_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tab_bar_button_bg_radius" />
+            <solid />
+            <stroke />
+        </shape>
+    </item>
+</ripple>

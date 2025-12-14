@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/help_intro_legal_dialog_padding_top" android:paddingBottom="@dimen/help_intro_legal_dialog_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/help_intro_legal_dialog_padding_start_end">
+        <TextView android:textSize="@dimen/help_intro_legal_dialog_body_text_size" android:textColor="@color/help_intro_legal_text_color" android:gravity="start|center" android:id="@id/body" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_intro_legal_dialog_body_common_pp" android:lineSpacingExtra="@dimen/help_intro_legal_dialog_body_line_spacing" style="@style/RobotoRegular" />
+        <TextView android:textSize="@dimen/help_intro_legal_dialog_body_text_size" android:textColor="@color/help_intro_legal_text_color" android:gravity="start|center" android:id="@id/anti_tracking_view" android:paddingTop="@dimen/help_intro_legal_dialog_anti_tracking_padding_top" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_intro_legal_anti_tracking" android:lineSpacingExtra="@dimen/help_intro_legal_dialog_body_line_spacing" style="@style/RobotoRegular" />
+    </LinearLayout>
+</ScrollView>

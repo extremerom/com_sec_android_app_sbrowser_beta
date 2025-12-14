@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottombar_multiwindow_count_padding_end">@dimen/bottombar_multiwindow_count_padding_end_rtl</dimen>
+    <dimen name="chrome_bullet_leading_offset">-1.0dp</dimen>
+    <dimen name="glance_linear_progress_bar_rotation_y">180.0</dimen>
+</resources>

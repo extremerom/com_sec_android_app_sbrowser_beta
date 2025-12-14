@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/bg" android:drawable="@drawable/multi_tab_list_item_background" android:top="@dimen/multi_tab_list_item_vertical_padding" android:bottom="@dimen/multi_tab_list_item_vertical_padding" />
+    <item android:drawable="@drawable/multi_tab_list_item_background_dim_dark" android:top="@dimen/multi_tab_list_item_vertical_padding" android:bottom="@dimen/multi_tab_list_item_vertical_padding" />
+    <item android:drawable="@drawable/multi_tab_list_item_background_selector" android:top="@dimen/multi_tab_list_item_vertical_padding" android:bottom="@dimen/multi_tab_list_item_vertical_padding" />
+    <item android:drawable="@drawable/multi_tab_list_item_background_ripple" android:top="@dimen/multi_tab_list_item_vertical_padding" android:bottom="@dimen/multi_tab_list_item_vertical_padding" />
+</layer-list>

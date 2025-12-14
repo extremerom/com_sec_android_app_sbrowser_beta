@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@integer/tab_sync_empty_content_margin_ratio" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@integer/tab_sync_empty_content_ratio">
+        <androidx.appcompat.widget.SeslProgressBar android:layout_gravity="center" android:visibility="visible" android:layout_width="@dimen/tab_sync_syncing_progress_height" android:layout_height="@dimen/tab_sync_syncing_progress_height" style="@style/Widget.AppCompat.ProgressBar" />
+        <TextView android:textSize="@dimen/tab_sync_empty_text_details_text_size" android:textColor="@color/color_palette_list_view_no_item_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tab_sync_syncing_progress_margin_height" android:text="@string/syncing_tabs" style="@style/RobotoRegular" />
+        <com.sec.android.app.sbrowser.common.widget.RaisedButton android:id="@id/no_sync_tabs_button_cancel" android:text="@string/no_tab_sync_button_cancel" style="@style/TabSyncButtonStyle" />
+    </LinearLayout>
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="@integer/tab_sync_empty_content_margin_ratio" />
+</LinearLayout>

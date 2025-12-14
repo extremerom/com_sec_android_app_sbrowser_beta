@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_shadow_padding_bottom"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <shape>
+            <corners android:radius="@dimen/tab_bar_button_bg_radius" />
+            <solid android:color="@color/tab_bar_button_shadow_color" />
+        </shape>
+    </item>
+</layer-list>

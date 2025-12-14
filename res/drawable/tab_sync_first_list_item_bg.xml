@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="-1.0dp">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/tab_sync_list_item_radius" android:topRightRadius="@dimen/tab_sync_list_item_radius" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+            <stroke android:width="@dimen/tab_sync_list_item_border_width" android:color="@color/new_tab_sync_list_item_border_color" />
+            <solid android:color="@color/new_tab_sync_list_item_bg_color" />
+        </shape>
+    </item>
+</layer-list>

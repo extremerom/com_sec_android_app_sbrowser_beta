@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SeslLinearLayoutCompat android:orientation="vertical" android:id="@id/root" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/privacy_tips_icon" android:background="@drawable/item_background_touch_effect" android:focusable="true" android:clickable="true" android:layout_width="@dimen/privacy_status_bar_button_width" android:layout_height="@dimen/privacy_status_bar_button_height" android:layout_marginRight="@dimen/privacy_status_bar_button_margin_right" android:src="@drawable/tw_ic_ab_app_info_mtrl" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/privacy_dashboard_information" android:stateListAnimator="?seslSmallTouchAnimator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/current_privacy_status" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/privacy_tips_icon">
+            <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/flat_status_graph" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/privacy_status_bar_margin_left" android:layout_marginRight="@dimen/privacy_status_bar_margin_right">
+                <com.sec.android.app.sbrowser.settings.security_panel.FlatStatusBarRenderer android:id="@id/basic_status" android:layout_width="0.0dp" android:layout_height="@dimen/privacy_status_bar_height" android:layout_marginBottom="@dimen/privacy_status_bar_margin_bottom" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/status_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/privacy_status_bar_margin_left" android:layout_marginRight="@dimen/privacy_status_bar_margin_right" android:layout_below="@id/flat_status_graph">
+                <TextView android:textSize="@dimen/privacy_status_title_size" android:id="@id/light_status_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/privacy_current_status_light" android:layout_weight="1.0" android:textAlignment="center" style="@style/RobotoRegular" />
+                <TextView android:textSize="@dimen/privacy_status_title_size" android:id="@id/moderate_status_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/privacy_current_status_moderate" android:layout_weight="1.0" android:textAlignment="center" style="@style/RobotoRegular" />
+                <TextView android:textSize="@dimen/privacy_status_title_size" android:id="@id/maximum_status_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/privacy_current_status_maximum" android:layout_weight="1.0" android:textAlignment="center" style="@style/RobotoRegular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/status_name">
+                <TextView android:textSize="@dimen/privacy_status_title_size_small" android:id="@id/status_recommended" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/privacy_tips_current_status_recommended" android:layout_weight="1.0" android:textAlignment="center" style="@style/RobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/privacy_status_secret_mode_margin" android:layout_marginTop="@dimen/privacy_status_bar_margin_secret_top" android:layout_marginRight="@dimen/privacy_status_secret_mode_margin">
+        <TextView android:textSize="@dimen/privacy_status_secret_mode_text_size" android:textColor="@color/basic_description_text_color" android:id="@id/status_secret_mode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sec_panel_description_secret_mode" android:textAlignment="textStart" />
+    </LinearLayout>
+</androidx.appcompat.widget.SeslLinearLayoutCompat>

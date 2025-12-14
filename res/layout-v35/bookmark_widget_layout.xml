@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background_imageview" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/widget_imageview_background" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="@integer/widget_preview_orientation" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bookmark_title" android:paddingTop="@dimen/widget_sbookmark_title_margin_top" android:paddingBottom="@dimen/widget_sbookmark_title_margin_bottom" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/widget_sbookmarks_title_text_size" android:textColor="@color/bookmark_widget_heading_text_color_black_new" android:gravity="center_vertical" android:id="@id/s_bookmarks" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_sbookmark_title_height" android:text="@string/bookmarks_widget_title" android:singleLine="true" android:layout_marginStart="@dimen/widget_sbookmarks_layout_margin_start" android:layout_marginEnd="@dimen/widget_sbookmarks_layout_margin_end" style="@style/RobotoMedium" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/widget_sbookmarks_list_margin_top" android:layout_marginBottom="@dimen/widget_sbookmarks_list_margin_bottom" android:layout_weight="@integer/widget_list_weight" android:layout_marginStart="@dimen/widget_sbookmarks_list_margin_start" android:layout_marginEnd="@dimen/widget_sbookmarks_list_margin_end">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/no_bookmark_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/widget_sbookmarks_nobookmarks_text_size" android:textColor="@color/bookmark_widget_no_bookmark_text_color" android:id="@id/no_bookmark_layout_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_bookmarks_no_bookmarks_title" android:textAlignment="center" style="@style/RobotoRegular" />
+            </LinearLayout>
+            <ListView android:theme="@style/BookmarkWidgetEdgeGlowStyle" android:scrollbarSize="@dimen/widget_setting_scrollbar_size" android:scrollbarThumbVertical="@drawable/winset_list_scrollbar" android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/book_mark_items" android:paddingTop="@dimen/widget_sbookmarks_padding_top" android:paddingBottom="@dimen/widget_sbookmarks_padding_bottom" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:loopViews="true" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

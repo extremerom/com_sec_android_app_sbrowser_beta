@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/webapp_view" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_width="0.0px" android:layout_height="0.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/contentview_holder" android:layout_width="match_parent" android:layout_height="@dimen/contentview_holder_height" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

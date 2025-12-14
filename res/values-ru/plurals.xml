@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Повторите попытку через %d секунду.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Повторите попытку через %d секунды.</item>
+        <item quantity="many">Повторите попытку через %d секунд.</item>
+        <item quantity="other">Повторите попытку через %d секунды.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить папку %d и все закладки в ней?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить папки (%d) и все закладки в них?</item>
+        <item quantity="many">Удалить папки (%d) и все закладки в них?</item>
+        <item quantity="other">Удалить папки (%d) и все закладки в них?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d папку с закладками?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d папки с закладками?</item>
+        <item quantity="many">Удалить %d папок с закладками?</item>
+        <item quantity="other">Удалить %d папки с закладками?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d элемент перемещен в %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d элемента перемещены в %2$s.</item>
+        <item quantity="many">%1$d элементов перемещены в %2$s.</item>
+        <item quantity="other">%1$d элемента перемещены в %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d закладка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d закладки</item>
+        <item quantity="many">%d закладок</item>
+        <item quantity="other">%d закладки</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сегодня добавлена %d закладка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сегодня добавлено %d закладки</item>
+        <item quantity="many">Сегодня добавлено %d закладок</item>
+        <item quantity="other">Сегодня добавлено %d закладки</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d закладку?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d закладки?</item>
+        <item quantity="many">Удалить %d закладок?</item>
+        <item quantity="other">Удалить %d закладки?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d закладка готова к синхрониз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d закладки готовы к синхрониз.</item>
+        <item quantity="many">%d закладок готово к синхрониз.</item>
+        <item quantity="other">%d закладки готово к синхрониз.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d объявление за эту неделю.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d объявления за эту неделю.</item>
+        <item quantity="many">Заблокировано %d объявлений за эту неделю.</item>
+        <item quantity="other">Заблокировано %d объявления за эту неделю.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d объявление за сегодня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d объявления за сегодня.</item>
+        <item quantity="many">Заблокировано %d объявлений за сегодня.</item>
+        <item quantity="other">Заблокировано %d объявления за сегодня.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На последней странице заблокировано %d объявление.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На последней странице заблокировано %d объявления.</item>
+        <item quantity="many">На последней странице заблокировано %d объявлений.</item>
+        <item quantity="other">На последней странице заблокировано %d объявления.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d перенаправление было заблокировано на прошлой неделе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d перенаправления были заблокированы на прошлой неделе</item>
+        <item quantity="many">%d перенаправлений были заблокированы на прошлой неделе</item>
+        <item quantity="other">%d перенаправления были заблокированы на прошлой неделе</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d перенаправление могло быть заблокировано на прошлой неделе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d перенаправления могли быть заблокированы на прошлой неделе</item>
+        <item quantity="many">%d перенаправлений могли быть заблокированы на прошлой неделе</item>
+        <item quantity="other">%d перенаправления могли быть заблокированы на прошлой неделе</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d всплывающее сообщение заблокировано на прошлой неделе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d всплывающих сообщения заблокированы на прошлой неделе</item>
+        <item quantity="many">%d всплывающих сообщений заблокированы на прошлой неделе</item>
+        <item quantity="other">%d всплывающего сообщения заблокированы на прошлой неделе</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d всплывающее сообщение могло быть заблокировано на прошлой неделе</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d всплывающих сообщения могли быть заблокированы на прошлой неделе</item>
+        <item quantity="many">%d всплывающих сообщений могли быть заблокированы на прошлой неделе</item>
+        <item quantity="other">%d всплывающего сообщения могли быть заблокированы на прошлой неделе</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Предупреждение показано для %d сайта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Предупреждение показано для %d сайтов</item>
+        <item quantity="many">Предупреждение показано для %d сайтов</item>
+        <item quantity="other">Предупреждение показано для %d сайта</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы посетили %d вредоносный сайт без предупреждения</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы посетили %d вредоносных сайта без предупреждения</item>
+        <item quantity="many">Вы посетили %d вредоносных сайтов без предупреждения</item>
+        <item quantity="other">Вы посетили %d вредоносного сайта без предупреждения</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Всего %d аудиофайл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Всего %d аудиофайла</item>
+        <item quantity="many">Всего %d аудиофайлов</item>
+        <item quantity="other">Всего %d аудиофайла</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Всего %d документ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Всего %d документа</item>
+        <item quantity="many">Всего %d документов</item>
+        <item quantity="other">Всего %d документа</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сегодня загружен %d файл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сегодня загружено %d файла</item>
+        <item quantity="many">Сегодня загружено %d файлов</item>
+        <item quantity="other">Сегодня загружено %d файла</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Всего %d файл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Всего %d файла</item>
+        <item quantity="many">Всего %d файлов</item>
+        <item quantity="other">Всего %d файла</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Всего %d изображение</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Всего %d изображения</item>
+        <item quantity="many">Всего %d изображений</item>
+        <item quantity="other">Всего %d изображения</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Всего %d видео</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Всего %d видео</item>
+        <item quantity="many">Всего %d видео</item>
+        <item quantity="other">Всего %d видео</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d файл?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d файла?</item>
+        <item quantity="many">Удалить %d файлов?</item>
+        <item quantity="other">Удалить %d файла?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Переместить %d элемент из секретных загрузок в общедоступные?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Переместить %d элемента из секретных загрузок в общедоступные?</item>
+        <item quantity="many">Переместить %d элементов из секретных загрузок в общедоступные?</item>
+        <item quantity="other">Переместить %d элемента из секретных загрузок в общедоступные?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d элемент из журнала загрузок?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d элемента из журнала загрузок?</item>
+        <item quantity="many">Удалить %d элементов из журнала загрузок?</item>
+        <item quantity="other">Удалить %d элемента из журнала загрузок?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d изображение загружено</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d изображения загружены</item>
+        <item quantity="many">%d изображений загружено</item>
+        <item quantity="other">%d изображения загружено</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">Загружено 1 изображение, не удалось загрузить: 1</item>
+        <item quantity="other">Загружено изображений: %d, не удалось загрузить: 1</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Сбой загрузки изображения</item>
+        <item quantity="other">Сбой загрузки изображений</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">Загружено 1 изображение, не удалось загрузить: %d</item>
+        <item quantity="other">Загружено изображений: %1$d, не удалось загрузить: %2$d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Загрузка приостановлена</item>
+        <item quantity="other">Приостановлено (загружено изображений: %1$d/%2$d)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Загружен %d файл.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Загружено %d файла.</item>
+        <item quantity="many">Загружено %d файлов.</item>
+        <item quantity="other">Загружено %d файла.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d день до удаления</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дня до удаления</item>
+        <item quantity="many">%d дней до удаления</item>
+        <item quantity="other">%d дня до удаления</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s: просмотрена %1$d веб-страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s: просмотрено %1$d веб-страницы</item>
+        <item quantity="many">%2$s: просмотрено %1$d веб-страниц</item>
+        <item quantity="other">%2$s: просмотрено %1$d веб-страницы</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сегодня посещена %d веб-страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сегодня посещено %d веб-страницы</item>
+        <item quantity="many">Сегодня посещено %d веб-страниц</item>
+        <item quantity="other">Сегодня посещено %d веб-страницы</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вчера посещена %d веб-страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вчера посещено %d веб-страницы</item>
+        <item quantity="many">Вчера посещено %d веб-страниц</item>
+        <item quantity="other">Вчера посещено %d веб-страницы</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d элемент из журнала?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d элемента из журнала?</item>
+        <item quantity="many">Удалить %d элементов из журнала?</item>
+        <item quantity="other">Удалить %d элемента из журнала?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Попыток запуска Samsung Internet: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Попыток запуска Samsung Internet: %d</item>
+        <item quantity="many">Попыток запуска Samsung Internet: %d</item>
+        <item quantity="other">Попыток запуска Samsung Internet: %d</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Попыток запуска приложения “Интернет”: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Попыток запуска приложения “Интернет”: %d</item>
+        <item quantity="many">Попыток запуска приложения “Интернет”: %d</item>
+        <item quantity="other">Попыток запуска приложения “Интернет”: %d</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано: %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано: %d раза</item>
+        <item quantity="many">Заблокировано: %d раз</item>
+        <item quantity="other">Заблокировано: %d раза</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Открыто %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Открыто %d раза</item>
+        <item quantity="many">Открыто %d раз</item>
+        <item quantity="other">Открыто %d раза</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно открыть больше %d окна приложений.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно открыть больше %d окон приложений.</item>
+        <item quantity="many">Невозможно открыть больше %d окон приложений.</item>
+        <item quantity="other">Невозможно открыть больше %d окна приложений.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d элемент из журнала?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d элемента из журнала?</item>
+        <item quantity="many">Удалить %d элементов из журнала?</item>
+        <item quantity="other">Удалить %d элемента из журнала?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уведомления от сайта %1$s будут заблокированы на %2$d день.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Уведомления от сайта %1$s будут заблокированы на %2$d дня.</item>
+        <item quantity="many">Уведомления от сайта %1$s будут заблокированы на %2$d дней.</item>
+        <item quantity="other">Уведомления от сайта %1$s будут заблокированы на %2$d дня.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно добавить больше %d стикера.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно добавить больше %d стикеров.</item>
+        <item quantity="many">Невозможно добавить больше %d стикеров.</item>
+        <item quantity="other">Невозможно добавить больше %d стикера.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно добавить больше %d стикера. Чтобы удалить стикеры, откройте фоторедактор в “Галерее”.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно добавить больше %d стикеров. Чтобы удалить стикеры, откройте фоторедактор в “Галерее”.</item>
+        <item quantity="many">Невозможно добавить больше %d стикеров. Чтобы удалить стикеры, откройте фоторедактор в “Галерее”.</item>
+        <item quantity="other">Невозможно добавить больше %d стикера. Чтобы удалить стикеры, откройте фоторедактор в “Галерее”.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="many">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+        <item quantity="other">Использовать %2$s могут только лица, достигшие %1$d-летнего возраста.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Использовать интеллектуальные инструменты Galaxy AI могут только пользователи, которым исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Использовать интеллектуальные инструменты Galaxy AI могут только пользователи, которым исполнилось %d года.</item>
+        <item quantity="many">Использовать интеллектуальные инструменты Galaxy AI могут только пользователи, которым исполнилось %d лет.</item>
+        <item quantity="other">Использовать интеллектуальные инструменты Galaxy AI могут только пользователи, которым исполнилось %d года.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Смарт-функции могут использовать только люди, которым исполнился %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Смарт-функции могут использовать только люди, которым исполнилось %d года.</item>
+        <item quantity="many">Смарт-функции могут использовать только люди, которым исполнилось %d лет.</item>
+        <item quantity="other">Смарт-функции могут использовать только люди, которым исполнилось %d года.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d рекламное объявление</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d рекламных объявления</item>
+        <item quantity="many">Заблокировано %d рекламных объявлений</item>
+        <item quantity="other">Заблокировано %d рекламного объявления</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Используется %d файл cookie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Используется %d файла cookie</item>
+        <item quantity="many">Используется %d файлов cookie</item>
+        <item quantity="other">Используется %d файла cookie</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокирована %d попытка отслеживания</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d попытки отслеживания</item>
+        <item quantity="many">Заблокировано %d попыток отслеживания</item>
+        <item quantity="other">Заблокировано %d попытки отслеживания</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d объявление за эту неделю.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d объявления за эту неделю.</item>
+        <item quantity="many">Заблокировано %d объявлений за эту неделю.</item>
+        <item quantity="other">Заблокировано %d объявления за эту неделю.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Предотвращена %d попытка отслеживания за эту неделю.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Предотвращено %d попытки отслеживания за эту неделю.</item>
+        <item quantity="many">Предотвращено %d попыток отслеживания за эту неделю.</item>
+        <item quantity="other">Предотвращено %d попытки отслеживания за эту неделю.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Предотвращена %d попытка отслеживания за сегодня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Предотвращено %d попытки отслеживания за сегодня.</item>
+        <item quantity="many">Предотвращено %d попыток отслеживания за сегодня.</item>
+        <item quantity="other">Предотвращено %d попытки отслеживания за сегодня.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d нежелательное перенаправление за эту неделю.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d нежелательных перенаправления за эту неделю.</item>
+        <item quantity="many">Заблокировано %d нежелательных перенаправлений за эту неделю.</item>
+        <item quantity="other">Заблокировано %d нежелательного перенаправления за эту неделю.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d всплывающее сообщение за эту неделю.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d всплывающих сообщения за эту неделю.</item>
+        <item quantity="many">Заблокировано %d всплывающих сообщений за эту неделю.</item>
+        <item quantity="other">Заблокировано %d всплывающего сообщения за эту неделю.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удален %d ярлык.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалено %d ярлыка.</item>
+        <item quantity="many">Удалено %d ярлыков.</item>
+        <item quantity="other">Удалено %d ярлыка.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно добавить более %d ярлыка за раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно добавить более %d ярлыков за раз.</item>
+        <item quantity="many">Невозможно добавить более %d ярлыков за раз.</item>
+        <item quantity="other">Невозможно добавить более %d ярлыка за раз.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d устройство?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d устройства?</item>
+        <item quantity="many">Удалить %d устройств?</item>
+        <item quantity="other">Удалить %d устройства?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Добавлен %d ярлык.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Добавлено %d ярлыка.</item>
+        <item quantity="many">Добавлено %d ярлыков.</item>
+        <item quantity="other">Добавлено %d ярлыка.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Удалить %d сохраненную страницу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Удалить %d сохраненные страницы?</item>
+        <item quantity="many">Удалить %d сохраненных страниц?</item>
+        <item quantity="other">Удалить %d сохраненной страницы?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сохранена %d страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сохранено %d страницы</item>
+        <item quantity="many">Сохранено %d страниц</item>
+        <item quantity="other">Сохранено %d страницы</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сегодня сохранена %d страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сегодня сохранено %d страницы</item>
+        <item quantity="many">Сегодня сохранено %d страниц</item>
+        <item quantity="other">Сегодня сохранено %d страницы</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сохр. стр. готова к синхр.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d сохр. стр. готовы к синхр.</item>
+        <item quantity="many">%d сохр. страниц готово к синхр.</item>
+        <item quantity="other">%d сохр. стр. готово к синхр.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d прерывание за сегодня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d прерывания за сегодня</item>
+        <item quantity="many">%d прерываний за сегодня</item>
+        <item quantity="other">%d прерывания за сегодня</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокирован %d отвлекающий элемент за сегодня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d отвлекающих элемента за сегодня</item>
+        <item quantity="many">Заблокировано %d отвлекающих элементов за сегодня</item>
+        <item quantity="other">Заблокировано %d отвлекающего элемента за сегодня</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Доступ к Интернету заблокирован для %d приложения</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Доступ к Интернету заблокирован для %d приложений</item>
+        <item quantity="many">Доступ к Интернету заблокирован для %d приложений</item>
+        <item quantity="other">Доступ к Интернету заблокирован для %d приложения</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За сегодня %d приложению заблокирована возможность запуска приложения “Интернет”</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За сегодня %d приложениям заблокирована возможность запуска приложения “Интернет”</item>
+        <item quantity="many">За сегодня %d приложениям заблокирована возможность запуска приложения “Интернет”</item>
+        <item quantity="other">За сегодня %d приложения заблокирована возможность запуска приложения “Интернет”</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d всплывающее окно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d всплывающих окна</item>
+        <item quantity="many">Заблокировано %d всплывающих окон</item>
+        <item quantity="other">Заблокировано %d всплывающего окна</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сегодня заблокировано %d всплывающее окно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сегодня заблокировано %d всплывающих окна</item>
+        <item quantity="many">Сегодня заблокировано %d всплывающих окон</item>
+        <item quantity="other">Сегодня заблокировано %d всплывающего окна</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано %d обратное перенаправление</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано %d обратных перенаправления</item>
+        <item quantity="many">Заблокировано %d обратных перенаправлений</item>
+        <item quantity="other">Заблокировано %d обратного перенаправления</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблокировано обратных перенаправлений за сегодня: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблокировано обратных перенаправлений за сегодня: %d</item>
+        <item quantity="many">Заблокировано обратных перенаправлений за сегодня: %d</item>
+        <item quantity="other">Заблокировано обратных перенаправлений за сегодня: %d</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можно заблокировать еще %d трекер</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можно заблокировать еще %d трекера</item>
+        <item quantity="many">Можно заблокировать еще %d трекеров</item>
+        <item quantity="other">Можно заблокировать еще %d трекера</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d вкладка выбрана для закрытия</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d вкладки выбраны для закрытия</item>
+        <item quantity="many">%d вкладок выбраны для закрытия</item>
+        <item quantity="other">%d вкладки выбрано для закрытия</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Найдена %d вкладка, которую вы, возможно, захотите закрыть</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Найдены %d вкладки, которые вы, возможно, захотите закрыть</item>
+        <item quantity="many">Найдены %d вкладок, которые вы, возможно, захотите закрыть</item>
+        <item quantity="other">Найдены %d вкладки, которые вы, возможно, захотите закрыть</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно заблокировать больше %d вкладки.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно заблокировать больше %d вкладок.</item>
+        <item quantity="many">Невозможно заблокировать больше %d вкладок.</item>
+        <item quantity="other">Невозможно заблокировать больше %d вкладки.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Срок действия истекает завтра</item>
+        <item quantity="few">Срок действия истекает через %d дня</item>
+        <item quantity="many">Срок действия истекает через %d дней</item>
+        <item quantity="other">Срок действия истекает через %d дня</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбран %d элемент</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбраны %d элемента</item>
+        <item quantity="many">Выбрано %d элементов</item>
+        <item quantity="other">Выбрано %d элемента</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d веб-страница</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d веб-страницы</item>
+        <item quantity="many">%d веб-страниц</item>
+        <item quantity="other">%d веб-страницы</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d веб-сайт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d веб-сайта</item>
+        <item quantity="many">%d веб-сайтов</item>
+        <item quantity="other">%d веб-сайта</item>
+    </plurals>
+</resources>

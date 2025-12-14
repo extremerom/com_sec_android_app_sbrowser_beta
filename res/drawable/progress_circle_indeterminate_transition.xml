@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/progress_circle_indeterminate"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="s5" android:animation="@anim/progresscircleindeterminate_group0" />
+    <target android:name="s5s4" android:animation="@anim/progresscircleindeterminate_group5" />
+    <target android:name="s4" android:animation="@anim/progresscircleindeterminate_group7" />
+    <target android:name="s5s3" android:animation="@anim/progresscircleindeterminate_group12" />
+    <target android:name="s3" android:animation="@anim/progresscircleindeterminate_group14" />
+    <target android:name="s5s2" android:animation="@anim/progresscircleindeterminate_group19" />
+    <target android:name="s2" android:animation="@anim/progresscircleindeterminate_group21" />
+    <target android:name="s5s1" android:animation="@anim/progresscircleindeterminate_group26" />
+    <target android:name="s1" android:animation="@anim/progresscircleindeterminate_group28" />
+</animated-vector>

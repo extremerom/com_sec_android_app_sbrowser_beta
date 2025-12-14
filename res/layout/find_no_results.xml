@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/page_dimmer" android:background="@color/no_result_bg_color" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/find_no_results_text_size" android:textColor="@color/basic_no_result_found_text" android:id="@id/no_result_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_no_result" android:layout_centerInParent="true" style="@style/RobotoRegular" />
+</RelativeLayout>

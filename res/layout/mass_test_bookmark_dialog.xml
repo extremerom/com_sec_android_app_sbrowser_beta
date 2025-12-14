@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dp" android:textColor="@color/text_color_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How many bookmarks" />
+    <EditText android:id="@id/mass_bookmark_dialog_bookmark_num" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:inputType="number" />
+    <TextView android:textSize="15.0dp" android:textColor="@color/text_color_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="How many bookmark folders" />
+    <EditText android:id="@id/mass_bookmark_dialog_folder_num" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:inputType="number" />
+    <CheckBox android:id="@id/mass_bookmark_dialog_place_to_folder_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Place bookmarks to the folder" />
+    <CheckBox android:id="@id/mass_bookmark_dialog_one_depth_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" android:text="Do not make child folders" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:focusable="true" android:clickable="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/toolbar_option_menu_secondary_item_min_width" android:minHeight="@dimen/toolbar_option_menu_secondary_item_height" style="@style/MoreMenuButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/item_container" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/toolbar_option_menu_grid_item_min_width" android:minHeight="@dimen/toolbar_option_menu_secondary_item_height">
+        <RelativeLayout android:gravity="center|bottom" android:id="@id/top_container" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_option_menu_secondary_item_icon_container_height" android:layout_marginBottom="@dimen/toolbar_option_menu_grid_item_icon_container_padding_bottom" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/icon_container" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icon" android:focusable="false" android:clickable="false" android:layout_width="@dimen/toolbar_option_menu_grid_item_icon_size" android:layout_height="@dimen/toolbar_option_menu_grid_item_icon_size" />
+                <TextView android:textSize="@dimen/bottombar_more_menu_contents_blocked_counts_text_size" android:textColor="@color/toolbar_option_menu_contents_blocked_counts_text_color" android:gravity="center_vertical" android:id="@id/blocked_contents_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/toolbar_option_menu_grid_item_icon_size" style="@style/RobotoMedium" />
+            </LinearLayout>
+            <LinearLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottombar_more_menu_item_badge_margin_top" android:layout_alignTop="@id/icon_container" android:layout_marginEnd="@dimen/bottombar_more_menu_item_badge_margin_end" android:layout_alignEnd="@id/icon_container">
+                <include android:id="@id/more_menu_grid_item_badge" layout="@layout/badge" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/toolbar_option_menu_grid_item_text_size" android:ellipsize="end" android:gravity="center|top" android:id="@id/text" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/top_container" android:layout_centerHorizontal="true" android:importantForAccessibility="no" app:textSizeDp="@dimen/toolbar_option_menu_grid_item_max_text_size" style="@style/RobotoRegular" />
+    </RelativeLayout>
+</RelativeLayout>

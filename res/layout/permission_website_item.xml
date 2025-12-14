@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/container" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingEnd="?android:scrollbarSize">
+        <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/show_bookmarks_tag_image_width" android:layout_height="@dimen/show_bookmarks_tag_image_height" android:layout_marginStart="@dimen/show_bookmarks_folder_image_margin_start">
+            <ImageView android:layout_gravity="center" android:id="@id/folder_icon" android:layout_width="@dimen/show_bookmarks_tag_image_width" android:layout_height="@dimen/show_bookmarks_tag_image_height" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/title_summary_container" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_website_title_margin_start" android:layout_marginBottom="@dimen/preference_website_title_margin_start" android:layout_weight="1.0" android:layout_marginEnd="@dimen/preference_website_title_margin_start">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/settings_preference_title_color" android:ellipsize="marquee" android:id="@id/url" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </RelativeLayout>
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/origin_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/web_push_switch_margin_end" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/sites_permission_divider" android:background="@color/show_bookmarks_list_divider_shadow_color" android:layout_width="match_parent" android:layout_height="@dimen/show_bookmarks_folder_url_list_divider_height" android:layout_marginStart="@dimen/websitedata_winset_delta_latte_list_padding_start" android:layout_marginEnd="@dimen/websitedata_winset_delta_latte_list_padding_end" />
+</FrameLayout>

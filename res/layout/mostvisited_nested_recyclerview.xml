@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/most_visited_card_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/most_visited_view_margin_horizontal" android:layout_marginVertical="@dimen/most_visited_view_margin_vertical" app:cardCornerRadius="@dimen/most_visited_view_rounded_corner_width" app:cardElevation="@dimen/most_visited_view_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/most_visited_header" android:paddingTop="@dimen/most_visited_view_sub_header_padding_top" android:paddingBottom="@dimen/most_visited_view_sub_header_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/most_visited_view_sub_header_padding_horizontal">
+            <TextView android:textSize="@dimen/most_visited_view_title_size" android:textColor="@color/most_visited_view_title_color" android:ellipsize="end" android:id="@id/most_visited_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/most_visited_view_title" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/RobotoMedium" />
+        </RelativeLayout>
+        <com.sec.android.app.sbrowser.quickaccess.ui.page.MostVisitedIconRecyclerView android:id="@id/mostvisited_nested_recyclerview" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quickaccess_nested_recyclerview_margin_top" android:layout_marginBottom="@dimen/most_visited_icon_view_item_parent_layout_margin_bottom" />
+    </LinearLayout>
+</LinearLayout>

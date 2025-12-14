@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:title="@string/quickaccess_settings_edit_shortcuts" android:selectable="false" />
+    <androidx.preference.Preference android:title="@string/homepage_settings_edit_shortcuts" android:key="@string/pref_quickaccess_edit_shortcuts_key" />
+    <androidx.preference.Preference android:title="@string/add_shortcuts_from_other_devices" android:key="@string/pref_quickaccess_add_shortcuts_key" />
+</androidx.preference.PreferenceScreen>

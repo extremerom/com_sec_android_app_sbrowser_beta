@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/virtual_card_preview_background_height" android:top="@dimen/virtual_card_preview_background_top">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_black" />
+            <corners android:radius="@dimen/virtual_card_preview_background_border_radius" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:left="@dimen/virtual_card_tooltip_pointer_width" android:bottom="@dimen/virtual_card_tooltip_pointer_padding">
+        <vector android:height="@dimen/virtual_card_tooltip_pointer_height" android:width="@dimen/virtual_card_tooltip_pointer_width" android:viewportWidth="100.0" android:viewportHeight="100.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <group android:name="triableGroup">
+                <path android:name="triangle" android:fillColor="@color/color_black" android:pathData="M 0,10 L0,50 L20,50 z" />
+            </group>
+        </vector>
+    </item>
+</layer-list>

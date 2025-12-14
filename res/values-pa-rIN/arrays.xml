@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>ਸਾਰੀਆਂ ਕੁੱਕੀਜ਼ ਦੀ ਆਗਿਆ ਦਿਉ</item>
+        <item>ਤੀਜੀ-ਧਿਰ ਕੁੱਕੀਜ਼ ਨੂੰ ਬਲੌਕ ਕਰੋ</item>
+        <item>ਸਾਰੀਆਂ ਕੁੱਕੀਜ਼ ਨੂੰ ਬਲੌਕ ਕਰੋ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ਡਿਵਾਈਸ</item>
+        <item>SD ਕਾਰਡ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ਡਿਫੌਲਟ</item>
+        <item>ਕੁਇੱਕ ਐਕਸੈੱਸ</item>
+        <item>ਮੌਜੂਦਾ ਪੰਨਾ</item>
+        <item>ਕਸਟਮ ਪੰਨਾ</item>
+    </string-array>
+</resources>

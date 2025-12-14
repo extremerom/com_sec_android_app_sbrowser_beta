@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="@dimen/bookmark_sort_types_item_text_size" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/sort_type_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@null" android:minWidth="@dimen/bookmark_sort_types_item_min_width" android:minHeight="@dimen/bookmark_sort_types_item_min_height" android:singleLine="true" android:paddingStart="@dimen/bookmark_sort_types_item_padding" android:paddingEnd="@dimen/bookmark_sort_types_item_padding" android:stateListAnimator="?seslSmallTouchAnimator" style="?android:spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

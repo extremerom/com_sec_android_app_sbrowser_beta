@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/tin_select_action_popup_assist_items" android:orderInCategory="1" />
+    <group android:id="@id/tin_select_action_popup_default_items" />
+    <group android:id="@id/tin_select_action_popup_text_processing_menus" />
+    <group android:id="@id/tin_select_action_popup_extension_menus" />
+</menu>

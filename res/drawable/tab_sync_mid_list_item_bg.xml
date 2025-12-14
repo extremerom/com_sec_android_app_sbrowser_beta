@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-1.0dp" android:right="-1.0dp" android:bottom="-1.0dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tab_sync_list_item_border_width" android:color="@color/new_tab_sync_list_item_border_color" />
+            <solid android:color="@color/new_tab_sync_list_item_bg_color" />
+        </shape>
+    </item>
+    <item android:left="-1.0dp" android:top="-1.0dp" android:bottom="-1.0dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/tab_sync_list_item_border_width" android:color="@color/new_tab_sync_list_item_border_color" />
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+</layer-list>

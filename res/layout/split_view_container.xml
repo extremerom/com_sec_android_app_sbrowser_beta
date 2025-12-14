@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/split_view_with_blur_layout" android:tag="layout/split_view_container_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/split_view_webpage_blur_view" android:background="@color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toStartOf="@id/split_view_container" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/split_view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+</RelativeLayout>

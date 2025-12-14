@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/pref_labs_title" android:key="internet_labs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:title="@string/pref_labs_common_description" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/pref_labs_system_font_title" android:key="pref_use_system_font" app:sa_eventId="@string/sa_event_settings_use_system_font" app:sa_statusId="@string/sa_status_settings_use_system_font" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/trans_split_scroll_sync_title" android:key="pref_trans_split_scroll_sync" android:summary="@string/trans_split_scroll_sync_summary" app:sa_eventId="@string/sa_event_settings_trans_split_scroll_sync" app:sa_statusId="@string/sa_status_settings_trans_split_scroll_sync" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/pref_labs_updated_samsung_internet_title" android:key="pref_use_updated_samsung_internet" android:summary="@string/pref_labs_updated_samsung_internet_description" android:defaultValue="true" app:sa_eventId="@string/sa_event_settings_use_latest_visual_style" app:sa_statusId="@string/sa_status_settings_use_latest_visual_style" searchable="true" />
+</androidx.preference.PreferenceScreen>

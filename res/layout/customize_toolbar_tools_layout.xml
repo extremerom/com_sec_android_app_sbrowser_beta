@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/primary_menu_recycler_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:importantForAccessibility="yes" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/customize_toolbar_tools_secondary_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customize_toolbar_tools_secondary_container_top_margin">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customize_toolbar_tools_secondary_top_margin">
+                <com.sec.android.app.sbrowser.toolbar.MoreMenuPagerView android:id="@id/menu_view_pager" android:layout_width="match_parent" android:layout_height="@dimen/customize_toolbar_tools_secondary_view_height" />
+            </FrameLayout>
+            <com.sec.android.app.sbrowser.settings.customize_toolbar.ui.view.CustomizeToolbarPageIndicator android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/menu_page_indicator" android:layout_width="match_parent" android:layout_height="@dimen/customize_toolbar_page_indicator_height" android:layout_marginBottom="@dimen/toolbar_option_menu_page_indicator_bottom_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

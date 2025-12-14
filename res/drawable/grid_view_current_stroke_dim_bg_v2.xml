@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shadow" android:left="@dimen/multi_tab_grid_item_current_mark_stroke_shadow" android:top="@dimen/multi_tab_grid_item_current_mark_stroke_shadow" android:right="@dimen/multi_tab_grid_item_current_mark_stroke_shadow">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/tab_manager_checked_item_dim_filter_color" />
+            <stroke android:width="@dimen/multi_tab_grid_item_current_mark_stroke_width" android:color="@color/multi_tab_grid_item_current_mark_shadow_color" />
+            <corners android:radius="@dimen/multi_tab_grid_item_current_mark_radius" />
+        </shape>
+    </item>
+    <item android:id="@id/stroke">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/multi_tab_grid_item_current_mark_stroke_width" android:color="@color/multi_tab_grid_item_current_stroke_color" />
+            <corners android:radius="@dimen/multi_tab_grid_item_current_mark_radius" />
+        </shape>
+    </item>
+</layer-list>

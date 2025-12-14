@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quickaccess_dummy_url_bar_bottom_margin" android:layout_marginHorizontal="@dimen/quickaccess_dummy_url_bar_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.quickaccess.ui.page.QuickAccessDummyUrlBar android:id="@id/quickaccess_url_bar" android:background="@color/quickaccess_dummy_urlbar_background" android:focusable="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/toolbar_textfield_elevation">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/quickaccess_dummy_url_bar_height">
+            <ImageView android:id="@id/quickaccess_dummy_url_bar_search_icon" android:layout_width="@dimen/quickaccess_dummy_url_bar_magnify_icon_size" android:layout_height="@dimen/quickaccess_dummy_url_bar_magnify_icon_size" android:src="@drawable/toolbar_magnify" android:tint="@color/quickaccess_dummy_urlbar_magnify_icon_color" android:importantForAccessibility="no" android:layout_marginStart="@dimen/quickaccess_dummy_url_bar_magnify_icon_start_margin" />
+            <TextView android:textSize="@dimen/quickaccess_dummy_url_bar_text_size" android:textColor="@color/quickaccess_dummy_urlbar_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/quickaccess_dummy_url_bar_text" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/sbrowser_locationbar_hint" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/quickaccess_dummy_url_bar_hint_margin_start" android:layout_marginEnd="@dimen/quickaccess_dummy_url_bar_hint_margin_end" android:useLocalePreferredLineHeightForMinimum="false" style="@style/RobotoMedium" />
+        </LinearLayout>
+    </com.sec.android.app.sbrowser.quickaccess.ui.page.QuickAccessDummyUrlBar>
+</FrameLayout>

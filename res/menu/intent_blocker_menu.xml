@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/action_button_more">
+        <item android:id="@id/intent_blocker_menu_sort_by_numbers" android:title="@string/intent_blocker_menu_sort_by_numbers" />
+        <item android:id="@id/intent_blocker_menu_sort_by_timeline" android:title="@string/intent_blocker_menu_sort_by_timeline" />
+    </group>
+</menu>

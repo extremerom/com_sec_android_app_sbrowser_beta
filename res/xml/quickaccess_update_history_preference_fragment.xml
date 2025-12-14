@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="max histroy count" android:key="pref_quick_access_max_update_history_count" />
+    <Preference android:title="accumulate histroy count" android:key="pref_quick_access_accumulated_update_history_count" />
+</PreferenceScreen>

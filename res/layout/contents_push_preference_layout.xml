@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loading_progress_layout" android:background="@color/color_palette_list_view_action_bar_bg_color" android:paddingLeft="@dimen/contents_push_preference_layout_padding__horizontal" android:paddingTop="@dimen/contents_push_preference_layout_padding_vertical" android:paddingRight="@dimen/contents_push_preference_layout_padding__horizontal" android:paddingBottom="@dimen/contents_push_preference_layout_padding_vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="@dimen/contents_push_list_item_progress_bar_width" android:layout_height="@dimen/contents_push_list_item_progress_bar_height" android:indeterminateDrawable="@drawable/contents_push_progress_circle_indeterminate_large" android:layout_centerInParent="true" />
+</RelativeLayout>

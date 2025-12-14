@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">@dimen/default_elevation_2</dimen>
+    <dimen name="context_menu_dropdown_popup_stroke_width">3.0px</dimen>
+    <dimen name="toast_elevation">@dimen/default_elevation_1</dimen>
+    <dimen name="web_dark_mode_brightness_thumbnail_border">2.0px</dimen>
+</resources>

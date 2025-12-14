@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.tab_bar.ui.TabGroupScrollHeader android:gravity="start|center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_bar_group_shadow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/tab_bar_button_outer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tab_bar_group_shadow_header" android:layout_width="wrap_content" android:layout_height="@dimen/tab_bar_button_outer_height" android:layout_marginStart="@dimen/tab_bar_group_header_additional_margin" layout="@layout/tab_bar_group_header" />
+</com.sec.android.app.sbrowser.tab_bar.ui.TabGroupScrollHeader>

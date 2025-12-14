@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Keri %d sekund edasi</item>
+        <item quantity="other">Keri %d sekundit edasi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Keri %d sekund tagasi</item>
+        <item quantity="other">Keri %d sekundit tagasi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uus märguanne</item>
+        <item quantity="other">%d uut märguannet</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Aegub homme</item>
+        <item quantity="other">Aegub %d päeva pärast</item>
+    </plurals>
+</resources>

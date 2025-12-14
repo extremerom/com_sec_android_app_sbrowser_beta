@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>সব কুকির জন্য অনুমতি দিন</item>
+        <item>তৃতীয় পক্ষের কুকিগুলো ব্লক করুন</item>
+        <item>সব কুকি ব্লক করুন</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ডিভাইস</item>
+        <item>SD কার্ড</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ডিফল্ট</item>
+        <item>দ্রুত অ্যাক্সেস</item>
+        <item>বর্তমান পেইজ</item>
+        <item>স্বকীয় পেইজ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>標準</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/ja</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>全てのCookieを許可</item>
+        <item>サードパーティのCookieをブロック</item>
+        <item>全てのCookieをブロック</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>本体</item>
+        <item>外部SDカード</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>標準</item>
+        <item>クイックアクセス</item>
+        <item>現在のページ</item>
+        <item>カスタムページ</item>
+    </string-array>
+</resources>

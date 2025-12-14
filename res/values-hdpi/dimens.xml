@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_cursor_width">2.0px</dimen>
+    <dimen name="preference_settings_divider_height">2.0px</dimen>
+    <dimen name="settings_list_divider_width">1.0px</dimen>
+</resources>

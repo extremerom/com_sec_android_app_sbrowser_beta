@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/download_history_spinner_popup_background_color" />
+    <corners android:radius="@dimen/download_history_spinner_rounded_corner_radius" />
+    <stroke android:width="@dimen/find_on_page_toolbar_elevation" android:color="@color/autofill_spinner_boarder_stroke" />
+</shape>

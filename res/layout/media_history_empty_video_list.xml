@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/empty_video_history_list_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/no_download_text_size" android:textColor="@color/winset_no_item_main_text_color" android:gravity="center" android:id="@id/empty_video_history_list_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/download_no_items_text_margin_top" android:textAlignment="center" style="@style/RobotoRegular" />
+</androidx.core.widget.NestedScrollView>

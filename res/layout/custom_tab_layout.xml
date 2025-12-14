@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_width="0.0px" android:layout_height="0.0px" />
+    <ViewStub android:id="@id/custom_tab_handle_view_stub" android:visibility="gone" android:layout="@layout/custom_tab_handle_view" android:inflatedId="@id/custom_tab_handle_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/custom_tab_shadow_offset" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/custom_tab_coordinator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/custom_tab_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include android:layout_gravity="top" android:id="@id/custom_tab_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/custom_tab_toolbar_height" layout="@layout/custom_tab_toolbar" />
+        <ViewStub android:layout_gravity="start|bottom" android:id="@id/custom_tab_bottom_bar_stub" android:layout="@layout/custom_tab_bottom_bar" android:inflatedId="@id/custom_tab_bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</merge>

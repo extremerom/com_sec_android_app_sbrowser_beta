@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/knox_logo_layout" android:background="@android:color/transparent" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right|bottom" android:id="@id/knox_logo" android:layout_width="@dimen/knox_logo_width" android:layout_height="@dimen/knox_logo_height" android:layout_marginTop="@dimen/knox_logo_margin_top" android:layout_marginBottom="@dimen/knox_logo_margin_bottom" android:src="@drawable/bi_knox_secured" android:tint="@color/knox_logo_tint_color" android:layout_marginEnd="@dimen/knox_logo_margin_end" />
+</FrameLayout>

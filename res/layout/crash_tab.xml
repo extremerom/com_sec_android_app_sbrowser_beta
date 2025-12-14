@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/crash_tab_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|top" android:background="@drawable/crash_tab_panel_drop_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/crash_tab_layout_margin">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/crash_tab_panel_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/crash_tab_upper_panel_background" android:padding="@dimen/crash_tab_upper_panel_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/crash_tab_title_text_size" android:textStyle="bold" android:textColor="@color/crash_tab_title_text_color" android:id="@id/crash_tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/crash_tab_title" android:textIsSelectable="true" />
+            </LinearLayout>
+            <View android:background="@color/crash_tab_panel_spliter_color" android:layout_width="match_parent" android:layout_height="@dimen/crash_tab_panel_spliter_layout_height" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/crash_tab_lower_panel_background" android:paddingTop="@dimen/crash_tab_lower_panel_padding_top_bottom" android:paddingBottom="@dimen/crash_tab_lower_panel_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/crash_tab_lower_panel_padding_start_end" android:paddingEnd="@dimen/crash_tab_lower_panel_padding_start_end">
+                <TextView android:textSize="@dimen/crash_tab_message_text_size" android:textColor="@color/crash_tab_message_text_color" android:gravity="center" android:linksClickable="true" android:layout_gravity="center" android:id="@id/crash_tab_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/crash_tab_message_margin_bottom" android:maxWidth="@dimen/crash_tab_message_max_width" android:textIsSelectable="true" />
+                <Button android:textSize="@dimen/crash_tab_reload_button_text_size" android:textStyle="bold" android:textColor="@color/crash_tab_reload_button_text_color" android:id="@id/crash_tab_reload_button" android:background="@drawable/crash_tab_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/crash_tab_reload_button_width" android:minWidth="@dimen/crash_tab_reload_button_width" android:text="@string/crash_tab_reload_label" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

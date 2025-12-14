@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Permitir todas as cookies</item>
+        <item>Bloquear cookies de terceiros</item>
+        <item>Bloquear todas as cookies</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Tarx. SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Predeterminado</item>
+        <item>Acceso rápido</item>
+        <item>Páxina actual</item>
+        <item>Páxina personalizada</item>
+    </string-array>
+</resources>

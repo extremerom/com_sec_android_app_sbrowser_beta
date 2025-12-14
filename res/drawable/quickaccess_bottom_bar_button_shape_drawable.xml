@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/quickaccess_button_shape_radius" />
+    <padding android:left="@dimen/quickaccess_button_shape_padding_left" android:right="@dimen/quickaccess_button_shape_padding_right" android:bottom="@dimen/quickaccess_button_shape_padding_bottom" />
+    <solid android:color="@color/color_palette_list_view_bottom_bar_text_color" />
+</shape>

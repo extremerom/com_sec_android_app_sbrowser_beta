@@ -1,0 +1,54 @@
+.class public final synthetic LPb/l;
+.super Ltb/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lsb/k;
+
+
+# static fields
+.field public static final a:LPb/l;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    new-instance v6, LPb/l;
+
+    const-string v5, "<init>(Ljava/lang/reflect/Field;)V"
+
+    const/4 v2, 0x0
+
+    const/4 v1, 0x1
+
+    const-class v3, LPb/t;
+
+    const-string v4, "<init>"
+
+    move-object v0, v6
+
+    invoke-direct/range {v0 .. v5}, Ltb/j;-><init>(IILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v6, LPb/l;->a:LPb/l;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Ljava/lang/reflect/Field;
+
+    const-string p0, "p0"
+
+    invoke-static {p1, p0}, Ltb/k;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance p0, LPb/t;
+
+    invoke-direct {p0, p1}, LPb/t;-><init>(Ljava/lang/reflect/Field;)V
+
+    return-object p0
+.end method

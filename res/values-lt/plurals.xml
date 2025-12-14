@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandykite po %d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandykite po %d sek.</item>
+        <item quantity="many">Bandykite po %d sek.</item>
+        <item quantity="other">Bandykite po %d sek.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Parinkta: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Parinkta: %d</item>
+        <item quantity="many">Parinkta: %d</item>
+        <item quantity="other">Parinkta: %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d adresyno įrašų aplanką ir visus jame esančius adresyno įrašus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d adresyno įrašų aplankus ir visus juose esančius adresyno įrašus?</item>
+        <item quantity="many">Trinti %d adresyno įrašų aplankų ir visus juose esančius adresyno įrašus?</item>
+        <item quantity="other">Trinti %d adresyno įrašų aplankų ir visus juose esančius adresyno įrašus?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d adresyno įrašų aplanką?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d adresyno įrašų aplankus?</item>
+        <item quantity="many">Trinti %d adresyno įrašų aplankų?</item>
+        <item quantity="other">Trinti %d adresyno įrašų aplankų?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d elementas perkeltas į %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d elementai perkelti į %2$s.</item>
+        <item quantity="many">%1$d elementų perkelta į %2$s.</item>
+        <item quantity="other">%1$d elementų perkelta į %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d adresyno įrašas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d adresyno įrašai</item>
+        <item quantity="many">%d adresyno įrašų</item>
+        <item quantity="other">%d adresyno įrašų</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien pridėtas %d adr. įrašas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien pridėti %d adres. įraš.</item>
+        <item quantity="many">Šiandien pridėta %d adres. įraš.</item>
+        <item quantity="other">Šiandien pridėta %d adres. įraš.</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d adresyno įrašą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d adresyno įrašus?</item>
+        <item quantity="many">Trinti %d adresyno įrašo?</item>
+        <item quantity="other">Trinti %d adresyno įrašų?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sinchr. parengtas %d adr. įrašas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sinch. parengti %d adres. įrašai</item>
+        <item quantity="many">Sinch. parengta %d adres. įrašai</item>
+        <item quantity="other">Sinch. parengta %d adres. įrašai</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šią savaitę užblokuota %d reklama.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šią savaitę užblokuotos %d reklamos.</item>
+        <item quantity="many">Šią savaitę užblokuota %d reklamų.</item>
+        <item quantity="other">Šią savaitę užblokuota %d reklamų.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien užblokuota %d reklama.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien užblokuotos %d reklamos.</item>
+        <item quantity="many">Šiandien užblokuota %d reklamų.</item>
+        <item quantity="other">Šiandien užblokuota %d reklamų.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Paskutiniame puslapyje užblokuota %d reklama.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Paskutiniame puslapyje užblokuotos %d reklamos.</item>
+        <item quantity="many">Paskutiniame puslapyje užblokuota %d reklamų.</item>
+        <item quantity="other">Paskutiniame puslapyje užblokuota %d reklamų.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d peradresavimas užblokuotas praėjusią savaitę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d peradresavimai užblokuoti praėjusią savaitę</item>
+        <item quantity="many">%d peradresavimo užblokuota praėjusią savaitę</item>
+        <item quantity="other">%d peradresavimų užblokuota praėjusią savaitę</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d peradresavimas galėjo būti užblokuotas praėjusią savaitę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d peradresavimai galėjo būti užblokuoti praėjusią savaitę</item>
+        <item quantity="many">%d peradresavimo galėjo būti užblokuota praėjusią savaitę</item>
+        <item quantity="other">%d peradresavimų galėjo būti užblokuota praėjusią savaitę</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d iškylantysis langas užblokuotas praėjusią savaitę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d iškylantieji langai užblokuoti praėjusią savaitę</item>
+        <item quantity="many">%d iškylančiojo lango užblokuota praėjusią savaitę</item>
+        <item quantity="other">%d iškylančiųjų langų užblokuota praėjusią savaitę</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d iškylantysis langas galėjo būti užblokuotas praėjusią savaitę</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d iškylantieji langai galėjo būti užblokuoti praėjusią savaitę</item>
+        <item quantity="many">%d iškylančiojo lango galėjo būti užblokuota praėjusią savaitę</item>
+        <item quantity="other">%d iškylančiųjų langų galėjo būti užblokuota praėjusią savaitę</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Įspėjimai pateikti dėl %d svetainės</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Įspėjimai pateikti dėl %d svetainių</item>
+        <item quantity="many">Įspėjimai pateikti dėl %d svetainių</item>
+        <item quantity="other">Įspėjimai pateikti dėl %d svetainių</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Be įspėjimų apsilankyta %d kenkėjiškoje svetainėje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Be įspėjimų apsilankyta %d kenkėjiškose svetainėse</item>
+        <item quantity="many">Be įspėjimų apsilankyta %d kenkėjiškų svetainių</item>
+        <item quantity="other">Be įspėjimų apsilankyta %d kenkėjiškų svetainių</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kartai</item>
+        <item quantity="many">%d karto</item>
+        <item quantity="other">%d kartų</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iš viso %d garso failas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iš viso %d garso failai</item>
+        <item quantity="many">Iš viso %d garso failų</item>
+        <item quantity="other">Iš viso %d garso failų</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iš viso %d dokumentas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iš viso %d dokumentai</item>
+        <item quantity="many">Iš viso %d dokumentų</item>
+        <item quantity="other">Iš viso %d dokumentų</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien atsisiųstas %d failas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien atsisiųsti %d failai</item>
+        <item quantity="many">Šiandien atsisiųsta %d failų</item>
+        <item quantity="other">Šiandien atsisiųsta %d failų</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iš viso %d failas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iš viso %d failai</item>
+        <item quantity="many">Iš viso %d failų</item>
+        <item quantity="other">Iš viso %d failų</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iš viso %d vaizdas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iš viso %d vaizdai</item>
+        <item quantity="many">Iš viso %d vaizdų</item>
+        <item quantity="other">Iš viso %d vaizdų</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iš viso %d vaizdo įrašas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iš viso %d vaizdo įrašai</item>
+        <item quantity="many">Iš viso %d vaizdo įrašų</item>
+        <item quantity="other">Iš viso %d vaizdo įrašų</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d failą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d failus?</item>
+        <item quantity="many">Trinti %d failo?</item>
+        <item quantity="other">Trinti %d failų?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %d elementą iš slaptųjų atsisiuntimų į viešuosius atsisiuntimus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %d elementus iš slaptųjų atsisiuntimų į viešuosius atsisiuntimus?</item>
+        <item quantity="many">Perkelti %d elementų iš slaptųjų atsisiuntimų į viešuosius atsisiuntimus?</item>
+        <item quantity="other">Perkelti %d elementų iš slaptųjų atsisiuntimų į viešuosius atsisiuntimus?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šalinti %d elem. iš atsisiuntimų istorijos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šalinti %d elem. iš atsisiuntimų istorijos?</item>
+        <item quantity="many">Šalinti %d elem. iš atsisiuntimų istorijos?</item>
+        <item quantity="other">Šalinti %d elem. iš atsisiuntimų istorijos?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atsisiųstas %d vaizdas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atsisiųsti %d vaizdai</item>
+        <item quantity="many">Atsisiųsta %d vaizdų</item>
+        <item quantity="other">Atsisiųsta %d vaizdų</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">Atsisiųstas 1 vaizdas, nepavyko 1 vaizdo</item>
+        <item quantity="other">Atsisiųsta vaizdų: %d, nepavyko 1 vaizdo</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Nepavyko atsisiųsti nuotraukos</item>
+        <item quantity="other">Nepavyko atsisiųsti nuotraukų</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">Atsisiųstas 1 vaizdas, nepavyko %d vaizdų</item>
+        <item quantity="other">Atsisiųsta vaizdų: %1$d, nepavyko %2$d vaizdų</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Atsisiuntimas pristabdytas</item>
+        <item quantity="other">Pristabdyta (atsisiųsta vaizdų: %1$d/%2$d)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atsisiųstas %d failas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atsisiųsti %d failai.</item>
+        <item quantity="many">Atsisiųsta %d failo.</item>
+        <item quantity="other">Atsisiųsta %d failų.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Prasukti pirmyn %d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %d sekundės</item>
+        <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Atsukti atgal %d sekundę</item>
+        <item quantity="few">Atsukti atgal %d sekundes</item>
+        <item quantity="many">Atsukti atgal %d sekundės</item>
+        <item quantity="other">Atsukti atgal %d sekundžių</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d d. iki ištrynimo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d d. iki ištrynimo</item>
+        <item quantity="many">%d d. iki ištrynimo</item>
+        <item quantity="other">%d d. iki ištrynimo</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s aplankytas %1$d tinklalapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s aplankyti %1$d tinklalapiai</item>
+        <item quantity="many">%2$s aplankyta %1$d tinklalapių</item>
+        <item quantity="other">%2$s aplankyta %1$d tinklalapių</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien aplankytas %d tinklal.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien aplankyti %d tinklalap.</item>
+        <item quantity="many">Šiandien aplankyta %d tinklalap.</item>
+        <item quantity="other">Šiandien aplankyta %d tinklalap.</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vakar aplankytas %d tinklalapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vakar aplankyti %d tinklalapiai</item>
+        <item quantity="many">Vakar aplankyta %d tinklalapių</item>
+        <item quantity="other">Vakar aplankyta %d tinklalapių</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d elementą iš istorijos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d elementus iš istorijos?</item>
+        <item quantity="many">Trinti %d elemento iš istorijos?</item>
+        <item quantity="other">Trinti %d elementų iš istorijos?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandyta atidaryti „Samsung Internet“: %d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandyta atidaryti „Samsung Internet“: %d kartus</item>
+        <item quantity="many">Bandyta atidaryti „Samsung Internet“: %d kartų</item>
+        <item quantity="other">Bandyta atidaryti „Samsung Internet“: %d kartų</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandyta atidaryti interneto programą: %d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandyta atidaryti interneto programą: %d kartus</item>
+        <item quantity="many">Bandyta atidaryti interneto programą: %d kartų</item>
+        <item quantity="other">Bandyta atidaryti interneto programą: %d kartų</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuota: %d kartas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuota: %d kartai</item>
+        <item quantity="many">Užblokuota: %d kartų</item>
+        <item quantity="other">Užblokuota: %d kartų</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atidaryta %d kartą</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atidaryta %d kartus</item>
+        <item quantity="many">Atidaryta %d kartų</item>
+        <item quantity="other">Atidaryta %d kartų</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima atidaryti daugiau nei %d programos lango.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima atidaryti daugiau nei %d programos langų.</item>
+        <item quantity="many">Negalima atidaryti daugiau nei %d programos langų.</item>
+        <item quantity="other">Negalima atidaryti daugiau nei %d programos langų.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d elementą iš istorijos?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d elementus iš istorijos?</item>
+        <item quantity="many">Trinti %d elemento iš istorijos?</item>
+        <item quantity="other">Trinti %d elementų iš istorijos?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pranešimai iš %1$s bus blokuojami %2$d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pranešimai iš %1$s bus blokuojami %2$d d.</item>
+        <item quantity="many">Pranešimai iš %1$s bus blokuojami %2$d d.</item>
+        <item quantity="other">Pranešimai iš %1$s bus blokuojami %2$d d.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d lipduko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d lipdukų.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d lipdukų.</item>
+        <item quantity="other">Negalima pridėti daugiau nei %d lipdukų.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d lipduko. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+        <item quantity="other">Negalima pridėti daugiau nei %d lipdukų. Eikite į nuotraukų redagavimo priemonę galerijoje ir lipdukus pašalinkite.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metai.</item>
+        <item quantity="many">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+        <item quantity="other">Jei norite naudotis %2$s, jums turi būti ne mažiau kaip %1$d metų.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="many">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+        <item quantity="other">Kad galėtumėte naudotis „Galaxy AI“ pažangiojo intelekto funkcijomis, jums turi būti bent %d m.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kad galėtumėte naudotis išmaniosiomis funkcijomis, jums turi būti ne mažiau kaip %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kad galėtumėte naudotis išmaniosiomis funkcijomis, jums turi būti ne mažiau kaip %d m.</item>
+        <item quantity="many">Kad galėtumėte naudotis išmaniosiomis funkcijomis, jums turi būti ne mažiau kaip %d m.</item>
+        <item quantity="other">Kad galėtumėte naudotis išmaniosiomis funkcijomis, jums turi būti ne mažiau kaip %d m.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuotas %d skelbimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuoti %d skelbimai</item>
+        <item quantity="many">Užblokuota %d skelbimų</item>
+        <item quantity="other">Užblokuota %d skelbimų</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naudojamas %d slapukas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naudojami %d slapukai</item>
+        <item quantity="many">Naudojama %d slapukų</item>
+        <item quantity="other">Naudojama %d slapukų</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuotas %d bandymas sekti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuoti %d bandymai sekti</item>
+        <item quantity="many">Užblokuota %d bandymų sekti</item>
+        <item quantity="other">Užblokuota %d bandymų sekti</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šią savaitę užblokuota %d reklama.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šią savaitę užblokuotos %d reklamos.</item>
+        <item quantity="many">Šią savaitę užblokuota %d reklamų.</item>
+        <item quantity="other">Šią savaitę užblokuota %d reklamų.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šią savaitę apsaugojome jus nuo %d bandymo sekti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šią savaitę apsaugojome jus nuo %d bandymų sekti.</item>
+        <item quantity="many">Šią savaitę apsaugojome jus nuo %d bandymų sekti.</item>
+        <item quantity="other">Šią savaitę apsaugojome jus nuo %d bandymų sekti.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien apsaugojome jus nuo %d bandymo sekti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien apsaugojome jus nuo %d bandymų sekti.</item>
+        <item quantity="many">Šiandien apsaugojome jus nuo %d bandymų sekti.</item>
+        <item quantity="other">Šiandien apsaugojome jus nuo %d bandymų sekti.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šią savaitę užblokuotas %d nepageidaujamas nukreipimas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šią savaitę užblokuoti %d nepageidaujami nukreipimai.</item>
+        <item quantity="many">Šią savaitę užblokuota %d nepageidaujamų nukreipimų.</item>
+        <item quantity="other">Šią savaitę užblokuota %d nepageidaujamų nukreipimų.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šią savaitę užblokuotas %d iškylantysis langas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šią savaitę užblokuoti %d iškylantieji langai.</item>
+        <item quantity="many">Šią savaitę užblokuota %d iškylančiųjų langų.</item>
+        <item quantity="other">Šią savaitę užblokuota %d iškylančiųjų langų.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ištrintas %d trumpinys.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ištrinti %d trumpiniai.</item>
+        <item quantity="many">Ištrinta %d trumpinio.</item>
+        <item quantity="other">Ištrinta %d trumpinių.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienu kartu negalima pridėti daugiau nei %d trumpinį.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vienu kartu negalima pridėti daugiau nei %d trumpinių.</item>
+        <item quantity="many">Vienu kartu negalima pridėti daugiau nei %d trumpinių.</item>
+        <item quantity="other">Vienu kartu negalima pridėti daugiau nei %d trumpinių.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pašalinti %d įrenginį?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pašalinti %d įrenginius?</item>
+        <item quantity="many">Pašalinti %d įrenginių?</item>
+        <item quantity="other">Pašalinti %d įrenginių?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pridėtas %d trumpinys.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pridėti %d trumpiniai.</item>
+        <item quantity="many">Pridėta %d trumpinių.</item>
+        <item quantity="other">Pridėta %d trumpinių.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d išsaugotą puslapį?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d išsaugotus puslapius?</item>
+        <item quantity="many">Trinti %d išsaugoto puslapio?</item>
+        <item quantity="other">Trinti %d išsaugotų puslapių?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d išsaugotas puslapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d išsaugoti puslapiai</item>
+        <item quantity="many">%d išsaugoti puslapiai</item>
+        <item quantity="other">%d išsaugoti puslapiai</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien išsaugotas %d puslapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien išsaugoti %d puslapiai</item>
+        <item quantity="many">Šiandien išsaugota %d puslapių</item>
+        <item quantity="other">Šiandien išsaugota %d puslapių</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d išsaug. psl. parengtas sinch.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d išsaug. psl. parengti sinch.</item>
+        <item quantity="many">%d išsaug. psl. parengta sinch.</item>
+        <item quantity="other">%d išsaug. psl. parengta sinch.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien %d pertraukimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien %d pertraukimai</item>
+        <item quantity="many">Šiandien %d pertraukimų</item>
+        <item quantity="other">Šiandien %d pertraukimų</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien užblokuotas %d trukdis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien užblokuoti %d trukdžiai</item>
+        <item quantity="many">Šiandien užblokuota %d trukdžių</item>
+        <item quantity="other">Šiandien užblokuota %d trukdžių</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuota %d programa ir jai neleidžiama atidaryti interneto programos</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuota %d programų ir joms neleidžiama atidaryti interneto programos</item>
+        <item quantity="many">Užblokuota %d programų ir joms neleidžiama atidaryti interneto programos</item>
+        <item quantity="other">Užblokuotos %d programos ir joms neleidžiama atidaryti interneto programos</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa užblokuota ir jai šiandien neleidžiama atidaryti interneto programos</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos užblokuotos ir joms šiandien neleidžiama atidaryti interneto programos</item>
+        <item quantity="many">%d programų užblokuota ir joms šiandien neleidžiama atidaryti interneto programos</item>
+        <item quantity="other">%d programų užblokuota ir joms šiandien neleidžiama atidaryti interneto programos</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuotas %d iškylantysis langas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuota %d iškylančiųjų langų</item>
+        <item quantity="many">Užblokuota %d iškylančiųjų langų</item>
+        <item quantity="other">Užblokuoti %d iškylantieji langai</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien užblokuotas %d iškylantysis langas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien užblokuota %d iškylančiųjų langų</item>
+        <item quantity="many">Šiandien užblokuota %d iškylančiųjų langų</item>
+        <item quantity="other">Šiandien užblokuoti %d iškylantieji langai</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Užblokuotas %d atgalinis peradresavimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Užblokuota %d atgalinių peradresavimų</item>
+        <item quantity="many">Užblokuota %d atgalinių peradresavimų</item>
+        <item quantity="other">Užblokuoti %d atgaliniai peradresavimai</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien užblokuotas %d atgalinis peradresavimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien užblokuoti %d atgaliniai peradresavimai</item>
+        <item quantity="many">Šiandien užblokuota %d atgalinių peradresavimų</item>
+        <item quantity="other">Šiandien užblokuota %d atgalinių peradresavimų</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galėjo būti užblokuota dar %d stebėjimo priemonė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Galėjo būti užblokuota dar %d stebėjimo priemonės</item>
+        <item quantity="many">Galėjo būti užblokuota dar %d stebėjimo priemonių</item>
+        <item quantity="other">Galėjo būti užblokuota dar %d stebėjimo priemonių</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uždarymui pasirinktas %d skirtukas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Uždarymui pasirinkti %d skirtukai</item>
+        <item quantity="many">Uždarymui pasirinkti %d skirtukų</item>
+        <item quantity="other">Uždarymui pasirinkti %d skirtukų</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Radome %d skirtuką, kurį norėtumėte uždaryti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Radome %d skirtukus, kuriuos norėtumėte uždaryti</item>
+        <item quantity="many">Radome %d skirtukų, kuriuos norėtumėte uždaryti</item>
+        <item quantity="other">Radome %d skirtukų, kuriuos norėtumėte uždaryti</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima užrakinti daugiau nei %d skirtuko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima užrakinti daugiau nei %d skirtukų.</item>
+        <item quantity="many">Negalima užrakinti daugiau nei %d skirtukų.</item>
+        <item quantity="other">Negalima užrakinti daugiau nei %d skirtukų.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Galiojimo laikas baigsis rytoj</item>
+        <item quantity="few">Galiojimo laikas baigsis po %d dienų</item>
+        <item quantity="many">Galiojimo laikas baigsis po %d dienos</item>
+        <item quantity="other">Galiojimo laikas baigsis po %d dienų</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pasirinktas %d elementas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pasirinkti %d elementai</item>
+        <item quantity="many">Pasirinkta %d elementų</item>
+        <item quantity="other">Pasirinkta %d elementų</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tinklalapis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d tinklalapiai</item>
+        <item quantity="many">%d tinklalapių</item>
+        <item quantity="other">%d tinklalapių</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d svetainė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d svetainės</item>
+        <item quantity="many">%d svetainių</item>
+        <item quantity="other">%d svetainių</item>
+    </plurals>
+</resources>

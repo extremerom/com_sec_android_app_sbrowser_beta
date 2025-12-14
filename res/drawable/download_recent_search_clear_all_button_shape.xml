@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/history_download_recent_clear_all_button_shape_radius" />
+            <padding android:left="@dimen/history_download_recent_clear_all_button_shape_left_padding" android:top="@dimen/history_download_recent_clear_all_button_shape_top_padding" android:right="@dimen/history_download_recent_clear_all_button_shape_right_padding" android:bottom="@dimen/history_download_recent_clear_all_button_shape_bottom_padding" />
+            <stroke android:width="@dimen/history_download_recent_clear_all_button_shape_stroke_width" android:color="@color/color_primary_dark" />
+            <solid android:color="@color/color_primary_dark" />
+        </shape>
+    </item>
+</layer-list>

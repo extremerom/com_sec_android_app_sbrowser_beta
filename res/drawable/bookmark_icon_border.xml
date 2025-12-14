@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:height="@dimen/show_bookmarks_icon_size" android:width="@dimen/show_bookmarks_icon_size" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/show_bookmarks_icon_color" />
+    <corners android:radius="@dimen/show_bookmarks_icon_radius" />
+</shape>

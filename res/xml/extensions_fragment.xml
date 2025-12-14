@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:key="extensions_description" android:order="@integer/add_ons_extensions_description" />
+    <com.sec.android.app.sbrowser.blockers.content_block.view.ContentBlockBadgePreference android:key="pref_block_content" android:order="@integer/add_ons_ad_blockers_order" />
+    <androidx.preference.PreferenceCategory android:title="@string/content_blocker_suggested_title" android:selectable="false" android:key="extensions_add_ons_category" android:order="@integer/add_ons_extensions_category" />
+    <androidx.preference.PreferenceCategory android:title="@string/content_blocker_installed_title" android:selectable="false" android:key="extensions_installed_category" android:order="@integer/add_ons_installed_category" />
+</androidx.preference.PreferenceScreen>

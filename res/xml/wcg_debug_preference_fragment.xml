@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="@string/wcg_debug_is_screen_wide_color_gamut" android:key="pref_is_screen_wide_color_gamut_supported" />
+</androidx.preference.PreferenceScreen>

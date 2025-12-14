@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottombar_button_container" android:background="@drawable/item_background_touch_effect" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.toolbar.ToolbarImageButton android:id="@id/bottombar_image_view" android:tag="badge_view_icon" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+    <LinearLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottombar_more_badge_margin_top" android:layout_alignTop="@id/bottombar_image_view" android:layout_marginEnd="@dimen/bottombar_more_badge_margin_end" android:layout_alignEnd="@id/bottombar_image_view">
+        <include android:id="@id/bottombar_button_badge" layout="@layout/badge" />
+    </LinearLayout>
+</RelativeLayout>

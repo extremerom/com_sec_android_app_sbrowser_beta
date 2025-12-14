@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/search_widget_preview_wide_small_container_width_80" android:layout_height="@dimen/search_widget_preview_small_container_height_80"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/search_widget_preview_only_small_background" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/search_widget_new_preview_padding_horizontal_80" android:paddingVertical="@dimen/search_widget_new_preview_padding_vertical_80">
+        <LinearLayout android:gravity="center" android:id="@id/internet_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="0.0dp" android:layout_height="@dimen/search_widget_new_preview_small_icon_size_80" android:src="@drawable/open_internet_preview_ic" android:adjustViewBounds="true" android:layout_weight="0.45" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/search_text_background" android:layout_width="0.0dp" android:layout_height="@dimen/search_widget_new_preview_text_size_80" android:layout_weight="0.34" android:layout_marginHorizontal="@dimen/search_widget_new_preview_search_text_background_margin_horizontal_80">
+            <TextView android:textColor="@color/search_widget_new_preview_search_text_color" android:gravity="start|center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/search_widget_label" android:autoSizeTextType="uniform" android:autoSizeStepGranularity="0.100000024sp" android:autoSizeMinTextSize="1.0sp" android:autoSizeMaxTextSize="999.0sp" style="@style/RobotoMedium" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/voice_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="0.0dp" android:layout_height="@dimen/search_widget_new_preview_search_bar_voice_icon_size_80" android:src="@drawable/ic_samsung_keyboard_multimodal_svi" android:adjustViewBounds="true" android:tint="@color/search_widget_new_preview_icon_color" android:layout_weight="0.45" android:contentDescription="@string/web_search" android:tintMode="src_atop" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

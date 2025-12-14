@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/tab_manager_bottom_button_ripple_color_dark" app:seslRecoilMask="@drawable/tab_manager_bottom_button_mask" app:seslRecoilRadius="@dimen/tab_manager_bottom_button_radius" xmlns:app="http://schemas.android.com/apk/res-auto" />

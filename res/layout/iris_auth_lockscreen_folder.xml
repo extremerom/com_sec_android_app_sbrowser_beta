@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/iris_auth_background_folder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/auth_verification_view" />
+        <include layout="@layout/auth_lockscreen_buttons" />
+        <RelativeLayout android:id="@id/iris_header_view" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height">
+            <include layout="@layout/iris_preview" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

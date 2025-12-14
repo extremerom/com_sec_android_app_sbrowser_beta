@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/pref_autofill_forms_title_new" android:key="autofill_forms"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="@string/pref_remember_passwords_title_new" android:key="usernames_and_passwords" searchable="true" />
+    <androidx.preference.SeslSwitchPreferenceScreen android:title="@string/autofill_pref_title_profiles" android:key="autofill_profile" searchable="true" />
+    <androidx.preference.SeslSwitchPreferenceScreen android:title="@string/pref_autofill_credit_card_title" android:key="autofill_creditcard" searchable="true" />
+</androidx.preference.PreferenceScreen>

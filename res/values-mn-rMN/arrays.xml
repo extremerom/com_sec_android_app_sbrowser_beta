@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Бүх күүкиг зөвшөөрөх</item>
+        <item>Гуравдагч этгээдийн күүкиг хориглох</item>
+        <item>Бүх күүкиг хориглох</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Төхөөрөмж</item>
+        <item>SD карт</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Өгөгдмөл</item>
+        <item>Түргэн хандалт</item>
+        <item>Тухайн хуудас</item>
+        <item>Дурын хуудас</item>
+    </string-array>
+</resources>

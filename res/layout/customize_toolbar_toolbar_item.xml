@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/edit_toolbar_item_bg" android:background="@drawable/item_background_ripple" android:focusable="true" android:clickable="false" android:clipChildren="false" android:layout_width="0.0dp" android:layout_height="@dimen/customize_toolbar_toolbar_item_height" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/item_icon" android:layout_width="@dimen/bottombar_button_icon_size" android:layout_height="@dimen/bottombar_button_icon_size" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/select_icon" android:background="@drawable/customize_toolbar_toolbar_item_background" android:visibility="gone" android:layout_width="@dimen/customize_toolbar_placeholder_size" android:layout_height="@dimen/customize_toolbar_placeholder_size" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/delete_button" android:layout_width="@dimen/customize_toolbar_delete_button_size" android:layout_height="@dimen/customize_toolbar_delete_button_size" android:layout_marginTop="@dimen/customize_toolbar_delete_button_top_margin" android:src="@drawable/internet_tools_delete" android:layout_alignTop="@id/item_icon" android:layout_marginStart="@dimen/customize_toolbar_delete_button_start_margin" android:layout_alignStart="@id/item_icon" />
+</RelativeLayout>

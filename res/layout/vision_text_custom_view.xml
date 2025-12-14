@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/live_text_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.extract_text.LiveTextView android:id="@id/vision_text_client_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.appcompat.widget.SeslProgressBar android:theme="@style/ProgressCircleIndeterminateETMedium" android:id="@id/extract_text_progress" android:padding="@dimen/extract_text_progress_bar_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyle" />
+</RelativeLayout>

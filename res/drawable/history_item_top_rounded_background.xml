@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/bookmark_list_bg_color" />
+            <corners android:topLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:topRightRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="?android:colorControlHighlight">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/white" />
+                    <corners android:topLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:topRightRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <selector>
+            <item android:state_selected="true" android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="?android:colorControlHighlight" />
+                    <corners android:topLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:topRightRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+                </shape>
+            </item>
+            <item android:state_pressed="true" android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="?android:colorControlHighlight" />
+                    <corners android:topLeftRadius="@dimen/toolbar_option_menu_dialog_radius" android:topRightRadius="@dimen/toolbar_option_menu_dialog_radius" android:bottomLeftRadius="0.0dp" android:bottomRightRadius="0.0dp" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

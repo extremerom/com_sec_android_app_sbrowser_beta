@@ -1,0 +1,14 @@
+[
+  {
+    "host": "m.entertain.naver.com",
+    "article_path_regex": ".*\\/article\\/.*"
+  },
+  {
+    "host": "m.sports.naver.com",
+    "article_path_regex": ".*\\/article\\/.*"
+  },
+  {
+    "host": "www.newsmax.com",
+    "article_path_regex": ".*\\/id\\/.*"
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notification_parent_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/notification_container" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_screen_margin" android:paddingEnd="@dimen/settings_screen_margin">
+        <FrameLayout android:id="@id/notification_display_layout" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="@integer/history_listview_weight">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/notification" android:background="@color/color_palette_list_view_action_bar_bg_color" android:paddingBottom="@dimen/basic_list_bottom_padding" android:visibility="gone" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:childDivider="@null" android:divider="@null" android:nestedScrollingEnabled="true" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </FrameLayout>
+        <View android:id="@id/dummy_bottom_menu_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/basic_bottom_bar_icon_button_height" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/site_settings" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

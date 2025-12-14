@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/qrActionView" android:layout_width="wrap_content" android:layout_height="112.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="78.0dp" android:layout_height="56.0dp">
+        <ImageView android:layout_gravity="center" android:id="@id/qrActionIconBackground" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/qr_dialog_action_icon_background_stroke" />
+        <ImageView android:layout_gravity="center" android:id="@id/qrActionIcon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/qr_dialog_share_icon" app:tint="@color/textextraction_dialog_content_action_text_color" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/dialog_action_text_size" android:gravity="center_horizontal" android:id="@id/qrActionTextView" android:paddingTop="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="56.0dp" android:text="add to contacts" android:textAlignment="center" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:title="@string/quickaccess_settings_edit_shortcuts" android:key="@string/pref_quickaccess_edit_shortcuts_key" />
+</androidx.preference.PreferenceScreen>

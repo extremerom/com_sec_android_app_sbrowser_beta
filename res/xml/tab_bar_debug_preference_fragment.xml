@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_show_tab_button_id" android:summary="@string/pref_enable_show_tab_button_id" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_show_tab_button_id" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_show_tab_bar_scroll_button" android:summary="@string/pref_enable_show_tab_bar_scroll_button" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_show_tab_bar_scroll_button" />
+</androidx.preference.PreferenceScreen>

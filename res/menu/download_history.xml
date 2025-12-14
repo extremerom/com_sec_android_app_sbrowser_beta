@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/internet_ic_search" android:id="@id/download_history_search" android:title="@string/sites_search_options" app:showAsAction="always" />
+    <item android:id="@id/download_history_delete_original" android:title="@string/action_delete_from_download_history" app:showAsAction="never" />
+    <item android:id="@id/download_history_remove_from_history" android:title="@string/download_history_remove_files" app:showAsAction="never" />
+    <item android:id="@id/download_history_move" android:title="@string/download_history_move_out" android:showAsAction="never" />
+</menu>

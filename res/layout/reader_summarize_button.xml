@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:layout_gravity="center_vertical" android:id="@id/reader_summarize_button" android:visibility="gone" android:layout_width="@dimen/location_bar_icon_size" android:layout_height="match_parent" android:contentDescription="@string/reader_summarize" android:layout_marginStart="@dimen/location_bar_icon_margin" android:layout_marginEnd="@dimen/location_bar_icon_margin_end" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

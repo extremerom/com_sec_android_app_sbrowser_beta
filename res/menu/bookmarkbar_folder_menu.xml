@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/bookmarkbar_folder_menu">
+        <item android:id="@id/bookmarkbar_folder_menu_rename" android:title="@string/rename" />
+        <item android:id="@id/bookmarkbar_folder_menu_move" android:title="@string/show_bookmarks_move_command" />
+        <item android:id="@id/bookmarkbar_folder_menu_delete" android:title="@string/delete" />
+    </group>
+</menu>

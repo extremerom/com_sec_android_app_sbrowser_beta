@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/multi_tab_list_item_bg_radius_current" />
+    <stroke android:width="@dimen/multi_tab_list_item_out_stroke_current" android:color="@color/multi_tab_list_item_bg_stroke_color" />
+</shape>

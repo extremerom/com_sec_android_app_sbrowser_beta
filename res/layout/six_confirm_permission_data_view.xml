@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/features" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/basic_dialog_content_text_size" android:textColor="@color/basic_dialog_content_text_color" android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="•" android:singleLine="false" android:importantForAccessibility="no" android:fontFamily="sec-roboto-light" android:layout_marginStart="@dimen/basic_dialog_bullet_head_margin_start" />
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/basic_dialog_content_text_size" android:textColor="@color/basic_dialog_content_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" android:fontFamily="sec-roboto-light" android:layout_marginStart="@dimen/preference_website_title_margin_start" />
+</LinearLayout>

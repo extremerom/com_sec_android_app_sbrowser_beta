@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_save" android:id="@id/media_player_share" android:title="@string/media_player_share_video" />
+    <item android:icon="@android:drawable/ic_menu_save" android:id="@id/media_context_menu_save_video" android:title="@string/media_player_download_video" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/media_player_playback_speed_show" android:title="@string/media_player_speed_controls_show" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/media_player_set_ambient_mode" android:title="@string/media_player_disable_ambient_mode" />
+    <item android:icon="@android:drawable/ic_menu_upload" android:id="@id/media_context_menu_ext_container" android:title="@string/media_player_hide_subtitles_in_full_screen" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/basic_dialog_content_margin_bottom" android:text="@string/bio_auth_verify_your_identity_body" android:maxLines="4" style="@style/BasicDescription" />
+</merge>

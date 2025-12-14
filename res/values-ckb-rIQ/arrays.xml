@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_homepage_choices_new">
+        <item>Default</item>
+        <item>دەستپێگەیشتنی خێرا</item>
+        <item>لاپەڕەی ئێستا</item>
+        <item>Custom page</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Autoriser tous les témoins</item>
+        <item>Bloquer les témoins de tiers</item>
+        <item>Bloquer tous les témoins</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Appareil</item>
+        <item>Carte SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Par défaut</item>
+        <item>Accès rapide</item>
+        <item>Page actuelle</item>
+        <item>Page personnalisée</item>
+    </string-array>
+</resources>

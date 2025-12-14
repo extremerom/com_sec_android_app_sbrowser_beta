@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.main_view.SplitTabLayout android:orientation="horizontal" android:background="@color/split_tab_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/left_tab_holder_container" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginEnd="@dimen/split_tab_margin" layout="@layout/split_tab_container" />
+    <include android:id="@id/right_tab_holder_container" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/split_tab_margin" layout="@layout/split_tab_container" />
+</com.sec.android.app.sbrowser.main_view.SplitTabLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="match_parent" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/widget_shape_background_small_radius" android:topRightRadius="@dimen/widget_shape_background_big_radius" android:bottomLeftRadius="@dimen/widget_shape_background_big_radius" android:bottomRightRadius="@dimen/widget_shape_background_big_radius" />
+</shape>

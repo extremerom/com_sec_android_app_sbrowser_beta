@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.toolbar.ToolbarImageButton android:layout_gravity="center_vertical" android:id="@id/security_button" android:visibility="gone" android:layout_width="@dimen/location_bar_icon_size" android:layout_height="match_parent" android:contentDescription="@string/page_info_dialog_status_secure_connection"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

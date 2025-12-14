@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/media_player_play_speed_background_corner_radius" />
+    <solid android:color="@color/media_common_ripple_color_white" />
+</shape>

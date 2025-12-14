@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/no_shortcuts_nested_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SeslProgressBar android:id="@id/no_shortcuts_sync_refresh_progressbar" android:visibility="gone" android:layout_width="@dimen/quickaccess_sync_progressbar_size" android:layout_height="@dimen/quickaccess_sync_progressbar_size" />
+            <TextView android:textSize="@dimen/quickaccess_sync_no_shortcuts_title_size" android:textColor="@color/color_palette_quickaccess_sync_no_shortcuts_title_color" android:id="@id/no_shortcuts_title_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quickaccess_sync_no_shortcuts_title_margin_bottom" android:text="@string/no_shortcuts_on_other_devices" android:textAlignment="center" style="@style/RobotoRegular" />
+            <TextView android:textSize="@dimen/quickaccess_sync_no_shortcuts_subtitle_size" android:textColor="@color/color_palette_quickaccess_sync_no_shortcuts_subtitle_color" android:id="@id/no_shortcuts_subtitle_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginHorizontal="@dimen/quickaccess_sync_no_shortcuts_subtitle_margin_horizontal" style="@style/RobotoRegular" />
+            <TextView android:textSize="@dimen/quickaccess_sync_refresh_view_text_size" android:textColor="@color/color_palette_quickaccess_sync_refresh_view_text_color" android:id="@id/no_shortcuts_syncing_shortcuts_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quickaccess_sync_refresh_view_text_margin_top" android:text="@string/loading_shortcuts" style="@style/RobotoRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

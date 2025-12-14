@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/color_control_highlight" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="@dimen/read_aloud_toolbar_speech_rate_horizontal_padding" android:top="@dimen/read_aloud_toolbar_speech_rate_vertical_padding" android:right="@dimen/read_aloud_toolbar_speech_rate_horizontal_padding" android:bottom="@dimen/read_aloud_toolbar_speech_rate_vertical_padding" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/tab_bar_contextmenu_top">
+        <item android:id="@id/tab_bar_contextmenu_close_this_tab" android:title="@string/contextmenu_close_this_tab" />
+        <item android:id="@id/tab_bar_contextmenu_close_other" android:title="@string/contextmenu_close_all_other_tabs" />
+        <item android:id="@id/tab_bar_contextmenu_close_other_tabs_in_group" android:title="@string/contextmenu_close_other_tabs_in_group" />
+        <item android:id="@id/tab_bar_contextmenu_close_all" android:title="@string/contextmenu_close_all_tabs" />
+        <item android:id="@id/tab_bar_contextmenu_move_to_other_group" android:title="@string/contextmenu_move_to_other_group" />
+        <item android:id="@id/tab_bar_contextmenu_lock_tab" android:title="@string/action_lock" />
+        <item android:id="@id/tab_bar_contextmenu_unlock_tab" android:title="@string/action_unlock" />
+    </group>
+    <group android:id="@id/tab_bar_contextmenu_bottom">
+        <item android:id="@id/tab_bar_contextmenu_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/tab_bar_contextmenu_open_in_new_tab_in_group" android:title="@string/contextmenu_open_in_new_tab_in_group" />
+        <item android:id="@id/tab_bar_contextmenu_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/tab_bar_contextmenu_open_in_other_window" android:title="@string/contextmenu_open_in_other_window" />
+        <item android:id="@id/tab_bar_contextmenu_reopen_closed_tab" android:title="@string/tab_manager_reopen_closed_tab" />
+    </group>
+</menu>

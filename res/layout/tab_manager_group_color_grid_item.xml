@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/reader_option_popup_color_layout_button_size" android:layout_height="@dimen/reader_option_popup_color_layout_button_size" android:layout_marginTop="@dimen/tab_group_color_grid_v_spacing" android:layout_marginHorizontal="@dimen/tab_group_color_grid_h_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/group_color_grid_item_selected_icon" android:visibility="gone" android:layout_width="@dimen/tab_group_color_selected_icon_size" android:layout_height="@dimen/tab_group_color_selected_icon_size" android:src="@drawable/internet_ic_color_selected" android:tint="@color/color_white" />
+</FrameLayout>

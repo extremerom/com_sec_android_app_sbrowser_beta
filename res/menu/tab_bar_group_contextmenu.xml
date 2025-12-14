@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/tab_bar_group_contextmenu_top">
+        <item android:id="@id/tab_bar_group_contextmenu_add_new_tab_to_group" android:title="@string/contextmenu_add_new_tab_to_group" />
+        <item android:id="@id/tab_bar_group_contextmenu_close_all_tabs_in_group" android:title="@string/contextmenu_close_all_tabs_in_group" />
+        <item android:id="@id/tab_bar_group_contextmenu_change_group_name" android:title="@string/contextmenu_change_group_name_color" />
+        <item android:id="@id/tab_bar_group_contextmenu_ungroup_group" android:title="@string/contextmenu_ungroup_group" />
+    </group>
+</menu>

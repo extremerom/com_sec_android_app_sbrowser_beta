@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/toolbarSwipeTheme" android:gravity="center_vertical" android:orientation="vertical" android:id="@id/no_notification_layout" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/no_notification_scroll" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.47" />
+            <TextView android:textSize="@dimen/history_no_layout_internet_textsize" android:textColor="@color/color_palette_list_view_no_item_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/no_notification_page_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_no_notifications_title" android:textAlignment="center" />
+            <TextView android:textSize="@dimen/history_no_layout_description_internet_textsize" android:textColor="@color/history_no_found_item_text_color" android:ellipsize="end" android:gravity="start" android:layout_gravity="center" android:id="@id/notification_additional_text_no_item_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/saved_page_no_items_additional_text_margin_top" android:text="@string/history_no_history_title_description" android:lineSpacingExtra="@dimen/no_bookmarks_text_line_spacing" android:alpha="0.0" android:fontFamily="sec-roboto-light" android:paddingStart="@dimen/saved_page_additional_text_no_item_subtext_padding_end" android:paddingEnd="@dimen/saved_page_additional_text_no_item_subtext_padding_end" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="0.53" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

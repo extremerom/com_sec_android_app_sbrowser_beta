@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_contents_push_server_type" android:title="@string/contents_push_debug_server_type_title" android:key="contents_push_server_type_list" android:summary="%s" android:entryValues="@array/pref_contents_push_server_type" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_push_type_title" android:key="contents_push_push_type" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_push_user_id_title" android:key="contents_push_push_user_id" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_push_token_title" android:key="contents_push_push_token" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_send_dummy_push" android:key="contents_push_send_dummy_push" />
+    <androidx.preference.PreferenceScreen android:title="@string/contents_push_debug_updated_history" android:fragment="com.sec.android.app.sbrowser.contents_push.ui.debug_setting.ContentsPushDebugUpdatedHistoryPreferenceFragment" />
+    <PreferenceScreen android:title="@string/contents_push_debug_push_received_history" android:fragment="com.sec.android.app.sbrowser.contents_push.ui.debug_setting.ContentsPushDebugReceivedHistoryPreferenceFragment" />
+</androidx.preference.PreferenceScreen>

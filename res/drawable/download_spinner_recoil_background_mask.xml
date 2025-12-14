@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/basic_bottom_bar_button_ripple_radius" />
+    <solid android:color="?android:colorAccent" />
+    <padding android:left="@dimen/download_history_spinner_background_padding_left" android:right="@dimen/download_history_spinner_background_padding_right" />
+</androidx.appcompat.util.SeslShapeDrawable>

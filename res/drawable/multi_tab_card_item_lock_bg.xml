@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/recent_normal_tab_lock_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/recents_tab_view_close_button_size" android:width="@dimen/recents_tab_view_close_button_size">
+        <shape android:shape="oval">
+            <solid android:color="@color/recent_normal_tab_lock_color_bg" />
+        </shape>
+    </item>
+</ripple>

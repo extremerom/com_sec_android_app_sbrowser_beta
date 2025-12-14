@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Allow all cookies</item>
+        <item>Block third-party cookies</item>
+        <item>Block all cookies</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Device</item>
+        <item>SD card</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Default</item>
+        <item>Quick access</item>
+        <item>Current page</item>
+        <item>Custom page</item>
+    </string-array>
+</resources>

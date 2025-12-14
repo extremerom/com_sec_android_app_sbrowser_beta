@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Support" android:key="pref_test_feature_support" />
+    <Preference android:title="Version" android:key="pref_test_feature_version" />
+    <Preference android:title="CoolingTimeMillis" android:key="pref_test_feature_cooling_time_millis" />
+    <Preference android:title="RetryCount" android:key="pref_test_feature_retry_count" />
+    <Preference android:title="TncConfirmDefault" android:key="pref_test_feature_tnc_confirm_default" />
+    <Preference android:title="TncTitle" android:key="pref_test_feature_tnc_title" />
+    <Preference android:title="TncUrl" android:key="pref_test_feature_tnc_url" />
+    <Preference android:title="TncContent" android:key="pref_test_feature_tnc_content" />
+    <Preference android:title="Updated Notification" android:key="pref_test_feature_updated_notification" />
+</PreferenceScreen>

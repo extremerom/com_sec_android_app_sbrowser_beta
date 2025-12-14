@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/view" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/detail_page_summary_padding_top" android:paddingBottom="@dimen/detail_page_summary_padding_bottom" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/view_all_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/security_history_sat_view_all_textsize" android:textColor="@color/winset_list_main_text" android:gravity="center" android:id="@id/view_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_page_summary_view_all" style="@style/RobotoMedium" />
+    </LinearLayout>
+</LinearLayout>

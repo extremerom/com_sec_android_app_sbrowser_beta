@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/toolbar_extension_button" android:background="@drawable/toolbar_button_touch_effect" android:focusable="true" android:clickable="true" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="match_parent" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/toolbar_extension_icon" android:layout_width="@dimen/bottombar_button_icon_size" android:layout_height="@dimen/bottombar_button_icon_size" android:scaleType="fitCenter" />
+</LinearLayout>

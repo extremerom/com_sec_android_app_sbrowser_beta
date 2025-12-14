@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/ai_sub_option_img_size" android:width="@dimen/ai_sub_option_img_size" android:drawable="@drawable/ai_popup_btn_page_trans" />
+</selector>

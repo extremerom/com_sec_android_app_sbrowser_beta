@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="@dimen/synced_tab_item_card_view_height" android:layout_marginStart="@dimen/synced_tab_more_layout_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/more_button" android:layout_width="@dimen/synced_tab_more_button_icon_size" android:layout_height="@dimen/synced_tab_more_button_icon_size" android:layout_marginTop="@dimen/synced_tab_more_button_margin_top" android:layout_marginBottom="@dimen/synced_tab_more_button_margin_bottom" android:src="@drawable/more_icon_button" />
+    <TextView android:textSize="@dimen/synced_tab_more_button_text_size" android:textColor="@color/synced_tab_more_button_text_color" android:gravity="center" android:id="@id/more_layout_text_view" android:layout_width="wrap_content" android:layout_height="@dimen/synced_tab_more_button_text_height" android:layout_marginBottom="@dimen/synced_tab_more_button_text_margin_bottom" android:text="@string/synced_tab_more_button_text" style="@style/RobotoRegular" />
+</LinearLayout>

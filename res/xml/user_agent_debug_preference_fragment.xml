@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceScreen android:title="@string/pref_user_agent_test" android:fragment="com.sec.android.app.sbrowser.settings.debug.UserAgentTestFragment" />
+    <androidx.preference.ListPreference android:entries="@array/pref_development_ua_choices" android:title="@string/pref_user_agent_string" android:key="user_agent_string" android:defaultValue="0" android:entryValues="@array/pref_development_ua_values" />
+    <androidx.preference.EditTextPreference android:singleLine="true" android:title="@string/pref_custom_user_agent_string" android:key="custom_user_agent_string" android:defaultValue="Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-N930-V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36" />
+</androidx.preference.PreferenceScreen>

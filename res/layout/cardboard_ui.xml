@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relLayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/surface_view_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/ui_back_button_holder" android:layout_width="@dimen/ui_button_width" android:layout_height="@dimen/ui_button_height" android:layout_marginTop="@dimen/ui_close_button_margin_top" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/ui_close_button_margin_left" android:layout_alignParentStart="true">
+        <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="start|top" android:id="@id/cardboard_ui_back_button" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/btn_close_white" android:contentDescription="@string/close" style="@style/CardboardUiButton" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/ui_alignment_marker" android:background="@android:color/white" android:layout_width="@dimen/align_marker_thickness" android:layout_height="@dimen/align_marker_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/ui_settings_button_holder" android:layout_width="@dimen/ui_button_width" android:layout_height="@dimen/ui_button_height" android:layout_marginTop="@dimen/ui_settings_button_margin_top" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/ui_settings_button_margin_right" android:layout_alignParentEnd="true">
+        <org.chromium.ui.widget.ChromeImageButton android:layout_gravity="end|top" android:id="@id/cardboard_ui_settings_button" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_more_vert_24dp_on_dark_bg" android:contentDescription="@string/vr_menu" style="@style/CardboardUiButton" />
+    </FrameLayout>
+</RelativeLayout>

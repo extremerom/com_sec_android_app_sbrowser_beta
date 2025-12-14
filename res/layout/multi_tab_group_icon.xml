@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/multi_tab_group_icon_text_size" android:textColor="@color/multi_tab_group_icon_text" android:gravity="center|bottom" android:layout_gravity="center" android:background="@drawable/internet_ic_tabs_grouptabs" android:paddingBottom="@dimen/bottombar_multiwindow_count_padding_bottom" android:layout_width="@dimen/multi_tab_group_icon_size" android:layout_height="@dimen/multi_tab_group_icon_size" android:scaleType="center" android:paddingEnd="@dimen/bottombar_multiwindow_count_padding_end" android:backgroundTint="@color/color_primary" style="@style/RobotoMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

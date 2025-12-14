@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <command android:label="@string/task_edge_open_new_tab" android:icon="@drawable/task_edge_small_icon" android:enabled="true" android:tag="2579229649" android:smallIcon="@drawable/internet_ic_edge_new_tab">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="com.sec.android.app.sbrowser.INTENT_NEW_TAB" />
+        <extras-attr android:name="packageName" android:value="com.sec.android.app.sbrowser.beta" />
+        <extras-attr android:name="componentName" android:value="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask" />
+        <extras-attr android:name="extras" android:value="edge" android:key="shouldNotIgnore" />
+    </command>
+</executable>

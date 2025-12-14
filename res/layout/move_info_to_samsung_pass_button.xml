@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:background="@color/color_palette_list_view_bottom_bar_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/move_to_spass" android:background="@drawable/settings_button_background" android:paddingLeft="@dimen/autofill_move_to_samsung_pass_button_padding" android:paddingRight="@dimen/autofill_move_to_samsung_pass_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/autofill_move_to_samsung_pass_button_margin" android:foreground="@drawable/about_app_info_button_shape_ripple_background" android:minWidth="@dimen/settings_about_update_button_width" android:minHeight="@dimen/settings_about_page_button_height" />
+</LinearLayout>

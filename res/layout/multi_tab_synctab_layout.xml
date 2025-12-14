@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/tab_sync_coordinator_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_tabs_text_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/tab_manager_no_tabs_horizontal_margin" style="@style/NoDefaultFocusStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <FrameLayout android:id="@id/tab_sync_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/winset_action_bar_bottom_margin">
+                <FrameLayout android:id="@id/sync_tab_view_group" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/sync_tab_list_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+                <androidx.core.widget.NestedScrollView android:id="@id/synced_tabs_no_tabs_group" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <include android:id="@id/synced_tabs_noitem_layout" layout="@layout/tab_sync_noitem_layout" />
+                        <include android:id="@id/synced_tabs_syncing_layout" layout="@layout/tab_sync_syncing_layout_v2" />
+                        <include android:id="@id/synced_tabs_syncoff_layout" layout="@layout/tab_sync_syncoff_layout" />
+                        <include android:id="@id/synced_tabs_master_syncoff_layout" layout="@layout/tab_sync_master_syncoff_layout" />
+                        <include android:id="@id/synced_tabs_add_account_layout" layout="@layout/tab_add_account_layout" />
+                    </FrameLayout>
+                </androidx.core.widget.NestedScrollView>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

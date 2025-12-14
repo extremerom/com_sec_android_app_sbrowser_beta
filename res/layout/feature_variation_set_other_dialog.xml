@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/set_homepage_dialog_padding_top" android:paddingBottom="@dimen/set_homepage_dialog_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/promptForHomepage_dialog_width" android:paddingStart="@dimen/set_homepage_dialog_padding_start" android:paddingEnd="@dimen/set_homepage_dialog_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/other_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/feature_variation_set_other_summary" android:maxLines="1" android:scrollHorizontally="true" android:selectAllOnFocus="true" android:inputType="text" />
+</LinearLayout>

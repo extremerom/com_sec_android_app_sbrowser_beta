@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.EditTextPreference android:title="@string/contents_push_debug_max_history_count" android:key="pref_max_push_received_history_count" android:inputType="number" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_accumulated_history_count" android:key="pref_accumulated_push_received_history_count" />
+    <androidx.preference.PreferenceCategory android:title="@string/contents_push_debug_push_received_history_list" android:key="pref_push_received_history_list" />
+</androidx.preference.PreferenceScreen>

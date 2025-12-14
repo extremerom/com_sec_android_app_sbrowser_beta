@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/history_group_text_size" android:textColor="@color/history_download_recent_header_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:paddingTop="@dimen/history_video_view_title_text_padding_top_bottom" android:paddingBottom="@dimen/history_video_view_title_text_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/history_expandable_list_group_header_height" android:singleLine="true" android:layout_marginStart="@dimen/history_expandable_list_group_header_padding_left" android:layout_marginEnd="@dimen/history_expandable_list_group_header_padding_left" style="@style/RobotoMedium" />
+    </LinearLayout>
+</LinearLayout>

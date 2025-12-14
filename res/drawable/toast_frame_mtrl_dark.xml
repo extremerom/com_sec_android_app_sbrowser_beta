@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="@dimen/toast_padding_horizontal" android:top="@dimen/toast_padding_vertical" android:right="@dimen/toast_padding_horizontal" android:bottom="@dimen/toast_padding_vertical" />
+            <corners android:radius="@dimen/toast_bg_radius" />
+            <solid android:color="@color/custom_tooltip_background_dark" />
+        </shape>
+    </item>
+</layer-list>

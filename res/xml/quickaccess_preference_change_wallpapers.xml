@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <androidx.preference.Preference android:title="@string/quickaccess_settings_change_wallpapers" android:key="@string/pref_quickaccess_change_wallpapers_key" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+</PreferenceScreen>

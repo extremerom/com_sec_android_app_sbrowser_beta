@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_toolbar_title" android:key="pref_custom_tabs_launcher_toolbar_title" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_toolbar_title_color" android:key="pref_custom_tabs_launcher_toolbar_title_color" android:inputType="text" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_toolbar_title_size" android:key="pref_custom_tabs_launcher_toolbar_title_size" android:inputType="numberDecimal" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_fullscreen_mode" android:key="pref_custom_tabs_launcher_fullscreen_mode" android:inputType="numberDecimal" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_show_title_after_load" android:key="pref_custom_tabs_launcher_show_title_after_load" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_remove_menu_items" android:key="pref_custom_tabs_launcher_remove_menu_items" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_remove_security_icon" android:key="pref_custom_tabs_launcher_remove_security_icon" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_remove_open_in_internet" android:key="pref_custom_tabs_launcher_remove_open_in_internet" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_launch_with_read_articles_aloud" android:key="pref_custom_tabs_launcher_launch_with_read_articles_aloud" android:defaultValue="false" />
+</PreferenceScreen>

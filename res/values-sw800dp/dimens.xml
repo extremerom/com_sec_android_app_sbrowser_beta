@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clear_browsing_data_row_padding_left">30.0dp</dimen>
+    <dimen name="lang_code_button_margin">20.0dp</dimen>
+    <dimen name="sesl_glance_list_body_text_size">17.0</dimen>
+    <dimen name="sesl_glance_list_body_text_size_over_medium_size">17.0</dimen>
+    <dimen name="sesl_glance_list_body_text_size_with_3_line">13.0</dimen>
+    <dimen name="sesl_glance_list_default_item_icon_start_padding">57.0</dimen>
+    <dimen name="sesl_glance_list_default_item_medium_height_with_1_line">40.0</dimen>
+    <dimen name="sesl_glance_list_default_item_medium_height_with_2_line">63.0</dimen>
+    <dimen name="sesl_glance_list_description_text_size">14.0</dimen>
+    <dimen name="sesl_glance_list_display_text_over_medium_size">17.0</dimen>
+    <dimen name="sesl_glance_list_display_text_size">13.0</dimen>
+    <dimen name="sesl_glance_list_item_bottom_padding">7.0</dimen>
+    <dimen name="sesl_glance_list_item_bottom_padding_with_sub_text">10.0</dimen>
+    <dimen name="sesl_glance_list_item_icon_size">34.0</dimen>
+    <dimen name="sesl_glance_list_item_small_icon_size">22.0</dimen>
+    <dimen name="sesl_glance_list_item_start_padding_over_medium">14.0</dimen>
+    <dimen name="sesl_glance_list_item_top_padding">8.0</dimen>
+    <dimen name="sesl_glance_list_label_text_size">13.0</dimen>
+    <dimen name="sesl_glance_list_progress_item_start_padding_over_medium">18.0</dimen>
+    <dimen name="settings_list_divider_width">1.0px</dimen>
+    <dimen name="style_graph_large_display_text_size">26.0dp</dimen>
+    <dimen name="style_graph_small_display_text_size">20.0dp</dimen>
+    <dimen name="winset_list_divider_height">1.0px</dimen>
+</resources>

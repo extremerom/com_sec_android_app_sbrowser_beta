@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/basic_dialog_margin_start" android:paddingEnd="@dimen/basic_dialog_margin_end">
+        <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/text_size_dialog_percent_text_size" android:textColor="@color/dialog_percent_text_color" android:gravity="center" android:id="@id/text_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_dialog_percent_margin_top" android:layout_marginBottom="@dimen/text_size_dialog_percent_margin_bottom" app:textSizeDp="@dimen/text_size_dialog_percent_max_text_size" style="@style/RobotoRegular" />
+    </LinearLayout>
+    <com.sec.android.app.sbrowser.common.model.main.SeekbarContainer android:orientation="vertical" android:id="@id/seekbar_parent" android:background="@drawable/seekbar_focused_background" android:layout_width="match_parent" android:layout_height="@dimen/text_size_dialog_seekbar_height" android:layout_marginBottom="@dimen/text_size_dialog_seekbar_margin_bottom" android:paddingStart="@dimen/basic_dialog_seekbar_margin_horizontal" android:paddingEnd="@dimen/basic_dialog_seekbar_margin_horizontal">
+        <androidx.appcompat.widget.SeslSeekBar android:id="@id/seekbar" android:layout_width="match_parent" android:layout_height="match_parent" app:seslSeekBarMode="expand" />
+    </com.sec.android.app.sbrowser.common.model.main.SeekbarContainer>
+</LinearLayout>

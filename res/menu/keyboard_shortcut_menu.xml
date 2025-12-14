@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shortcut_go_to_url_field" android:title="@string/shortcut_helper_go_to_address_bar" />
+    <item android:id="@id/shortcut_find_on_page_next_item" android:title="@string/shortcut_helper_find_next_item" />
+    <item android:id="@id/shortcut_find_on_page_prev_item" android:title="@string/shortcut_helper_find_prev_item" />
+    <item android:id="@id/shortcut_open_bookmarks" android:title="@string/shortcut_helper_open_bookmarks" />
+    <item android:id="@id/shortcut_add_to_bookmarks" android:title="@string/shortcut_helper_add_to_bookmarks" />
+    <item android:id="@id/shortcut_go_to_previous_page" android:title="@string/shortcut_helper_go_to_previous_next_page" />
+    <item android:id="@id/shortcut_go_to_next_page" android:title="@string/shortcut_helper_go_to_previous_next_page" />
+    <item android:id="@id/shortcut_go_to_previous_page_backspace" android:title="@string/shortcut_helper_go_to_previous_page" />
+    <item android:id="@id/shortcut_close_the_current_tab" android:title="@string/shortcut_helper_close_the_current_tab" />
+    <item android:id="@id/shortcut_close_the_current_tab_2" android:title="@string/shortcut_helper_close_the_current_tab" />
+    <item android:id="@id/shortcut_tab_switching_navigation" android:title="@string/shortcut_helper_tab_switching" />
+    <item android:id="@id/shortcut_tab_switching_tab" android:title="@string/shortcut_helper_tab_switching" />
+    <item android:id="@id/shortcut_print" android:title="@string/shortcut_helper_print" />
+    <item android:id="@id/shortcut_open_home_page" android:title="@string/shortcut_helper_open_home_page" />
+    <item android:id="@id/shortcut_refresh" android:title="@string/shortcut_helper_refresh" />
+    <item android:id="@id/shortcut_refresh_2" android:title="@string/shortcut_helper_refresh" />
+    <item android:id="@id/shortcut_zoom_in_out" android:title="@string/shortcut_helper_zoom_in_out" />
+    <item android:id="@id/shortcut_apply_default_zoom" android:title="@string/shortcut_helper_apply_default_zoom" />
+    <item android:id="@id/shortcut_new_tab" android:title="@string/shortcut_helper_new_tab" />
+</menu>

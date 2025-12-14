@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/category_item_cardview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wallpaper_category_item_thumbnail_top_margin" android:layout_marginBottom="@dimen/wallpaper_category_item_thumbnail_bottom_margin" android:layout_marginStart="@dimen/wallpaper_category_item_thumbnail_start_margin" app:cardCornerRadius="@dimen/wallpaper_category_item_thumbnail_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/category_item_thumbnail" android:layout_width="@dimen/wallpaper_category_item_thumbnail_width" android:layout_height="@dimen/wallpaper_category_item_thumbnail_height" android:scaleType="centerCrop" />
+</androidx.cardview.widget.CardView>

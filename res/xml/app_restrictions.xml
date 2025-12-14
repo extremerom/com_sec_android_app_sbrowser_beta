@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction android:description="@string/ProxyModeDesc" android:entries="@array/ProxyModeEntries" android:title="@string/ProxyModeTitle" android:key="EnterpriseProxyType" android:entryValues="@array/ProxyModeValues" android:restrictionType="choice" />
+    <restriction android:description="@string/ProxyServerDesc" android:title="@string/ProxyServerTitle" android:key="EnterpriseProxyCatProxyServer" android:restrictionType="string" />
+    <restriction android:description="@string/ProxyPacUrlDesc" android:title="@string/ProxyPacUrlTitle" android:key="EnterpriseProxyCatPacUrl" android:restrictionType="string" />
+    <restriction android:description="@string/ProxyBypassListDesc" android:title="@string/ProxyBypassListTitle" android:key="EnterpriseProxyCatBypassList" android:restrictionType="string" />
+    <restriction android:description="@string/PasswordManagerEnabledDesc" android:title="@string/PasswordManagerEnabledTitle" android:key="PasswordManagerEnabled" android:restrictionType="bool" />
+    <restriction android:description="@string/AutofillEnabledDesc" android:title="@string/AutofillEnabledTitle" android:key="AutofillEnabled" android:restrictionType="bool" />
+</restrictions>

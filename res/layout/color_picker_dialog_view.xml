@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <org.chromium.components.embedder_support.delegate.ColorPickerSuggestionsView android:gravity="center" android:id="@id/color_picker_suggestions_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:horizontalSpacing="8.0dp" android:verticalSpacing="8.0dp" />
+        <org.chromium.components.embedder_support.delegate.ColorPickerAdvanced android:id="@id/color_picker_custom_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="20.0dp" android:layout_toStartOf="@id/color_picker_dialog_chosen_color_container">
+                <org.chromium.ui.widget.ButtonCompat android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/color_picker_view_switcher_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="11.0dp" style="@style/TextButton" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/color_picker_dialog_chosen_color_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dp" android:text="@string/color_picker_label_chosen_color" android:importantForAccessibility="no" style="@style/TextAppearance.TextLarge.Primary.Baseline" />
+                <FrameLayout android:layout_gravity="center" android:background="@drawable/color_picker_border" android:padding="6.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:importantForAccessibility="noHideDescendants" android:layout_marginStart="8.0dp" android:layout_marginEnd="13.0dp">
+                    <View android:id="@id/color_picker_dialog_chosen_color_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

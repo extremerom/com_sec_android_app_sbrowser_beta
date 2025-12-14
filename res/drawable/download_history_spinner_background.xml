@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/download_history_spinner_background_icon_margin">
+        <bitmap android:gravity="right|center" android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/download_spinner_bar_toggle_button_color" />
+    </item>
+    <item android:drawable="@drawable/download_spinner_background_effect" />
+</layer-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.multi_tab.tab_stack.views.widget.TabThumbnailView android:id="@id/tab_grid_item_thumbnail_imageview" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" apps:roundedCornerRadius="@dimen/multi_tab_grid_item_bg_radius" apps:roundedCorners="all"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto" />

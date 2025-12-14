@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/pref_anti_tracking_show_stats" android:key="pref_anti_tracking_show_tracker_stats" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/pref_enable_anti_tracking_debug_settings" android:key="pref_enable_anti_tracking_debug_settings" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:title="Enable Server Based Allowlisting/Blocklisting" android:key="pref_enable_server_based_allowlist_blocklist" android:defaultValue="true" />
+    <Preference android:title="@string/pref_anti_tracking_add_test_tracker_entries" android:key="pref_anti_tracking_test_tracker_entries" android:summary="@string/pref_anti_tracking_add_test_tracker_entries_summary" />
+    <ListPreference android:entries="@array/automatic_storage_access_state_values" android:title="@string/pref_anti_tracking_automatic_storage_access_state" android:key="pref_anti_tracking_automatic_storage_access_state" android:summary="%s" android:defaultValue="@string/automatic_storage_access_state_opener_interaction" android:entryValues="@array/automatic_storage_access_state_values" />
+</androidx.preference.PreferenceScreen>

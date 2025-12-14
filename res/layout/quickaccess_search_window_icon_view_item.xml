@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/quickaccess_icon_view_light_theme_ripple_background" android:minWidth="@dimen/quickaccess_search_window_icon_view_item_boundaries_width" android:minHeight="@dimen/quickaccess_icon_view_item_boundaries_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/quickaccess_icon_view_item_container" />
+</RelativeLayout>

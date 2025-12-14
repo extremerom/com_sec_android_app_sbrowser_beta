@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_night_dim_debug_flag" android:key="pref_use_night_dim" android:summary="@string/pref_enable_night_dim_debug_summary" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_use_night_dim" />
+    <androidx.preference.EditTextPreference android:singleLine="true" android:title="@string/pref_night_dim_gain_debug_title" android:key="pref_night_dim_gain" android:defaultValue="75" android:inputType="number" />
+</androidx.preference.PreferenceScreen>

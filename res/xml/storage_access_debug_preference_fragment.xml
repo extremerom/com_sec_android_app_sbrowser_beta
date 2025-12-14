@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_storage_access_implicit_limit" android:key="storage_access_api.implicit_grant_limit" android:summary="@string/pref_storage_access_implicit_limit_summary" android:defaultValue="0" />
+</PreferenceScreen>

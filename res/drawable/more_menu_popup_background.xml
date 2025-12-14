@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/toolbar_option_menu_list_bg_color" />
+    <corners android:radius="@dimen/toolbar_option_menu_dialog_radius" />
+    <padding android:left="@dimen/toolbar_option_menu_recyclerview_padding_left" />
+    <padding android:right="@dimen/toolbar_option_menu_recyclerview_padding_right" />
+</shape>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/noticedetail" android:background="@color/winset_actionbar_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/notice_layout" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/settings_screen_margin" android:paddingEnd="@dimen/settings_screen_margin">
+        <TextView android:textSize="@dimen/basic_dialog_title_text_size" android:textColor="@color/basic_dialog_title_text_color" android:gravity="center" android:id="@id/noticedetail_title" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/help_intro_legal_optional_checkbox_details" />
+        <View android:background="@color/settings_list_divider" android:layout_width="match_parent" android:layout_height="@dimen/winset_list_divider_height" android:layout_marginTop="@dimen/settings_layout_address_bar_description_margin_top" android:layout_below="@id/noticedetail_title" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/preference_divider_margin_end" android:layout_marginEnd="@dimen/preference_divider_margin_end" />
+        <androidx.core.widget.NestedScrollView android:id="@id/notice_scroll" android:focusable="false" android:focusableInTouchMode="false" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.sec.android.app.sbrowser.settings.notice.NoticeAnnouncementDescription android:id="@id/noticedetail_body" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

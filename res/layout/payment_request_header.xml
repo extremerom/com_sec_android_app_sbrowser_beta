@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.payments.standard.ui.PaymentRequestHeader android:id="@id/header" android:layout_width="match_parent" android:layout_height="@dimen/payments_header_height_size">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/payments_sheet_start_end_margin" android:layout_marginEnd="@dimen/payments_sheet_start_end_margin">
+            <RelativeLayout android:layout_gravity="start|center" android:layout_width="@dimen/payments_favicon_size" android:layout_height="@dimen/payments_favicon_size" android:scaleType="centerInside" android:layout_weight="0.0" android:importantForAccessibility="noHideDescendants" android:layout_marginEnd="@dimen/payments_header_favicon_end_margin">
+                <ImageView android:gravity="center" android:id="@id/icon_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:contentDescription="@null" />
+                <TextView android:textSize="@dimen/payments_header_doninant_text_size" android:textColor="@color/payments_dominant_char_color" android:gravity="center" android:id="@id/dominant_char" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" style="@style/sec400" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/page_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="yes">
+                <TextView android:textSize="@dimen/payments_header_title_text_size" android:textColor="@color/payments_request_header_title" android:ellipsize="end" android:id="@id/page_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" android:textAlignment="viewStart" style="@style/RobotoRegular" />
+                <TextView android:textSize="@dimen/payments_header_origin_text_size" android:textColor="@color/payments_request_header_origin" android:ellipsize="end" android:id="@id/hostname" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" android:textAlignment="viewStart" style="@style/RobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.sec.android.app.sbrowser.payments.standard.ui.PaymentRequestHeader>
+</merge>

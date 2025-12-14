@@ -1,0 +1,13 @@
+.class public interface abstract Lcom/google/ar/core/Future;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract cancel()Z
+.end method
+
+.method public abstract getState()Lcom/google/ar/core/FutureState;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end method

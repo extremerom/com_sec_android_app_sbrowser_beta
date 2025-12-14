@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="#00ffffff" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15.0dp" />
+            <size android:height="217.0dp" android:width="98.0dp" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/wallpaper_placeholder_image" />
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/pref_category_personal_data" android:key="personal_data"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SeslSwitchPreferenceScreen android:title="@string/pref_clear_data_when_closed_title" android:key="close_option" android:summary="@string/pref_clear_data_when_closed_summary" android:fragment="com.sec.android.app.sbrowser.settings.CloseOptionPreferenceFragment" />
+    <androidx.preference.Preference android:title="@string/pref_clear_browsing_data_title_new" android:key="clear_browsing_data" android:fragment="com.sec.android.app.sbrowser.settings.ClearBrowsingDataFragment" searchable="true" />
+    <androidx.preference.Preference android:title="@string/pref_autofill_forms_title_new" android:key="autofill_forms" android:summary="@string/autofill_profiles_summary" android:fragment="com.sec.android.app.sbrowser.settings.autofill.AutofillFormsPreferenceFragment" searchable="true" />
+    <androidx.preference.Preference android:title="@string/secret_mode_security_header" android:key="secret_mode_security" android:fragment="com.sec.android.app.sbrowser.secret_mode.settings.SecretModeSecurityFragment" searchable="true" />
+</androidx.preference.PreferenceScreen>

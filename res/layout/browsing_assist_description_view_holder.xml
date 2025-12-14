@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constrainedHeight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/browsing_assist_description_text_size" android:textColor="@color/color_palette_search_similar_result_text_color" android:id="@id/browsing_assist_description" android:background="@color/color_palette_list_view_action_bar_bg_color" android:paddingBottom="@dimen/browsing_assist_description_padding_bottom" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/language_preference_description" android:paddingStart="@dimen/browsing_assist_description_padding" android:paddingEnd="@dimen/browsing_assist_description_padding" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/RobotoRegular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

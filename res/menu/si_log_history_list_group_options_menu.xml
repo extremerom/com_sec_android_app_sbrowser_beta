@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_si_log_history_list_group_by_service_id" android:title="@string/si_log_history_list_group_service_type" android:showAsAction="never" />
+    <item android:id="@id/action_si_log_history_list_group_by_event_id" android:title="@string/si_log_history_list_group_event_type" android:showAsAction="never" />
+</menu>

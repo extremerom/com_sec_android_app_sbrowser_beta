@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/read_aloud_toolbar_close_button_drawable" />
+    <item android:drawable="@drawable/read_aloud_toolbar_close_button_ripple" />
+</layer-list>

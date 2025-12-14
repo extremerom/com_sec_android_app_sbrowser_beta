@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/reader_option_popup_sepia_background" />
+            <stroke android:width="@dimen/reader_option_popup_color_button_stroke_width" android:color="@color/reader_option_popup_button_stroke_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/reader_option_popup_color_layout_selected_size" android:width="@dimen/reader_option_popup_color_layout_selected_size">
+        <bitmap android:src="@drawable/internet_ic_color_selected" android:tint="@color/reader_option_popup_sepia_selected" />
+    </item>
+</layer-list>

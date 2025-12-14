@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>search_de_CH</item>
+        <item>search_fr_CH</item>
+        <item>DuckDuckGo</item>
+        <item>youtube</item>
+        <item>bing</item>
+        <item>yahoo_ch</item>
+    </string-array>
+</resources>

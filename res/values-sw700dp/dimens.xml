@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="style_graph_large_display_text_size">24.0dp</dimen>
+    <dimen name="style_graph_medium_title_text_size">@dimen/arc_progress_text_dp_52</dimen>
+    <dimen name="style_graph_small_display_text_size">19.0dp</dimen>
+    <dimen name="style_graph_small_title_text_size">@dimen/arc_progress_text_dp_46</dimen>
+    <dimen name="style_multi_textblock_medium_display_text_size">32.0dp</dimen>
+    <dimen name="style_multi_textblock_small_display_text_size">18.0dp</dimen>
+    <dimen name="style_multi_textblock_widesmall_display_text_size">22.0dp</dimen>
+</resources>

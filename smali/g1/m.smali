@@ -1,0 +1,3 @@
+.class public abstract Lg1/m;
+.super LG5/q3;
+.source "SourceFile"

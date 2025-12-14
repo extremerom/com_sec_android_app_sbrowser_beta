@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/id</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Izinkan semua cookie</item>
+        <item>Blokir cookie pihak ketiga</item>
+        <item>Blokir semua cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Perangkat</item>
+        <item>Kartu SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Default</item>
+        <item>Akses cepat</item>
+        <item>Halaman saat ini</item>
+        <item>Halaman kustom</item>
+    </string-array>
+</resources>

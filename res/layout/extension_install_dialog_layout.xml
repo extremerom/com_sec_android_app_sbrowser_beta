@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/basic_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/basic_dialog_margin_start" android:paddingEnd="@dimen/basic_dialog_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/extension_install_dialog_permission_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/extension_install_dialog_text_size" android:textColor="@color/extension_install_dialog_text_color" android:id="@id/extension_install_dialog_permission_heading_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extension_install_dialog_margin_top" android:layout_marginBottom="@dimen/extension_install_dialog_margin_bottom" />
+    </LinearLayout>
+</LinearLayout>

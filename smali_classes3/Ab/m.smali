@@ -1,0 +1,8 @@
+.class public interface abstract LAb/m;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a()LAb/u;
+.end method

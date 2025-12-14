@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/primary_menu_group">
+        <item android:icon="@drawable/internet_ic_history" android:id="@id/action_history" android:title="@string/history" />
+        <item android:icon="@drawable/internet_ic_download" android:id="@id/action_downloads" android:title="@string/downloads" />
+        <item android:icon="@drawable/internet_ic_saved_page" android:id="@id/action_saved_page" android:title="@string/saved" />
+        <item android:icon="@drawable/internet_ic_add" android:id="@id/action_add_to" android:title="@string/toolbar_option_menu_add_to" />
+        <item android:icon="@drawable/internet_ic_settings" android:id="@id/action_settings" android:title="@string/action_settings" />
+    </group>
+    <group android:id="@id/secondary_menu_group">
+        <item android:icon="@drawable/internet_ic_desktop" android:id="@id/request_pc_version" android:title="@string/options_menu_request_pc_version" />
+        <item android:icon="@drawable/internet_ic_add_ons" android:id="@id/action_extensions" android:title="@string/toolbar_option_menu_add_on" />
+        <item android:icon="@drawable/internet_ic_contents_blocker" android:id="@id/action_content_blocker" android:title="@string/toolbar_option_menu_content_blockers" />
+        <item android:icon="@drawable/internet_ic_privacy" android:id="@id/action_privacy" android:title="@string/options_menu_privacy" />
+        <item android:icon="@drawable/internet_ic_night_mode" android:id="@id/action_night_mode" android:title="@string/dark_theme_sites" />
+        <item android:icon="@drawable/internet_ic_find_on_page" android:id="@id/find_on_page_id" android:title="@string/options_menu_find_on_page" />
+        <item android:icon="@drawable/internet_ic_textsize" android:id="@id/action_text_size" android:title="@string/font_size_scaling" />
+        <item android:icon="@drawable/internet_ic_zoom" android:id="@id/zoom_in_out" android:title="@string/options_menu_zoom_in_out" />
+        <item android:icon="@drawable/internet_ic_notification_manager" android:id="@id/launch_notifications" android:title="@string/notification_pref_title" />
+        <item android:icon="@drawable/internet_ic_print" android:id="@id/print_id" android:title="@string/options_menu_print" />
+        <item android:icon="@drawable/internet_ic_ai_read" android:id="@id/action_read_aloud" android:title="@string/ai_read_aloud" />
+        <item android:icon="@drawable/internet_ic_unicode" android:id="@id/myanmar_font_support" android:title="@string/myanmar_font_support_unicode" />
+        <item android:icon="@drawable/internet_ic_exit" android:id="@id/action_exit" android:title="@string/options_menu_exit" />
+    </group>
+    <group android:id="@id/hidden_menu_group">
+        <item android:icon="@drawable/ai_menu_popup_btn_summary" android:id="@id/action_summary" android:title="@string/ai_summarize" />
+        <item android:icon="@drawable/internet_ic_read_articles_aloud" android:id="@id/action_read_highlights_aloud" android:title="@string/ai_read_articles_aloud" />
+        <item android:icon="@drawable/internet_ic_exit" android:id="@id/action_close_internet" android:title="@string/close_internet" />
+        <item android:icon="@drawable/internet_ic_temporary_allows_ads_off" android:id="@id/action_temporarily_allow_ads" android:title="@string/unblock_ads_temporarily" />
+        <item android:icon="@drawable/internet_ic_search" android:id="@id/action_search" android:title="@string/web_search" />
+        <item android:icon="@drawable/internet_ic_tabs_new_tab" android:id="@id/action_new_tab" android:title="@string/newtab" />
+        <item android:icon="@drawable/internet_ic_refresh" android:id="@id/action_refresh" android:title="@string/locationbar_offline_text_refresh" />
+        <item android:icon="@drawable/internet_ic_secret_mode_on" android:id="@id/action_secret_mode" android:title="@string/options_menu_enable_secret_mode" />
+        <item android:icon="@drawable/internet_ic_tabs_close_all_tabs" android:id="@id/action_close_current_tab" android:title="@string/close_tab" />
+        <item android:icon="@drawable/internet_ic_share" android:id="@id/action_share" android:title="@string/action_share" />
+    </group>
+    <group android:id="@id/toolbar_left_menu_group">
+        <item android:icon="@drawable/internet_ic_back" android:id="@id/action_backward" android:title="@string/bottombar_backward" />
+        <item android:icon="@drawable/internet_ic_forward" android:id="@id/action_forward" android:title="@string/bottombar_forward" />
+        <item android:icon="@drawable/internet_ic_home" android:id="@id/action_home" android:title="@string/bottombar_home" />
+    </group>
+    <group android:id="@id/toolbar_right_menu_group">
+        <item android:icon="@drawable/internet_ic_ai_bottom_bar" android:id="@id/action_browsing_assist" android:title="@string/browsing_assist" />
+        <item android:icon="@drawable/internet_ic_bookmarks" android:id="@id/action_bookmarks" android:title="@string/bookmarks" />
+        <item android:icon="@drawable/internet_ic_tabs" android:id="@id/action_tabs" android:title="@string/bottombar_tabs" />
+        <item android:icon="@drawable/internet_ic_drawer" android:id="@id/action_more" android:title="@string/toolbar_option_menu_tools" />
+    </group>
+</menu>

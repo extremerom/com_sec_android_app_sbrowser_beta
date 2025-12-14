@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/download_oma_dialog_button_accessibility_inset_left_right" android:insetRight="@dimen/download_oma_dialog_button_accessibility_inset_left_right" android:insetTop="@dimen/download_save_as_title_margin_top" android:insetBottom="@dimen/download_save_as_title_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/download_oma_dialog_button_accessibility_radius" />
+        <solid android:color="@color/color_primary" />
+        <stroke android:width="@dimen/download_save_as_list_divider_height" android:color="@color/download_oma_dialog_button_stroke_accessibility" />
+        <padding android:left="@dimen/download_oma_dialog_button_accessibility_shape_padding" android:top="@dimen/download_save_as_title_margin_top" android:right="@dimen/download_oma_dialog_button_accessibility_shape_padding" android:bottom="@dimen/download_save_as_title_margin_top" />
+    </shape>
+</inset>

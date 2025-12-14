@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="horizontal" android:paddingTop="@dimen/widget_sbookmarks_item_vertical_padding" android:paddingBottom="@dimen/widget_sbookmarks_item_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/widget_sbookmarks_item_image_size" android:layout_height="@dimen/widget_sbookmarks_item_image_size" android:layout_marginStart="@dimen/widget_sbookmark_left_margin">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_sbookmarks_item_image_size" android:layout_height="@dimen/widget_sbookmarks_item_image_size" android:src="?ItemUrlImage" />
+        <TextView android:textSize="@dimen/widget_sbookmarks_dominant_text_size" android:textColor="@color/bookmark_widget_item_favicon_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="@dimen/widget_sbookmarks_item_image_size" android:layout_height="@dimen/widget_sbookmarks_item_image_size" android:scaleType="fitXY" android:text="?ItemDominantText" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/widget_sbookmarks_item_text_size" android:textColor="@color/bookmark_widget_preview_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="?ItemUrlText" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="@color/bookmark_widget_item_shadow_color" android:layout_weight="1.0" android:textAlignment="viewStart" android:layout_marginStart="@dimen/widget_sbookmarks_item_title_margin_start" android:layout_marginEnd="@dimen/widget_sbookmark_right_margin" />
+</LinearLayout>

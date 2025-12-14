@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="@dimen/change_view_type_dialog_body_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="@dimen/change_view_type_dialog_body_margin" android:paddingEnd="@dimen/change_view_type_dialog_body_margin">
+        <LinearLayout android:id="@id/view_type_list_view_layout" android:paddingBottom="@dimen/change_view_type_dialog_body_margin_bottom" android:layout_marginEnd="@dimen/change_view_type_dialog_body_margin" style="@style/ViewTypeDialog.Container">
+            <ImageView android:id="@id/image_list_view" android:src="@drawable/internet_ic_dialog_tabs_listview" style="@style/ViewTypeDialog.ImageView" />
+            <TextView android:id="@id/text_view_list_view" android:text="@string/multiTab_change_view_type_dialog_list_view_text" style="@style/ViewTypeDialog.TextView" />
+            <RadioButton android:id="@id/radio_button_list_view" style="@style/ViewTypeDialog.RadioButton" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/view_type_card_view_layout" android:paddingBottom="@dimen/change_view_type_dialog_body_margin_bottom" android:visibility="gone" android:layout_marginEnd="@dimen/change_view_type_dialog_body_margin" style="@style/ViewTypeDialog.Container">
+            <ImageView android:id="@id/image_card_view" android:src="@drawable/internet_ic_dialog_tabs_cardview" style="@style/ViewTypeDialog.ImageView" />
+            <TextView android:id="@id/text_view_card_view" android:text="@string/multiTab_change_view_type_dialog_card_view_text" style="@style/ViewTypeDialog.TextView" />
+            <RadioButton android:id="@id/radio_button_card_view" style="@style/ViewTypeDialog.RadioButton" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/view_type_grid_view_layout" android:paddingBottom="@dimen/change_view_type_dialog_body_margin_bottom" style="@style/ViewTypeDialog.Container">
+            <ImageView android:id="@id/image_grid_view" android:src="@drawable/internet_ic_dialog_tabs_gridview" style="@style/ViewTypeDialog.ImageView" />
+            <TextView android:id="@id/text_view_grid_view" android:text="@string/multiTab_change_view_type_dialog_grid_view_text" style="@style/ViewTypeDialog.TextView" />
+            <RadioButton android:id="@id/radio_button_grid_view" style="@style/ViewTypeDialog.RadioButton" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

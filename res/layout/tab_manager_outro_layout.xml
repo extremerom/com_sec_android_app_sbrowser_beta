@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/outro_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.multi_tab.tab_stack.views.widget.OutroThumbnailView android:id="@id/outro_view_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/toolbar_height" />
+    <ImageView android:id="@id/outro_view_toolbar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_height" android:scaleType="matrix" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/leave_internet_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/leave_internet_scroll_view" android:background="@color/color_palette_list_view_action_bar_bg_color" android:paddingTop="@dimen/settings_leave_internet_padding_top" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:paddingHorizontal="@dimen/settings_leave_internet_padding_start_end">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/settings_leave_internet_description_text_size" android:textColor="@color/winset_description_text" android:id="@id/leave_internet_description" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_discontinue_use_body" android:lineSpacingExtra="@dimen/settings_leave_internet_text_spacing" style="@style/RobotoRegular" />
+            <TextView android:textSize="@dimen/settings_leave_internet_description_text_size" android:textColor="@color/winset_description_text" android:id="@id/leave_internet_description_jump" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_discontinue_use_body_jump" android:lineSpacingExtra="@dimen/settings_leave_internet_text_spacing" style="@style/RobotoRegular" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/progress_bar_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.SeslProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.AppCompat.ProgressBar" />
+    </FrameLayout>
+</RelativeLayout>

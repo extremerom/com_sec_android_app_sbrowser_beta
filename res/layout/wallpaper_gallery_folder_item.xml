@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/gallery_folder" android:padding="@dimen/wallpaper_gallery_item_container_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/wallpaper_gallery_item_container_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="@dimen/wallpaper_gallery_item_card_view_length" android:layout_height="@dimen/wallpaper_gallery_item_card_view_length" app:cardBackgroundColor="@color/wallpaper_cardview_card_background_color" app:cardCornerRadius="@dimen/wallpaper_category_item_thumbnail_corner_radius" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false">
+        <GridLayout android:gravity="center" android:padding="3.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:rowCount="@integer/changewallpaper_gallery_folder_thumbnails" android:columnCount="@integer/changewallpaper_gallery_folder_thumbnails">
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.5dp" app:cardCornerRadius="@dimen/wallpaper_gallery_item_thumbnail_corner_radius">
+                <ImageView android:id="@id/thumb1" android:layout_width="@dimen/wallpaper_gallery_item_thumbnail_length" android:layout_height="@dimen/wallpaper_gallery_item_thumbnail_length" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.5dp" app:cardCornerRadius="@dimen/wallpaper_gallery_item_thumbnail_corner_radius">
+                <ImageView android:id="@id/thumb2" android:layout_width="@dimen/wallpaper_gallery_item_thumbnail_length" android:layout_height="@dimen/wallpaper_gallery_item_thumbnail_length" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.5dp" app:cardCornerRadius="@dimen/wallpaper_gallery_item_thumbnail_corner_radius">
+                <ImageView android:id="@id/thumb3" android:layout_width="@dimen/wallpaper_gallery_item_thumbnail_length" android:layout_height="@dimen/wallpaper_gallery_item_thumbnail_length" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.5dp" app:cardCornerRadius="@dimen/wallpaper_gallery_item_thumbnail_corner_radius">
+                <ImageView android:id="@id/thumb4" android:layout_width="@dimen/wallpaper_gallery_item_thumbnail_length" android:layout_height="@dimen/wallpaper_gallery_item_thumbnail_length" android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_palette_wallpaper_gallery_folder_name_color" android:ellipsize="end" android:id="@id/folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="center" />
+</LinearLayout>

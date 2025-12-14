@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/download_intercept_popup_bg_radius" />
+    <stroke android:width="@dimen/download_intercept_popup_download_btn_stroke_width" android:color="@color/download_intercept_popup_download_btn_solid_color" />
+    <solid android:color="@color/download_intercept_popup_btn_background_color" />
+</shape>

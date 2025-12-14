@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/task_edge_small_icon_size" android:width="@dimen/task_edge_small_icon_size" android:left="@dimen/task_edge_small_icon_margin_start" android:right="@dimen/task_edge_small_icon_margin_start">
+        <bitmap android:src="@drawable/internet_ic_back" android:tint="@color/color_palette_list_view_search_field_back_icon_tint_color" android:autoMirrored="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </item>
+</layer-list>

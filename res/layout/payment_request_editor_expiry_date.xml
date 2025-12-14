@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_editor_content_spacing" android:minHeight="@dimen/payments_editor_item_min_height" android:paddingStart="@dimen/payments_editor_item_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/payments_editor_hint_text_size" android:textColor="@color/color_palette_list_view_text_field_primary_dark_color" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/autofill_credit_card_editor_card_expiration_hint" style="@style/RobotoRegular" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/payments_editor_label_marginBottom">
+        <EditText android:id="@id/editor_month" android:hint="@string/card_unmask_month_hint" android:digits="0123456789" android:imeOptions="actionNext" style="@style/PaymentExpireDateEditTextStyle" />
+        <TextView android:textColor="@color/winset_default_text" android:gravity="center" android:layout_width="@dimen/payments_editor_slash_item_width" android:layout_height="wrap_content" android:text="@string/autofill_credit_card_expiration_date_slash" />
+        <EditText android:id="@id/editor_year" android:hint="@string/card_unmask_year_hint" android:digits="0123456789" android:imeOptions="actionNext" style="@style/PaymentExpireDateEditTextStyle" />
+    </LinearLayout>
+    <TextView android:id="@id/error_view_label" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/autofill_edittext_label_height" style="@style/TextFieldErrorAppearance" />
+</LinearLayout>

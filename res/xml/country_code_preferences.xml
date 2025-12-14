@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.settings.RadioPreferenceGroup sbrowser:entries="@array/pref_country_code_values" sbrowser:entryValues="@array/pref_country_code_values" />
+</androidx.preference.PreferenceScreen>

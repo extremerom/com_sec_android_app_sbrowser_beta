@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="26.0dp" />
+    <padding android:top="@dimen/language_picker_dropdown_padding_vertical" android:bottom="@dimen/language_picker_dropdown_padding_vertical" />
+    <solid android:color="@color/language_picker_spinner_popup_background_color" />
+</shape>

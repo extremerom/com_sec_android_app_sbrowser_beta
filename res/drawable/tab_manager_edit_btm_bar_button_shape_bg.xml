@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/basic_bottom_bar_icon_button_text_shape_radius" />
+    <padding android:left="@dimen/basic_bottom_bar_icon_button_text_shape_padding_left_right" android:top="@dimen/basic_bottom_bar_icon_button_text_shape_padding_top" android:right="@dimen/basic_bottom_bar_icon_button_text_shape_padding_left_right" android:bottom="@dimen/basic_bottom_bar_icon_button_text_shape_padding_bottom" />
+    <solid android:color="@color/basic_bottom_bar_icon_button_text_color_dark" />
+</shape>

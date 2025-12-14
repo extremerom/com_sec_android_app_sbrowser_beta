@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">حاول بعد %d ثانية.</item>
+        <item quantity="one">حاول بعد ثانية واحدة.</item>
+        <item quantity="two">حاول بعد ثانيتَين.</item>
+        <item quantity="few">حاول بعد %d ثوانٍ.</item>
+        <item quantity="many">حاول بعد %d ثانية.</item>
+        <item quantity="other">حاول بعد %d ثانية.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">‏‫هل تريد حذف ‬‏‫%d مجلد إشارات مرجعية وكل الإشارات المرجعية بداخله؟</item>
+        <item quantity="one">‏‫هل تريد حذف ‬‏‫مجلد إشارات مرجعية واحد وكل الإشارات المرجعية بداخله؟</item>
+        <item quantity="two">‏‫هل تريد حذف ‬‏‫مجلدي إشارات مرجعية وكل الإشارات المرجعية بداخلهما؟</item>
+        <item quantity="few">‏‫هل تريد حذف ‬‏‫%d مجلدات إشارات مرجعية وكل الإشارات المرجعية بداخلها؟</item>
+        <item quantity="many">‏‫هل تريد حذف ‬‏‫%d مجلد إشارات مرجعية وكل الإشارات المرجعية بداخله؟</item>
+        <item quantity="other">‏‫هل تريد حذف ‬‏‫%d مجلد إشارات مرجعية وكل الإشارات المرجعية بداخله؟</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">هل تريد حذف %d مجلد إشارات مرجعية؟</item>
+        <item quantity="one">هل تريد حذف مجلد إشارات مرجعية واحد؟</item>
+        <item quantity="two">هل تريد حذف مجلدي إشارات مرجعية؟</item>
+        <item quantity="few">هل تريد حذف %d مجلدات إشارات مرجعية؟</item>
+        <item quantity="many">هل تريد حذف %d مجلد إشارات مرجعية؟</item>
+        <item quantity="other">هل تريد حذف %d مجلد إشارات مرجعية؟</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">تم نقل %1$d عنصر إلى %2$s.</item>
+        <item quantity="one">تم نقل عنصر واحد إلى %2$s.</item>
+        <item quantity="two">تم نقل عنصرين إلى %2$s.</item>
+        <item quantity="few">تم نقل %1$d عناصر إلى %2$s.</item>
+        <item quantity="many">تم نقل %1$d عنصراً إلى %2$s.</item>
+        <item quantity="other">تم نقل %1$d عنصر إلى %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">%d إشارة مرجعية</item>
+        <item quantity="one">إشارة مرجعية</item>
+        <item quantity="two">إشارتان مرجعيتان</item>
+        <item quantity="few">%d إشارات مرجعية</item>
+        <item quantity="many">%d إشارة مرجعية</item>
+        <item quantity="other">%d إشارة مرجعية</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">تمت إضافة %d إشارة مرجعية اليوم</item>
+        <item quantity="one">إضيفت إشارة مرجعية واحدة اليوم</item>
+        <item quantity="two">إضيفت إشارتَين مرجعيتَين اليوم</item>
+        <item quantity="few">تمت إضافة %d إشارات مرجعية اليوم</item>
+        <item quantity="many">تمت إضافة %d إشارة مرجعية اليوم</item>
+        <item quantity="other">تمت إضافة %d إشارة مرجعية اليوم</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">أتريد حذف %d إشارة مرجعية؟</item>
+        <item quantity="one">أتريد حذف إشارة مرجعية واحدة؟</item>
+        <item quantity="two">أتريد حذف إشارتَين مرجعيتَين؟</item>
+        <item quantity="few">أتريد حذف %d إشارات مرجعية؟</item>
+        <item quantity="many">أتريد حذف %d إشارة مرجعية؟</item>
+        <item quantity="other">أتريد حذف %d إشارة مرجعية؟</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">%d إشارة مرجعية جاهزة للمزامنة</item>
+        <item quantity="one">إشارة مرجعية واحدة جاهزة للمزامنة</item>
+        <item quantity="two">إشارتان مرجعيتان جاهزتان للمزامنة</item>
+        <item quantity="few">%d إشارات مرجعية جاهزة للمزامنة</item>
+        <item quantity="many">%d إشارة مرجعية جاهزة للمزامنة</item>
+        <item quantity="other">%d إشارة مرجعية جاهزة للمزامنة</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">تم حظر %d إعلان هذا الأسبوع.</item>
+        <item quantity="one">تم حظر إعلان واحد هذا الأسبوع.</item>
+        <item quantity="two">تم حظر إعلانين هذا الأسبوع.</item>
+        <item quantity="few">تم حظر %d إعلانات هذا الأسبوع.</item>
+        <item quantity="many">تم حظر %d إعلاناً هذا الأسبوع.</item>
+        <item quantity="other">تم حظر %d إعلان هذا الأسبوع.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">تم حظر %d إعلان اليوم.</item>
+        <item quantity="one">تم حظر إعلان واحد اليوم.</item>
+        <item quantity="two">تم حظر إعلانين اليوم.</item>
+        <item quantity="few">تم حظر %d إعلانات اليوم.</item>
+        <item quantity="many">تم حظر %d إعلاناً اليوم.</item>
+        <item quantity="other">تم حظر %d إعلان اليوم.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">تم حظر %d إعلان على الصفحة الأخيرة.</item>
+        <item quantity="one">تم حظر إعلان واحد على الصفحة الأخيرة.</item>
+        <item quantity="two">تم حظر إعلانَين على الصفحة الأخيرة.</item>
+        <item quantity="few">تم حظر %d إعلانات على الصفحة الأخيرة.</item>
+        <item quantity="many">تم حظر %d إعلاناً على الصفحة الأخيرة.</item>
+        <item quantity="other">تم حظر %d إعلان على الصفحة الأخيرة.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">تم حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="one">تم حظر عملية إعادة توجيه واحدة في الأسبوع الماضي</item>
+        <item quantity="two">تم حظر عمليتي إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="few">تم حظر %d عمليات إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="many">تم حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="other">تم حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">كان من الممكن حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="one">كان من الممكن حظر عملية إعادة توجيه واحدة في الأسبوع الماضي</item>
+        <item quantity="two">كان من الممكن حظر عمليتي إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="few">كان من الممكن حظر %d عمليات إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="many">كان من الممكن حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+        <item quantity="other">كان من الممكن حظر %d عملية إعادة توجيه في الأسبوع الماضي</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">تم حظر %d نافذة منبثقة في الأسبوع الماضي</item>
+        <item quantity="one">تم حظر نافذة منبثقة واحدة في الأسبوع الماضي</item>
+        <item quantity="two">تم حظر نافذتين منبثقتين في الأسبوع الماضي</item>
+        <item quantity="few">تم حظر %d نوافذ منبثقة في الأسبوع الماضي</item>
+        <item quantity="many">تم حظر %d نافذةً منبثقة في الأسبوع الماضي</item>
+        <item quantity="other">تم حظر %d نافذة منبثقة في الأسبوع الماضي</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">كان من الممكن حظر %d نافذة منبثقة في الأسبوع الماضي</item>
+        <item quantity="one">كان من الممكن حظر نافذة منبثقة واحدة في الأسبوع الماضي</item>
+        <item quantity="two">كان من الممكن حظر نافذتين منبثقتين في الأسبوع الماضي</item>
+        <item quantity="few">كان من الممكن حظر %d نوافذ منبثقة في الأسبوع الماضي</item>
+        <item quantity="many">كان من الممكن حظر %d نافذةً منبثقة في الأسبوع الماضي</item>
+        <item quantity="other">كان من الممكن حظر %d نافذة منبثقة في الأسبوع الماضي</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">تم توفير تحذيرات لـ %d موقع ويب</item>
+        <item quantity="one">تم توفير تحذيرات لموقع ويب واحد</item>
+        <item quantity="two">تم توفير تحذيرات لموقعي ويب</item>
+        <item quantity="few">تم توفير تحذيرات لـ %d مواقع ويب</item>
+        <item quantity="many">تم توفير تحذيرات لـ %d موقع ويب</item>
+        <item quantity="other">تم توفير تحذيرات لـ %d موقع ويب</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">تمت زيارة %d موقع ويب ضار من دون تحذيرات</item>
+        <item quantity="one">تمت زيارة موقع ويب ضار واحد من دون تحذير</item>
+        <item quantity="two">تمت زيارة موقعي ويب ضارين من دون تحذيرات</item>
+        <item quantity="few">تمت زيارة %d مواقع ويب ضارة من دون تحذيرات</item>
+        <item quantity="many">تمت زيارة %d موقع ويب ضاراً من دون تحذيرات</item>
+        <item quantity="other">تمت زيارة %d موقع ويب ضار من دون تحذيرات</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">%d مرة</item>
+        <item quantity="one">مرة واحدة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">%d مرات</item>
+        <item quantity="many">%d مرة</item>
+        <item quantity="other">%d مرة</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">إجمالي %d ملف صوتي</item>
+        <item quantity="one">ملف صوتي واحد</item>
+        <item quantity="two">إجمالي ملفَين صوتيَين</item>
+        <item quantity="few">إجمالي %d ملفات صوتية</item>
+        <item quantity="many">إجمالي %d ملفاً صوتياً</item>
+        <item quantity="other">إجمالي %d ملف صوتي</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">إجمالي %d مستند</item>
+        <item quantity="one">إجمالي مستند واحد</item>
+        <item quantity="two">إجمالي مستندَين</item>
+        <item quantity="few">إجمالي %d مستندات</item>
+        <item quantity="many">إجمالي %d مستنداً</item>
+        <item quantity="other">إجمالي %d مستند</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">تم تنزيل %d ملف اليوم</item>
+        <item quantity="one">تم تنزيل ملف واحد اليوم</item>
+        <item quantity="two">تم تنزيل ملفَين اليوم</item>
+        <item quantity="few">تم تنزيل %d ملفات اليوم</item>
+        <item quantity="many">تم تنزيل %d ملفاً اليوم</item>
+        <item quantity="other">تم تنزيل %d ملف اليوم</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">إجمالي %d ملف</item>
+        <item quantity="one">إجمالي ملف واحد</item>
+        <item quantity="two">إجمالي ملفَين</item>
+        <item quantity="few">إجمالي %d ملفات</item>
+        <item quantity="many">إجمالي %d ملفاً</item>
+        <item quantity="other">إجمالي %d ملف</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">إجمالي %d صورة</item>
+        <item quantity="one">إجمالي صورة واحدة</item>
+        <item quantity="two">إجمالي صورتَين</item>
+        <item quantity="few">إجمالي %d صور</item>
+        <item quantity="many">إجمالي %d صورة</item>
+        <item quantity="other">إجمالي %d صورة</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">إجمالي %d مقطع فيديو</item>
+        <item quantity="one">إجمالي مقطع فيديو واحد</item>
+        <item quantity="two">إجمالي مقطعَي فيديو</item>
+        <item quantity="few">إجمالي %d مقاطع فيديو</item>
+        <item quantity="many">إجمالي %d مقطع فيديو</item>
+        <item quantity="other">إجمالي %d مقطع فيديو</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">هل تريد حذف %d ملف؟</item>
+        <item quantity="one">هل تريد حذف ملف واحد؟</item>
+        <item quantity="two">هل تريد حذف ملفين؟</item>
+        <item quantity="few">هل تريد حذف %d ملفات؟</item>
+        <item quantity="many">هل تريد حذف %d ملفاً؟</item>
+        <item quantity="other">هل تريد حذف %d ملف؟</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">هل تريد نقل %d عنصر من التنزيلات السرية إلى التنزيلات العامة؟</item>
+        <item quantity="one">هل تريد نقل عنصر واحد من التنزيلات السرية إلى التنزيلات العامة؟</item>
+        <item quantity="two">هل تريد نقل عنصرين من التنزيلات السرية إلى التنزيلات العامة؟</item>
+        <item quantity="few">هل تريد نقل %d عناصر من التنزيلات السرية إلى التنزيلات العامة؟</item>
+        <item quantity="many">هل تريد نقل %d عنصراً من التنزيلات السرية إلى التنزيلات العامة؟</item>
+        <item quantity="other">هل تريد نقل %d عنصر من التنزيلات السرية إلى التنزيلات العامة؟</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">أتريد إزالة %d عنصر من سجل التنزيل الخاص بك؟</item>
+        <item quantity="one">أتريد إزالة عنصر واحد من سجل التنزيل الخاص بك؟</item>
+        <item quantity="two">أتريد إزالة عنصرَين من سجل التنزيل الخاص بك؟</item>
+        <item quantity="few">أتريد إزالة %d عناصر من سجل التنزيل الخاص بك؟</item>
+        <item quantity="many">أتريد إزالة %d عنصراً من سجل التنزيل الخاص بك؟</item>
+        <item quantity="other">أتريد إزالة %d عنصر من سجل التنزيل الخاص بك؟</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">تم تنزيل %d صورة</item>
+        <item quantity="one">تم تنزيل صورة واحدة</item>
+        <item quantity="two">تم تنزيل صورتَين</item>
+        <item quantity="few">تم تنزيل %d صور</item>
+        <item quantity="many">تم تنزيل %d صورة</item>
+        <item quantity="other">تم تنزيل %d صورة</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">تم تنزيل صورة واحدة، وفشلت صورة واحدة</item>
+        <item quantity="other">تم تنزيل %d من الصور، وفشلت صورة واحدة</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">تعذر تنزيل الصورة</item>
+        <item quantity="other">تعذر تنزيل الصور</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">تم تنزيل صورة واحدة، وفشلت %d من الصور</item>
+        <item quantity="other">تم تنزيل %1$d من الصور، وفشلت %2$d من الصور</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">تم إيقاف التنزيل مؤقتاً</item>
+        <item quantity="other">تم الإيقاف مؤقتاً (تم تنزيل %1$d\\%2$d من الصور)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">تم تنزيل %d ملف.</item>
+        <item quantity="one">تم تنزيل ملف.</item>
+        <item quantity="two">تم تنزيل ملفين.</item>
+        <item quantity="few">تم تنزيل %d ملفات.</item>
+        <item quantity="many">تم تنزيل %d ملفاً.</item>
+        <item quantity="other">تم تنزيل %d ملف.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">يتبقى %d يوم حتى يتم الحذف</item>
+        <item quantity="one">يتبقى يوم واحد حتى يتم الحذف</item>
+        <item quantity="two">يتبقى يومان حتى يتم الحذف</item>
+        <item quantity="few">يتبقى %d أيام حتى يتم الحذف</item>
+        <item quantity="many">يتبقى %d يوماً حتى يتم الحذف</item>
+        <item quantity="other">يتبقى %d يوم حتى يتم الحذف</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">تمت زيارة %1$d صفحة ويب في %2$s</item>
+        <item quantity="one">تمت زيارة صفحة ويب واحدة في %2$s</item>
+        <item quantity="two">تمت زيارة صفحتي ويب في %2$s</item>
+        <item quantity="few">تمت زيارة %1$d صفحات ويب في %2$s</item>
+        <item quantity="many">تمت زيارة %1$d صفحة ويب في %2$s</item>
+        <item quantity="other">تمت زيارة %1$d صفحة ويب في %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">تمت زيارة %d صفحة ويب اليوم</item>
+        <item quantity="one">تمت زيارة صفحة ويب واحدة اليوم</item>
+        <item quantity="two">تمت زيارة صفحتَي ويب اليوم</item>
+        <item quantity="few">تمت زيارة %d صفحات ويب اليوم</item>
+        <item quantity="many">تمت زيارة %d صفحة ويب اليوم</item>
+        <item quantity="other">تمت زيارة %d صفحة ويب اليوم</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">تمت زيارة %d صفحة ويب بالأمس</item>
+        <item quantity="one">تمت زيارة صفحة ويب واحدة بالأمس</item>
+        <item quantity="two">تمت زيارة صفحتَي ويب بالأمس</item>
+        <item quantity="few">تمت زيارة %d صفحات ويب بالأمس</item>
+        <item quantity="many">تمت زيارة %d صفحة ويب بالأمس</item>
+        <item quantity="other">تمت زيارة %d صفحة ويب بالأمس</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">أتريد حذف %d عنصر من السجل؟</item>
+        <item quantity="one">أتريد حذف عنصر واحد من السجل؟</item>
+        <item quantity="two">أتريد حذف عنصرَين من السجل؟</item>
+        <item quantity="few">أتريد حذف %d عناصر من السجل؟</item>
+        <item quantity="many">أتريد حذف %d عنصراً من السجل؟</item>
+        <item quantity="other">أتريد حذف %d عنصر من السجل؟</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: %d مرة</item>
+        <item quantity="one">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: مرة واحدة</item>
+        <item quantity="two">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: مرتان</item>
+        <item quantity="few">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: %d مرات</item>
+        <item quantity="many">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: %d مرةً</item>
+        <item quantity="other">تمت محاولة فتح ‏‫تطبيق الإنترنت من Samsung‬: %d مرة</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">تمت محاولة فتح تطبيق الإنترنت: %d مرة</item>
+        <item quantity="one">تمت محاولة فتح تطبيق الإنترنت: مرة واحدة</item>
+        <item quantity="two">تمت محاولة فتح تطبيق الإنترنت: مرتان</item>
+        <item quantity="few">تمت محاولة فتح تطبيق الإنترنت: %d مرات</item>
+        <item quantity="many">تمت محاولة فتح تطبيق الإنترنت: %d مرةً</item>
+        <item quantity="other">تمت محاولة فتح تطبيق الإنترنت: %d مرة</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">تم الحظر‬: %d مرة</item>
+        <item quantity="one">تم الحظر‬: مرة واحدة</item>
+        <item quantity="two">تم الحظر‬: مرتان</item>
+        <item quantity="few">تم الحظر‬: %d مرات</item>
+        <item quantity="many">تم الحظر‬: %d مرةً</item>
+        <item quantity="other">تم الحظر‬: %d مرة</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">تم الفتح %d مرة</item>
+        <item quantity="one">تم الفتح مرة واحدة</item>
+        <item quantity="two">تم الفتح مرتين</item>
+        <item quantity="few">تم الفتح %d مرات</item>
+        <item quantity="many">تم الفتح %d مرة</item>
+        <item quantity="other">تم الفتح %d مرات</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">يتعذر فتح أكثر من %d إطار للتطبيقات.</item>
+        <item quantity="one">يتعذر فتح أكثر من إطار واحد للتطبيقات.</item>
+        <item quantity="two">يتعذر فتح أكثر من إطارَين للتطبيقات.</item>
+        <item quantity="few">يتعذر فتح أكثر من %d إطارات للتطبيقات.</item>
+        <item quantity="many">يتعذر فتح أكثر من %d إطاراً للتطبيقات.</item>
+        <item quantity="other">يتعذر فتح أكثر من %d إطار للتطبيقات.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">أتريد حذف %d عنصر من السجل؟</item>
+        <item quantity="one">أتريد حذف عنصر واحد من السجل؟</item>
+        <item quantity="two">أتريد حذف عنصرَين من السجل؟</item>
+        <item quantity="few">أتريد حذف %d عناصر من السجل؟</item>
+        <item quantity="many">أتريد حذف %d عنصراً من السجل؟</item>
+        <item quantity="other">أتريد حذف %d عنصر من السجل؟</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">سيتم حظر الإشعارات من %1$s لمدة %2$d يوم.</item>
+        <item quantity="one">سيتم حظر الإشعارات من %1$s لمدة يوم واحد.</item>
+        <item quantity="two">سيتم حظر الإشعارات من %1$s لمدة يومين.</item>
+        <item quantity="few">سيتم حظر الإشعارات من %1$s لمدة %2$d أيام.</item>
+        <item quantity="many">سيتم حظر الإشعارات من %1$s لمدة %2$d يوماً.</item>
+        <item quantity="other">سيتم حظر الإشعارات من %1$s لمدة %2$d يوم.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">تتعذر إضافة أكثر من %d ملصق.</item>
+        <item quantity="one">تتعذر إضافة أكثر من ملصق واحد.</item>
+        <item quantity="two">تتعذر إضافة أكثر من ملصقَين.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d ملصقات.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d ملصقاً.</item>
+        <item quantity="other">تتعذر إضافة أكثر من %d ملصق.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">‏‫تتعذر إضافة أكثر من %d ملصق.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="one">‏‫تتعذر إضافة أكثر من ملصق واحد.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="two">‏‫تتعذر إضافة أكثر من ملصقين.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="few">‏‫تتعذر إضافة أكثر من %d ملصقات.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="many">‏‫تتعذر إضافة أكثر من %d ملصقاً.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+        <item quantity="other">‏‫تتعذر إضافة أكثر من %d ملصق.‬ انتقل إلى محرر الصور في الاستوديو لإزالة الملصقات.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+        <item quantity="one">يجب أن يكون عمرك عاماً واحداً على الأقل لاستخدام %2$s.</item>
+        <item quantity="two">يجب أن يكون عمرك عامين على الأقل لاستخدام %2$s.</item>
+        <item quantity="few">يجب أن يكون عمرك %1$d أعوام على الأقل لاستخدام %2$s.</item>
+        <item quantity="many">يجب أن يكون عمرك %1$d عاماً على الأقل لاستخدام %2$s.</item>
+        <item quantity="other">يجب أن يكون عمرك %1$d عام على الأقل لاستخدام %2$s.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="two">يجب أن يكون عمرك سنتين على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="few">يجب أن يكون عمرك %d سنوات على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="many">يجب أن يكون عمرك %d سنةً على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+        <item quantity="other">يجب أن يكون عمرك %d سنة على الأقل لاستخدام ميزات الذكاء المتقدم‬ في Galaxy AI.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">يجب أن يكون عمرك ‏‎%d سنة على الأقل لاستخدام الميزات الذكية.</item>
+        <item quantity="one">يجب أن يكون عمرك سنة واحدة على الأقل لاستخدام الميزات الذكية.</item>
+        <item quantity="two">يجب أن يكون عمرك ‏‎سنتين على الأقل لاستخدام الميزات الذكية.</item>
+        <item quantity="few">يجب أن يكون عمرك ‏‎%d سنوات على الأقل لاستخدام الميزات الذكية.</item>
+        <item quantity="many">يجب أن يكون عمرك ‏‎%d سنةً على الأقل لاستخدام الميزات الذكية.</item>
+        <item quantity="other">يجب أن يكون عمرك ‏‎%d سنة على الأقل لاستخدام الميزات الذكية.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">تم حظر %d إعلان</item>
+        <item quantity="one">تم حظر إعلان واحد</item>
+        <item quantity="two">تم حظر إعلانين</item>
+        <item quantity="few">تم حظر %d إعلانات</item>
+        <item quantity="many">تم حظر %d إعلاناً</item>
+        <item quantity="other">تم حظر %d إعلان</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">%d ملف تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="one">ملف تعريف ارتباط واحد قيد الاستخدام</item>
+        <item quantity="two">ملفا تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="few">%d ملفات تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="many">%d ملف تعريف ارتباط قيد الاستخدام</item>
+        <item quantity="other">%d ملف تعريف ارتباط قيد الاستخدام</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">تم حظر %d محاولة تتبع</item>
+        <item quantity="one">تم حظر محاولة تتبع واحدة</item>
+        <item quantity="two">تم حظر محاولتي تتبع</item>
+        <item quantity="few">تم حظر %d محاولات تتبع</item>
+        <item quantity="many">تم حظر %d محاولة تتبع</item>
+        <item quantity="other">تم حظر %d محاولة تتبع</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">تم حظر %d إعلان هذا الأسبوع.</item>
+        <item quantity="one">تم حظر إعلان واحد هذا الأسبوع.</item>
+        <item quantity="two">تم حظر إعلانين هذا الأسبوع.</item>
+        <item quantity="few">تم حظر %d إعلانات هذا الأسبوع.</item>
+        <item quantity="many">تم حظر %d إعلاناً هذا الأسبوع.</item>
+        <item quantity="other">تم حظر %d إعلان هذا الأسبوع.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">تمت حمايتك من %d محاولة تعقب هذا الأسبوع.</item>
+        <item quantity="one">تمت حمايتك من محاولة تعقب واحدة هذا الأسبوع.</item>
+        <item quantity="two">تمت حمايتك من محاولتي تعقب هذا الأسبوع.</item>
+        <item quantity="few">تمت حمايتك من %d محاولات تعقب هذا الأسبوع.</item>
+        <item quantity="many">تمت حمايتك من %d محاولة تعقب هذا الأسبوع.</item>
+        <item quantity="other">تمت حمايتك من %d محاولة تعقب هذا الأسبوع.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">تمت حمايتك من %d محاولة تعقب اليوم.</item>
+        <item quantity="one">تمت حمايتك من محاولة تعقب واحدة اليوم.</item>
+        <item quantity="two">تمت حمايتك من محاولتي تعقب اليوم.</item>
+        <item quantity="few">تمت حمايتك من %d محاولات تعقب اليوم.</item>
+        <item quantity="many">تمت حمايتك من %d محاولة تعقب اليوم.</item>
+        <item quantity="other">تمت حمايتك من %d محاولة تعقب اليوم.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">تم حظر %d إعادة توجيه غير مطلوبة هذا الأسبوع.</item>
+        <item quantity="one">تم حظر إعادة توجيه واحدة غير مطلوبة هذا الأسبوع.</item>
+        <item quantity="two">تم حظر إعادتي توجيه غير مطلوبتين هذا الأسبوع.</item>
+        <item quantity="few">تم حظر %d إعادات توجيه غير مطلوبة هذا الأسبوع.</item>
+        <item quantity="many">تم حظر %d إعادة توجيه غير مطلوبة هذا الأسبوع.</item>
+        <item quantity="other">تم حظر %d إعادة توجيه غير مطلوبة هذا الأسبوع.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">تم حظر %d إطار منبثق هذا الأسبوع.</item>
+        <item quantity="one">تم حظر إطار منبثق واحد هذا الأسبوع.</item>
+        <item quantity="two">تم حظر إطارين منبثقين هذا الأسبوع.</item>
+        <item quantity="few">تم حظر %d إطارات منبثقة هذا الأسبوع.</item>
+        <item quantity="many">تم حظر %d إطاراً منبثقاً هذا الأسبوع.</item>
+        <item quantity="other">تم حظر %d إطار منبثق هذا الأسبوع.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">تم حذف %d اختصار.</item>
+        <item quantity="one">تم حذف اختصار واحد.</item>
+        <item quantity="two">تم حذف اختصارَين.</item>
+        <item quantity="few">تم حذف %d اختصارات.</item>
+        <item quantity="many">تم حذف %d اختصاراً.</item>
+        <item quantity="other">تم حذف %d اختصار.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">تتعذر إضافة أكثر من %d اختصار في المرة الواحدة.</item>
+        <item quantity="one">تتعذر إضافة أكثر من اختصار واحد في المرة الواحدة.</item>
+        <item quantity="two">تتعذر إضافة أكثر من اختصارين في المرة الواحدة.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d اختصارات في المرة الواحدة.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d اختصاراً في المرة الواحدة.</item>
+        <item quantity="other">تتعذر إضافة أكثر من %d اختصار في المرة الواحدة.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">هل تريد إزالة %d جهاز؟</item>
+        <item quantity="one">هل تريد إزالة جهاز واحد؟</item>
+        <item quantity="two">هل تريد إزالة جهازين؟</item>
+        <item quantity="few">هل تريد إزالة %d أجهزة؟</item>
+        <item quantity="many">هل تريد إزالة %d جهازًا؟</item>
+        <item quantity="other">هل تريد إزالة %d جهاز؟</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">تمت إضافة %d اختصار.</item>
+        <item quantity="one">تمت إضافة اختصار واحد.</item>
+        <item quantity="two">تمت إضافة اختصارين.</item>
+        <item quantity="few">تمت إضافة %d اختصارات.</item>
+        <item quantity="many">تمت إضافة %d اختصاراً.</item>
+        <item quantity="other">تمت إضافة %d اختصار.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">أتريد حذف %d صفحة محفوظة؟</item>
+        <item quantity="one">أتريد حذف صفحة واحدة محفوظة؟</item>
+        <item quantity="two">أتريد حذف صفحتَين محفوظتَين؟</item>
+        <item quantity="few">أتريد حذف %d صفحات محفوظة؟</item>
+        <item quantity="many">أتريد حذف %d صفحة محفوظة؟</item>
+        <item quantity="other">أتريد حذف %d صفحة محفوظة؟</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">تم حفظ %d صفحة</item>
+        <item quantity="one">صفحة واحدة محفوظة</item>
+        <item quantity="two">تم حفظ صفحتَين</item>
+        <item quantity="few">تم حفظ %d صفحات</item>
+        <item quantity="many">تم حفظ %d صفحة</item>
+        <item quantity="other">تم حفظ %d صفحة</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">تم حفظ %d صفحة اليوم</item>
+        <item quantity="one">تم حفظ صفحة واحدة اليوم</item>
+        <item quantity="two">تم حفظ صفحتَين اليوم</item>
+        <item quantity="few">تم حفظ %d صفحات اليوم</item>
+        <item quantity="many">تم حفظ %d صفحة اليوم</item>
+        <item quantity="other">تم حفظ %d صفحة اليوم</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">%d صفحة محفوظة جاهزة للمزامنة</item>
+        <item quantity="one">صفحة واحدة محفوظة جاهزة للمزامنة</item>
+        <item quantity="two">صفحتان محفوظتان جاهزتان للمزامنة</item>
+        <item quantity="few">%d صفحات محفوظة جاهزة للمزامنة</item>
+        <item quantity="many">%d صفحة محفوظة جاهزة للمزامنة</item>
+        <item quantity="other">%d صفحة محفوظة جاهزة للمزامنة</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">%d مقاطعة اليوم</item>
+        <item quantity="one">مقاطعة واحدة اليوم</item>
+        <item quantity="two">مقاطعتان اليوم</item>
+        <item quantity="few">%d مقاطعات اليوم</item>
+        <item quantity="many">%d مقاطعةً اليوم</item>
+        <item quantity="other">%d مقاطعة اليوم</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">تم حظر %d عامل تشتيت انتباه اليوم</item>
+        <item quantity="one">تم حظر عامل تشتيت انتباه واحد اليوم</item>
+        <item quantity="two">تم حظر عاملي تشتيت انتباه اليوم</item>
+        <item quantity="few">تم حظر %d عوامل تشتيت انتباه اليوم</item>
+        <item quantity="many">تم حظر %d عامل تشتيت انتباه اليوم</item>
+        <item quantity="other">تم حظر %d عامل تشتيت انتباه اليوم</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">تم حظر %d تطبيق من فتح تطبيق الإنترنت</item>
+        <item quantity="one">تم حظر تطبيق واحد من فتح تطبيق الإنترنت</item>
+        <item quantity="two">تم حظر تطبيقين من فتح تطبيق الإنترنت</item>
+        <item quantity="few">تم حظر %d تطبيقات من فتح تطبيق الإنترنت</item>
+        <item quantity="many">تم حظر %d تطبيقاً من فتح تطبيق الإنترنت</item>
+        <item quantity="other">تم حظر %d تطبيق من فتح تطبيق الإنترنت</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">تم حظر %d تطبيق من فتح تطبيق الإنترنت اليوم</item>
+        <item quantity="one">تم حظر تطبيق واحد من فتح تطبيق الإنترنت اليوم</item>
+        <item quantity="two">تم حظر تطبيقين من فتح تطبيق الإنترنت اليوم</item>
+        <item quantity="few">تم حظر %d تطبيقات من فتح تطبيق الإنترنت اليوم</item>
+        <item quantity="many">تم حظر %d تطبيقاً من فتح تطبيق الإنترنت اليوم</item>
+        <item quantity="other">تم حظر %d تطبيق من فتح تطبيق الإنترنت اليوم</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">تم حظر %d نافذة منبثقة</item>
+        <item quantity="one">تم حظر نافذة منبثقة واحدة</item>
+        <item quantity="two">تم حظر نافذتين منبثقتين</item>
+        <item quantity="few">تم حظر %d نوافذ منبثقة</item>
+        <item quantity="many">تم حظر %d نافذةً منبثقةً</item>
+        <item quantity="other">تم حظر %d نافذة منبثقة</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">تم حظر %d نافذة منبثقة اليوم</item>
+        <item quantity="one">تم حظر نافذة منبثقة واحدة اليوم</item>
+        <item quantity="two">تم حظر نافذتين منبثقتين اليوم</item>
+        <item quantity="few">تم حظر %d نوافذ منبثقة اليوم</item>
+        <item quantity="many">تم حظر %d نافذةً منبثقةً اليوم</item>
+        <item quantity="other">تم حظر %d نافذة منبثقة اليوم</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">تم حظر %d عملية إعادة توجيه عكسية</item>
+        <item quantity="one">تم حظر ‏‎عملية إعادة توجيه عكسية واحدة</item>
+        <item quantity="two">تم حظر عمليتي إعادة توجيه عكسيتين</item>
+        <item quantity="few">تم حظر %d عمليات إعادة توجيه عكسية</item>
+        <item quantity="many">تم حظر %d عملية إعادة توجيه عكسية</item>
+        <item quantity="other">تم حظر %d عملية إعادة توجيه عكسية</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">تم حظر %d عملية إعادة توجيه عكسية اليوم</item>
+        <item quantity="one">تم حظر عملية إعادة توجيه عكسية واحدة اليوم</item>
+        <item quantity="two">تم حظر عمليتي إعادة توجيه عكسيتين اليوم</item>
+        <item quantity="few">تم حظر %d عمليات إعادة توجيه عكسية اليوم</item>
+        <item quantity="many">تم حظر %d عملية إعادة توجيه عكسية اليوم</item>
+        <item quantity="other">تم حظر %d عملية إعادة توجيه عكسية اليوم</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">كان من الممكن حظر %d جهاز تعقب إضافي</item>
+        <item quantity="one">كان من الممكن حظر جهاز تعقب واحد إضافي</item>
+        <item quantity="two">كان من الممكن حظر جهازي تعقب إضافيين</item>
+        <item quantity="few">كان من الممكن حظر %d أجهزة تعقب إضافية</item>
+        <item quantity="many">كان من الممكن حظر %d جهاز تعقب إضافي</item>
+        <item quantity="other">كان من الممكن حظر %d جهاز تعقب إضافي</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">تم تحديد %d علامة تبويب لك لإغلاقها</item>
+        <item quantity="one">تم تحديد علامة تبويب واحدة لك لإغلاقها</item>
+        <item quantity="two">تم تحديد علامتي تبويب لك لإغلاقهما</item>
+        <item quantity="few">تم تحديد %d علامات تبويب لك لإغلاقها</item>
+        <item quantity="many">تم تحديد %d علامة تبويب لك لإغلاقها</item>
+        <item quantity="other">تم تحديد %d علامة تبويب لك لإغلاقها</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">عثرنا على %d علامة تبويب قد ترغب في إغلاقها</item>
+        <item quantity="one">عثرنا على علامة تبويب واحدة قد ترغب في إغلاقها</item>
+        <item quantity="two">عثرنا على علامتي تبويب قد ترغب في إغلاقهما</item>
+        <item quantity="few">عثرنا على %d علامات تبويب قد ترغب في إغلاقها</item>
+        <item quantity="many">عثرنا على %d علامة تبويب قد ترغب في إغلاقها</item>
+        <item quantity="other">عثرنا على %d علامة تبويب قد ترغب في إغلاقها</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">يتعذر إقفال أكثر من %d علامة تبويب.</item>
+        <item quantity="one">يتعذر إقفال أكثر من علامة تبويب واحدة.</item>
+        <item quantity="two">يتعذر إقفال أكثر من علامتَي تبويب.</item>
+        <item quantity="few">يتعذر إقفال أكثر من %d علامات تبويب.</item>
+        <item quantity="many">يتعذر إقفال أكثر من %d علامة تبويب.</item>
+        <item quantity="other">يتعذر إقفال أكثر من %d علامة تبويب.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="zero">تنتهي الصلاحية بعد %d يوم</item>
+        <item quantity="one">تنتهي الصلاحية غدًا</item>
+        <item quantity="two">تنتهي الصلاحية بعد يومَين</item>
+        <item quantity="few">تنتهي الصلاحية بعد %d أيام</item>
+        <item quantity="many">تنتهي الصلاحية بعد %d يومًا</item>
+        <item quantity="other">تنتهي الصلاحية بعد %d يوم</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">%d عنصر محدد</item>
+        <item quantity="one">عنصر واحد محدد</item>
+        <item quantity="two">عنصران محددان</item>
+        <item quantity="few">%d عناصر محددة</item>
+        <item quantity="many">%d عنصراً محدداً</item>
+        <item quantity="other">%d عنصر محدد</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">%d صفحة ويب</item>
+        <item quantity="one">صفحة ويب واحدة</item>
+        <item quantity="two">صفحتا ويب</item>
+        <item quantity="few">%d صفحات ويب</item>
+        <item quantity="many">%d صفحة ويب</item>
+        <item quantity="other">%d صفحة ويب</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">%d موقع ويب</item>
+        <item quantity="one">موقع ويب واحد</item>
+        <item quantity="two">موقعا ويب</item>
+        <item quantity="few">%d مواقع ويب</item>
+        <item quantity="many">%d موقع ويب</item>
+        <item quantity="other">%d موقع ويب</item>
+    </plurals>
+</resources>

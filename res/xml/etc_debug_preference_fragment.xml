@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_redirect_skip" android:key="pref_support_redirect_skip" android:defaultValue="true" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_support_redirect_skip" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_display_provider_log_title" android:key="pref_display_provider_log_on_off" android:defaultValue="false" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_display_provider_log_on_off" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_data_saver_dummy_data_title" android:key="data_saver_dummy_data" sbrowser:debugDefaultValue="false" sbrowser:debugKey="data_saver_dummy_data" />
+    <androidx.preference.EditTextPreference android:singleLine="true" android:title="@string/pref_sart_mode" android:key="pref_sart_mode" android:defaultValue="" />
+</androidx.preference.PreferenceScreen>

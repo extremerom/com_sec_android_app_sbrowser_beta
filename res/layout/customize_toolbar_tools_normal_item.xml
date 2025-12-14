@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/more_menu_grid_secondary_item" />
+    <LinearLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/delete_button" android:layout_width="@dimen/customize_toolbar_delete_button_size" android:layout_height="@dimen/customize_toolbar_delete_button_size" android:src="@drawable/internet_tools_delete" android:layout_marginEnd="@dimen/customize_toolbar_normal_item_delete_button_margin_end" />
+    </LinearLayout>
+</RelativeLayout>

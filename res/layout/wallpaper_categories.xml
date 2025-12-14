@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/wallpaper_categories_container_margin" app:cardBackgroundColor="@color/wallpaper_cardview_card_background_color" app:cardCornerRadius="@dimen/wallpaper_category_cardview_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:id="@id/header_container" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/wallpaper_category_header_view_height" android:paddingHorizontal="@dimen/wallpaper_category_header_view_horizontal_padding">
+            <TextView android:textSize="@dimen/category_title_text_size" android:textColor="@color/color_palette_wallpaper_cardview_category_title_color" android:ellipsize="end" android:id="@id/category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/category_more_button" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/category_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallpapersettings_library_btn_next_mtrl" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/category_item_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+.class public final Lorg/chromium/network/mojom/ObliviousHttpCompletionResult$Tag;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/chromium/network/mojom/ObliviousHttpCompletionResult;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Tag"
+.end annotation
+
+
+# static fields
+.field public static final InnerResponse:I = 0x2
+
+.field public static final NetError:I = 0x0
+
+.field public static final OuterResponseErrorCode:I = 0x1

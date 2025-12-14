@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bluetooth_chooser_dialog_background_color" android:paddingTop="20.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chrome="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.infobars.TextViewWithClickableSpans android:textSize="16.0sp" android:id="@id/dialog_title" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+    <com.sec.android.app.sbrowser.infobars.TextViewWithClickableSpans android:textSize="16.0sp" android:id="@id/not_found_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    <FrameLayout android:id="@id/container" android:layout_width="match_parent" android:layout_height="100.0dp">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="24.0dp" android:layout_height="24.0dp" android:indeterminate="true" />
+        <ListView android:layout_gravity="top" android:id="@id/items" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" />
+    </FrameLayout>
+    <View style="@style/ButtonBarTopDivider" />
+    <com.sec.android.app.sbrowser.infobars.TextViewWithClickableSpans android:textSize="14.0sp" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+    <com.sec.android.app.sbrowser.infobars.ButtonCompat android:textColor="@color/bluetooth_chooser_dialog_button_text_color" android:layout_gravity="end" android:id="@id/positive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:textAllCaps="true" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" android:layout_marginEnd="12.0dp" chrome:buttonColor="@color/bluetooth_chooser_dialog_button_color" />
+</LinearLayout>

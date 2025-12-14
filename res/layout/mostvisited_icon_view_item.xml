@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clipChildren="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/quickaccess_icon_view_light_theme_ripple_background" android:layout_marginHorizontal="@dimen/most_visited_icon_view_item_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/container" layout="@layout/mostvisited_icon_view_item_container" />
+</RelativeLayout>

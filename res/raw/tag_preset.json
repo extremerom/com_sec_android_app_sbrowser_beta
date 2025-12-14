@@ -1,0 +1,14 @@
+{
+  "com.sec.android.app.sbrowser.searchindexables": [
+    {
+      "com.samsung.android.settings.intelligence.TAG_ADVANCED_INTELLIGENCE": [
+        "pref_browsing_assist"
+      ]
+    },
+    {
+      "com.samsung.android.settings.intelligence.TAG_AWESOME_INTELLIGENCE": [
+        "pref_read_aloud"
+      ]
+    }
+  ]
+}

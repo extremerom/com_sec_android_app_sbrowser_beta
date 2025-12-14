@@ -1,0 +1,11 @@
+.class public Lcom/sec/terrace/browser/ui/messages/infobar/TinSimpleConfirmInfoBarBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/sec/terrace/browser/ui/messages/infobar/TinSimpleConfirmInfoBarBuilder$Listener;
+    }
+.end annotation

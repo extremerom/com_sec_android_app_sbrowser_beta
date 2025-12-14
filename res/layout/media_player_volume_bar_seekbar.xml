@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar android:id="@id/media_player_volume_seekbar" android:layout_width="@dimen/media_player_vol_vertical_popup_height" android:layout_height="wrap_content" android:layout_weight="0.0" android:rotation="270.0" android:paddingStart="@dimen/media_player_vol_seekbar_popup_padding_vertical_kk" android:paddingEnd="@dimen/media_player_vol_seekbar_popup_padding_vertical_kk"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

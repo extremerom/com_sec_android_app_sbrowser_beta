@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/search_suggestion_container" android:paddingBottom="@dimen/suggestion_list_container_padding_bottom" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="auto">
+        <TextView android:textAppearance="@style/SettingsThemeListItemSmall" android:textSize="@dimen/suggestion_item_description_text_size" android:textColor="@color/suggestion_group_title_text" android:id="@id/title" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suggestion_group_title_top_margin" android:layout_marginBottom="@dimen/suggestion_group_title_bottom_margin" android:text="@string/search_suggestions" android:singleLine="true" android:layout_marginHorizontal="@dimen/suggestion_group_title_horizontal_margin" style="@style/RobotoMedium" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suggestion_search_item_list_view_top_margin" android:layout_marginBottom="@dimen/suggestion_search_item_list_view_bottom_margin" android:layout_marginHorizontal="@dimen/suggestion_search_item_list_view_horizontal_margin" />
+    </LinearLayout>
+</LinearLayout>

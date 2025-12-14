@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/grp1">
+        <item android:id="@id/add_from_tabs" android:title="@string/tab_manager_add_existing_tab" />
+        <item android:id="@id/close_all" android:title="@string/close_all_tabs" />
+        <item android:id="@id/group_tabs" android:title="@string/tab_manager_create_group_tab" />
+        <item android:id="@id/edit_tabs" android:title="@string/select_tabs" />
+        <item android:id="@id/change_view" android:title="@string/tab_manager_view_as" />
+        <item android:id="@id/rename_this_tab_group" android:title="@string/contextmenu_change_group_name_color" />
+        <item android:id="@id/remove_synced_device" android:title="@string/delete" />
+    </group>
+    <group android:id="@id/grp2">
+        <item android:id="@id/undo_closed_tab" android:title="@string/tab_manager_reopen_closed_tab" />
+        <item android:id="@id/sync_tabs" android:title="@string/view_synced_tabs" />
+        <item android:id="@id/auto_close_unused_tabs" android:title="@string/tab_manager_auto_close_settings" />
+        <item android:id="@id/secret_mode_security" android:title="@string/secret_mode_security_header" />
+    </group>
+</menu>

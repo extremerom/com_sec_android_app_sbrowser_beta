@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25</item>
+        <item>0,5</item>
+        <item>0,75</item>
+        <item>Обычная</item>
+        <item>1,25</item>
+        <item>1,5</item>
+        <item>2</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/ru</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Разрешить все файлы cookie</item>
+        <item>Заблокировать сторонние файлы cookie</item>
+        <item>Заблокировать все файлы cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Устройство</item>
+        <item>Карта памяти</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>По умолчанию</item>
+        <item>Быстрый доступ</item>
+        <item>Текущая страница</item>
+        <item>Пользовательская страница</item>
+    </string-array>
+</resources>

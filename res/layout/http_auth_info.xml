@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:paddingLeft="7.0dp" android:paddingTop="5.0dp" android:paddingRight="7.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="1">
+        <TextView android:id="@id/message_textview" android:layout_width="match_parent" />
+        <TableRow>
+            <TextView android:id="@id/username_textview" android:paddingLeft="7.0dp" />
+            <EditText android:id="@id/username" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/basic_textfield_cursor" android:backgroundTint="@color/color_primary_dark" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/password_textview" android:paddingLeft="7.0dp" />
+            <EditText android:id="@id/password" android:inputType="textPassword" android:imeOptions="flagNoExtractUi" android:textCursorDrawable="@drawable/basic_textfield_cursor" android:backgroundTint="@color/color_primary_dark" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

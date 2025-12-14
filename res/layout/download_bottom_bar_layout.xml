@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottom_bar_layout" android:background="@color/color_palette_settings_list_view_round_corner_color" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/basic_bottom_bar_icon_button_height">
+        <View android:focusable="false" android:clickable="true" android:layout_width="@dimen/basic_bottom_bar_icon_button_divider_width" android:layout_height="match_parent" android:importantForAccessibility="no" />
+        <LinearLayout android:id="@id/button_share" android:background="@drawable/more_menu_item_background_touch_effect" android:stateListAnimator="?seslSmallTouchAnimator" android:layout_marginVertical="@dimen/basic_bottom_bar_icon_button_margin_vertical" style="@style/BasicBottomBar.IconButton">
+            <ImageView android:id="@id/icon_share" android:src="@drawable/internet_ic_share" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_share" android:text="@string/action_share" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_rename" android:background="@drawable/more_menu_item_background_touch_effect" android:stateListAnimator="?seslSmallTouchAnimator" android:layout_marginVertical="@dimen/basic_bottom_bar_icon_button_margin_vertical" style="@style/BasicBottomBar.IconButton">
+            <ImageView android:id="@id/icon_rename" android:src="@drawable/internet_ic_edit" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_rename" android:text="@string/action_rename" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_retry" android:background="@drawable/more_menu_item_background_touch_effect" android:visibility="gone" android:stateListAnimator="?seslSmallTouchAnimator" style="@style/BasicBottomBar.IconButton"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageView android:id="@id/icon_retry" android:src="@drawable/internet_ic_refresh" android:scaleType="fitXY" android:adjustViewBounds="true" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_retry" android:text="@string/retry" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:focusable="false" android:clickable="true" android:layout_width="@dimen/basic_bottom_bar_icon_button_divider_width" android:layout_height="match_parent" android:importantForAccessibility="no" />
+        <LinearLayout android:id="@id/button_delete" android:background="@drawable/more_menu_item_background_touch_effect" android:stateListAnimator="?seslSmallTouchAnimator" android:layout_marginVertical="@dimen/basic_bottom_bar_icon_button_margin_vertical" style="@style/BasicBottomBar.IconButton">
+            <ImageView android:id="@id/icon_delete" android:src="@drawable/internet_ic_delete" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_delete_original" android:text="@string/action_delete_from_download_history" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_remove_from_history" android:background="@drawable/more_menu_item_background_touch_effect" android:stateListAnimator="?seslSmallTouchAnimator" style="@style/BasicBottomBar.IconButton">
+            <ImageView android:id="@id/icon_remove_from_history" android:src="@drawable/internet_ic_delete" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_remove_from_history" android:text="@string/download_history_remove_files" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/button_move" android:background="@drawable/more_menu_item_background_touch_effect" android:stateListAnimator="?seslSmallTouchAnimator" style="@style/BasicBottomBar.IconButton">
+            <ImageView android:id="@id/icon_move" android:src="@drawable/download_history_move_icon" style="@style/DownloadHistoryIconButtonStyle" />
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:id="@id/text_move" android:text="@string/download_history_move_out" style="@style/BasicBottomBar.IconButton_Text" />
+        </LinearLayout>
+        <View android:focusable="false" android:clickable="true" android:layout_width="@dimen/basic_bottom_bar_icon_button_divider_width" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    </LinearLayout>
+</FrameLayout>

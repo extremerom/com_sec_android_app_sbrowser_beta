@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="basic_dialog_blur_background_color">#1affffff</color>
+    <color name="color_palette_bookmark_widget_inside_bg_color_light">#010102</color>
+    <color name="widget_setting_background_shape_color">#5a5a5d</color>
+    <color name="widget_setting_background_shape_select_color">#80ffffff</color>
+</resources>

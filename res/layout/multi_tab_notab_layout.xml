@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_tabs_text_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/tab_manager_no_tabs_horizontal_margin" style="@style/NoDefaultFocusStyle">
+        <ImageView android:layout_gravity="center" android:id="@id/no_tabs_image" android:layout_width="@dimen/tab_manager_toolbar_button_size" android:layout_height="@dimen/tab_manager_toolbar_button_size" android:layout_marginBottom="@dimen/tab_manager_no_tabs_image_margin_bottom" android:src="@drawable/internet_tabs_menu_secret" android:tint="@color/tab_manager_no_tabs_secret_mode_text_color" />
+        <TextView android:textSize="@dimen/tab_manager_no_tabs_subtitle_text_size" android:gravity="center" android:id="@id/no_tabs_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tab_manager_no_tabs_subtitle_margin_bottom" android:text="@string/tab_manager_no_tabs_subtitle" style="@style/RobotoRegular" />
+        <TextView android:textSize="@dimen/tab_manager_no_tabs_text_size" android:gravity="center" android:id="@id/no_tabs_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_manager_no_tabs_description" style="@style/RobotoRegular" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

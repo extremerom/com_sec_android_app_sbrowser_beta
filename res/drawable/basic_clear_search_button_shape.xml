@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/basic_clear_search_button_shape_radius" />
+            <padding android:left="@dimen/basic_clear_search_button_shape_left_padding" android:top="@dimen/basic_clear_search_button_shape_top_padding" android:right="@dimen/basic_clear_search_button_shape_right_padding" android:bottom="@dimen/basic_clear_search_button_shape_bottom_padding" />
+            <stroke android:width="@dimen/basic_clear_search_button_shape_stroke_width" android:color="@color/color_palette_search_activity_clear_all_text_color" />
+            <solid android:color="@color/color_palette_search_activity_clear_all_text_color" />
+        </shape>
+    </item>
+</layer-list>

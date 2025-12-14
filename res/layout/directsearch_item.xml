@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/directsearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|center" android:id="@id/image" android:layout_width="@dimen/directsearch_image_size" android:layout_height="@dimen/directsearch_image_size" android:layout_marginStart="@dimen/directsearch_image_margin" android:layout_marginEnd="@dimen/directsearch_image_margin" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/directsearch_text_margin_start">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/directsearch_text_margin_vertical" android:layout_marginBottom="@dimen/directsearch_text_margin_vertical" android:layout_weight="1.0">
+                <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/suggestion_item_title_text_size" android:textColor="@color/suggestion_text" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec-roboto-light" />
+                <TextView android:textAppearance="@style/SettingsThemeListItemSmall" android:textSize="@dimen/suggestion_item_description_text_size" android:textColor="@color/suggestion_small_text" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sec-roboto-light" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/suggestion_item_description_text_size" android:textColor="@color/winset_default_text" android:layout_gravity="center_vertical" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="@dimen/directsearch_button_height" android:src="@drawable/tw_btn_default_mtrl" android:scaleType="fitCenter" android:textAllCaps="true" android:importantForAccessibility="no" android:fontFamily="sec-roboto-condensed" android:layout_marginEnd="@dimen/directsearch_button_margin_end" android:backgroundTint="@color/raised_button_background_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

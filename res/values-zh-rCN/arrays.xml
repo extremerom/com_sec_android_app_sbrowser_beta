@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </string-array>
+    <string-array name="pref_accept_cookies_label">
+        <item>允许所有 Cookie</item>
+        <item>阻止第三方 Cookie</item>
+        <item>阻止所有 Cookie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>设备</item>
+        <item>SD 卡</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>默认</item>
+        <item>快速访问</item>
+        <item>当前页面</item>
+        <item>自定义页面</item>
+    </string-array>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>yahoo</item>
+        <item>bing_zh_CN</item>
+    </string-array>
+</resources>

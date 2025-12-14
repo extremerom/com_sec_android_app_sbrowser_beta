@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/read_aloud_toolbar_article_summary_text_size" android:textColor="@color/read_aloud_toolbar_article_summary_text_color" android:ellipsize="end" android:gravity="start|top" android:id="@id/read_aloud_toolbar_article_summary_text_view" android:paddingBottom="@dimen/read_aloud_toolbar_article_summary_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="true" android:lineSpacingExtra="-1.0sp" android:autoSizeMaxTextSize="@dimen/read_aloud_toolbar_article_summary_max_text_size" style="@style/RobotoMedium" />
+</LinearLayout>

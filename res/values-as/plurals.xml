@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ছেকেণ্ডৰ পিছত চেষ্টা কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ছেকেণ্ডৰ পিছত চেষ্টা কৰক।</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চয়ন কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চয়ন কৰা হৈছে</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা বুকমাৰ্ক ফ'ল্ডাৰ আৰু ইয়াত থকা সকলো বুকমাৰ্ক বিলোপ কৰিবনে?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা বুকমাৰ্ক ফ'ল্ডাৰ আৰু তাত থকা সকলো বুকমাৰ্ক বিলোপ কৰিবনে?"</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা বুকমাৰ্ক ফ'ল্ডাৰ বিলোপ কৰিবনে?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা বুকমাৰ্ক ফ'ল্ডাৰ বিলোপ কৰিবনে?"</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d আইটেম %2$s-লৈ লৈ গৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d আইটেম %2$s-লৈ লৈ গৈছে।</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বুকমাৰ্ক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বুকমাৰ্ক</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা বুকমাৰ্ক যোগ কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা বুকমাৰ্ক যোগ কৰা হৈছে</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বুকমাৰ্ক বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বুকমাৰ্ক বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বুকমাৰ্ক চিংক কৰিবলৈ সাজু</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বুকমাৰ্ক চিংক কৰিবলৈ সাজু</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই সপ্তাহটোত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই সপ্তাহটোত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">শেষৰ পৃষ্ঠাখনত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">শেষৰ পৃষ্ঠাখনত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">যোৱা সপ্তাহত %d টা পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">যোৱা সপ্তাহত %d টা পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"যোৱা সপ্তাহত %d টা পুনঃনিৰ্দেশ ব্লক কৰা হ'ব পাৰে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"যোৱা সপ্তাহত %d টা পুনঃনিৰ্দেশ ব্লক কৰা হ'ব পাৰে"</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"যোৱা সপ্তাহত %d টা প'প-আপ ব্লক কৰা হৈছে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"যোৱা সপ্তাহত %d টা প'প-আপ ব্লক কৰা হৈছে"</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"যোৱা সপ্তাহত %d টা প'প-আপ ব্লক কৰা হ'ব পাৰে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"যোৱা সপ্তাহত %d টা প'প-আপ ব্লক কৰা হ'ব পাৰে"</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৱেবচাইটৰ বাবে সকীয়নি প্ৰদান কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ৱেবচাইটৰ বাবে সকীয়নি প্ৰদান কৰিছে</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">সকীয়নি অবিহনে %d টা দূষিত ৱেবচাইট দৰ্শন কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">সকীয়নিসমূহ অবিহনে %d টা দূষিত ৱেবচাইট দৰ্শন কৰিছে</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d বাৰ</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"মুঠ %d টা অডিঅ' ফাইল"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"মুঠ %d টা অডিঅ' ফাইল"</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মুঠ %d খন নথিপত্ৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মুঠ %d খন নথিপত্ৰ</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা ফাইল ডাউনলোড কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা ফাইল ডাউনলোড কৰা হৈছে</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মুঠ %d টা ফাইল</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মুঠ %d টা ফাইল</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">মুঠ %d খন প্ৰতিচ্ছবি</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">মুঠ %d খন প্ৰতিচ্ছবি</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"মুঠ %d টা ভিডিঅ'"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"মুঠ %d টা ভিডিঅ'"</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ফাইল বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ফাইল বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">গোপনীয় ডাউনলোডসমূহৰ পৰা ৰাজহুৱা ডাউনলোডসমূহলৈ %d টা আইটেম লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">গোপনীয় ডাউনলোডসমূহৰ পৰা ৰাজহুৱা ডাউনলোডসমূহলৈ %d টা আইটেম লৈ যাবনে?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ ডাউনলোডৰ ইতিহাসৰ পৰা %d টা আইটেম আঁতৰাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ ডাউনলোডৰ ইতিহাসৰ পৰা %d টা আইটেম আঁতৰাবনে?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d খন প্ৰতিচ্ছবি ডাউনলোড হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d খন প্ৰতিচ্ছবি ডাউনলোড হৈছে</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 খন প্ৰতিচ্ছবি ডাউনলোড হৈছে, 1 খন প্ৰতিচ্ছবি বিফল হৈছে</item>
+        <item quantity="other">%d খন প্ৰতিচ্ছবি ডাউনলোড হৈছে, 1 খন প্ৰতিচ্ছবি বিফল হৈছে</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">"প্ৰতিচ্ছবি ডাউনলোড কৰিব পৰা নগ'ল"</item>
+        <item quantity="other">"প্ৰতিচ্ছবিসমূহ ডাউনলোড কৰিব পৰা নগ'ল"</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 খন প্ৰতিচ্ছবি ডাউনলোড হৈছে, %d খন প্ৰতিচ্ছবি বিফল হৈছে</item>
+        <item quantity="other">%1$d খন প্ৰতিচ্ছবি ডাউনলোড হৈছে, %2$d খন প্ৰতিচ্ছবি বিফল হৈছে</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">ডাউনলোড বিৰতি দিছে</item>
+        <item quantity="other">"বিৰতি দিছে (%1$d/%2$d খন প্ৰতিচ্ছবি ডাউনলোড হ'ল)"</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ফাইল ডাউনলোড হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ফাইল ডাউনলোড হৈছে।</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">বিলোপণ নকৰালৈকে %d দিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">বিলোপণ নকৰালৈকে %d দিন</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ত %1$d টা ৱেবপৃষ্ঠা চাইছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s-ত %1$d টা ৱেবপৃষ্ঠা চাইছে</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা ৱেবপৃষ্ঠা দৰ্শন কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা ৱেবপৃষ্ঠা দৰ্শন কৰিছে</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">যোৱাকালি %d টা ৱেবপৃষ্ঠা দৰ্শন কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">যোৱাকালি %d টা ৱেবপৃষ্ঠা দৰ্শন কৰিছে</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">চেমচাং ইণ্টাৰনেট খুলিবলৈ চেষ্টা কৰিছে: %d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">চেমচাং ইণ্টাৰনেট খুলিবলৈ চেষ্টা কৰিছে: %d বাৰ</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ইণ্টাৰনেট এপ্প্‌ খুলিবলৈ চেষ্টা কৰিছে: %d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ইণ্টাৰনেট এপ্প্‌ খুলিবলৈ চেষ্টা কৰিছে: %d বাৰ</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ব্লক কৰিছে: %d বাৰ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ব্লক কৰিছে: %d বাৰ</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d বাৰ খোলা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d বাৰ খোলা হৈছে</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টাতকৈ অধিক এপ্প্‌ উইণ্ড' খুলিব নোৱাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টাতকৈ অধিক এপ্প্‌ উইণ্ড' খুলিব নোৱাৰে।"</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ ইতিহাসৰ পৰা %d টা আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ছেকেণ্ড</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ছেকেণ্ড</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s-ৰ পৰা অহা জাননীসমূহ %2$d দিনৰ বাবে ব্লক কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%1$s-ৰ পৰা অহা জাননীসমূহ %2$d দিনৰ বাবে ব্লক কৰা হ'ব।"</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে। ষ্টিকাৰসমূহ আঁতৰাবলৈ গেলাৰীত ফটো সম্পাদকলৈ যাওক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ষ্টিকাৰতকৈ অধিক যোগ কৰিব নোৱাৰে। ষ্টিকাৰসমূহ আঁতৰাবলৈ গেলাৰীত ফটো সম্পাদকলৈ যাওক।</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%2$s ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %1$d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%2$s ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %1$d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Galaxy AI-ৰ অগ্ৰণী ইণ্টেলিজেন্স সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Galaxy AI-ৰ অগ্ৰণী ইণ্টেলিজেন্স সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সৰ হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ইণ্টেলিজেণ্ট সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সীয়া হ'ব লাগিব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"ইণ্টেলিজেণ্ট সুবিধাসমূহ ব্যৱহাৰ কৰিবলৈ আপুনি কমেও %d বছৰ বয়সীয়া হ'ব লাগিব।"</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বিজ্ঞাপন ব্লক হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা বিজ্ঞাপন ব্লক হৈছে</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা কুকি ব্যৱহাৰত আছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা কুকি ব্যৱহাৰত আছে</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-টা ট্ৰেকিংৰ প্ৰয়াস ব্লক হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-টা ট্ৰেকিংৰ প্ৰয়াস ব্লক হৈছে</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই সপ্তাহটোত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই সপ্তাহটোত %d টা বিজ্ঞাপন ব্লক কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই সপ্তাহটোত আপোনাক %d টা ট্ৰেকিং প্ৰয়াসৰ পৰা সুৰক্ষিত কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই সপ্তাহটোত আপোনাক %d টা ট্ৰেকিং প্ৰয়াসৰ পৰা সুৰক্ষিত কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি আপোনাক %d টা ট্ৰেকিং প্ৰয়াসৰ পৰা সুৰক্ষিত কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি আপোনাক %d টা ট্ৰেকিং প্ৰয়াসৰ পৰা সুৰক্ষিত কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এই সপ্তাহটোত %d টা অবাঞ্ছিত ৰিডাইৰেক্ট ব্লক কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এই সপ্তাহটোত %d টা অবাঞ্ছিত ৰিডাইৰেক্ট ব্লক কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"এই সপ্তাহটোত %d টা প'প-আপ ব্লক কৰা হৈছে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"এই সপ্তাহটোত %d টা প'প-আপ ব্লক কৰা হৈছে।"</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চৰ্টকাট বিলোপ কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চৰ্টকাট বিলোপ কৰা হৈছে।</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এবাৰত %d টা চৰ্টকাটতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">এবাৰত %d টা চৰ্টকাটতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ডিভাইচ আঁতৰাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ডিভাইচ আঁতৰাবনে?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা চৰ্টকাট যোগ হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা চৰ্টকাট যোগ হৈছে।</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সংৰক্ষিত পৃষ্ঠা বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সংৰক্ষিত পৃষ্ঠা বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা পৃষ্ঠা সংৰক্ষণ কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা পৃষ্ঠা সংৰক্ষণ কৰিছে</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা পৃষ্ঠা সংৰক্ষণ কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা পৃষ্ঠা সংৰক্ষণ কৰা হৈছে</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা সংৰক্ষিত পৃষ্ঠা চিংক কৰিবলৈ সাজু</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা সংৰক্ষিত পৃষ্ঠা চিংক কৰিবলৈ সাজু</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা বাধা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা বাধা</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা বিভ্ৰান্তি ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা বিভ্ৰান্তি ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ইণ্টাৰনেট খোলাৰ পৰা %d এপ্প্‌ক ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ইণ্টাৰনেট খোলাৰ পৰা %d এপ্প্‌ক ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ইণ্টাৰনেট এপ্প্‌ খোলাৰ পৰা আজি %d এপ্প্‌ক ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ইণ্টাৰনেট এপ্প্‌ খোলাৰ পৰা আজি %d এপ্প্‌ক ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা প'প-আপ ব্লক কৰিছে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"%d টা প'প-আপ ব্লক কৰিছে"</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আজি %d টা প'প-আপ ব্লক কৰিছে"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আজি %d টা প'প-আপ ব্লক কৰিছে"</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা পিছলৈ যোৱাৰ পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা পিছলৈ যোৱাৰ পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আজি %d টা পিছলৈ যোৱাৰ পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আজি %d টা পিছলৈ যোৱাৰ পুনঃনিৰ্দেশ ব্লক কৰা হৈছে</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আৰু %d খন ট্ৰেকাৰ ব্লক কৰিব পৰা গ'লহেতেন"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"আৰু %d খন ট্ৰেকাৰ ব্লক কৰিব পৰা গ'লহেতেন"</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আপোনাৰ বন্ধ কৰিবলৈ %d টা টেব চয়ন কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আপোনাৰ বন্ধ কৰিবলৈ %d টা টেব চয়ন কৰিছে</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আমি আপুনি বন্ধ কৰিবলৈ বিচৰা %d টা টেব বিচাৰি পালো</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">আমি আপুনি বন্ধ কৰিবলৈ বিচৰা %d টা টেব বিচাৰি পালো</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টেবতকৈ অধিক লক কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা টেবতকৈ অধিক লক কৰিব নোৱাৰে।</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">কাইলৈ ম্যাদ উকলিব</item>
+        <item quantity="other">%d দিনত ম্যাদ উকলিব</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আইটেম চয়ন কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা আইটেম চয়ন কৰিছে</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৱেবপৃষ্ঠা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ৱেবপৃষ্ঠা</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৱেবচাইট</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d টা ৱেবচাইট</item>
+    </plurals>
+</resources>

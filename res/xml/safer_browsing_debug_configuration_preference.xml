@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/safer_browsing_debug_threat_descriptors" android:key="pref_safer_browsing_config_threat_descriptors" />
+    <Preference android:title="@string/safer_browsing_debug_threat_list" android:key="pref_safer_browsing_config_threat_list" />
+    <Preference android:title="@string/safer_browsing_debug_max_update_entries" android:key="pref_safer_browsing_config_max_update_entries" />
+    <Preference android:title="@string/safer_browsing_debug_max_database_entries" android:key="pref_safer_browsing_config_max_database_entries" />
+    <Preference android:title="@string/safer_browsing_debug_minimum_wait_duration" android:key="pref_safer_browsing_config_minimum_wait_duration" />
+    <androidx.preference.Preference android:title="@string/safer_browsing_debug_back_off_waiting_time" android:key="pref_safer_browsing_debug_back_off_waiting_time" />
+    <androidx.preference.Preference android:title="@string/safer_browsing_debug_back_off_request_try" android:key="pref_safer_browsing_debug_back_off_request_try" />
+</PreferenceScreen>

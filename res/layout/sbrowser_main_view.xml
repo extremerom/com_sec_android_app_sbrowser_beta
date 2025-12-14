@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.main_view.MainViewPhone android:id="@id/main_layout" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.sec.android.app.sbrowser.main_view.ContentsLayout android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes">
+            <FrameLayout android:id="@id/sbrowser_tab_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ViewStub android:id="@id/scanning_effect_layout_stub" android:layout="@layout/scanning_effect_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ViewStub android:id="@id/processing_light_effect_view_stub" android:layout="@layout/processing_light_effect_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </com.sec.android.app.sbrowser.main_view.ContentsLayout>
+        <include android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/toolbar" />
+        <ViewStub android:id="@id/split_tab_stub" android:layout="@layout/split_tab_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bottombar_layout" android:layout_below="@id/toolbar" />
+        <ViewStub android:orientation="horizontal" android:id="@id/split_view_stub" android:visibility="gone" android:layout="@layout/split_view_container" android:layout_width="@dimen/match_parent" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+        <ViewStub android:orientation="horizontal" android:id="@id/split_view_stub_v2" android:visibility="gone" android:layout="@layout/split_view_container_v2" android:layout_width="@dimen/match_parent" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+        <include android:id="@id/bottombar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/bottombar" />
+        <include layout="@layout/quickaccess_checkable_control_top_bar_stub" />
+        <ViewStub android:id="@id/main_view_new_tab_anim_stub" android:layout="@layout/new_tab_animation" android:inflatedId="@id/main_view_new_tab_anim" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ViewStub android:orientation="horizontal" android:id="@id/main_trans_bar_view_stub" android:clipChildren="false" android:clipToPadding="false" android:inflatedId="@id/toolbar_trans_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+        <ViewStub android:id="@id/main_trans_drag_view_stub" android:background="@null" android:visibility="gone" android:layout="@layout/main_trans_drag_view_layout" android:inflatedId="@id/main_trans_drag_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ViewStub android:id="@id/main_smallest_dp" android:layout="@layout/smallest_dp_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+    </com.sec.android.app.sbrowser.main_view.MainViewPhone>
+    <View android:id="@id/flex_mode_padding" android:background="#000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+</LinearLayout>

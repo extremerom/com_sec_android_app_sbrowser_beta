@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/tab_holder" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_width="@dimen/split_tab_round_corner_radius" android:layout_height="@dimen/split_tab_round_corner_radius" android:src="@drawable/top_left" android:tint="@color/split_tab_background" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:layout_width="@dimen/split_tab_round_corner_radius" android:layout_height="@dimen/split_tab_round_corner_radius" android:src="@drawable/top_right" android:tint="@color/split_tab_background" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:layout_width="@dimen/split_tab_round_corner_radius" android:layout_height="@dimen/split_tab_round_corner_radius" android:src="@drawable/bottom_left" android:tint="@color/split_tab_background" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_width="@dimen/split_tab_round_corner_radius" android:layout_height="@dimen/split_tab_round_corner_radius" android:src="@drawable/bottom_right" android:tint="@color/split_tab_background" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

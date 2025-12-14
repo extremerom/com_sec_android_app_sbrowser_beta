@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Luba kõik küpsised</item>
+        <item>Blokeeri kolmanda osapoole küpsised</item>
+        <item>Blokeeri kõik küpsised</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Seade</item>
+        <item>SD-kaart</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Vaikimisi</item>
+        <item>Kiirjuurdepääs</item>
+        <item>Hetkel kuvatav leht</item>
+        <item>Kohandatud leht</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/color_palette_quickaccess_sync_checkbox_on_tint_color" />
+    <item android:state_checked="false" android:color="@color/color_palette_quickaccess_sync_checkbox_off_tint_color" />
+</selector>

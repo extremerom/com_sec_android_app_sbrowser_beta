@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/translate"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:selectable="false" android:key="prf_translator_desc" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/web_assist_language_pack_preference_title" android:key="translator_language_pack_title" searchable="true" />
+</PreferenceScreen>

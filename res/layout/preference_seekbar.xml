@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.model.main.SeekbarContainer android:gravity="center_vertical" android:id="@id/seekbar_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/preference_seekbar_layout_margin" android:paddingEnd="@dimen/preference_seekbar_layout_margin">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/preference_seekbar_icon_size">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/preference_seekbar_icon_size" android:layout_height="@dimen/preference_seekbar_icon_size" android:tint="@color/preference_seekbar_icon_color" />
+            <TextView android:textSize="@dimen/preference_seekbar_summary_size" android:gravity="center" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/preference_seekbar_summary_min_width" android:minHeight="@dimen/preference_seekbar_summary_min_height" android:importantForAccessibility="no" style="@style/RobotoRegular" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SeslSeekBar android:gravity="center_vertical" android:id="@id/seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:seslSeekBarMode="expand" />
+            <View android:id="@id/seekbar_dimmed" android:background="@color/preference_seekbar_dimmed_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </com.sec.android.app.sbrowser.common.model.main.SeekbarContainer>
+</LinearLayout>

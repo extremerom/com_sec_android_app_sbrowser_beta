@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:focusable="true" android:clickable="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background_shadow_view" android:background="@drawable/internet_customize_menu_drag_background_shadow" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/more_menu_item_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/customize_toolbar_drag_item_shadow_margin_top" android:layout_marginBottom="@dimen/customize_toolbar_drag_item_shadow_margin_bottom" android:layout_marginHorizontal="@dimen/customize_toolbar_drag_item_shadow_margin_horizontal" layout="@layout/more_menu_grid_secondary_item" />
+</RelativeLayout>

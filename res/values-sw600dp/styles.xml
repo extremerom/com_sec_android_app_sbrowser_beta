@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AddBookmarkThemeBase" parent="@style/AddBookmarkThemeBase2">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:windowBackground">@color/show_bookmarks_item_selected_bg_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@style/AddBookmarkActionBarStyle</item>
+        <item name="android:alertDialogTheme">@style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@color/bookmark_theme_color</item>
+        <item name="android:colorEdgeEffect">@color/color_edge_effect</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+    </style>
+    <style name="BasicTextField.Password" parent="@style/RobotoRegular">
+        <item name="android:textSize">@dimen/basic_textfield_password_text_size</item>
+        <item name="android:textColor">@color/password_input_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@drawable/basic_textfield_password_background</item>
+        <item name="android:paddingTop">@dimen/basic_textfield_password_padding_top</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/basic_textfield_password_height</item>
+        <item name="android:layout_marginTop">@dimen/basic_dialog_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/basic_dialog_margin_bottom</item>
+        <item name="android:maxWidth">@dimen/secret_mode_password_text_view_width_tablet</item>
+        <item name="android:maxLength">16</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textCursorDrawable">@drawable/basic_textfield_password_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="DownloadActivityTheme2Base" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:checkboxStyle">@style/SettingsCheckBoxTheme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionMenuTextColor">@color/bookmark_theme_color</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:contextPopupMenuStyle">@style/SitesContextmenuStyle</item>
+        <item name="actionOverflowMenuStyle">?android:actionOverflowMenuStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="SecretModePasswordTheme" parent="@style/BasicDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:spotShadowAlpha">0.0</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="SitesActivityTheme2Base" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:checkboxStyle">@style/SettingsCheckBoxTheme</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:alertDialogTheme">@style/SettingsThemeForDialog</item>
+        <item name="android:actionMenuTextColor">@color/sites_activity_menu_color</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:colorControlActivated">@color/color_control_activated</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="TabSyncActivityTheme" parent="@style/AppBaseTheme.Light">
+        <item name="android:backgroundDimAmount">@dimen/winset_dim_bg_dim_amount</item>
+        <item name="android:windowBackground">@color/color_palette_list_view_action_bar_bg_color</item>
+        <item name="android:checkboxStyle">@style/CheckBoxPalettePrimaryColor</item>
+        <item name="android:textColor">@color/basic_action_bar_text</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/basic_navigation_up_button</item>
+        <item name="android:actionMenuTextColor">@color/winset_actionbar_text</item>
+        <item name="android:statusBarColor">@color/tab_sync_status_bar_color</item>
+        <item name="colorControlActivated">@color/color_control_activated</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+    </style>
+</resources>

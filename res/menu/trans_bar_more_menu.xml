@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/trans_bar_change_source_language" android:maxLines="2" android:singleLine="false" android:title="@string/trans_bar_change_source_language" />
+    <item android:id="@id/trans_bar_minimize" android:visible="false" android:title="@string/trans_bar_minimize" />
+    <item android:id="@id/trans_bar_settings" android:title="@string/settings_button" />
+</menu>

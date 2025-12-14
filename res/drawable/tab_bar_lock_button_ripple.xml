@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/recent_normal_tab_lock_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/tab_bar_button_lock_icon_bg_size" android:width="@dimen/tab_bar_button_lock_icon_bg_size" android:top="@dimen/tab_bar_button_lock_icon_vertical_padding" android:bottom="@dimen/tab_bar_button_lock_icon_vertical_padding" android:start="@dimen/tab_bar_button_lock_icon_horizontal_padding" android:end="@dimen/tab_bar_button_lock_icon_horizontal_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/recent_normal_tab_lock_color_bg" />
+        </shape>
+    </item>
+</ripple>

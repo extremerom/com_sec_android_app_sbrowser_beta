@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/layout_preview_outline_padding" android:paddingBottom="@dimen/layout_preview_outline_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="@dimen/layout_preview_tablet_width" android:layout_height="@dimen/layout_preview_tablet_height">
+            <RelativeLayout android:orientation="vertical" android:background="@drawable/layout_preview_main_view_background" android:padding="@dimen/layout_preview_main_view_tablet_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_bar_in_tablet" android:background="@color/layout_preview_bars_background" android:layout_width="match_parent" android:layout_height="@dimen/layout_preview_tab_bar_height" android:layout_alignParentTop="true" android:paddingHorizontal="@dimen/layout_preview_address_bar_item_margin">
+                    <View android:background="@drawable/layout_preview_tab_bar_background_focused" android:layout_width="@dimen/layout_preview_tab_tablet_width" android:layout_height="@dimen/layout_preview_tab_tablet_height" android:layout_marginEnd="@dimen/layout_preview_tab_tablet_margin_end" />
+                    <View android:background="@drawable/layout_preview_tab_bar_background" android:layout_width="@dimen/layout_preview_tab_tablet_width" android:layout_height="@dimen/layout_preview_tab_tablet_height" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/address_bar_in_tablet" android:background="@color/layout_preview_bars_background" android:layout_width="match_parent" android:layout_height="@dimen/layout_preview_address_bar_tablet_height" android:layout_below="@id/tab_bar_in_tablet" android:paddingHorizontal="@dimen/layout_preview_address_bar_padding_horizontal_tablet">
+                    <View android:background="@drawable/layout_preview_toolbar_button_background" android:layout_width="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_height="@dimen/layout_preview_toolbar_item_size_tablet" />
+                    <View android:background="@drawable/layout_preview_toolbar_button_background" android:layout_width="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_height="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_marginStart="@dimen/layout_preview_address_bar_item_margin" />
+                    <LinearLayout android:gravity="center" android:background="@drawable/layout_preview_tab_bar_background" android:layout_width="@dimen/layout_preview_inner_address_bar_tablet_width" android:layout_height="6.5dp" android:layout_marginHorizontal="4.0dp" android:paddingHorizontal="@dimen/layout_preview_address_bar_item_margin">
+                        <View android:background="@drawable/internet_ic_setting_facelift_star" android:layout_width="@dimen/layout_preview_icon_tablet_size" android:layout_height="@dimen/layout_preview_icon_tablet_size" android:backgroundTint="@color/layout_preview_icon" android:paddingHorizontal="@dimen/layout_preview_address_bar_item_margin" />
+                        <LinearLayout android:gravity="center" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                            <View android:background="@color/layout_preview_url" android:layout_width="@dimen/layout_preview_tablet_address_width" android:layout_height="@dimen/layout_preview_tablet_address_height" />
+                        </LinearLayout>
+                        <View android:background="@drawable/internet_ic_setting_facelift_refresh" android:layout_width="@dimen/layout_preview_icon_tablet_size" android:layout_height="@dimen/layout_preview_icon_tablet_size" android:backgroundTint="@color/layout_preview_icon" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/layout_preview_address_bar_tablet_button_group_width" android:layout_height="@dimen/layout_preview_toolbar_height" android:baselineAligned="false">
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/merged_address_bar_in_tablet" android:background="@color/layout_preview_bars_background" android:layout_width="match_parent" android:layout_height="@dimen/layout_preview_address_bar_tablet_height" android:layout_below="@id/address_bar_in_tablet" android:paddingHorizontal="@dimen/layout_preview_address_bar_padding_horizontal_tablet">
+                    <View android:background="@drawable/layout_preview_toolbar_button_background" android:layout_width="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_height="@dimen/layout_preview_toolbar_item_size_tablet" />
+                    <View android:background="@drawable/layout_preview_toolbar_button_background" android:layout_width="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_height="@dimen/layout_preview_toolbar_item_size_tablet" android:layout_marginStart="@dimen/layout_preview_address_bar_item_margin" />
+                    <LinearLayout android:gravity="center" android:background="@drawable/layout_preview_tab_bar_background" android:layout_width="@dimen/layout_preview_tablet_merged_main_address_width" android:layout_height="@dimen/layout_preview_tablet_merged_main_address_height" android:layout_marginHorizontal="4.0dp" android:paddingHorizontal="@dimen/layout_preview_address_bar_item_margin">
+                        <View android:background="@drawable/internet_ic_setting_facelift_star" android:layout_width="@dimen/layout_preview_icon_tablet_size" android:layout_height="@dimen/layout_preview_icon_tablet_size" android:backgroundTint="@color/layout_preview_icon" android:paddingHorizontal="@dimen/layout_preview_address_bar_item_margin" />
+                        <LinearLayout android:gravity="center" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                            <View android:background="@color/layout_preview_url" android:layout_width="@dimen/layout_preview_phone_address_width" android:layout_height="@dimen/layout_preview_tablet_address_height" />
+                        </LinearLayout>
+                        <View android:background="@drawable/internet_ic_setting_facelift_refresh" android:layout_width="@dimen/layout_preview_icon_tablet_size" android:layout_height="@dimen/layout_preview_icon_tablet_size" android:backgroundTint="@color/layout_preview_icon" />
+                    </LinearLayout>
+                    <View android:background="@drawable/layout_preview_tab_bar_background_focused" android:layout_width="@dimen/layout_preview_tab_fold_main_width" android:layout_height="@dimen/layout_preview_tab_tablet_height" android:layout_marginEnd="@dimen/layout_preview_tab_tablet_margin_end" />
+                    <View android:background="@drawable/layout_preview_tab_bar_background" android:layout_width="@dimen/layout_preview_tab_fold_main_width" android:layout_height="@dimen/layout_preview_tab_tablet_height" android:layout_marginEnd="21.0dp" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/layout_preview_address_bar_tablet_button_group_width" android:layout_height="@dimen/layout_preview_toolbar_height" android:baselineAligned="false">
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                        <include layout="@layout/layout_preview_addressbar_item" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bookmark_bar_in_tablet" android:background="@color/layout_preview_bars_background" android:layout_width="match_parent" android:layout_height="@dimen/layout_preview_bookmark_bar_height" android:layout_below="@id/merged_address_bar_in_tablet" android:paddingHorizontal="@dimen/layout_preview_bar_padding_horizontal">
+                    <View android:background="@color/layout_preview_bookmark" android:layout_width="@dimen/layout_preview_bookmark_tablet_width" android:layout_height="@dimen/layout_preview_bookmark_height" android:layout_marginEnd="@dimen/layout_preview_bookmark_tablet_margin_end" />
+                    <View android:background="@color/layout_preview_bookmark" android:layout_width="@dimen/layout_preview_bookmark_tablet_width" android:layout_height="@dimen/layout_preview_bookmark_height" android:layout_marginEnd="@dimen/layout_preview_bookmark_tablet_margin_end" />
+                    <View android:background="@color/layout_preview_bookmark" android:layout_width="@dimen/layout_preview_bookmark_tablet_width" android:layout_height="@dimen/layout_preview_bookmark_height" android:layout_marginEnd="@dimen/layout_preview_bookmark_tablet_margin_end" />
+                    <View android:background="@color/layout_preview_bookmark" android:layout_width="@dimen/layout_preview_bookmark_tablet_width" android:layout_height="@dimen/layout_preview_bookmark_height" android:layout_marginEnd="@dimen/layout_preview_bookmark_tablet_margin_end" />
+                    <View android:background="@color/layout_preview_bookmark" android:layout_width="@dimen/layout_preview_bookmark_tablet_width" android:layout_height="@dimen/layout_preview_bookmark_height" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_bar_in_tablet" android:background="@color/layout_preview_main_background" android:layout_width="match_parent" android:layout_height="1.0px" android:baselineAligned="false" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <View android:background="@drawable/layout_preview_main_view_boarder" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

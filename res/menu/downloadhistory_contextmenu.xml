@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/downloadhistory_contextmenu">
+        <item android:id="@id/downloadhistory_contextmenu_open" android:title="@string/contextmenu_open" />
+        <item android:id="@id/downloadhistory_contextmenu_delete" android:title="@string/delete" />
+        <item android:id="@id/downloadhistory_contextmenu_rename" android:title="@string/rename" />
+    </group>
+</menu>

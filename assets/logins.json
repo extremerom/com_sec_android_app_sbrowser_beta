@@ -1,0 +1,137 @@
+{
+    "https://paytest.github.io/": {
+        "description": "The sample for the multiple items",
+        "loginUrl": "https://paytest.github.io/autofill",
+        "passwordForms" : [
+            {
+                "usernameElement": "name",
+                "usernameValue": "username1",
+                "passwordElement": "password",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            },
+            {
+                "usernameElement": "name",
+                "usernameValue": "username2",
+                "passwordElement": "password",
+                "passwordValue": "password2",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://m.adidas.co.kr/": {
+        "description": "FIXME: Easy signin is failed or succeed in very late time because password form is seen after web page loading is finished",
+        "loginUrl": "https://m.adidas.co.kr/MO/Member/loginCheck.action",
+        "passwordForms" : [
+            {
+                "usernameElement": "memId",
+                "usernameValue": "username1",
+                "passwordElement": "memPwd",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://www.samsungusertrial.com/": {
+        "description": "[P191226-05126] The username element is saved as empty string with unknown reason",
+        "loginUrl": "https://www.samsungusertrial.com/userTrial/login.do",
+        "passwordForms" : [
+            {
+                "usernameElement": "",
+                "usernameValue": "username1",
+                "passwordElement": "pwd",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            },
+            {
+                "usernameElement": "displayUid",
+                "usernameValue": "username2",
+                "passwordElement": "pwd",
+                "passwordValue": "password2",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://m.hastanerandevu.gov.tr/": {
+        "description": "Fixed by https://gerrit.sw.sec.samsung.net/open/#/c/409338/",
+        "loginUrl": "https://m.hastanerandevu.gov.tr/index.html",
+        "passwordForms" : [
+            {
+                "usernameElement": "userid",
+                "usernameValue": "1111111111",
+                "passwordElement": "password",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://m.gsshop.com/": {
+        "description": "[P200618-01653] Account chooser dialog is launched with empty account",
+        "loginUrl": "https://m.gsshop.com/member/logIn.gs",
+        "passwordForms" : [
+            {
+                "usernameElement": "id",
+                "usernameValue": "username1",
+                "passwordElement": "passwd",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://www.coinbit.com/": {
+        "description": "Fixed by https://gerrit.sw.sec.samsung.net/open/#/c/424608/",
+        "loginUrl": "https://www.coinbit.com/account/signin.do",
+        "passwordForms" : [
+            {
+                "usernameElement": "anonymous_username",
+                "usernameValue": "username1",
+                "passwordElement": "anonymous_password",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+       ]
+    },
+
+    "https://www.cgv.co.kr/": {
+        "description": "Fixed by https://gerrit.sw.sec.samsung.net/eco/c/webplatform/cowboy/+/50347",
+        "loginUrl": "https://www.cgv.co.kr/user/login",
+        "passwordForms" : [
+            {
+                "usernameElement": "txtUserId",
+                "usernameValue": "username1",
+                "passwordElement": "txtPassword",
+                "passwordValue": "password1",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+        ]
+    },
+
+    "https://m.cgv.co.kr/": {
+        "description": "Fixed by https://gerrit.sw.sec.samsung.net/eco/c/webplatform/cowboy/+/50347",
+        "loginUrl": "https://m.cgv.co.kr/WebApp/Member/Login.aspx",
+        "passwordForms" : [
+            {
+                "usernameElement": "txtUserId",
+                "usernameValue": "username2",
+                "passwordElement": "txtPassword",
+                "passwordValue": "password2",
+                "passwordAutofillType": 1,
+                "blockedByUser": false
+            }
+        ]
+    }
+}

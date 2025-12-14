@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_use_sherlock_environment" android:summary="@string/pref_use_sherlock_environment" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_use_sherlock_environment" />
+    <androidx.preference.PreferenceCategory android:title="biometrics_settings">
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_use_intent_based_biometrics" android:summary="@string/pref_use_intent_based_biometrics" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_use_intent_based_biometrics" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_fingerprint_for_sherlock" android:summary="@string/pref_enable_fingerprint_for_sherlock" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_enable_fingerprint_for_sherlock" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_iris_for_sherlock" android:summary="@string/pref_enable_iris_for_sherlock" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_iris_for_sherlock" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_intelligent_scan_for_sherlock" android:summary="@string/pref_enable_intelligent_scan_for_sherlock" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_intelligent_scan_for_sherlock" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_enable_face_for_sherlock" android:summary="@string/pref_enable_face_for_sherlock" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_enable_face_for_sherlock" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

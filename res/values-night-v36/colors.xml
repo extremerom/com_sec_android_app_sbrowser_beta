@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ai_split_view_menu_text_color">#fcfcff</color>
+    <color name="summary_split_view_content_background_color">#252528</color>
+</resources>

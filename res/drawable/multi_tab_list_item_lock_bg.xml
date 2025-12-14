@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/recent_normal_tab_lock_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/multi_tab_list_item_close_btn_icon_size" android:width="@dimen/multi_tab_list_item_close_btn_icon_size" android:left="@dimen/multi_tab_list_item_close_btn_padding" android:top="@dimen/multi_tab_list_item_close_btn_padding" android:right="@dimen/multi_tab_list_item_close_btn_padding" android:bottom="@dimen/multi_tab_list_item_close_btn_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/recent_normal_tab_lock_color_bg" />
+        </shape>
+    </item>
+</ripple>

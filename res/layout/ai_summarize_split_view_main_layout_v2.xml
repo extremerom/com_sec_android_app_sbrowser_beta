@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ai_summarize_panel_background" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_layout" layout="@layout/ai_summarize_split_view_title_layout" />
+    <include android:id="@id/body_content_layout" layout="@layout/ai_summarize_split_view_body_content_layout" />
+</LinearLayout>

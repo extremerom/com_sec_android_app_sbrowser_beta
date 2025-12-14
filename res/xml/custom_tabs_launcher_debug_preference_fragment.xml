@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/custom_tabs_si_debug_settings_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CustomTabsSIDebugPreferenceFragment" />
+    <PreferenceScreen android:title="@string/custom_tabs_color_scheme_debug_settings_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.CustomTabsColorSchemeDebugPreferenceFragment" />
+    <PreferenceScreen android:title="@string/custom_tabs_partial_custom_tab_debug_settings_title" android:fragment="com.sec.android.app.sbrowser.settings.debug.PartialCustomTabsDebugPreferenceFragment" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_url" android:key="pref_custom_tabs_launcher_url" android:inputType="textUri" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_enter_animation" android:key="pref_custom_tabs_launcher_enter_animation" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_exit_animation" android:key="pref_custom_tabs_launcher_exit_animation" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_url_bar_hiding" android:key="pref_custom_tabs_launcher_url_bar_hiding" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_custom_close_button" android:key="pref_custom_tabs_launcher_custom_close_button" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_custom_action_buttons" android:key="pref_custom_tabs_launcher_custom_action_buttons" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_show_bottom_bar_buttons" android:key="pref_custom_tabs_launcher_show_bottom_bar_buttons" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_enable_swipe_up_gesture" android:key="pref_custom_tabs_launcher_enable_swipe_up_gesture" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_show_custom_option_menus" android:key="pref_custom_tabs_launcher_show_custom_option_menus" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_title_visibility_state" android:key="pref_custom_tabs_launcher_title_visibility_state" android:defaultValue="true" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_debug_settings_share_state_entries" android:title="@string/pref_custom_tabs_launcher_share_state" android:key="pref_custom_tabs_launcher_share_state" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_debug_settings_share_state_values" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_debug_settings_close_button_position_entries" android:title="@string/pref_custom_tabs_launcher_close_button_position" android:key="pref_custom_tabs_launcher_close_button_position" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_debug_settings_close_button_position_values" />
+    <Preference android:title="@string/custom_tabs_launcher_debug_settings_execute" android:key="pref_custom_tabs_launcher_execute" />
+</PreferenceScreen>

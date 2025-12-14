@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/widget_divider" android:background="?switchDividerColor" android:layout_width="@dimen/settings_list_divider_width" android:layout_height="@dimen/settings_list_divider_height" android:layout_marginStart="@dimen/settings_list_divider_margin_start" />
+    <ImageButton android:id="@id/widget_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/internet_ic_setting_folder" android:contentDescription="@string/pref_button_go_to_downloads" android:paddingStart="@dimen/settings_switch_custom_padding_start" android:paddingEnd="@dimen/settings_switch_padding_end" />
+</LinearLayout>

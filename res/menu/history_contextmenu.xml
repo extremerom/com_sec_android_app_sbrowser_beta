@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/history_contextmenu">
+        <item android:id="@id/contextmenu_open" android:title="@string/contextmenu_open" />
+        <item android:id="@id/contextmenu_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/contextmenu_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/contextmenu_open_in_secret_mode" android:title="@string/contextmenu_openlink_secret_mode" />
+        <item android:id="@id/contextmenu_delete" android:title="@string/delete" />
+        <item android:id="@id/contextmenu_share" android:title="@string/action_share" />
+    </group>
+</menu>

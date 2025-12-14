@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/contextmenu_group_anchor" android:visible="false">
+        <item android:id="@id/contextmenu_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/contextmenu_open_in_tab_group" android:title="@string/contextmenu_openlink_newtab_in_tab_group" />
+        <item android:id="@id/contextmenu_open_in_background" android:title="@string/contextmenu_openlink_newtab_in_background" />
+        <item android:id="@id/contextmenu_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/contextmenu_open_in_other_window" android:title="@string/contextmenu_open_in_other_window" />
+        <item android:id="@id/contextmenu_open_in_secret_mode" android:title="@string/contextmenu_openlink_secret_mode" />
+        <item android:title="divider" />
+        <item android:id="@id/contextmenu_select_text" android:title="@string/contextmenu_select_text" />
+        <item android:id="@id/contextmenu_share_link" android:title="@string/contextmenu_share_link" />
+        <item android:id="@id/contextmenu_copy_link" android:title="@string/contextmenu_copylink" />
+        <item android:id="@id/contextmenu_save_link" android:title="@string/contextmenu_save_link" />
+    </group>
+    <group android:id="@id/contextmenu_group_image" android:visible="false">
+        <item android:id="@id/contextmenu_share_image" android:title="@string/contextmenu_share_image" />
+        <item android:id="@id/contextmenu_download_image" android:title="@string/contextmenu_download_image" />
+        <item android:id="@id/contextmenu_download_all_images" android:title="@string/contextmenu_download_all_images" />
+        <item android:id="@id/contextmenu_copy_image" android:title="@string/contextmenu_copy_image" />
+        <item android:id="@id/contextmenu_open_image" android:title="@string/contextmenu_view_image" />
+        <item android:id="@id/contextmenu_image_divider" android:title="divider" />
+        <item android:icon="@drawable/ic_image_toolkit" android:id="@id/contextmenu_drawing_assist" android:title="@string/contextmenu_drawing_assist" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/ic_wallet" android:id="@id/contextmenu_boarding_pass" android:title="@string/contextmenu_boarding_pass" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/ic_extract_text" android:id="@id/contextmenu_extract_text" android:title="@string/contextmenu_extract_text" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/ic_clip_subject" android:id="@id/contextmenu_clip_subject" android:title="@string/contextmenu_clip_subject" android:showAsAction="always|withText" />
+        <item android:id="@id/contextmenu_add_esim" android:title="@string/contextmenu_add_esim" android:showAsAction="always|withText" />
+    </group>
+    <group android:id="@id/contextmenu_group_anchor_image" android:visible="false">
+        <item android:id="@id/contextmenu_anchor_image_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/contextmenu_anchor_image_open_in_tab_group" android:title="@string/contextmenu_openlink_newtab_in_tab_group" />
+        <item android:id="@id/contextmenu_anchor_image_open_in_background" android:title="@string/contextmenu_openlink_newtab_in_background" />
+        <item android:id="@id/contextmenu_anchor_image_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/contextmenu_anchor_image_open_in_other_window" android:title="@string/contextmenu_open_in_other_window" />
+        <item android:id="@id/contextmenu_anchor_image_open_in_secret_mode" android:title="@string/contextmenu_openlink_secret_mode" />
+        <item android:title="divider" />
+        <item android:id="@id/contextmenu_anchor_image_share_image" android:title="@string/contextmenu_share_image" />
+        <item android:id="@id/contextmenu_anchor_image_download_image" android:title="@string/contextmenu_download_image" />
+        <item android:id="@id/contextmenu_anchor_image_download_all_images" android:title="@string/contextmenu_download_all_images" />
+        <item android:id="@id/contextmenu_anchor_image_copy_image" android:title="@string/contextmenu_copy_image" />
+        <item android:id="@id/contextmenu_anchor_image_open_image" android:title="@string/contextmenu_view_image" />
+        <item android:id="@id/contextmenu_anchor_image_divider" android:title="divider" />
+        <item android:icon="@drawable/ic_image_toolkit" android:id="@id/contextmenu_anchor_image_toolkit" android:title="@string/contextmenu_drawing_assist" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/ic_extract_text" android:id="@id/contextmenu_anchor_image_extract_text" android:title="@string/contextmenu_extract_text" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/ic_clip_subject" android:id="@id/contextmenu_anchor_image_clip_subject" android:title="@string/contextmenu_clip_subject" android:showAsAction="always|withText" />
+        <item android:title="divider" />
+        <item android:id="@id/contextmenu_anchor_image_share_link" android:title="@string/contextmenu_share_link" />
+        <item android:id="@id/contextmenu_anchor_image_save_link_as" android:title="@string/contextmenu_save_link" />
+        <item android:id="@id/contextmenu_anchor_image_copy_link_address_text" android:title="@string/contextmenu_copylink" />
+    </group>
+    <group android:id="@id/contextmenu_group_video" android:visible="false">
+        <item android:id="@id/contextmenu_save_video_as" android:title="@string/contextmenu_save_video_as" />
+    </group>
+    <group android:id="@id/contextmenu_group_default" android:visible="false">
+        <item android:id="@id/contextmenu_default_refresh" android:title="@string/contextmenu_refresh_tab" />
+        <item android:id="@id/contextmenu_default_backward" android:title="@string/bottombar_backward" />
+        <item android:id="@id/contextmenu_default_forward" android:title="@string/bottombar_forward" />
+        <item android:id="@id/contextmenu_default_selectall" android:title="@string/contextmenu_selectall" />
+        <item android:id="@id/contextmenu_default_divider_first" android:title="divider" />
+        <item android:id="@id/contextmenu_default_share" android:title="@string/action_share" />
+        <item android:id="@id/contextmenu_default_add_to_bookmark" android:title="@string/shortcut_helper_add_to_bookmarks" />
+        <item android:id="@id/contextmenu_default_add_to_home_screen" android:title="@string/options_menu_add_to_home_screen" />
+        <item android:id="@id/contextmenu_default_install_web_app" android:title="@string/options_menu_install_as_webapp" />
+        <item android:id="@id/contextmenu_default_save_webpage" android:title="@string/save_page_save_web_page" />
+        <item android:id="@id/contextmenu_default_divider_second" android:title="divider" />
+        <item android:id="@id/contextmenu_default_zoom" android:title="@string/options_menu_zoom_in_out" />
+        <item android:id="@id/contextmenu_default_find_on_page" android:title="@string/options_menu_find_on_page" />
+        <item android:id="@id/contextmenu_default_print" android:title="@string/options_menu_print" />
+    </group>
+    <group android:id="@id/contextmenu_group_selection" android:visible="false">
+        <item android:id="@id/contextmenu_selection_cut" android:title="@string/contextmenu_cut" />
+        <item android:id="@id/contextmenu_selection_copy" android:title="@string/contextmenu_copy" />
+        <item android:id="@id/context_menu_selection_translate" android:title="@string/tin_select_action_popup_sss_translate" />
+        <item android:id="@id/contextmenu_selection_paste" android:title="@string/contextmenu_paste" />
+        <item android:id="@id/contextmenu_selection_selectall" android:title="@string/contextmenu_selectall" />
+        <item android:id="@id/contextmenu_selection_clipboard" android:title="@string/contextmenu_clipboard" />
+        <item android:id="@id/contextmenu_selection_share" android:title="@string/action_share" />
+        <item android:id="@id/contextmenu_selection_add_to_note" android:title="@string/contextmenu_add_to_note" />
+        <item android:id="@id/contextmenu_selection_websearch" android:title="@string/contextmenu_websearch" />
+        <item android:id="@id/contextmenu_selection_find" android:title="@string/contextmenu_find" />
+    </group>
+    <group android:id="@id/contextmenu_group_selection_2nd" android:visible="false">
+        <item android:id="@id/contextmenu_selection_dictionary" android:orderInCategory="@integer/context_menu_selection_other_menu_order_start" android:title="@string/contextmenu_dictionary" />
+    </group>
+    <group android:id="@id/contextmenu_group_editable_field" android:visible="false">
+        <item android:id="@id/contextmenu_editable_paste" android:title="@string/contextmenu_paste" />
+        <item android:id="@id/contextmenu_editable_selectall" android:title="@string/contextmenu_selectall" />
+        <item android:id="@id/contextmenu_editable_clipboard" android:title="@string/contextmenu_clipboard" />
+    </group>
+    <group android:id="@id/contextmenu_group_extension_menus" android:visible="false">
+        <item android:id="@id/contextmenu_extension_divider" android:orderInCategory="@integer/context_menu_extension_menu_order_start" android:title="divider" />
+    </group>
+    <group android:id="@id/contextmenu_group_extension_action_item" android:visible="false" />
+    <group android:id="@id/contextmenu_group_extension_context_menu_item" android:visible="false" />
+</menu>

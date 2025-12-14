@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/tab_bar_button_favicon_bg_radius" />
+    <solid android:color="@color/tab_bar_button_favicon_default_bg_color" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="landscape_desc_area_weight">0.505</fraction>
+    <fraction name="landscape_image_area_weight">0.495</fraction>
+    <fraction name="menu_animation_pivot_x">95.00001%</fraction>
+    <fraction name="menu_start_animation_pivot_x">4.999995%</fraction>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mp_gesture_volume_mute" android:maxLevel="0" />
+    <item android:drawable="@drawable/mp_gesture_volume_min" android:maxLevel="20" />
+    <item android:drawable="@drawable/mp_gesture_volume_mid" android:maxLevel="47" />
+    <item android:drawable="@drawable/mp_gesture_volume_max" android:maxLevel="101" />
+</level-list>

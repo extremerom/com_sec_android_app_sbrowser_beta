@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceScreen android:title="ProxyServerType" android:key="EnterpriseProxyType" android:fragment="com.sec.android.app.sbrowser.settings.debug.managed_config.ManagedConfigSelectProxyTypeFragment" />
+    <androidx.preference.Preference android:title="ProxyServer" android:key="EnterpriseProxyCatProxyServer" android:summary="@string/pref_url_empty" />
+    <androidx.preference.Preference android:title="PacUrl" android:key="EnterpriseProxyCatPacUrl" android:summary="@string/pref_url_empty" />
+    <androidx.preference.Preference android:title="BypassList" android:key="EnterpriseProxyCatBypassList" android:summary="https://www.example1.com,https://www.example2.com" />
+    <androidx.preference.SwitchPreferenceCompat android:enabled="false" android:title="@string/pref_enterprise_hardware_platform_api_enabled_title" android:key="EnterpriseHardwarePlatformAPIEnabled" android:summary="@string/pref_enterprise_hardware_platform_api_enabled_summary" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:enabled="false" android:title="@string/pref_default_search_provider_enabled_title" android:key="DefaultSearchProviderEnabled" android:summary="@string/pref_default_search_provider_enabled_summary" android:defaultValue="false" />
+</androidx.preference.PreferenceScreen>

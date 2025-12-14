@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/auth_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/identify_dialog_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/identify_info_box" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/basic_dialog_margin_start" android:layout_marginEnd="@dimen/basic_dialog_margin_end">
+            <include layout="@layout/authentication_verification_title" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/basic_dialog_content_margin_bottom" android:minHeight="@dimen/fingerprint_image_small_size" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/icon" android:layout_width="@dimen/fingerprint_image_small_size" android:layout_height="@dimen/fingerprint_image_small_size" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/fingerprint_image_margin_end" />
+                <TextView android:ellipsize="end" android:gravity="center" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_centerVertical="true" style="@style/BasicDescription" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/authentication_verification_buttons" />
+    </LinearLayout>
+</ScrollView>

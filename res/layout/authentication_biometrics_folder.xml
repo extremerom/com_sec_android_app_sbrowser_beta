@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/secret_mode_iris_partial_bg_folder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/bio_guide" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bio_guide_margin_top">
+            <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/btn_text_cancel" style="@style/PrivacyDialogButton" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="@dimen/bio_guide_images_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bio_guide_images_margin_bottom">
+                <ImageView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" android:src="@drawable/iris_recognize_ic_iris" android:tint="@color/bio_guide_image_color" android:contentDescription="@null" android:layout_alignParentStart="true" />
+                <ImageView android:layout_centerInParent="true" android:contentDescription="@null" style="@style/BioAuthImageDivider" />
+                <ImageView android:layout_width="@dimen/bio_guide_image_size" android:layout_height="@dimen/bio_guide_image_size" android:src="@drawable/iris_recognize_ic_fingerprint" android:tint="@color/bio_guide_image_color" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/secret_mode_iris_header_text_size" android:textColor="@color/winset_default_text" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payments_authentication_biometrics_to_verify_identity" android:minLines="2" android:textAlignment="center" android:layout_marginStart="@dimen/bio_guide_text_margin" android:layout_marginEnd="@dimen/bio_guide_text_margin" />
+        </LinearLayout>
+        <ImageView android:orientation="horizontal" android:id="@id/preview" android:background="@color/iris_preview_background" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_below="@id/bio_guide" />
+        <TextView android:textColor="@color/winset_default_text" android:gravity="center" android:orientation="horizontal" android:id="@id/preview_fallback" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:text="@string/secret_mode_open_flip_phone" android:layout_below="@id/bio_guide" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_alignTop="@id/preview" android:alpha="0.1" android:layout_alignStart="@id/preview">
+            <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:layout_marginEnd="@dimen/iris_ring_margin" />
+            <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

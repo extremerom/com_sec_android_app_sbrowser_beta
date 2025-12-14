@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ai_read_aloud" android:key="pref_read_aloud"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.artificial_intelligence.common.view.AwesomeIntelligenceThumbnailPreferences android:selectable="false" android:key="pref_awesome_intelligence_thumbnail" app:isPreferenceVisible="false" />
+    <com.sec.android.app.sbrowser.artificial_intelligence.common.view.AwesomeIntelligenceLandThumbnailDescPreferences android:selectable="false" android:key="pref_awesome_intelligence_land_thumbnail_desc" app:isPreferenceVisible="false" />
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:selectable="false" android:key="pref_read_aloud_preference_desc" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" android:key="pref_read_aloud_voice_category" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/read_aloud_install_voice_data" android:key="pref_read_aloud_install_voice_data" app:sa_eventId="@string/sa_event_click_read_aloud_install_voice_data" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/read_aloud_voice_style_desc_title" android:key="pref_read_aloud_voice_styles" android:fragment="com.sec.android.app.sbrowser.settings.ReadAloudVoiceStyleFragment" app:sa_eventId="@string/sa_event_click_read_aloud_voice_styles" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/more_intelligence_features" android:key="pref_awesome_intelligence_feature" app:isPreferenceVisible="false" app:sa_eventId="@string/sa_event_click_read_aloud_more_intelligent_features" searchable="true" />
+</PreferenceScreen>

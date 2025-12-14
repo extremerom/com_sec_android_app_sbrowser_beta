@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/bookmarkbar_bookmark_menu_top">
+        <item android:id="@id/bookmarkbar_bookmark_menu_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/bookmarkbar_bookmark_menu_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/bookmarkbar_bookmark_menu_open_in_other_window" android:title="@string/contextmenu_open_in_other_window" />
+        <item android:id="@id/bookmarkbar_bookmark_menu_open_in_secret_mode" android:title="@string/contextmenu_openlink_secret_mode" />
+    </group>
+    <group android:id="@id/bookmarkbar_bookmark_menu_bottom">
+        <item android:id="@id/bookmarkbar_bookmark_menu_edit_bookmark" android:title="@string/show_bookmarks_edit_command" />
+        <item android:id="@id/bookmarkbar_bookmark_menu_copy_link" android:title="@string/contextmenu_copylink" />
+        <item android:id="@id/bookmarkbar_bookmark_menu_delete" android:title="@string/delete" />
+    </group>
+</menu>

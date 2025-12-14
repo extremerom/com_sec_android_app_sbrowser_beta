@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:paddingTop="@dimen/basic_dialog_title_margin_bottom" android:paddingBottom="@dimen/basic_dialog_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/basic_single_choice_dialog_margin_start" android:paddingEnd="@dimen/basic_dialog_margin_end">
+        <CheckBox android:theme="@style/CheckBoxPrimaryColor" android:textSize="@dimen/basic_list_one_line_text_size" android:textColor="@color/winset_default_text" android:id="@id/close_all_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/close_all_dialog_close_all_tabs_checkbox" android:paddingStart="@dimen/basic_single_choice_checkbox_padding_start" style="@style/RobotoRegular" />
+        <CheckBox android:theme="@style/CheckBoxPrimaryColor" android:textSize="@dimen/basic_list_one_line_text_size" android:textColor="@color/winset_default_text" android:id="@id/dont_show_again" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/close_all_dialog_dont_show_again" android:paddingStart="@dimen/basic_single_choice_checkbox_padding_start" style="@style/RobotoRegular" />
+    </LinearLayout>
+</ScrollView>

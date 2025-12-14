@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/webselect_bg_color" />
+    <corners android:radius="@dimen/webselect_dialog_rounded_corner_size" android:bottomLeftRadius="@dimen/webselect_dialog_zero_corner_size" android:bottomRightRadius="@dimen/webselect_dialog_zero_corner_size" />
+</shape>

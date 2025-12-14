@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tab_bar_progress_background">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/tab_bar_button_progressbar_radius" />
+                <solid />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

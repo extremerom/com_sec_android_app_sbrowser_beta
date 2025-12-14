@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setting_item_view_layout" android:focusable="true" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/search_item_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sites_search_item_min_height" android:layout_marginStart="@dimen/setting_search_item_layout_margin_start" android:paddingVertical="@dimen/setting_search_item_padding_top_bottom">
+        <TextView android:theme="@style/AppTheme" android:textSize="@dimen/sites_search_item_title_size" android:textColor="@color/sites_search_item_txt_title" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/settings_search_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RobotoRegular" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/settings_search_list_divider" android:background="@color/show_bookmarks_list_divider_shadow_color" android:layout_width="match_parent" android:layout_height="@dimen/show_bookmarks_folder_url_list_divider_height" />
+</LinearLayout>

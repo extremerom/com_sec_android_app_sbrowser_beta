@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#14000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:height="@dimen/multi_tab_list_item_close_btn_size" android:width="@dimen/multi_tab_list_item_close_btn_size">
+        <shape android:shape="oval">
+            <solid android:color="?android:colorAccent" />
+        </shape>
+    </item>
+</ripple>

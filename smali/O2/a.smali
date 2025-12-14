@@ -1,0 +1,7 @@
+.class public abstract LO2/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LT2/e;
+.implements LJ2/d;

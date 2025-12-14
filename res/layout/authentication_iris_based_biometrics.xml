@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/secret_mode_iris_partial_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/iris_header_view" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height">
+            <include layout="@layout/authentication_iris_preview" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/basic_dialog_margin_start" android:layout_marginEnd="@dimen/basic_dialog_margin_end">
+            <include layout="@layout/authentication_verification_title" />
+            <include layout="@layout/authentication_multi_biometrics_icons" />
+            <include layout="@layout/authentication_verification_status" />
+            <include layout="@layout/authentication_verification_buttons" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

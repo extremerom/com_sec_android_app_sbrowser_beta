@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/debug_settings_title" android:selectable="false">
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/safer_browsing_debug_enable" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_safer_browsing_debug_enable" />
+        <Preference android:title="@string/safer_browsing_debug_configuration" android:key="pref_safer_browsing_debug_configuration" android:fragment="com.sec.android.app.sbrowser.settings.debug.SaferBrowsingDebugConfigurationPreferenceFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/safer_browsing_debug_database" android:selectable="false">
+        <Preference android:title="@string/safer_browsing_debug_threat_descriptors" android:key="pref_threat_descriptors_status" android:fragment="com.sec.android.app.sbrowser.settings.debug.SaferBrowsingDebugDatabaseFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/safer_browsing_debug_server" android:selectable="false">
+        <com.sec.android.app.sbrowser.settings.debug.DebugListPreference android:entries="@array/saferbrowsing_debug_server_profiles" android:title="@string/server_profile_title" android:key="pref_safer_browsing_debug_server_profile" android:summary="%s" android:defaultValue="@string/server_profile_product" android:entryValues="@array/saferbrowsing_debug_server_profiles" sbrowser:debugDefaultValue="@string/server_profile_product" sbrowser:debugKey="pref_safer_browsing_debug_server_profile" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/safer_browsing_debug_log_enable" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_safer_browsing_debug_log_enable" />
+        <Preference android:title="@string/safer_browsing_debug_threat_list_updates" android:key="pref_fetch_threat_list_updates" />
+        <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/safer_browsing_debug_minimum_wait_duration_enable" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_safer_browsing_debug_minimum_wait_duration_enable" />
+    </PreferenceCategory>
+</PreferenceScreen>

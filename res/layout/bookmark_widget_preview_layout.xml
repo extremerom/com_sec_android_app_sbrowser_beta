@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:maxWidth="@dimen/bookmark_widget_preview_max_width" android:maxHeight="@dimen/bookmark_widget_preview_max_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/bookmark_widget_preview_background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="@integer/widget_preview_orientation" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/widget_sbookmark_title_margin_top" android:paddingBottom="@dimen/widget_sbookmark_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/widget_sbookmarks_title_text_size" android:textColor="@color/bookmark_widget_preview_text_color" android:gravity="center_vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_sbookmark_title_height" android:text="@string/bookmarks_widget_title" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="@dimen/widget_sbookmarks_layout_margin_start" android:layout_marginEnd="@dimen/widget_sbookmarks_layout_margin_end" style="@style/RobotoMedium" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/widget_sbookmarks_list_margin_top" android:layout_marginBottom="@dimen/widget_sbookmarks_preview_list_margin_bottom" android:layout_weight="@integer/widget_list_weight" android:layout_marginStart="@dimen/widget_sbookmarks_list_margin_start" android:layout_marginEnd="@dimen/widget_sbookmarks_list_margin_end">
+            <ImageView android:background="@drawable/bookmark_widget_list_preview_background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+            <LinearLayout android:theme="@style/BookmarkWidgetEdgeGlowStyle" android:orientation="vertical" android:paddingTop="@dimen/widget_sbookmarks_padding_top" android:paddingBottom="@dimen/widget_sbookmarks_padding_bottom" android:layout_width="match_parent" android:layout_height="@dimen/widget_sbookmarks_preview_list_height">
+                <include android:theme="@style/WidgetPreviewItem1" layout="@layout/bookmark_widget_preview_item" />
+                <include android:theme="@style/WidgetPreviewItem2" layout="@layout/bookmark_widget_preview_item" />
+                <include android:theme="@style/WidgetPreviewItem3" layout="@layout/bookmark_widget_preview_item" />
+                <include android:theme="@style/WidgetPreviewItem4" layout="@layout/bookmark_widget_preview_item" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

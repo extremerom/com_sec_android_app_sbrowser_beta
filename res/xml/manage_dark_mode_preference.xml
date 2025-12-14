@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dark_mode_menu" android:key="manage_dark_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/apply_default_dark_mode" android:key="pref_apply_default_dark_mode" app:sa_eventId="@string/sa_event_settings_dark_mode_force_dark" app:sa_statusId="@string/sa_status_settings_dark_mode_force_dark" searchable="true" />
+    <androidx.preference.Preference android:title="@string/pref_web_dark_mode_brightness" android:selectable="false" android:key="pref_web_dark_mode_brightness_title" app:allowDividerAbove="true" />
+    <com.sec.android.app.sbrowser.settings.WebDarkModeBrightnessThumbnail android:selectable="false" android:key="pref_web_dark_mode_brightness_thumbnail" />
+    <com.sec.android.app.sbrowser.common.settings.SeekBarPreferenceCustom android:title="@string/pref_web_dark_mode_brightness" android:key="pref_web_dark_mode_brightness" android:defaultValue="0.5" app:cmax="1.0" app:cmin="0.0" app:cstep="0.05" app:csummary="true" app:sa_eventId="@string/sa_event_settings_dark_mode_brightness" app:sa_statusId="@string/sa_status_settings_dark_mode_brightness" />
+</PreferenceScreen>

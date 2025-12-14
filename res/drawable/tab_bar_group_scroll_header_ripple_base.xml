@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/tab_bar_button_ripple_color_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/tab_bar_group_scroll_header_shadow" android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_vertical_padding" android:end="@dimen/tab_bar_group_scroll_header_ripple_minus_margin">
+        <shape android:shape="rectangle">
+            <solid />
+        </shape>
+    </item>
+    <item android:id="@id/tab_bar_group_scroll_header_background" android:top="@dimen/tab_bar_button_vertical_padding" android:bottom="@dimen/tab_bar_button_vertical_padding" android:start="@dimen/tab_bar_group_header_additional_margin" android:end="@dimen/tab_bar_group_scroll_header_ripple_minus_margin">
+        <shape android:shape="rectangle">
+            <corners />
+            <solid />
+        </shape>
+    </item>
+</ripple>

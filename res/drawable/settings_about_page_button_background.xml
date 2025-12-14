@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/sesl_ripple_color" app:seslRecoilMask="@drawable/settings_about_page_button_recoil_background_mask" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <shape android:shape="rectangle"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <corners android:radius="@dimen/settings_button_radius" />
+        <stroke android:width="@dimen/settings_button_stroke" android:color="@color/settings_button_background_color" />
+        <solid android:color="@color/settings_button_background_color" />
+    </shape>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

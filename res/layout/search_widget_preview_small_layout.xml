@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/search_widget_preview_only_small_background" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/background" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/search_widget_new_preview_padding_horizontal">
+        <LinearLayout android:id="@id/internet_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/search_widget_preview_small_icon_size" android:layout_height="@dimen/search_widget_preview_small_icon_size" android:src="@drawable/open_internet_preview_ic" android:adjustViewBounds="true" />
+        </LinearLayout>
+        <TextView android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <LinearLayout android:id="@id/voice_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/search_widget_preview_search_bar_voice_icon_size" android:layout_height="@dimen/search_widget_preview_search_bar_voice_icon_size" android:src="@drawable/ic_samsung_keyboard_multimodal_svi" android:adjustViewBounds="true" android:tint="@color/search_widget_new_preview_icon_color" android:contentDescription="@string/web_search" android:tintMode="src_atop" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

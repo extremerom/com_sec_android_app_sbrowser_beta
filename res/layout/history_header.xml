@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/history_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <CheckBox android:id="@id/by_date_checkbox" android:background="@drawable/download_spinner_background_effect" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/history_checkbox_spec" android:layout_height="@dimen/history_checkbox_spec" android:checked="false" android:layout_marginStart="@dimen/history_list_checkbox_margin_start" android:layout_alignParentStart="true" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/sbrowser_history_list_image_margin_start" android:paddingVertical="@dimen/history_header_vertical_padding">
+            <TextView android:textSize="@dimen/history_group_text_size" android:textColor="@color/history_list_view_sub_header_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/history_header_item_height" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="@dimen/history_expandable_list_group_header_padding_left" style="@style/RobotoMedium" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/group_header_indicator" android:layout_width="@dimen/history_expandable_group_header_icon_size" android:layout_height="@dimen/history_expandable_group_header_icon_size" android:src="@drawable/group_indicator_selector" android:scaleType="centerInside" android:tint="@color/color_palette_sub_header_icon_color" android:layout_centerVertical="true" android:contentDescription="@string/tts_collapse" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/expandable_group_header_icon_margin_end" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

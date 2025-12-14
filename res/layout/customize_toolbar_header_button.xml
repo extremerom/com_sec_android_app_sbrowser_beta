@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/customize_toolbar_header_button_gap">
+        <Button android:textColor="@color/customize_toolbar_header_button_text_color" android:id="@id/customize_menu_reset" android:background="@drawable/customize_toolbar_header_button_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/customize_toolbar_reset" android:maxLines="2" android:layout_centerVertical="true" android:layout_alignParentStart="true" android:paddingHorizontal="@dimen/customize_toolbar_header_button_padding_horizontal" android:paddingVertical="@dimen/customize_toolbar_header_button_padding_vertical" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/customize_toolbar_header_button_gap">
+        <Button android:textColor="@color/customize_toolbar_header_button_text_color" android:id="@id/customize_menu_done" android:background="@drawable/customize_toolbar_header_button_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/customize_toolbar_done" android:maxLines="2" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:paddingHorizontal="@dimen/customize_toolbar_header_button_padding_horizontal" android:paddingVertical="@dimen/customize_toolbar_header_button_padding_vertical" />
+    </RelativeLayout>
+</LinearLayout>

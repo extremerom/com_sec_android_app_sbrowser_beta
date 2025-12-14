@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_TRY_AFTER_PD_SECONDS %d</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_AND_ALL_THE_BOOKMARKS_IN_THEM_Q %d</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_BOOKMARK_FOLDERS_Q %d</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_P1SD_ITEMS_MOVED_TO_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_BOOKMARKS %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_BOOKMARKS %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_BOOKMARKS %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_BOOKMARKS %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_BOOKMARKS %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_BOOKMARKS %d</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_BOOKMARKS_ADDED_TODAY_ABB %d</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_BOOKMARKS_ARE_READY_TO_SYNC_ABB %d</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_ADS_BLOCKED_TODAY %d</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_ADS_BLOCKED_ON_THE_LAST_PAGE %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_REDIRECTIONS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_REDIRECTIONS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_POP_UPS_BLOCKED_IN_THE_PAST_WEEK %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_POP_UPS_COULD_HAVE_BEEN_BLOCKED_IN_THE_PAST_WEEK %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_WARNINGS_PROVIDED_FOR_PD_WEBSITES %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_MALICIOUS_WEBSITES_VISITED_WITHOUT_WARNINGS %d</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_AUDIO_FILES_TOTAL_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_DOCUMENTS_TOTAL_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_FILES_DOWNLOADED_TODAY_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_FILES_TOTAL_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_IMAGES_TOTAL_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_VIDEOS_TOTAL_ABB %d</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">PLURAL_ZERO_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_PS2_BODY_DELETE_PD_FILES_Q %d</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_MOVE_PD_ITEMS_OUT_OF_SECRET_DOWNLOADS_TO_PUBLIC_DOWNLOADS_Q %d</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">PLURAL_ZERO_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_PHEADER_REMOVE_PD_ITEMS_FROM_YOUR_DOWNLOAD_HISTORY_Q_ABB %d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">PLURAL_ZERO_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_SBODY_PD_IMAGES_DOWNLOADED %d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">DREAM_BR_SBODY_1_IMAGE_DOWNLOADED_1_IMAGE_FAILED</item>
+        <item quantity="other">DREAM_BR_SBODY_PD_IMAGES_DOWNLOADED_1_IMAGE_FAILED %d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">DREAM_BR_SBODY_COULDNT_DOWNLOAD_IMAGE</item>
+        <item quantity="other">DREAM_BR_SBODY_COULDNT_DOWNLOAD_IMAGES</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">DREAM_BR_SBODY_1_IMAGE_DOWNLOADED_PD_IMAGES_FAILED %d</item>
+        <item quantity="other">DREAM_BR_SBODY_P1SD_IMAGES_DOWNLOADED_P2SD_IMAGES_FAILED %1$d %2$d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">DREAM_BR_SBODY_DOWNLOAD_PAUSED</item>
+        <item quantity="other">DREAM_BR_SBODY_PAUSED_HP1SD_P2SD_IMAGES_DOWNLOADED %1$d %2$d</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_FILES_DOWNLOADED %d</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_P1SD_WEBPAGES_VISITED_ON_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_WEBPAGES_VISITED_TODAY_ABB %d</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">PLURAL_ZERO_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_NPBODY_PD_WEBPAGES_VISITED_YESTERDAY_ABB %d</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_TRIED_TO_OPEN_SAMSUNG_INTERNET_C_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_TRIED_TO_OPEN_INTERNET_APP_C_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_BLOCKED_C_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">PLURAL_ZERO_BR_SBODY_OPENED_PD_TIMES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_SBODY_OPENED_PD_TIMES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_SBODY_OPENED_PD_TIMES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_SBODY_OPENED_PD_TIMES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_SBODY_OPENED_PD_TIMES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_SBODY_OPENED_PD_TIMES %d</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">PLURAL_ZERO_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+        <item quantity="one">PLURAL_ONE_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+        <item quantity="two">PLURAL_TWO_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+        <item quantity="few">PLURAL_FEW_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+        <item quantity="many">PLURAL_MANY_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+        <item quantity="other">PLURAL_OTHER_DEX_TPOP_CANT_OPEN_MORE_THAN_PD_APP_WINDOWS %d</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_ITEMS_FROM_YOUR_HISTORY_Q %d</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_SECS %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_SECS %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_SECS %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_SECS %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_SECS %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_SECS %d</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_NOTIFICATIONS_FROM_P1SS_WILL_BE_BLOCKED_FOR_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">PLURAL_ZERO_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+        <item quantity="one">PLURAL_ONE_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+        <item quantity="two">PLURAL_TWO_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+        <item quantity="few">PLURAL_FEW_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+        <item quantity="many">PLURAL_MANY_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+        <item quantity="other">PLURAL_OTHER_STUDIO_TPOP_CANT_ADD_MORE_THAN_PD_STICKERS %d</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">PLURAL_ZERO_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+        <item quantity="other">PLURAL_OTHER_GALLERY_BODY_CANT_ADD_MORE_THAN_PD_STICKERS_GO_TO_THE_PHOTO_EDITOR_IN_GALLERY_TO_REMOVE_STICKERS %d</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">PLURAL_ZERO_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_STUDIO_BODY_YOU_NEED_TO_BE_AT_LEAST_P1SD_YEARS_OLD_TO_USE_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">PLURAL_ZERO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_GALAXY_AIS_ADVANCED_INTELLIGENCE_FEATURES %d</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">PLURAL_ZERO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INTELLIGENT_FEATURES %d</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_ADS_BLOCKED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_ADS_BLOCKED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_ADS_BLOCKED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_ADS_BLOCKED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_ADS_BLOCKED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_ADS_BLOCKED %d</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_COOKIES_IN_USE %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_COOKIES_IN_USE %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_COOKIES_IN_USE %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_COOKIES_IN_USE %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_COOKIES_IN_USE %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_COOKIES_IN_USE %d</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_TRACKING_ATTEMPTS_BLOCKED %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_ADS_BLOCKED_THIS_WEEK %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_THIS_WEEK %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PROTECTED_YOU_FROM_PD_TRACKING_ATTEMPTS_TODAY %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_UNWANTED_REDIRECTS_BLOCKED_THIS_WEEK %d</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_POP_UPS_BLOCKED_THIS_WEEK %d</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">PLURAL_ZERO_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_TPOP_PD_SHORTCUTS_DELETED %d</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_CANT_ADD_MORE_THAN_PD_SHORTCUTS_AT_A_TIME %d</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_REMOVE_PD_DEVICES_Q %d</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_PD_SHORTCUTS_ADDED %d</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">PLURAL_ZERO_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_BODY_DELETE_PD_SAVED_PAGES_Q %d</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">PLURAL_ZERO_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_NPBODY_PD_PAGES_SAVED_ABB %d</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_PAGES_SAVED_TODAY_ABB %d</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_SAVED_PAGES_ARE_READY_TO_SYNC_ABB %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_INTERRUPTIONS_TODAY %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_DISTRACTIONS_BLOCKED_TODAY %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_APPS_BLOCKED_FROM_OPENING_INTERNET_APP_TODAY %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_POP_UPS_BLOCKED %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_POP_UPS_BLOCKED_TODAY %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED %d</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_BACKWARD_REDIRECTIONS_BLOCKED_TODAY %d</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_MORE_TRACKERS_COULD_HAVE_BEEN_BLOCKED %d</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">PLURAL_ZERO_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+        <item quantity="one">PLURAL_ONE_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+        <item quantity="two">PLURAL_TWO_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+        <item quantity="few">PLURAL_FEW_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+        <item quantity="many">PLURAL_MANY_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_HEADER_PD_TABS_SELECTED_FOR_YOU_TO_CLOSE %d</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">PLURAL_ZERO_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+        <item quantity="one">PLURAL_ONE_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+        <item quantity="two">PLURAL_TWO_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+        <item quantity="few">PLURAL_FEW_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+        <item quantity="many">PLURAL_MANY_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_NPBODY_WE_FOUND_PD_TABS_YOU_MAY_WANT_TO_CLOSE %d</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">PLURAL_ZERO_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+        <item quantity="one">PLURAL_ONE_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+        <item quantity="two">PLURAL_TWO_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+        <item quantity="few">PLURAL_FEW_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+        <item quantity="many">PLURAL_MANY_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_TPOP_CANT_LOCK_MORE_THAN_PD_TABS %d</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">PLURAL_ZERO_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_ACCS_TBOPT_PD_ITEMS_SELECTED %d</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_WEBPAGES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_WEBPAGES %d</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">PLURAL_ZERO_BR_OPT_PD_WEBSITES %d</item>
+        <item quantity="one">PLURAL_ONE_BR_OPT_PD_WEBSITES %d</item>
+        <item quantity="two">PLURAL_TWO_BR_OPT_PD_WEBSITES %d</item>
+        <item quantity="few">PLURAL_FEW_BR_OPT_PD_WEBSITES %d</item>
+        <item quantity="many">PLURAL_MANY_BR_OPT_PD_WEBSITES %d</item>
+        <item quantity="other">PLURAL_OTHER_BR_OPT_PD_WEBSITES %d</item>
+    </plurals>
+</resources>

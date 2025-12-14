@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/no_tabs_fragment" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/no_tabs_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/tab_manager_toolbar_height" android:baselineAligned="false">
+        <RelativeLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/tab_manager_actionbar_title_text_size" android:textColor="@color/tab_manager_actionbar_normal_mode_no_tab_title_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/no_tabs_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/window_manager_text_tabs" android:maxLines="1" android:layout_marginStart="@dimen/tab_manager_tabs_title_margin_start" apps:textSizeDp="@dimen/tab_manager_actionbar_title_text_max_size" style="@style/RobotoMedium" />
+        </RelativeLayout>
+        <com.sec.android.app.sbrowser.toolbar.ToolbarImageButton android:id="@id/no_tabs_more_button" android:padding="@dimen/tab_manager_toolbar_button_padding" android:focusable="true" android:layout_width="@dimen/tab_manager_toolbar_button_size" android:layout_height="@dimen/tab_manager_toolbar_button_size" android:src="@drawable/toolbar_more" android:contentDescription="@string/more_options_tts" android:layout_marginStart="@dimen/tab_manager_optionmenu_margin_start" android:layout_marginEnd="@dimen/tab_manager_optionmenu_margin_end" />
+    </LinearLayout>
+    <ScrollView android:orientation="vertical" android:id="@id/no_tabs_content_layout" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0" android:layoutDirection="locale" android:layout_marginHorizontal="@dimen/tab_manager_no_tabs_horizontal_margin">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_tabs_text_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/NoDefaultFocusStyle">
+            <ImageView android:layout_gravity="center" android:id="@id/no_tabs_image" android:layout_width="@dimen/tab_manager_toolbar_button_size" android:layout_height="@dimen/tab_manager_toolbar_button_size" android:layout_marginBottom="@dimen/tab_manager_no_tabs_image_margin_bottom" android:src="@drawable/internet_tabs_menu_secret" android:tint="@color/tab_manager_no_tabs_secret_mode_text_color" />
+            <TextView android:textSize="@dimen/tab_manager_no_tabs_subtitle_text_size" android:gravity="center" android:id="@id/no_tabs_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tab_manager_no_tabs_subtitle_margin_bottom" android:text="@string/tab_manager_no_tabs_subtitle" style="@style/RobotoRegular" />
+            <TextView android:textSize="@dimen/tab_manager_no_tabs_text_size" android:gravity="center" android:id="@id/no_tabs_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_manager_no_tabs_description" style="@style/RobotoRegular" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/recents_view_bottom" layout="@layout/tab_manager_bottombar" />
+</LinearLayout>

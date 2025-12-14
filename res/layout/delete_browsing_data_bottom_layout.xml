@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/InnerRelativeLayout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="bottom" android:id="@id/website_bottom_bar_layout" android:background="@color/color_palette_list_view_bottom_bar_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/settings_delete_browsing_data_bottom_bar_height" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/common_delete" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/sites_menu_bottom_bar_margin_start" android:layout_marginEnd="@dimen/sites_menu_bottom_bar_margin_end">
+                <Button android:textSize="@dimen/help_intro_legal_agree_button_text_size" android:textColor="@color/settings_about_update_button_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/delete_button" android:background="@drawable/delete_data_intro_button" android:paddingLeft="@dimen/settings_about_update_button_margin" android:paddingRight="@dimen/settings_about_update_button_margin" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/about_app_info_button_shape_ripple_background" android:minWidth="@dimen/settings_about_update_button_width" android:minHeight="@dimen/settings_delete_browsing_data_button_min_height" android:text="@string/delete_data_button_text" android:maxLines="1" android:textAllCaps="false" android:backgroundTint="@color/color_palette_list_view_primary_bg_button_color" android:accessibilityTraversalAfter="@id/features" style="@style/RobotoMedium" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

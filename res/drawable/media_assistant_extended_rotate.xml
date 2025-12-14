@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/media_assistant_internet_fab_ic_rotate" android:state_activated="true" />
+    <item android:drawable="@drawable/media_assistant_internet_fab_ic_rotate" />
+</selector>

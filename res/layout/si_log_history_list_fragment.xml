@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/history_group_recyclerview" android:paddingTop="@dimen/si_log_history_list_top_padding" android:paddingBottom="@dimen/si_log_history_list_bottom_padding" android:focusableInTouchMode="false" android:scrollbars="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="true" android:nestedScrollingEnabled="true" app:layoutManager="LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</FrameLayout>

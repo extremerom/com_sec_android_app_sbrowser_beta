@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.quickaccess.ui.page.QuickAccessIconRecyclerView android:id="@id/quickaccess_nested_recyclerview" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/quickaccess_nested_recyclerview_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

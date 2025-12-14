@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">Mēģiniet pēc %d sekundēm.</item>
+        <item quantity="one">Mēģiniet pēc %d sekundes.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mēģiniet pēc %d sekundēm.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d vienumi</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">Vai dzēst %d grāmatzīmju mapes un visas tajās esošās grāmatzīmes?</item>
+        <item quantity="one">Vai dzēst %d grāmatzīmju mapi un visas tajā esošās grāmatzīmes?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst %d grāmatzīmju mapes un visas tajās esošās grāmatzīmes?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">Vai dzēst %d grāmatzīmju mapes?</item>
+        <item quantity="one">Vai dzēst %d grāmatzīmju mapi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai dzēst %d grāmatzīmju mapes?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">%1$d objekti ir pārvietoti uz %2$s.</item>
+        <item quantity="one">%1$d objekts ir pārvietots uz %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d objekti ir pārvietoti uz %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">%d grāmatzīmes</item>
+        <item quantity="one">%d grāmatzīme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d grāmatzīmes</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">Šodien pievienotas %d grāmatz.</item>
+        <item quantity="one">Šodien pievienota %d grāmatzīme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien pievienotas %d grāmatz.</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">Vai izdzēst %d grāmatzīmes?</item>
+        <item quantity="one">Vai izdzēst %d grāmatzīmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d grāmatzīmes?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">%d grāmatz. ir gatavas sinhr.</item>
+        <item quantity="one">%d grāmatz. ir gatava sinhr.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d grāmatz. ir gatavas sinhr.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">Šonedēļ bloķētas %d reklāmas.</item>
+        <item quantity="one">Šonedēļ bloķēta %d reklāma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šonedēļ bloķētas %d reklāmas.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">Šodien bloķētas %d reklāmas.</item>
+        <item quantity="one">Šodien bloķēta %d reklāma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien bloķētas %d reklāmas.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">Iepriekšējā lapā bloķētas %d reklāmas.</item>
+        <item quantity="one">Iepriekšējā lapā bloķēta %d reklāma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Iepriekšējā lapā bloķētas %d reklāmas.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">Pagājušajā nedēļā bloķētas %d virzienmaiņas</item>
+        <item quantity="one">Pagājušajā nedēļā bloķēta %d virzienmaiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pagājušajā nedēļā bloķētas %d virzienmaiņas</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">Pagājušajā nedēļā varēja tikt bloķētas %d virzienmaiņas</item>
+        <item quantity="one">Pagājušajā nedēļā varēja tikt bloķēta %d virzienmaiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pagājušajā nedēļā varēja tikt bloķētas %d virzienmaiņas</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">Pagājušajā nedēļā bloķēti %d uznirstošie logi</item>
+        <item quantity="one">Pagājušajā nedēļā bloķēts %d uznirstošais logs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pagājušajā nedēļā bloķēti %d uznirstošie logi</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">Pagājušajā nedēļā varēja tikt bloķēti %d uznirstošie logi</item>
+        <item quantity="one">Pagājušajā nedēļā varēja tikt bloķēts %d uznirstošais logs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pagājušajā nedēļā varēja tikt bloķēti %d uznirstošie logi</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">Brīdinājumi par %d tīmekļa vietnēm</item>
+        <item quantity="one">Brīdinājumi par %d tīmekļa vietni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Brīdinājumi par %d tīmekļa vietnēm</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">Bez brīdinājumiem apmeklētas %d ļaunprātīgas tīmekļa vietnes</item>
+        <item quantity="one">Bez brīdinājuma apmeklēta %d ļaunprātīga tīmekļa vietne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bez brīdinājumiem apmeklētas %d ļaunprātīgas tīmekļa vietnes</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">%d reizes</item>
+        <item quantity="one">%d reize</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d reizes</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">Kopā %d audio faili</item>
+        <item quantity="one">Kopā %d audio fails</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kopā %d audio faili</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">Kopā %d dokumenti</item>
+        <item quantity="one">Kopā %d dokuments</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kopā %d dokumenti</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">Šodien lejupielādēti %d faili</item>
+        <item quantity="one">Šodien lejupielādēts %d fails</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien lejupielādēti %d faili</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">Kopā %d faili</item>
+        <item quantity="one">Kopā %d fails</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kopā %d faili</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">Kopā %d attēli</item>
+        <item quantity="one">Kopā %d attēls</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kopā %d attēli</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">Kopā %d videoklipi</item>
+        <item quantity="one">Kopā %d videoklips</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kopā %d videoklipi</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">Vai izdzēst %d failus?</item>
+        <item quantity="one">Vai izdzēst %d failu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d failus?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">Vai pārvietot %d vienumus no slepenajām lejupielādēm uz publiskajām lejupielādēm?</item>
+        <item quantity="one">Vai pārvietot %d vienumu no slepenajām lejupielādēm uz publiskajām lejupielādēm?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai pārvietot %d vienumus no slepenajām lejupielādēm uz publiskajām lejupielādēm?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">Noņemt %d objektus no lejupielādes vēstures?</item>
+        <item quantity="one">Noņemt %d objektu no lejupielādes vēstures?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Noņemt %d objektus no lejupielādes vēstures?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">Lejupielādēti %d attēli</item>
+        <item quantity="one">Lejupielādēts %d attēls</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lejupielādēti %d attēli</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">Lejupielādēts 1 attēls, 1 attēla lejupielāde neizdevās</item>
+        <item quantity="other">Lejupielādēti %d attēli, 1 attēla lejupielāde neizdevās</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Nevarēja lejupielādēt attēlu</item>
+        <item quantity="other">Nevarēja lejupielādēt attēlus</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">Lejupielādēts 1 attēls, %d attēlu lejupielāde neizdevās</item>
+        <item quantity="other">Lejupielādēti %1$d attēli, %2$d attēlu lejupielāde neizdevās</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Lejupielāde ir pauzēta</item>
+        <item quantity="other">Pauzēts (lejupielādēti %1$d/%2$d attēli)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">Lejupielādēti %d faili.</item>
+        <item quantity="one">Lejupielādēts %d fails.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lejupielādēti %d faili.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">%d dienas līdz dzēšanai</item>
+        <item quantity="one">%d diena līdz dzēšanai</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dienas līdz dzēšanai</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">%2$s apmeklētas %1$d tīmekļa lapas</item>
+        <item quantity="one">%2$s apmeklēta %1$d tīmekļa lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s apmeklētas %1$d tīmekļa lapas</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">Šodien apmeklētas %d tīm. lapas</item>
+        <item quantity="one">Šodien apmeklēta %d tīmekļa lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien apmeklētas %d tīm. lapas</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">Vakar apmeklētas %d tīmekļa lapas</item>
+        <item quantity="one">Vakar apmeklēta %d tīmekļa lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vakar apmeklētas %d tīmekļa lapas</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">Vai izdzēst %d objektus no jūsu vēstures?</item>
+        <item quantity="one">Vai izdzēst %d objektu no jūsu vēstures?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d objektus no jūsu vēstures?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">Mēģināja atvērt programmu Samsung internets: %d reizes</item>
+        <item quantity="one">Mēģināja atvērt programmu Samsung internets: %d reizi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mēģināja atvērt programmu Samsung internets: %d reizes</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">Mēģināja atvērt programmu Internets: %d reizes</item>
+        <item quantity="one">Mēģināja atvērt programmu Internets: %d reizi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mēģināja atvērt programmu Internets: %d reizes</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">Bloķēts: %d reizes</item>
+        <item quantity="one">Bloķēts: %d reizi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloķēts: %d reizes</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">Atvērts %d reizes</item>
+        <item quantity="one">Atvērts %d reizi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atvērts %d reizes</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">Var atvērt ne vairāk kā %d programmu logus.</item>
+        <item quantity="one">Var atvērt ne vairāk kā %d programmas logu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var atvērt ne vairāk kā %d programmu logus.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">Vai izdzēst %d objektus no jūsu vēstures?</item>
+        <item quantity="one">Vai izdzēst %d objektu no jūsu vēstures?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d objektus no jūsu vēstures?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">Paziņojumi no %1$s tiks bloķēti %2$d dienas.</item>
+        <item quantity="one">Paziņojumi no %1$s tiks bloķēti %2$d dienu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Paziņojumi no %1$s tiks bloķēti %2$d dienas.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">Var pievienot ne vairāk kā %d uzlīmes.</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d uzlīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var pievienot ne vairāk kā %d uzlīmes.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">Var pievienot ne vairāk kā %d uzlīmes. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d uzlīmi. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var pievienot ne vairāk kā %d uzlīmes. Lai noņemtu uzlīmes, atveriet fotoattēlu redaktoru programmā Galerija.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu %2$s, jums ir jābūt vismaz %1$d gadus vecam.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu Galaxy AI paplašinātā intelekta funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">Lai izmantotu intelektiskās funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu intelektiskās funkcijas, tev jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Lai izmantotu intelektiskās funkcijas, tev jābūt vismaz %d gadus vecam.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">Bloķētas %d reklāmas</item>
+        <item quantity="one">Bloķēta %d reklāma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloķētas %d reklāmas</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">Tiek lietoti %d sīkfaili</item>
+        <item quantity="one">Tiek lietots %d sīkfails</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Tiek lietoti %d sīkfaili</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">Bloķēti %d izsekošanas mēģinājumi</item>
+        <item quantity="one">Bloķēts %d izsekošanas mēģinājums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloķēti %d izsekošanas mēģinājumi</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">Šonedēļ bloķētas %d reklāmas.</item>
+        <item quantity="one">Šonedēļ bloķēta %d reklāma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šonedēļ bloķētas %d reklāmas.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">Šonedēļ jūs tikāt pasargāts no %d izsekošanas mēģinājumiem.</item>
+        <item quantity="one">Šonedēļ jūs tikāt pasargāts no %d izsekošanas mēģinājuma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šonedēļ jūs tikāt pasargāts no %d izsekošanas mēģinājumiem.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">Šodien jūs tikāt pasargāts no %d izsekošanas mēģinājumiem.</item>
+        <item quantity="one">Šodien jūs tikāt pasargāts no %d izsekošanas mēģinājuma.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien jūs tikāt pasargāts no %d izsekošanas mēģinājumiem.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">Šonedēļ bloķētas %d nevēlamas novirzīšanas.</item>
+        <item quantity="one">Šonedēļ bloķēta %d nevēlama novirzīšana.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šonedēļ bloķētas %d nevēlamas novirzīšanas.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">Šonedēļ bloķēti %d uznirstošie logi.</item>
+        <item quantity="one">Šonedēļ bloķēts %d uznirstošais logs.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šonedēļ bloķēti %d uznirstošie logi.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">Izdzēsti %d īsceļi.</item>
+        <item quantity="one">Izdzēsts %d īsceļš.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izdzēsti %d īsceļi.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">Vienlaikus var pievienot ne vairāk kā %d saīsnes.</item>
+        <item quantity="one">Vienlaikus var pievienot ne vairāk kā %d saīsni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vienlaikus var pievienot ne vairāk kā %d saīsnes.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">Vai noņemt %d ierīces?</item>
+        <item quantity="one">Vai noņemt %d ierīci?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai noņemt %d ierīces?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">Pievienotas %d saīsnes.</item>
+        <item quantity="one">Pievienota %d saīsne.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pievienotas %d saīsnes.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">Vai izdzēst %d saglabātās lapas?</item>
+        <item quantity="one">Vai izdzēst %d saglabāto lapu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vai izdzēst %d saglabātās lapas?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">Saglabātas %d lapas</item>
+        <item quantity="one">Saglabāta %d lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Saglabātas %d lapas</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">Šodien saglabātas %d lapas</item>
+        <item quantity="one">Šodien saglabāta %d lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien saglabātas %d lapas</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">%d sagl. lapas ir gatavas sinhr.</item>
+        <item quantity="one">%d sagl. lapa ir gatava sinhr.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sagl. lapas ir gatavas sinhr.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">Šodien reģistrēti %d pārtraukumi</item>
+        <item quantity="one">Šodien reģistrēts %d pārtraukums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien reģistrēti %d pārtraukumi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">Šodien bloķēti %d traucēkļi</item>
+        <item quantity="one">Šodien bloķēts %d traucēklis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien bloķēti %d traucēkļi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">%d programmām ir bloķēta iespēja atvērt programmu Internets</item>
+        <item quantity="one">%d programmai ir bloķēta iespēja atvērt programmu Internets</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmām ir bloķēta iespēja atvērt programmu Internets</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">%d programmām šodien ir bloķēta iespēja atvērt programmu Internets</item>
+        <item quantity="one">%d programmai šodien ir bloķēta iespēja atvērt programmu Internets</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmām šodien ir bloķēta iespēja atvērt programmu Internets</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">Bloķēti %d uznirstošie logi</item>
+        <item quantity="one">Bloķēts %d uznirstošais logs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloķēti %d uznirstošie logi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">Šodien bloķēti %d uznirstošie logi</item>
+        <item quantity="one">Šodien bloķēts %d uznirstošais logs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien bloķēti %d uznirstošie logi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">Bloķētas %d atpakaļējas virzienmaiņas</item>
+        <item quantity="one">Bloķēta %d atpakaļēja virzienmaiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Bloķētas %d atpakaļējas virzienmaiņas</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">Šodien bloķētas %d atpakaļējas virzienmaiņas</item>
+        <item quantity="one">Šodien bloķēta %d atpakaļēja virzienmaiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien bloķētas %d atpakaļējas virzienmaiņas</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">Varētu būt bloķēti vēl %d izsekotāji</item>
+        <item quantity="one">Varētu būt bloķēts vēl %d izsekotājs</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Varētu būt bloķēti vēl %d izsekotāji</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">Izvēlētas %d cilnes, ko aizvērt</item>
+        <item quantity="one">Izvēlēta %d cilne, ko aizvērt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlētas %d cilnes, ko aizvērt</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">Atrastas %d cilnes, kuras jūs varētu aizvērt</item>
+        <item quantity="one">Atrasta %d cilne, kuru jūs varētu aizvērt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atrastas %d cilnes, kuras jūs varētu aizvērt</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">Var bloķēt ne vairāk kā %d cilnes.</item>
+        <item quantity="one">Var bloķēt ne vairāk kā %d cilni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var bloķēt ne vairāk kā %d cilnes.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="zero">Derīguma termiņš beigsies pēc %d dienām</item>
+        <item quantity="one">Derīguma termiņš beigsies rīt</item>
+        <item quantity="other">Derīguma termiņš beigsies pēc %d dienām</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">Izvēlēti %d objekti</item>
+        <item quantity="one">Izvēlēts %d objekts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d objekti</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">%d tīmekļa lapas</item>
+        <item quantity="one">%d tīmekļa lapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tīmekļa lapas</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">%d tīmekļa vietnes</item>
+        <item quantity="one">%d tīmekļa vietne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d tīmekļa vietnes</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/popup_background" android:padding="0.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/object_capture_popup_margin" android:elevation="@dimen/object_capture_popup_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

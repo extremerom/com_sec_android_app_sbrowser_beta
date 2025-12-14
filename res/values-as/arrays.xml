@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>সকলো কুকিৰ অনুমতি দিয়ক</item>
+        <item>তৃতীয়-পক্ষৰ কুকিসমূহৰ ব্লক কৰক</item>
+        <item>সকলো কুকি ব্লক কৰক</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ডিভাইচ</item>
+        <item>SD কাৰ্ড</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>"ডিফ'ল্ট"</item>
+        <item>ক্ষিপ্ৰ এক্সেছ</item>
+        <item>সাম্প্ৰতিক পৃষ্ঠা</item>
+        <item>কাষ্টম পৃষ্ঠা</item>
+    </string-array>
+</resources>

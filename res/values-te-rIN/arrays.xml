@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>అన్ని కుక్కీలను అనుమతించు</item>
+        <item>మూడవ పక్షం కుక్కీలను నిరోధించు</item>
+        <item>అన్ని కుక్కీలను నిరోధించు</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>పరికరం</item>
+        <item>SD కార్డ్</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>డిఫాల్ట్</item>
+        <item>త్వరిత ప్రాప్యత</item>
+        <item>ప్రస్తుత పేజీ</item>
+        <item>అనుకూల పేజీ</item>
+    </string-array>
+</resources>

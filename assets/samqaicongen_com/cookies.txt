@@ -1,0 +1,3 @@
+Set-Cookie: Path=/; Secure; HttpOnly; CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoyMDgxNDcyODE3fX19XX0K
+Set-Cookie: Path=/; Secure; HttpOnly; CloudFront-Signature=Pks3BA7Yr6oqBzt-aXFoZL0Zcbm9Vcl0f~Vc2G-FC8dQ6L9ISnfsoNPJ9li8bWZrNo~UD4zU2RzemCQTwH1CPLE-beQIvGiiMyq51D~u7HS0icqN5vobmw9ovBtkXp94NmgP5R6UwWvFGV4zALv4-MHkpQ8-w2EdVF-7QMN~ExpyCBZtMQtQs0mW8iNb6UjcnZ4OAtPhJ-Axkxo7ahENBy1KA3vfMUN88LxG~Rn3pfrvZZDCXg8z0sfCA86r0KyXlKyTFJBNalHT1pvgP52cN6qgTMiDMK1GXe5EK3l1T-7ClHFGds7Y1UI~4v8idvXYMaxWWveJpUOiKeloJvkSKA__
+Set-Cookie: Path=/; Secure; HttpOnly; CloudFront-Key-Pair-Id=APKAIKPSRFPEO6HOCKOQ

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/select_bookmark_folder_background_margin" android:bottom="@dimen/select_bookmark_folder_background_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/select_folder_item_bg_color" />
+            <corners android:radius="@dimen/select_bookmark_folder_background_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/reader_option_fontsize_background_square_night" />
+    <item android:drawable="@drawable/reader_option_fontsize_background_ripple_dark" />
+</layer-list>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">ਤੇਜ਼ੀ ਨਾਲ %d ਸਕਿੰਟ ਅੱਗੇ ਕਰੋ</item>
+        <item quantity="other">ਤੇਜ਼ੀ ਨਾਲ %d ਸਕਿੰਟ ਅੱਗੇ ਕਰੋ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d ਸਕਿੰਟ ਪਿੱਛੇ ਕਰੋ</item>
+        <item quantity="other">%d ਸਕਿੰਟ ਪਿੱਛੇ ਕਰੋ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
+        <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">ਮਿਆਦ ਕੱਲ੍ਹ ਨੂੰ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗੀ</item>
+        <item quantity="other">ਮਿਆਦ %d ਦਿਨਾਂ ਵਿੱਚ ਸਮਾਪਤ ਹੋ ਜਾਵੇਗੀ</item>
+    </plurals>
+</resources>

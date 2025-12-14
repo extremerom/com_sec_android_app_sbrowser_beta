@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/search_suggestion_item_layout" android:background="@drawable/summary_search_suggestion_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/summary_search_suggestion_item_margin_bottom" android:layout_marginEnd="@dimen/summary_search_suggestion_item_margin_end" android:paddingHorizontal="@dimen/summary_search_suggestion_item_padding_horizontal" android:paddingVertical="@dimen/summary_search_suggestion_item_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/summary_search_suggestion_item_text_size" android:textColor="@color/summary_search_suggestion_item_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_suggestion_text" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" style="@style/RobotoMedium" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/custom_tab_option_group_navigation">
+        <item android:id="@id/custom_tab_option_share" android:orderInCategory="0" android:title="@string/action_share" />
+        <item android:id="@id/custom_tab_option_go_forward" android:orderInCategory="0" android:title="@string/bottombar_forward" />
+        <item android:id="@id/custom_tab_option_refresh" android:orderInCategory="0" android:title="@string/accessibility_button_refresh" />
+    </group>
+    <group android:id="@id/custom_tab_option_group_extras" />
+    <group android:id="@id/custom_tab_option_group_features">
+        <item android:id="@id/custom_tab_option_add_to_bookmarks" android:orderInCategory="2" android:title="@string/options_menu_add_bookmark" />
+        <item android:id="@id/custom_tab_option_add_to_bookmark_bar" android:orderInCategory="2" android:title="@string/contextmenu_add_to_bookmark_bar" />
+        <item android:id="@id/custom_tab_option_find_on_page" android:visible="false" android:orderInCategory="2" android:title="@string/options_menu_find_on_page" />
+        <item android:id="@id/custom_tab_option_add_to_home_screen" android:visible="false" android:orderInCategory="2" android:title="@string/options_menu_add_to_home_screen" />
+        <item android:id="@id/custom_tab_option_open_in_internet" android:orderInCategory="2" android:title="@string/options_menu_open_in_samsung_internet" />
+    </group>
+</menu>

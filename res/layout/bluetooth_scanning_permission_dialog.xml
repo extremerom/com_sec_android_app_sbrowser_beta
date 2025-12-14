@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/device_item_list" />
+    <com.sec.android.app.sbrowser.DualControlLayout android:id="@id/button_bar" android:paddingTop="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" app:buttonAlignment="end" app:stackedMargin="@dimen/button_bar_stacked_margin">
+        <com.sec.android.app.sbrowser.infobars.ButtonCompat android:layout_gravity="end" android:id="@id/allow" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilledButton" />
+        <com.sec.android.app.sbrowser.infobars.ButtonCompat android:layout_gravity="end" android:id="@id/block" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextButton" />
+    </com.sec.android.app.sbrowser.DualControlLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ai_summarize_info_detail_text_size" android:textColor="@color/ai_summarize_info_detail_text_color" android:id="@id/ai_summarize_info_legal_text" android:paddingTop="@dimen/ai_summarize_info_detail_padding_top" android:paddingBottom="@dimen/ai_summarize_info_detail_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/ai_summarize_info_detail_text_line_spacing" android:paddingHorizontal="@dimen/ai_summarize_info_detail_padding_horizontal" style="@style/RobotoRegular" />
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button action="android.intent.action.doInputURL" name="@string/enter_url_abb" resource="@drawable/assistant_plus_samsung_internet_ic_enter_web_address" />
+    <button action="android.intent.action.doWindowManager" name="@string/window_manager_text_tabs" resource="@drawable/assistant_plus_samsung_internet_ic_tabs" />
+    <button action="android.intent.action.doNewWindow" name="@string/assistant_newtab" resource="@drawable/assistant_plus_samsung_internet_ic_new_tab" />
+</assistant-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/search_widget_background_image_view_layout" android:layout_width="match_parent" android:layout_height="@dimen/search_widget_height" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/search_widget_background_image_view" android:layout_width="match_parent" android:layout_height="@dimen/search_widget_height" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_widget" android:layout_width="match_parent" android:layout_height="@dimen/search_widget_height">
+        <ImageButton android:id="@id/sbrowser_icon" android:background="@drawable/searchbar_bg_selector" android:layout_width="@dimen/search_widget_browser_icon_width" android:layout_height="@dimen/search_widget_height" android:src="@drawable/searchbar_ic_internet_light" android:layout_weight="0.0" android:paddingStart="@dimen/search_widget_paddingStart" />
+        <TextView android:textColor="@null" android:gravity="center_vertical" android:id="@id/search_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/voice_button" android:background="@drawable/searchbar_bg_selector" android:layout_width="@dimen/search_widget_mic_icon_width" android:layout_height="@dimen/search_widget_height" android:src="@drawable/searchbar_ic_voice_light" android:scaleType="fitCenter" android:layout_weight="0.0" android:paddingEnd="@dimen/search_widget_paddingEnd" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/search_widget_background_border" android:layout_width="match_parent" android:layout_height="@dimen/search_widget_height" />
+</RelativeLayout>

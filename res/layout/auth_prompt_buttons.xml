@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.common.widget.RaisedButton android:id="@id/secret_mode_use_password" android:layout_marginBottom="@dimen/basic_dialog_button_margin_bottom" android:text="@string/secret_mode_enter_password_instead" style="@style/RaisedButton" />
+    <com.sec.android.app.sbrowser.common.widget.ShapedButton android:id="@id/secret_mode_dialog_cancel" android:layout_marginBottom="@dimen/basic_dialog_button_margin_bottom" android:text="@string/btn_text_cancel" style="@style/BasicDialogActionCenterButton" />
+</merge>

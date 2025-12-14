@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/quickaccess_button_shape_ripple_dark" />
+    <item android:drawable="@drawable/quickaccess_button_shape_drawable" android:left="@dimen/quickaccess_button_shape_margin_left" android:top="@dimen/quickaccess_button_shape_margin_top" android:right="@dimen/quickaccess_button_shape_margin_right" android:bottom="@dimen/quickaccess_button_shape_margin_bottom" />
+</layer-list>

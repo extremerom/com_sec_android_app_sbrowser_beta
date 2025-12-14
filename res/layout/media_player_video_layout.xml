@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.media.player.video.MPBackgroundView android:id="@id/GradView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/media_player_ext_subtitle" android:background="@drawable/media_player_extension_subtitle_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/media_player_custom_subtitle_min_layout_height" android:layout_marginHorizontal="@dimen/media_player_custom_subtitle_margin_horizontal" android:paddingHorizontal="@dimen/media_player_custom_subtitle_padding_horizontal" android:paddingVertical="@dimen/media_player_custom_subtitle_padding_vertical">
+            <TextView android:textSize="@dimen/media_player_custom_subtitle_text_size" android:textColor="@color/media_player_custom_subtitle_text_color" android:id="@id/media_player_ext_subtitle_txt1" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/roboto_regular" />
+            <View android:id="@id/media_player_ext_subtitle_divider" android:background="@color/divider_line_bg_color_dark" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/media_player_custom_subtitle_divider_size" android:layout_marginBottom="@dimen/media_player_custom_subtitle_margin_bottom" />
+            <TextView android:textSize="@dimen/media_player_custom_subtitle_text_size" android:textColor="@color/media_player_custom_subtitle_text_color" android:id="@id/media_player_ext_subtitle_txt2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/roboto_regular" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/media_player_video_container_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+    <androidx.media3.ui.SubtitleView android:id="@id/media_player_subtitle_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/media_player_video_container_layout" android:layout_centerInParent="true" />
+</RelativeLayout>

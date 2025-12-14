@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтарыце спробу праз %d секунду.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтарыце спробу праз %d секунды.</item>
+        <item quantity="many">Паўтарыце спробу праз %d секунд.</item>
+        <item quantity="other">Паўтарыце спробу праз %d секунд.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d папку з закладкамі і ўсе закладкі ў ёй?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d папкі з закладкамі і ўсе закладкі ў іх?</item>
+        <item quantity="many">Выдаліць %d папак з закладкамі і ўсе закладкі ў іх?</item>
+        <item quantity="other">Выдаліць %d папак з закладкамі і ўсе закладкі ў іх?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d папку з закладкамі?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d папкі з закладкамі?</item>
+        <item quantity="many">Выдаліць %d папак з закладкамі?</item>
+        <item quantity="other">Выдаліць %d папак з закладкамі?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d элемент перамешчаны ў %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d элементы перамешчаны ў %2$s.</item>
+        <item quantity="many">%1$d элементаў перамешчана ў %2$s.</item>
+        <item quantity="other">%1$d элементаў перамешчана ў %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d закладка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d закладкі</item>
+        <item quantity="many">%d закладак</item>
+        <item quantity="other">%d закладак</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння дададзена %d закладка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння дададзены %d закладкі</item>
+        <item quantity="many">Сёння дададзена %d закладак</item>
+        <item quantity="other">Сёння дададзена %d закладак</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d закладку?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d закладкі?</item>
+        <item quantity="many">Выдаліць %d закладак?</item>
+        <item quantity="other">Выдаліць %d закладак?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d закладка гатова да сінхраніз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d закладкі гатовы да сінхраніз</item>
+        <item quantity="many">%d закладак гат да сінхраніз</item>
+        <item quantity="other">%d закладак гатова да сінхраніз</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На гэтым тыдні заблакіравана %d рэкламная аб’ява.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На гэтым тыдні заблакіраваны %d рэкламныя аб’явы.</item>
+        <item quantity="many">На гэтым тыдні заблакіравана %d рэкламных аб’яў.</item>
+        <item quantity="other">На гэтым тыдні заблакіравана %d рэкламных аб’яў.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння заблакіравана %d рэкламная аб’ява.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння заблакіраваны %d рэкламныя аб’явы.</item>
+        <item quantity="many">Сёння заблакіравана %d рэкламных аб’яў.</item>
+        <item quantity="other">Сёння заблакіравана %d рэкламных аб’яў.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На апошняй старонцы заблакіравана %d рэклама.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На апошняй старонцы заблакіраваны %d рэкламы.</item>
+        <item quantity="many">На апошняй старонцы заблакіравана %d рэклам.</item>
+        <item quantity="other">На апошняй старонцы заблакіравана %d рэклам.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На мінулым тыдні было заблакіравана %d перанакіраванне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На мінулым тыдні былі заблакіраваны %d перанакіраванні</item>
+        <item quantity="many">На мінулым тыдні было заблакіравана %d перанакіраванняў</item>
+        <item quantity="other">На мінулым тыдні было заблакіравана %d перанакіраванняў</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На мінулым тыдні магло быць заблакіравана %d перанакіраванне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На мінулым тыдні маглі быць заблакіраваны %d перанакіраванні</item>
+        <item quantity="many">На мінулым тыдні магло быць заблакіравана %d перанакіраванняў</item>
+        <item quantity="other">На мінулым тыдні магло быць заблакіравана %d перанакіраванняў</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На мінулым тыдні было заблакіравана %d усплывальнае акно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На мінулым тыдні былі заблакіраваны %d усплывальныя вокны</item>
+        <item quantity="many">На мінулым тыдні было заблакіравана %d усплывальных акон</item>
+        <item quantity="other">На мінулым тыдні было заблакіравана %d усплывальных акон</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На мінулым тыдні магло быць заблакіравана %d усплывальнае акно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На мінулым тыдні маглі быць заблакіраваны %d усплывальныя вокны</item>
+        <item quantity="many">На мінулым тыдні магло быць заблакіравана %d усплывальных акон</item>
+        <item quantity="other">На мінулым тыдні магло быць заблакіравана %d усплывальных акон</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Папярэджанні паказаны для %d вэб-сайта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Папярэджанні паказаны для %d вэб-сайтаў</item>
+        <item quantity="many">Папярэджанні паказаны для %d вэб-сайтаў</item>
+        <item quantity="other">Папярэджанні паказаны для %d вэб-сайтаў</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d шкоднасны вэб-сайт наведаны без папярэджанняў</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d шкоднасныя вэб-сайты наведаны без папярэджанняў</item>
+        <item quantity="many">%d шкоднасных вэб-сайтаў наведана без папярэджанняў</item>
+        <item quantity="other">%d шкоднасных вэб-сайтаў наведана без папярэджанняў</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d разы</item>
+        <item quantity="many">%d разоў</item>
+        <item quantity="other">%d разоў</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d аўдыяфайл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d аўдыяфайлы</item>
+        <item quantity="many">Усяго %d аўдыяфайлаў</item>
+        <item quantity="other">Усяго %d аўдыяфайлаў</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d дакумент</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d дакументы</item>
+        <item quantity="many">Усяго %d дакументаў</item>
+        <item quantity="other">Усяго %d дакументаў</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння спампаваны %d файл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння спампаваны %d файлы</item>
+        <item quantity="many">Сёння спампавана %d файлаў</item>
+        <item quantity="other">Сёння спампавана %d файлаў</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d файл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d файлы</item>
+        <item quantity="many">Усяго %d файлаў</item>
+        <item quantity="other">Усяго %d файлаў</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d відарыс</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d відарысы</item>
+        <item quantity="many">Усяго %d відарысаў</item>
+        <item quantity="other">Усяго %d відарысаў</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d відэаролік</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d відэаролікі</item>
+        <item quantity="many">Усяго %d відэаролікаў</item>
+        <item quantity="other">Усяго %d відэаролікаў</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d файл?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d файлы?</item>
+        <item quantity="many">Выдаліць %d файлаў?</item>
+        <item quantity="other">Выдаліць %d файлаў?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d элемент з сакрэтных спамповак у агульныя спампоўкі?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d элементы з сакрэтных спамповак у агульныя спампоўкі?</item>
+        <item quantity="many">Перамясціць %d элементаў з сакрэтных спамповак у агульныя спампоўкі?</item>
+        <item quantity="other">Перамясціць %d элементаў з сакрэтных спамповак у агульныя спампоўкі?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d элемент з гісторыі спамповак?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d элементы з гісторыі спамповак?</item>
+        <item quantity="many">Выдаліць %d элементаў з гісторыі спамповак?</item>
+        <item quantity="other">Выдаліць %d элементаў з гісторыі спамповак?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спампаваны %d відарыс</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спампаваны %d відарысы</item>
+        <item quantity="many">Спампавана %d відарысаў</item>
+        <item quantity="other">Спампавана %d відарысаў</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 відарыс спампаваны, з 1 відарысам адбыўся збой</item>
+        <item quantity="other">%d відарысы(аў) спампаваны, з 1 відарысам адбыўся збой</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Не атрымалася спампаваць відарыс</item>
+        <item quantity="other">Не атрымалася спампаваць відарысы</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 відарыс спампаваны, з %d відарысамі адбыўся збой</item>
+        <item quantity="other">%1$d відарысы(аў) спампаваны, з %2$d відарысамі адбыўся збой</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Спампоўванне прыпынена</item>
+        <item quantity="other">Прыпынена (спампавана %1$d/%2$d відарысаў)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спампаваны %d файл.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спампаваны %d файлы.</item>
+        <item quantity="many">Спампавана %d файлаў.</item>
+        <item quantity="other">Спампавана %d файлаў.</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень да выдалення</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні да выдалення</item>
+        <item quantity="many">%d дзён да выдалення</item>
+        <item quantity="other">%d дзён да выдалення</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d вэб-старонка была наведана %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d вэб-старонкі былі наведаны %2$s</item>
+        <item quantity="many">%1$d вэб-старонак было наведана %2$s</item>
+        <item quantity="other">%1$d вэб-старонак было наведана %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння наведана %d вэб-старонка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння наведаны %d вэб-старонкі</item>
+        <item quantity="many">Сёння наведана %d вэб-старонак</item>
+        <item quantity="other">Сёння наведана %d вэб-старонак</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Учора наведана %d вэб-старонка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Учора наведаны %d вэб-старонкі</item>
+        <item quantity="many">Учора наведана %d вэб-старонак</item>
+        <item quantity="other">Учора наведана %d вэб-старонак</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d элемент з гісторыі?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d элементы з гісторыі?</item>
+        <item quantity="many">Выдаліць %d элементаў з гісторыі?</item>
+        <item quantity="other">Выдаліць %d элементаў з гісторыі?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спрабавалі адкрыць праграму «Інтэрнэт» ад Samsung: %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спрабавалі адкрыць праграму «Інтэрнэт» ад Samsung: %d разы</item>
+        <item quantity="many">Спрабавалі адкрыць праграму «Інтэрнэт» ад Samsung: %d разоў</item>
+        <item quantity="other">Спрабавалі адкрыць праграму «Інтэрнэт» ад Samsung: %d разоў</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спрабавалі адкрыць праграму «Інтэрнэт»: %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спрабавалі адкрыць праграму «Інтэрнэт»: %d разы</item>
+        <item quantity="many">Спрабавалі адкрыць праграму «Інтэрнэт»: %d разоў</item>
+        <item quantity="other">Спрабавалі адкрыць праграму «Інтэрнэт»: %d разоў</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблакіравана: %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблакіравана: %d разы</item>
+        <item quantity="many">Заблакіравана: %d разоў</item>
+        <item quantity="other">Заблакіравана: %d разоў</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адкрыта %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адкрыта %d разы</item>
+        <item quantity="many">Адкрыта %d разоў</item>
+        <item quantity="other">Адкрыта %d разоў</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма адкрыць больш за %d акно праграмы.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма адкрыць больш за %d акна праграмы.</item>
+        <item quantity="many">Немагчыма адкрыць больш за %d вокнаў праграмы.</item>
+        <item quantity="other">Немагчыма адкрыць больш за %d вокнаў праграмы.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d элемент з гісторыі?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d элементы з гісторыі?</item>
+        <item quantity="many">Выдаліць %d элементаў з гісторыі?</item>
+        <item quantity="other">Выдаліць %d элементаў з гісторыі?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунду</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Апавяшчэнні ад %1$s будуць заблакіраваны на %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Апавяшчэнні ад %1$s будуць заблакіраваны на %2$d дні.</item>
+        <item quantity="many">Апавяшчэнні ад %1$s будуць заблакіраваны на %2$d дзён.</item>
+        <item quantity="other">Апавяшчэнні ад %1$s будуць заблакіраваны на %2$d дзён.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш %d стыкера.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш %d стыкераў.</item>
+        <item quantity="many">Немагчыма дадаць больш %d стыкераў.</item>
+        <item quantity="other">Немагчыма дадаць больш %d стыкераў.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d стыкер. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d стыкеры. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d стыкераў. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+        <item quantity="other">Немагчыма дадаць больш за %d стыкераў. Перайдзіце да фотарэдактара ў Галерэі, каб выдаліць стыкеры.</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць %2$s, ваш узрост павінен складаць як мінімум %1$d гадоў.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі штучнага інтэлекту Galaxy, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць пашыраныя інтэлектуальныя функцыі Galaxy AI, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць інтэлектуальныя функцыі, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць інтэлектуальныя функцыі, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць інтэлектуальныя функцыі, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="other">Каб выкарыстоўваць інтэлектуальныя функцыі, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблакіравана %d рэкламная аб’ява</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблакіраваны %d рэкламныя аб’явы</item>
+        <item quantity="many">Заблакіравана %d рэкламных аб’яў</item>
+        <item quantity="other">Заблакіравана %d рэкламных аб’яў</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл cookie выкарыстоўваецца</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d файлы cookie выкарыстоўваюцца</item>
+        <item quantity="many">%d файлаў cookie выкарыстоўваюцца</item>
+        <item quantity="other">%d файлаў cookie выкарыстоўваюцца</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблакіравана %d спроба адсочвання</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблакіраваны %d спробы адсочвання</item>
+        <item quantity="many">Заблакіравана %d спроб адсочвання</item>
+        <item quantity="other">Заблакіравана %d спроб адсочвання</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На гэтым тыдні заблакіравана %d рэкламная аб’ява.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На гэтым тыдні заблакіраваны %d рэкламныя аб’явы.</item>
+        <item quantity="many">На гэтым тыдні заблакіравана %d рэкламных аб’яў.</item>
+        <item quantity="other">На гэтым тыдні заблакіравана %d рэкламных аб’яў.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На гэтым тыдні вас абаранілі ад %d спробы адсочвання.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На гэтым тыдні вас абаранілі ад %d спроб адсочвання.</item>
+        <item quantity="many">На гэтым тыдні вас абаранілі ад %d спроб адсочвання.</item>
+        <item quantity="other">На гэтым тыдні вас абаранілі ад %d спроб адсочвання.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння вас абаранілі ад %d спробы адсочвання.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння вас абаранілі ад %d спроб адсочвання.</item>
+        <item quantity="many">Сёння вас абаранілі ад %d спроб адсочвання.</item>
+        <item quantity="other">Сёння вас абаранілі ад %d спроб адсочвання.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На гэтым тыдні заблакіравана %d непажаданае перанакіраванне.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На гэтым тыдні заблакіраваны %d непажаданыя перанакіраванні.</item>
+        <item quantity="many">На гэтым тыдні заблакіравана %d непажаданых перанакіраванняў.</item>
+        <item quantity="other">На гэтым тыдні заблакіравана %d непажаданых перанакіраванняў.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На гэтым тыдні заблакіравана %d усплывальнае акно.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На гэтым тыдні заблакіраваны %d усплывальныя вокны.</item>
+        <item quantity="many">На гэтым тыдні заблакіравана %d усплывальных акон.</item>
+        <item quantity="other">На гэтым тыдні заблакіравана %d усплывальных акон.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдалены %d ярлык.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдалены %d ярлыкі.</item>
+        <item quantity="many">Выдалена %d ярлыкоў.</item>
+        <item quantity="other">Выдалена %d ярлыкоў.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d ярлык за раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d ярлыкі за раз.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d ярлыкоў за раз.</item>
+        <item quantity="other">Немагчыма дадаць больш за %d ярлыкоў за раз.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d прыладу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d прылады?</item>
+        <item quantity="many">Выдаліць %d прылад?</item>
+        <item quantity="other">Выдаліць %d прылад?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дададзены %d ярлык.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Дададзены %d ярлыкі.</item>
+        <item quantity="many">Дададзена %d ярлыкоў.</item>
+        <item quantity="other">Дададзена %d ярлыкоў.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d захаваную старонку?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d захаваныя старонкі?</item>
+        <item quantity="many">Выдаліць %d захаваных старонак?</item>
+        <item quantity="other">Выдаліць %d захаваных старонак?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d старонка захавана</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d старонак захавана</item>
+        <item quantity="many">%d старонак захавана</item>
+        <item quantity="other">%d старонак захавана</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння захавана %d старонка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння захаваны %d старонкі</item>
+        <item quantity="many">Сёння захавана %d старонак</item>
+        <item quantity="other">Сёння захавана %d старонак</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d захав стар. гатова да сінхран</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d захав стар. гатовы да сінхран</item>
+        <item quantity="many">%d захав стар. гатовы да сінхран</item>
+        <item quantity="other">%d захав стар. гатовы да сінхран</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння адбылося %d перапыненне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння адбыліся %d перапыненні</item>
+        <item quantity="many">Сёння адбылося %d перапыненняў</item>
+        <item quantity="other">Сёння адбылося %d перапыненняў</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d адцягваючы фактар заблакіраваны сёння</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d адцягваючыя фактары заблакіраваны сёння</item>
+        <item quantity="many">%d адцягваючых фактараў заблакіравана сёння</item>
+        <item quantity="other">%d адцягваючых фактараў заблакіравана сёння</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адкрыццё праграмы «Інтэрнэт» заблакіравана для %d праграмы</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адкрыццё праграмы «Інтэрнэт» заблакіравана для %d праграм</item>
+        <item quantity="many">Адкрыццё праграмы «Інтэрнэт» заблакіравана для %d праграм</item>
+        <item quantity="other">Адкрыццё праграмы «Інтэрнэт» заблакіравана для %d праграм</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграме забаронена адкрываць праграму «Інтэрнэт» сёння</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмам забаронена адкрываць праграму «Інтэрнэт» сёння</item>
+        <item quantity="many">%d праграмам забаронена адкрываць праграму «Інтэрнэт» сёння</item>
+        <item quantity="other">%d праграмам забаронена адкрываць праграму «Інтэрнэт» сёння</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблакіравана %d усплывальнае акно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблакіраваны %d усплывальныя вокны</item>
+        <item quantity="many">Заблакіравана %d усплывальных вокнаў</item>
+        <item quantity="other">Заблакіраваны %d усплывальных вокнаў</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння заблакіравана %d усплывальнае акно</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння заблакіраваны %d усплывальныя вокны</item>
+        <item quantity="many">Сёння заблакіравана %d усплывальных вокнаў</item>
+        <item quantity="other">Сёння заблакіравана %d усплывальных вокнаў</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заблакіравана %d зваротнае перанакіраванне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заблакіраваны %d зваротныя перанакіраванні</item>
+        <item quantity="many">Заблакіравана %d зваротных перанакіраванняў</item>
+        <item quantity="other">Заблакіравана %d зваротных перанакіраванняў</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння было заблакіравана %d зваротнае перанакіраванне</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння былі заблакіраваны %d зваротныя перанакіраванні</item>
+        <item quantity="many">Сёння было заблакіравана %d зваротных перанакіраванняў</item>
+        <item quantity="other">Сёння было заблакіравана %d зваротных перанакіраванняў</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Яшчэ %d інструмент адсочвання мог быць заблакіраваны</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Яшчэ %d інструменты адсочвання маглі быць заблакіраваны</item>
+        <item quantity="many">Яшчэ %d інструментаў адсочвання маглі быць заблакіраваны</item>
+        <item quantity="other">Яшчэ %d інструментаў адсочвання маглі быць заблакіраваны</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d укладка выбрана для закрыцця</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d укладкі выбрана для закрыцця</item>
+        <item quantity="many">%d укладак выбрана для закрыцця</item>
+        <item quantity="other">%d укладак выбрана для закрыцця</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мы знайшлі %d укладку, якую вы, магчыма, хочаце закрыць</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мы знайшлі %d укладкі, якія вы, магчыма, хочаце закрыць</item>
+        <item quantity="many">Мы знайшлі %d укладак, якія вы, магчыма, хочаце закрыць</item>
+        <item quantity="other">Мы знайшлі %d укладак, якія вы, магчыма, хочаце закрыць</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма заблакіраваць больш за %d укладку.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма заблакіраваць больш за %d укладкі.</item>
+        <item quantity="many">Немагчыма заблакіраваць больш за %d укладак.</item>
+        <item quantity="other">Немагчыма заблакіраваць больш за %d укладак.</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбраны %d элемент</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана %d элементы</item>
+        <item quantity="many">Выбрана %d элементаў</item>
+        <item quantity="other">Выбрана %d элементаў</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d вэб-старонка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d вэб-старонкі</item>
+        <item quantity="many">%d вэб-старонак</item>
+        <item quantity="other">%d вэб-старонак</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d вэб-сайт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d вэб-сайты</item>
+        <item quantity="many">%d вэб-сайтаў</item>
+        <item quantity="other">%d вэб-сайтаў</item>
+    </plurals>
+</resources>

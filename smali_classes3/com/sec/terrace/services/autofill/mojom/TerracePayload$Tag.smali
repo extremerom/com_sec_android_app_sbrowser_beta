@@ -1,0 +1,14 @@
+.class public final Lcom/sec/terrace/services/autofill/mojom/TerracePayload$Tag;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sec/terrace/services/autofill/mojom/TerracePayload;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Tag"
+.end annotation

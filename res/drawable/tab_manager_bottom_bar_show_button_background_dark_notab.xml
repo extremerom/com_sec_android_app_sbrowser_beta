@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <padding android:left="@dimen/tab_manager_text_action_button_show_button_padding_side" android:top="@dimen/tab_manager_text_action_button_show_button_padding_top" android:right="@dimen/tab_manager_text_action_button_show_button_padding_side" android:bottom="@dimen/tab_manager_text_action_button_show_button_padding_bottom" />
+        <corners android:radius="@dimen/tab_manager_text_action_button_show_button_radius" />
+        <solid android:color="@color/tab_manager_bottombar_normal_mode_no_tab_text_color" />
+    </shape>
+</inset>

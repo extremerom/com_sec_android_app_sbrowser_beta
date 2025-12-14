@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/tab_sync_coordinator_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@color/color_palette_list_view_action_bar_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" app:elevation="0.0dp">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:expandedTitleTextAppearance="@style/BasicExtendedAppBarTitle" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:scrimAnimationDuration="0" app:title="@string/synced_tabs">
+                <androidx.appcompat.widget.Toolbar android:theme="@style/TabSyncActivityTheme" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/sbrowser_action_bar_height" android:title="@string/synced_tabs" app:layout_collapseMode="pin">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageButton android:gravity="center" android:id="@id/tab_sync_back_button" android:background="@drawable/basic_appbar_button_bg" android:padding="@dimen/tab_manager_toolbar_button_padding" android:focusable="true" android:clickable="true" android:layout_width="@dimen/basic_app_bar_icon_ripple_size" android:layout_height="@dimen/basic_app_bar_icon_ripple_size" android:src="@drawable/tab_sync_up_indicator" android:scaleType="fitCenter" android:contentDescription="@string/action_bar_up_description" android:layout_marginStart="@dimen/winset_action_bar_menu_side_margin" android:stateListAnimator="?seslSmallTouchAnimator" />
+                        <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/basic_action_bar_title_text_size" android:textColor="@color/color_palette_list_view_action_bar_title_text_color" android:gravity="center_vertical" android:id="@id/toolbar_title" android:background="@android:color/transparent" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/synced_tabs" android:singleLine="true" android:layout_weight="1.0" app:textSizeDp="@dimen/basic_action_bar_title_text_max_size" style="@style/RobotoBold" />
+                        <ImageButton android:gravity="center" android:id="@id/delete_menu" android:background="@drawable/basic_appbar_button_bg" android:padding="@dimen/tab_manager_toolbar_button_padding" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/basic_app_bar_icon_ripple_size" android:layout_height="@dimen/basic_app_bar_icon_ripple_size" android:src="@drawable/internet_ic_delete" android:scaleType="fitCenter" android:tint="@color/color_palette_list_view_action_bar_action_button_color" android:contentDescription="@string/action_delete" android:layout_marginEnd="@dimen/winset_action_bar_menu_side_margin" />
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+                <include android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/tab_sync_pseudo_action_mode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/sbrowser_action_bar_height" app:layout_collapseMode="pin" layout="@layout/tab_sync_edit_toolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <FrameLayout android:id="@id/tab_sync_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/winset_action_bar_bottom_margin">
+                <FrameLayout android:orientation="vertical" android:id="@id/sync_tab_view_group" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/sync_tab_list_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="left|top" android:id="@id/top_left_corner" android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/top_left" android:tint="@color/color_palette_list_view_action_bar_bg_color" />
+                    <ImageView android:layout_gravity="right|top" android:id="@id/top_right_corner" android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/top_right" android:tint="@color/color_palette_list_view_action_bar_bg_color" />
+                </FrameLayout>
+                <androidx.core.widget.NestedScrollView android:id="@id/synced_tabs_no_tabs_group" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <include android:id="@id/synced_tabs_noitem_layout" layout="@layout/tab_sync_noitem_layout" />
+                        <include android:id="@id/synced_tabs_syncing_layout" layout="@layout/tab_sync_syncing_layout" />
+                        <include android:id="@id/synced_tabs_syncoff_layout" layout="@layout/tab_sync_syncoff_layout" />
+                        <include android:id="@id/synced_tabs_master_syncoff_layout" layout="@layout/tab_sync_master_syncoff_layout" />
+                        <include android:id="@id/synced_tabs_add_account_layout" layout="@layout/tab_add_account_layout" />
+                    </FrameLayout>
+                </androidx.core.widget.NestedScrollView>
+            </FrameLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <include android:id="@id/bottom_bar_overlay" layout="@layout/tab_sync_bottom_bar" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ImageView android:layout_gravity="left|bottom" android:id="@id/bottom_left_corner" android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/bottom_left" android:tint="@color/color_palette_list_view_action_bar_bg_color" />
+    <ImageView android:layout_gravity="right|bottom" android:id="@id/bottom_right_corner" android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/bottom_right" android:tint="@color/color_palette_list_view_action_bar_bg_color" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/globalconfig_debug_server_profiles" android:title="@string/global_config_server_profile_title" android:key="pref_global_config_server_profile" android:summary="%s" android:defaultValue="@string/global_config_server_profile_product" android:entryValues="@array/globalconfig_debug_server_profiles" />
+    <ListPreference android:entries="@array/globalconfig_debug_request_error_type" android:title="expected response code for test" android:key="pref_global_config_request_error_type" android:summary="%s" android:defaultValue="@string/global_config_request_error_type_none_value" android:entryValues="@array/globalconfig_debug_request_error_type_values" />
+    <Preference android:title="request holding time for test" android:key="pref_global_config_response_holding_time_millis" />
+    <PreferenceScreen android:title="Monitor" android:fragment="com.sec.android.app.sbrowser.global_config.GlobalConfigMonitorPreferenceFragment" />
+    <Preference android:title="Update configuration" android:key="pref_global_config_update_now" />
+    <Preference android:title="Force update configuration" android:key="pref_global_config_force_update" />
+    <PreferenceScreen android:title="History" android:fragment="com.sec.android.app.sbrowser.global_config.GlobalConfigUpdateHistoryPreferenceFragment" />
+    <PreferenceScreen android:title="Experiment" android:fragment="com.sec.android.app.sbrowser.global_config.GlobalConfigExperimentDebugFragment" />
+</PreferenceScreen>

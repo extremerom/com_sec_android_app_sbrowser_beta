@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.util.SeslShapeDrawable android:gravity="center" android:shape="rectangle" android:color="@color/color_control_highlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/basic_corner_radius" android:topRightRadius="@dimen/basic_corner_radius" />
+    <solid android:color="@color/winset_list_item_bg" />
+</androidx.appcompat.util.SeslShapeDrawable>

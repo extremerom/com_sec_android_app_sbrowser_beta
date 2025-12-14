@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/auth_background" android:paddingTop="@dimen/finger_print_dialog_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/knox_logo_total_height" android:paddingStart="@dimen/finger_print_dialog_margin" android:paddingEnd="@dimen/finger_print_dialog_margin">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/basic_dialog_content_margin_bottom">
+            <TextView android:textSize="@dimen/dialog_body_text_size" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_your_phone_to_use_iris" android:fontFamily="sec-roboto-light" style="@style/BasicDescription" />
+        </LinearLayout>
+        <include layout="@layout/authentication_verification_buttons" />
+    </LinearLayout>
+</RelativeLayout>

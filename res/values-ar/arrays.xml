@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/ar</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>السماح بكل ملفات تعريف الارتباط</item>
+        <item>حظر ملفات تعريف الارتباط الخاصة بجهات خارجية</item>
+        <item>حظر كل ملفات تعريف الارتباط</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>الجهاز</item>
+        <item>بطاقة SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>الافتراضية</item>
+        <item>الوصول السريع</item>
+        <item>الصفحة الحالية</item>
+        <item>الصفحة المخصصة</item>
+    </string-array>
+</resources>

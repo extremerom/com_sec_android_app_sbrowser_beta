@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceScreen android:title="@string/pref_debug_internet_information" android:key="InformationForInternet" android:fragment="com.sec.android.app.sbrowser.settings.debug.DebugInternetInformationFragment" securityLevel="0" />
+    <androidx.preference.PreferenceCategory android:title="Common test" android:selectable="false" />
+    <androidx.preference.PreferenceScreen android:title="@string/feature_variation_test_title" android:key="FeatureVariationDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.FeatureVariationTestPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceScreen android:title="@string/user_agent_debug_settings_title" android:key="UserAgentDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.UserAgentPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceScreen android:title="@string/global_config_debug_settings_title" android:key="GlobalConfigDebug" android:fragment="com.sec.android.app.sbrowser.global_config.GlobalConfigPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceScreen android:title="@string/sa_logging_debug_settings_title" android:key="SALoggingDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.SALoggingDebugPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceCategory android:title="Single tests" android:selectable="false" />
+    <androidx.preference.PreferenceScreen android:title="@string/debug_single_tests_settings_title" android:key="SingleModuleDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.DebugSingleTestsFragment" securityLevel="0" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_quickaccess_debug_title" android:key="QuickAccessDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.QuickAccessDebugPreferenceFragment" securityLevel="1" />
+    <androidx.preference.PreferenceScreen android:title="@string/pref_mainview_debug_setting_title" android:key="MainViewDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.MainViewPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceScreen android:title="@string/managed_configurations" android:key="ManagedConfigDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.managed_config.ManagedConfigPreferenceFragment" securityLevel="1" />
+    <androidx.preference.PreferenceScreen android:title="TSS Configurations" android:key="TSSConfigDebug" android:fragment="com.sec.android.app.sbrowser.settings.debug.TssConfigPreferenceFragment" securityLevel="0" />
+    <androidx.preference.PreferenceCategory android:title="Do not add single test here, please contact setting manager" android:selectable="false" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/winset_actionbar_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/save_all_images_toolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/save_all_images_grid_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/save_all_images_grid_container" />
+        <include android:id="@id/save_all_images_preview_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/save_all_images_preview_container" />
+    </FrameLayout>
+</LinearLayout>

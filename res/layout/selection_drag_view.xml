@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/drag_view_background_shadow" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/min_drag_view_width" />
+    <LinearLayout android:background="@drawable/drag_view_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/drag_view_background_shadow_size" android:paddingHorizontal="@dimen/drag_view_padding_horizontal" android:paddingVertical="@dimen/drag_view_padding_vertical">
+        <TextView android:textSize="@dimen/drag_view_text_size" android:textColor="@color/drag_view_text" android:ellipsize="end" android:gravity="start" android:id="@id/drag_text" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="@integer/drag_view_max_lines" android:lineSpacingExtra="@dimen/drag_view_text_line_spacing_extra" style="@style/RobotoRegular" />
+    </LinearLayout>
+</FrameLayout>

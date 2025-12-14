@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbar_notification_container" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/toolbar_badged_button_icon" android:background="@drawable/toolbar_button_touch_effect" android:focusable="true" android:clickable="true" android:layout_width="@dimen/toolbar_icon_width" android:layout_height="match_parent" android:src="@drawable/internet_ic_notification_manager" android:contentDescription="@string/notification_pref_title" android:stateListAnimator="?seslSmallTouchAnimator" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_option_menu_badge_margin_top" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/toolbar_option_menu_badge_margin_end" android:layout_alignEnd="@id/toolbar_badged_button_icon">
+        <TextView android:textSize="@dimen/toolbar_option_menu_badge_text_size" android:textColor="@color/toolbar_option_menu_badge_text_color" android:gravity="center" android:id="@id/toolbar_notifications_badge" android:background="@drawable/tw_noti_badge_mtrl" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/toolbar_option_menu_badge_height" android:importantForAccessibility="no" />
+    </LinearLayout>
+</RelativeLayout>

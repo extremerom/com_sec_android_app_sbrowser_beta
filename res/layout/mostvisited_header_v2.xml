@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/most_visited_view_margin_top" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/quickaccess_view_sub_header_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/most_visited_header" android:paddingTop="@dimen/most_visited_view_sub_header_padding_top" android:paddingBottom="@dimen/most_visited_view_sub_header_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/most_visited_view_title_size" android:textColor="@color/most_visited_view_title_color" android:ellipsize="end" android:id="@id/most_visited_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/most_visited_view_title" android:maxLines="1" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/RobotoMedium" />
+    </RelativeLayout>
+</RelativeLayout>

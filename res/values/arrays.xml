@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ProxyModeEntries">
+        <item>Never use a proxy</item>
+        <item>Use a .pac proxy script</item>
+        <item>Use fixed proxy servers</item>
+    </string-array>
+    <string-array name="ProxyModeValues">
+        <item>DIRECT</item>
+        <item>PAC_URL</item>
+        <item>PROXY_SERVER</item>
+    </string-array>
+    <string-array name="ai_backend_models">
+        <item>vertex</item>
+        <item>lexrank</item>
+        <item>scs cloud</item>
+        <item>scs ondevice</item>
+        <item>scs ondevice external</item>
+    </string-array>
+    <string-array name="ai_summarize_levels">
+        <item>AUTO</item>
+        <item>IN_MORE_DETAIL</item>
+        <item>IN_DETAIL</item>
+        <item>BRIEFLY</item>
+        <item>MORE_BRIEFLY</item>
+    </string-array>
+    <string-array name="ai_summary_style_options">
+        <item>@string/ai_summary_style_standard</item>
+        <item>@string/ai_summary_style_detailed</item>
+    </string-array>
+    <string-array name="ai_tokenizers">
+        <item>opennlp</item>
+        <item>chromium</item>
+    </string-array>
+    <string-array name="android_wear_capabilities">
+        <item>verify_remote_wear_app</item>
+        <item>verify_show_on_phone</item>
+    </string-array>
+    <string-array name="anti_tracking_level_explanation_list">
+        <item>@string/anti_tracking_basic_explanation</item>
+        <item>@string/anti_tracking_standard_explanation</item>
+        <item>@string/anti_tracking_strict_explanation</item>
+    </string-array>
+    <string-array name="anti_tracking_levels">
+        <item>@string/anti_tracking_off</item>
+        <item>@string/anti_tracking_standard</item>
+        <item>@string/anti_tracking_strict</item>
+    </string-array>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="autofill_forms_storage_options">
+        <item>@string/app_name</item>
+        <item>@string/namepwd_samsung_pass</item>
+    </string-array>
+    <string-array name="autofill_forms_storage_options_values">
+        <item>samsung_internet</item>
+        <item>samsung_pass</item>
+    </string-array>
+    <string-array name="automatic_storage_access_state_values">
+        <item>@string/automatic_storage_access_state_opener_interaction</item>
+        <item>@string/automatic_storage_access_state_first_party_interaction</item>
+        <item>@string/automatic_storage_access_state_disabled</item>
+    </string-array>
+    <string-array name="background_play_options">
+        <item>@string/media_background_play_on</item>
+        <item>@string/media_background_play_speaker</item>
+        <item>@string/media_background_play_off</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_close_button_position_entries">
+        <item>Default</item>
+        <item>Start</item>
+        <item>End</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_close_button_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_height_resize_behavior_entries">
+        <item>Default</item>
+        <item>Adjustable</item>
+        <item>Fixed</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_height_resize_behavior_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_share_state_entries">
+        <item>Default</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_share_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_side_sheet_position_entries">
+        <item>Default</item>
+        <item>Start</item>
+        <item>End</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_debug_settings_side_sheet_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_side_sheet_decoration_type_entries">
+        <item>Default</item>
+        <item>None</item>
+        <item>Shadow</item>
+        <item>Divider</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_side_sheet_decoration_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_side_sheet_rounded_corner_position_entries">
+        <item>Default</item>
+        <item>None</item>
+        <item>Top</item>
+    </string-array>
+    <string-array name="custom_tabs_launcher_side_sheet_rounded_corner_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="data_lake_debug_server_profiles">
+        <item>@string/server_profile_dev</item>
+        <item>@string/server_profile_stage</item>
+        <item>@string/server_profile_product</item>
+    </string-array>
+    <string-array name="debug_parental_control_protect_level">
+        <item>@string/pref_debug_parental_control_level_allow_all</item>
+        <item>@string/pref_debug_parental_control_level_explicit_sites</item>
+        <item>@string/pref_debug_parental_control_level_block_all</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="globalconfig_debug_request_error_type">
+        <item>@string/global_config_request_error_type_none</item>
+        <item>@string/global_config_request_error_type_server</item>
+        <item>@string/global_config_request_error_type_client</item>
+        <item>@string/global_config_request_error_type_invalid_json_type</item>
+    </string-array>
+    <string-array name="globalconfig_debug_request_error_type_values">
+        <item>@string/global_config_request_error_type_none_value</item>
+        <item>@string/global_config_request_error_type_server_value</item>
+        <item>@string/global_config_request_error_type_client_value</item>
+        <item>@string/global_config_request_error_type_invalid_json_type_value</item>
+    </string-array>
+    <string-array name="globalconfig_debug_server_profiles">
+        <item>@string/global_config_server_profile_dev</item>
+        <item>@string/global_config_server_profile_stage</item>
+        <item>@string/global_config_server_profile_product</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="manage_dark_mode_key">
+        <item>when_phone_dark_mode_is_on</item>
+        <item>make_dark_always</item>
+        <item>make_dark_never</item>
+    </string-array>
+    <string-array name="manage_dark_mode_key_without_system_dark_mode">
+        <item>when_phone_dark_mode_is_on</item>
+        <item>make_dark_always</item>
+    </string-array>
+    <string-array name="manage_dark_mode_setting_phone">
+        <item>@string/match_phone_setting</item>
+        <item>@string/text_on</item>
+        <item>@string/text_off</item>
+    </string-array>
+    <string-array name="manage_dark_mode_setting_tablet">
+        <item>@string/match_tablet_setting</item>
+        <item>@string/text_on</item>
+        <item>@string/text_off</item>
+    </string-array>
+    <string-array name="manage_dark_mode_setting_without_system_dark_mode">
+        <item>@string/text_off</item>
+        <item>@string/text_on</item>
+    </string-array>
+    <string-array name="offline_ai_features">
+        <item>@string/ai_translate</item>
+    </string-array>
+    <string-array name="online_ai_features">
+        <item>@string/ai_summarize</item>
+    </string-array>
+    <string-array name="online_ai_features_20251">
+        <item>@string/ai_summarize</item>
+        <item>@string/ai_read_articles_aloud</item>
+    </string-array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Allow all cookies</item>
+        <item>Block third-party cookies</item>
+        <item>Block all cookies</item>
+    </string-array>
+    <string-array name="pref_additional_contents">
+        <item>most_visited_pages</item>
+        <item>news_feed</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="pref_additional_contents_choices_new">
+        <item>@string/most_visited_pages</item>
+        <item>@string/unified_home_page_quick_news_feed</item>
+        <item>@string/settings_other_homepage_none</item>
+    </string-array>
+    <string-array name="pref_anti_tracking_list">
+        <item>@string/pref_anti_tracking_on</item>
+        <item>@string/pref_anti_tracking_secret_only</item>
+        <item>@string/pref_anti_tracking_off</item>
+    </string-array>
+    <string-array name="pref_blockers_temporarily_unblock_ads_supported">
+        <item>default</item>
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+    <string-array name="pref_contents_push_server_type">
+        <item>dev</item>
+        <item>stg</item>
+        <item>prd</item>
+    </string-array>
+    <string-array name="pref_country_code_values">
+        <item>CANADA</item>
+        <item>CHINA</item>
+        <item>FRANCE</item>
+        <item>GERMANY</item>
+        <item>INDIA</item>
+        <item>ITALY</item>
+        <item>JAPAN</item>
+        <item>KOREA</item>
+        <item>RUSSIA</item>
+        <item>SPAIN</item>
+        <item>UNITED KINGDOM</item>
+        <item>USA</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_country_iso_code_values">
+        <item>AR</item>
+        <item>BR</item>
+        <item>CA</item>
+        <item>CN</item>
+        <item>DE</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>GB</item>
+        <item>IN</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>KR</item>
+        <item>RU</item>
+        <item>TR</item>
+        <item>US</item>
+        <item>VN</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Device</item>
+        <item>SD card</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices_phone">
+        <item>Phone</item>
+        <item>SD card</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices_tablet">
+        <item>Tablet</item>
+        <item>SD card</item>
+    </string-array>
+    <string-array name="pref_desktop_website_for_multi_fold_list">
+        <item>@string/pref_website_version_to_show_match_screen</item>
+        <item>@string/options_menu_request_pc_version</item>
+        <item>@string/options_menu_request_mobile_version</item>
+    </string-array>
+    <string-array name="pref_development_ua_choices">
+        <item>iPhone - iOS 10</item>
+        <item>iPhone - iOS 8+</item>
+        <item>iPhone - iOS 8</item>
+        <item>iPhone - iOS 7</item>
+        <item>iPhone - iOS 6</item>
+        <item>iPad - iOS 10</item>
+        <item>iPad - iOS 7</item>
+        <item>iPad - iOS 6</item>
+        <item>Pixel XL - Chrome 53(mobile)</item>
+        <item>Pixel V2 - Chrome 51(mobile)</item>
+        <item>Pixel XL - Chrome 50(mobile)</item>
+        <item>Pixel V1 - Chrome 44(mobile)</item>
+        <item>Pixel C - Chrome 53(tablet)</item>
+        <item>Pixel C - Chrome 51(tablet)</item>
+        <item>Pixel C - Chrome 44(tablet)</item>
+        <item>Nexus 5 - Chrome 34(mobile)</item>
+        <item>Nexus 5 - chrome 18(mobile)</item>
+        <item>Nexus 5 - chrome 35(mobile)</item>
+        <item>Galaxy Nexus - Chrome 18(mobile)</item>
+        <item>Nexus 7 - Chrome 30(tablet)</item>
+        <item>Nexus 7 - Chrome 31(tablet)</item>
+        <item>Nexus 7 - Chrome 27(tablet)</item>
+        <item>Nexus 7 - Chrome 34(tablet)</item>
+        <item>Nexus 7 - Chrome 36(tablet)</item>
+        <item>Nexus 7 - Chrome 18(tablet)</item>
+        <item>Sbrowser4.x(mobile)</item>
+        <item>Sbrowser3.0(mobile)</item>
+        <item>Sbrowser2.0(mobile)</item>
+        <item>Sbrowser1.6(mobile)</item>
+        <item>Sbrowser1.5(mobile)</item>
+        <item>Sbrowser4.x(tablet)</item>
+        <item>Sbrowser3.0(tablet)</item>
+        <item>Sbrowser2.0(tablet)</item>
+        <item>Sbrowser1.5(tablet)</item>
+        <item>Samsung Galaxy SIII</item>
+        <item>Operator CMCC - Note4</item>
+        <item>Firefox 4 - Mac</item>
+        <item>Firefox 4 - Windows</item>
+        <item>Firefox 7 - Mac</item>
+        <item>Firefox 7 - Windows</item>
+        <item>Firefox 17.0 - Windows</item>
+        <item>Firefox 31.0 - Windows</item>
+        <item>Firefox 50.1.0 - Mobile</item>
+        <item>Firefox 50.1.0 - Windows</item>
+        <item>iPad - Safari 6.0</item>
+        <item>iPad - Safari 5.0.2</item>
+        <item>Safari 5.0.3 - Windows</item>
+    </string-array>
+    <string-array name="pref_development_ua_values">
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Version/10.0 Mobile/14E5230e Safari/602.1</item>
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4</item>
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4</item>
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A4449d Safari/9537.53</item>
+        <item>Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25</item>
+        <item>Mozilla/5.0 (iPad; CPU OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Version/10.0 Mobile/14E5230e Safari/602.1</item>
+        <item>Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Safari/9537.53</item>
+        <item>Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25</item>
+        <item>Mozilla/5.0 (Linux; Android 7.1; Pixel XL Build/NME91E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.134 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 5.1; Pixel V2 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 7.1; Pixel XL Build/NDE63V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 5.1; PixelV1 Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NPD90G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2782.9 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NPD90G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.90 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 6.0.1; Pixel C Build/M5C14J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.3; Nexus 5 Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1; Galaxy Nexus Build/JRN84D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JWR66Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.3; Nexus 7 Build/JWR66D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.111 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4; Nexus 7 Build/KRT16S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.49 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2; Nexus 7 Build/JOP40C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G930F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.4 Chrome/44.0.2403.133 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N915G Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0(Linux;Android 4.4.2;en-gb;SM-N9005 Build/KOT49H) AppleWebKit/537.36(KHTML,like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0(Linux;Android 4.4.2;en-gb;SM-N9005 Build/KOT49H) AppleWebKit/537.36(KHTML,like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2.2; en-us;SM-N900V Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-T810 Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.4 Chrome/44.0.2403.133 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-P550 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.4; xx; SAMSUNG SM-T533 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2.2; xx; SAMSUNG SM-P905 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Safari/537.36</item>
+        <item>Mozilla/5.0 (Linux; U; Android 4.0; en-us; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.4; zh-cn; SAMSUNG-SM-N9108V_TD/1.0 Android/4.4.4 Release/09.03.2014 Browser/AppleWebKit537.36 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/2.0 Mobile Safari/537.36</item>
+        <item>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1</item>
+        <item>Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1</item>
+        <item>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</item>
+        <item>Mozilla/5.0 (Windows NT 6.1; Intel Mac OS X 10.6; rv:7.0.1) Gecko/20100101 Firefox/7.0.1</item>
+        <item>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0</item>
+        <item>Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0</item>
+        <item>Mozilla/5.0 (Android 7.0; Mobile; rv:50.0) Gecko/50.0 Firefox/50.0</item>
+        <item>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0</item>
+        <item>Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25</item>
+        <item>Mozilla/5.0 (iPhone; U; ru; CPU iPhone OS 4_2_1 like Mac OS X; ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148a Safari/6533.18.5</item>
+        <item>Mozilla/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4</item>
+    </string-array>
+    <string-array name="pref_enterprise_proxy_type">
+        <item>NONE</item>
+        <item>DIRECT</item>
+        <item>PROXY_SERVER</item>
+        <item>PAC_URL</item>
+    </string-array>
+    <string-array name="pref_help_intro_debug_region">
+        <item>off</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_help_intro_debug_version">
+        <item>off</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Default site name</item>
+        <item>Web shortcuts</item>
+        <item>Current page</item>
+        <item>Custom page</item>
+    </string-array>
+    <string-array name="pref_homepage_values">
+        <item>default</item>
+        <item>quick_access</item>
+        <item>current_page</item>
+        <item>other_page</item>
+    </string-array>
+    <string-array name="pref_sales_code_values">
+        <item>ACG</item>
+        <item>AIO</item>
+        <item>ATT</item>
+        <item>BST</item>
+        <item>CHC</item>
+        <item>CHM</item>
+        <item>CHU</item>
+        <item>CRI</item>
+        <item>CSP</item>
+        <item>CTC</item>
+        <item>DCM</item>
+        <item>FOP</item>
+        <item>K06</item>
+        <item>LDU</item>
+        <item>LGT</item>
+        <item>LRA</item>
+        <item>LUC</item>
+        <item>LUO</item>
+        <item>MTR</item>
+        <item>PAP</item>
+        <item>SER</item>
+        <item>SKC</item>
+        <item>SPR</item>
+        <item>SPT</item>
+        <item>TFA</item>
+        <item>TFN</item>
+        <item>TFO</item>
+        <item>TFV</item>
+        <item>TMB</item>
+        <item>TMK</item>
+        <item>U06</item>
+        <item>USC</item>
+        <item>VMU</item>
+        <item>VZW</item>
+        <item>XAR</item>
+        <item>XAS</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_show_tab_bar">
+        <item>@string/pref_show_tab_bar_on</item>
+        <item>@string/pref_show_tab_bar_auto</item>
+        <item>@string/pref_show_tab_bar_off</item>
+    </string-array>
+    <string-array name="pref_si_log_server_type">
+        <item>dev</item>
+        <item>stg</item>
+        <item>prd</item>
+    </string-array>
+    <string-array name="pref_transparency_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="pref_webapp_domain_values">
+        <item>DEV</item>
+        <item>STG</item>
+        <item>PRD</item>
+    </string-array>
+    <string-array name="promotion_debug_profile_list">
+        <item>@string/promotion_debug_profile_asset</item>
+        <item>@string/promotion_debug_profile_server</item>
+    </string-array>
+    <string-array name="quickaccess_debug_masking_config_entries">
+        <item>@string/quickaccess_masking_config_none</item>
+        <item>@string/quickaccess_masking_config_full_masking</item>
+        <item>@string/quickaccess_masking_config_resize_masking</item>
+        <item>@string/quickaccess_masking_config_gap0</item>
+        <item>@string/quickaccess_masking_config_gap8</item>
+    </string-array>
+    <string-array name="quickaccess_debug_server_profiles">
+        <item>@string/server_profile_dev</item>
+        <item>@string/server_profile_stage</item>
+        <item>@string/server_profile_product</item>
+    </string-array>
+    <string-array name="sa_detail_dark_mode_setting">
+        <item>Match phone setting</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="sa_detail_download_path">
+        <item>Phone</item>
+        <item>SDCard</item>
+    </string-array>
+    <string-array name="sa_detail_privacy_security_level">
+        <item>Basic</item>
+        <item>Secure</item>
+        <item>Strict</item>
+    </string-array>
+    <string-array name="sa_detail_show_tab">
+        <item>OnLarge</item>
+        <item>Always</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="sa_detail_website_version_to_show">
+        <item>MatchScreen</item>
+        <item>Mobile</item>
+        <item>Desktop</item>
+    </string-array>
+    <string-array name="saferbrowsing_debug_server_profiles">
+        <item>@string/server_profile_dev_alpha</item>
+        <item>@string/server_profile_dev</item>
+        <item>@string/server_profile_stage</item>
+        <item>@string/server_profile_product</item>
+    </string-array>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>bing</item>
+        <item>DuckDuckGo</item>
+        <item>youtube</item>
+        <item>yahoo</item>
+    </string-array>
+    <string-array name="summarizing_text_array">
+        <item>@string/ai_summarizing_text_1</item>
+        <item>@string/ai_summarizing_text_2</item>
+        <item>@string/ai_summarizing_text_3</item>
+        <item>@string/ai_summarizing_text_4</item>
+        <item>@string/ai_summarizing_text_5</item>
+    </string-array>
+    <string-array name="translator_preference">
+        <item>On-Device mode</item>
+        <item>Highest quality</item>
+        <item>Use language packs when available</item>
+    </string-array>
+    <string-array name="translator_preference_keys">
+        <item>on_device_mode</item>
+        <item>highest_quality</item>
+        <item>language_packs_available</item>
+    </string-array>
+    <string-array name="translator_preference_summary">
+        <item>"Process text on your phone only. May be less accurate and requires downloading language packs. Some languages aren't supported"</item>
+        <item>"Get the best possible translation. Your text is sent to Google and won't be saved once processing is complete."</item>
+        <item>"Save data by translating with downloaded language packs when available. If there's no downloaded language pack, your text will be sent to Google."</item>
+    </string-array>
+    <array name="ui_com_google_android_gms_fonts_certs">
+        <item>@array/ui_com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/ui_com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="ui_com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="ui_com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="webapk_profile_list">
+        <item>@string/webapk_profile_dev</item>
+        <item>@string/webapk_profile_stg</item>
+        <item>@string/webapk_profile_prd</item>
+    </string-array>
+    <string-array name="wifi_sync_only_setting">
+        <item>@string/wifi_only</item>
+        <item>@string/wifi_of_mobile_data</item>
+    </string-array>
+</resources>

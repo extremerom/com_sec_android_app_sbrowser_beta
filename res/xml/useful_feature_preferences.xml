@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/pref_useful_features_title" android:key="useful_features"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/ai_read_aloud" android:key="pref_read_aloud" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="@string/download_history_filter_video" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/pref_auto_play_video" android:key="pref_auto_play_video" app:sa_eventId="@string/sa_event_settings_autoplay_video" app:sa_statusId="@string/sa_status_settings_autoplay_video" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/media_assistant_fab_video_assistant" android:key="pref_new_video_assist" android:fragment="com.sec.android.app.sbrowser.settings.VideoAssistantFragment" app:sa_eventId="@string/sa_event_settings_video_assistant" app:sa_eventWidgetId="@string/sa_event_settings_video_assistant_switch" app:sa_statusId="@string/sa_status_settings_video_assistant" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/media_background_play" android:key="pref_background_play" android:fragment="com.sec.android.app.sbrowser.settings.BackgroundPlayFragment" app:sa_eventId="@string/sa_event_settings_background_play" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="@string/pref_category_search_bar" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/pref_support_reader_mode" android:key="pref_support_reader_mode" android:summary="@string/pref_support_reader_mode_summary" android:defaultValue="false" app:sa_eventId="@string/sa_event_settings_show_reader_button" app:sa_statusId="@string/sa_status_settings_show_reader_button" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/pref_labs_title" android:key="internet_labs" android:fragment="com.sec.android.app.sbrowser.settings.LabsPreferenceFragment" app:sa_eventId="@string/sa_event_settings_labs" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" android:key="region_specific_features" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/pref_marketing_information_title" android:key="marketing_information" android:defaultValue="false" app:sa_eventId="@string/sa_event_settings_contents_push" app:sa_eventWidgetId="@string/sa_event_settings_contents_push_switch" app:sa_statusId="@string/sa_status_settings_contents_push" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.SwitchPreferenceCustom android:title="@string/close_all_dialog_close_all_tabs_checkbox" android:key="pref_close_all_tabs" android:summary="@string/close_all_tabs_description" android:defaultValue="true" />
+    <androidx.preference.PreferenceCategory android:title="@string/pref_widget_header" android:selectable="false" android:key="pref_widget_header" />
+    <androidx.preference.Preference android:title="@string/pref_add_search_widget_home_screen" android:key="pref_add_search_widget" />
+    <androidx.preference.Preference android:title="@string/pref_add_bookmark_widget_home_screen" android:key="pref_add_bookmark_widget" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/read_aloud_toolbar_background_radius" />
+    <padding android:top="@dimen/read_aloud_toolbar_speech_rate_spinner_padding_vertical" android:bottom="@dimen/read_aloud_toolbar_speech_rate_spinner_padding_vertical" />
+    <solid android:color="@color/read_aloud_toolbar_spinner_popup_background" />
+</shape>

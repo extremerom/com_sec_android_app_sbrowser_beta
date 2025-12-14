@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@animator/$capture_bounce_in_animator__0" android:duration="200" android:valueFrom="1" android:valueTo="1.07" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@animator/$capture_bounce_in_animator__1" android:duration="400" android:valueFrom="1" android:valueTo="1.07" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@animator/$capture_bounce_in_animator__2" android:duration="400" android:startOffset="200" android:valueFrom="1.07" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@animator/$capture_bounce_in_animator__3" android:duration="400" android:startOffset="200" android:valueFrom="1.07" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@animator/$capture_bounce_in_animator__4" android:duration="200" android:valueFrom="0f" android:valueTo="1f" android:propertyName="alpha" />
+</set>

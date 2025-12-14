@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/download_history_spinner_background_icon_margin">
+        <bitmap android:gravity="right|center" android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/color_palette_url_bar_spinner_icon_color" />
+    </item>
+    <item>
+        <ripple android:color="@color/color_control_highlight"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/basic_bottom_bar_button_ripple_radius" />
+                    <solid android:color="?android:colorAccent" />
+                    <padding android:left="@dimen/download_history_spinner_background_padding_left" android:right="@dimen/download_history_spinner_background_padding_right" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

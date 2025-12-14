@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Дозволи ги сите колачиња</item>
+        <item>Блокирај колачиња од трета страна</item>
+        <item>Блокирај ги сите колачиња</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Уред</item>
+        <item>SD-карт.</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Основно</item>
+        <item>Брз пристап</item>
+        <item>Тековна страница</item>
+        <item>Прилагодена страница</item>
+    </string-array>
+</resources>

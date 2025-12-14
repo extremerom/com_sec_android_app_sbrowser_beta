@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_transparent" />
+    <stroke android:width="@dimen/save_all_images_item_border_size" android:color="@color/save_all_images_grid_divider_color" />
+</shape>

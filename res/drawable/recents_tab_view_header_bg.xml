@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/tabmanager_toolbar_bg_ripple_color"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@android:color/transparent" />
+        </ripple>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/recents_tab_view_rounded_corners_radius" android:topRightRadius="@dimen/recents_tab_view_rounded_corners_radius" />
+            <stroke android:width="@dimen/tab_manager_thumbnail_stroke_thickness" android:color="@color/tab_manager_thumbnail_stroke" />
+        </shape>
+    </item>
+</layer-list>

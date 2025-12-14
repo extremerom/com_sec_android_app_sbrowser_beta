@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ปกติ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/th</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>ให้การอนุญาตคุกกี้ทั้งหมด</item>
+        <item>บล็อกคุกกี้บุคคลที่สาม</item>
+        <item>บล็อกคุกกี้ทั้งหมด</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>อุปกรณ์</item>
+        <item>SD ​การ์ด</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ค่าเริ่มต้น</item>
+        <item>การเข้าถึงด่วน</item>
+        <item>หน้าปัจจุบัน</item>
+        <item>หน้าแบบกำหนดเอง</item>
+    </string-array>
+</resources>

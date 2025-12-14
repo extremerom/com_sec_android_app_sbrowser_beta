@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ai_read_articles_aloud"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:selectable="false" android:key="pref_read_articles_aloud_preference_desc" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/read_articles_aloud_language_pack_preference_title" android:key="read_articles_language_pack_title" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/read_aloud_voice_style_desc_title" android:key="pref_read_articles_aloud_voice_styles" android:fragment="com.sec.android.app.sbrowser.settings.browsing_assist.ReadArticlesAloudVoiceStyleFragment" app:sa_eventId="@string/sa_event_click_read_articles_aloud_voice_styles" searchable="true" />
+</PreferenceScreen>

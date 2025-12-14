@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference android:title="@string/pref_maximum_tab_count_limit_edit" android:key="pref_maximum_tab_count_limit_edit" android:summary="@string/pref_maximum_tab_count_limit_summary" android:inputType="numberDecimal" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_support_remove_duplicate_homepage_tab" android:summary="@string/pref_support_remove_duplicate_homepage_tab" sbrowser:debugDefaultValue="true" sbrowser:debugKey="pref_support_remove_duplicate_homepage_tab" />
+    <Preference android:title="@string/pref_cross_app_action_tab_action_for_test" android:key="pref_cross_app_action_tab_action_for_test" />
+    <Preference android:title="@string/pref_create_maximum_tabs_for_test" android:key="pref_create_maximum_tabs_for_test" />
+    <Preference android:title="@string/pref_retrain_tab_delete_suggestion_model" android:key="pref_retrain_tab_delete_suggestion_model" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_show_suggestion_regardless_of_date" android:summary="@string/pref_show_suggestion_regardless_of_date" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_show_suggestion_regardless_of_date" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_show_suggestion_with_min_prediction_count_as_one" android:summary="@string/pref_show_suggestion_with_min_prediction_count_as_one" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_show_suggestion_with_min_prediction_count_as_one" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_show_suggestion_regardless_of_tab_count" android:summary="@string/pref_show_suggestion_regardless_of_tab_count" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_show_suggestion_regardless_of_tab_count" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_show_tab_manager_new_gui" android:summary="@string/pref_show_tab_manager_new_gui" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_show_tab_manager_new_gui" />
+</androidx.preference.PreferenceScreen>

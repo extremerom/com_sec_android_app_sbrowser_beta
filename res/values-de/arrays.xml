@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25-fach</item>
+        <item>0,5-fach</item>
+        <item>0,75-fach</item>
+        <item>Standard</item>
+        <item>1,25-fach</item>
+        <item>1,5-fach</item>
+        <item>2-fach</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/de</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Alle Cookies zulassen</item>
+        <item>Drittanbieter-Cookies blockieren</item>
+        <item>Alle Cookies blockieren</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Gerät</item>
+        <item>SD-Karte</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Standard</item>
+        <item>Schnellzugriff</item>
+        <item>Aktuelle Seite</item>
+        <item>Angepasste Seite</item>
+    </string-array>
+</resources>

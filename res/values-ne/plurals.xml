@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सेकेन्डपछि फेरि प्रयास गर्नुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d सेकेन्डपछि फेरि प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d चयन गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d चयन गरियो</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बुकमार्क फोल्डर र यिनमा भएका सबै बुकमार्कहरू मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा बुकमार्क फोल्डर र यिनमा भएका सबै बुकमार्कहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">बुकमार्कको %d फोल्डर मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">बुकमार्कका %d वटा फोल्डरहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d वस्तु %2$s मा सारियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d वस्तुहरू %2$s मा सारिए।</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बुकमार्क</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा बुकमार्क</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d बुकमार्क थपियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d बुकमार्कहरू थपिए</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बुकमार्क मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d बुकमार्कहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बुकमार्क सिंक गर्नका लागि तयार छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d बुकमार्कहरू सिंक गर्नका लागि तयार छन्</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">यस हप्ता %d विज्ञापन ब्लक गरियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">यस हप्ता %d वटा विज्ञापनहरू ब्लक गरियो।</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d विज्ञापन ब्लक गरियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वटा विज्ञापनहरू ब्लक गरियो।</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पछिल्लो पेजको %d विज्ञापनमाथि रोक लगाइयो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पछिल्लो पेजका %d विज्ञापनहरूमाथि रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पछिल्लो हप्तामा %d रिडाइरेक्शनलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पछिल्लो हप्तामा %d वटा रिडाइरेक्शनहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पछिल्लो हप्तामा %d रिडाइरेक्शनलाई ब्लक गर्न सकिन्थ्यो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पछिल्लो हप्तामा %d वटा रिडाइरेक्शनहरूलाई ब्लक गर्न सकिन्थ्यो</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पछिल्लो हप्तामा %d पप-अपलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पछिल्लो हप्तामा %d वटा पप-अपहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पछिल्लो हप्तामा %d पप-अपलाई ब्लक गर्न सकिन्थ्‍यो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">पछिल्लो हप्तामा %d वटा पप-अपहरूलाई ब्लक गर्न सकिन्थ्‍यो</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वेबसाइटबारे चेतावनी दिइयो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा वेबसाइटहरूबारे चेतावनी दिइयो</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुनै पनि चेतावनीबिना %d दुर्भावनापूर्ण वेबसाइटमा गइयो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुनै पनि चेतावनीबिना %d वटा दुर्भावनापूर्ण वेबसाइटहरूमा गइयो</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पटक</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d पटक</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d अडियो फाइल</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुल %d अडियो फाइलहरू</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d कागजात</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुल %d कागजातहरू</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d फाइल डाउनलोड गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d फाइलहरू डाउनलोड गरिए</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d फाइल</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुल %d फाइलहरू</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d इमेज</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुल %d इमेजहरू</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d भिडियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">कुल %d भिडियोहरू</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d फाइल मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा फाइलहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वस्तुलाई गोप्य डाउनलोडबाट सार्वजनिक डाउनलोडहरूमा सार्ने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वस्तुहरूलाई गोप्य डाउनलोडहरूबाट बाहिर सारेर सार्वजनिक डाउनलोडहरूमा सार्ने हो?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तपाईको डाउनलोडको इतिहासबाट %d वस्तु हटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">तपाईको डाउनलोडको इतिहासबाट %d वस्तुहरू हटाउने हो?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d इमेज डाउनलोड गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d इमेजहरू डाउनलोड गरिए</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 इमेज डाउनलोड भयो, 1 इमेज भएन</item>
+        <item quantity="other">%d इमेजहरू डाउनलोड भए, 1 भएन</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">इमेज डाउनलोड गर्न सकिएन</item>
+        <item quantity="other">इमेजहरू डाउनलोड गर्न सकिएन</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 इमेज डाउनलोड भयो, %d इमेजहरू भएनन्</item>
+        <item quantity="other">%1$d इमेजहरू डाउनलोड भए, %2$d इमेजहरू भएनन्</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">डाउनलोड पज गरियो</item>
+        <item quantity="other">पज गरियो (%1$d/%2$d इमेजहरू डाउनलोड भए)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d फाइल डाउनलोड भयो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d फाइलहरू डाउनलोड भए।</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d सेकेन्ड फास्ट फर्वार्ड गर्नुहोस्</item>
+        <item quantity="other">%d सेकेन्ड फास्ट फर्वार्ड गर्नुहोस्</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d सेकेन्ड रिवाइन्ड गर्नुहोस्</item>
+        <item quantity="other">%d सेकेन्ड रिवाइन्ड गर्नुहोस्</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">मेटाइन %d दिन बाँकी</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">मेटाइन %d दिन बाँकी</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s मा %1$d वेबपेजमा गइएको</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s मा %1$d वेबपेजहरूमा गइएको</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d वेबपेजमा गइयो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वेबपेजहरूमा गइयो</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">हिजो %d वेबपेजमा गइयो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">हिजो %d वेबपेजहरूमा गइयो</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तपाईको इतिहासबाट %d वस्तु मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">तपाईको इतिहासबाट %d वस्तुहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सैमसंग इन्टरनेट एप खोल्ने प्रयास गरिएको: %d पटक</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सैमसंग इन्टरनेट एप खोल्ने प्रयास गरिएको: %d पटक</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">इन्टरनेट एप खोल्ने प्रयास गरिएको: %d पटक</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">इन्टरनेट एप खोल्ने प्रयास गरिएको: %d पटक</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">रोक लगाइएको: %d पटक</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">रोक लगाइएको: %d पटक</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पटक खोलियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d पटक खोलियो</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d भन्दा धेरै एप विंडो खोल्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d भन्दा धेरै एप विंडोहरू खोल्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तपाईको इतिहासबाट %d वस्तु मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">तपाईको इतिहासबाट %d वस्तुहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सेकेन्ड</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d सेकेन्ड</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नयाँ सूचना</item>
+        <item quantity="other">%d नयाँ सूचनाहरू</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s का सूचनाहरू %2$d दिनसम्मका लागि ब्लक गरिने छन्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s का सूचनाहरू %2$d दिनसम्मका लागि ब्लक गरिने छन्।</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d भन्दा धेरै स्टिकर थप्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d भन्दा धेरै स्टिकरहरू थप्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d भन्दा बढी स्टिकर थप्न सकिँदैन। स्टिकरहरू हटाउन ग्यालरीको फोटो ऐडिटरमा जानुहोस्।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d भन्दा बढी स्टिकरहरू थप्न सकिँदैन। स्टिकरहरू हटाउन ग्यालरीको फोटो ऐडिटरमा जानुहोस्।</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s प्रयोग गर्न तपाई कम्तीमा पनि %1$d वर्षको हुनुपर्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s प्रयोग गर्न तपाई कम्तीमा पनि %1$d वर्षको हुनुपर्छ।</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Galaxy AI का उन्नत इन्टेलिजेन्ससम्बन्धी सुविधाहरू प्रयोग गर्न तपाईं कम्तीमा पनि %d वर्षको हुनुपर्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Galaxy AI का उन्नत इन्टेलिजेन्ससम्बन्धी सुविधाहरू प्रयोग गर्न तपाईं कम्तीमा पनि %d वर्षको हुनुपर्छ।</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">इन्टेलिजेन्ट सुविधाहरू प्रयोग गर्न तपाईं कम्तीमा पनि %d वर्षको हुनुपर्छ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">इन्टेलिजेन्ट सुविधाहरू प्रयोग गर्न तपाईं कम्तीमा पनि %d वर्षको हुनुपर्छ।</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d विज्ञापनलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d विज्ञापनहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d कुकी प्रयोगमा छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d कुकीहरू प्रयोगमा छन्</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ट्र्याक गर्ने %d प्रयासलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ट्र्याक गर्ने %d प्रयासहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">यस हप्ता %d विज्ञापन ब्लक गरियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">यस हप्ता %d वटा विज्ञापनहरू ब्लक गरियो।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">यस हप्ता तपाईंलाई ट्र्याकिङको %d प्रयासबाट बचाइयो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">यस हप्ता तपाईंलाई ट्र्याकिङका %d प्रयासहरूबाट बचाइयो।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज तपाईंलाई ट्र्याकिङको %d प्रयासबाट बचाइयो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज तपाईंलाई ट्र्याकिङका %d प्रयासहरूबाट बचाइयो।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">यस हप्ता %d अनावश्यक रिडिरेक्ट ब्लक गरियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">यस हप्ता %d वटा अनावश्यक रिडिरेक्टहरू ब्लक गरियो।</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">यस हप्ता %d पप-अप ब्लक गरियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">यस हप्ता %d वटा पप-अपहरू ब्लक गरियो।</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d शर्टकट मेटाइयो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d शर्टकटहरू मेटाइए।</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">एक पटकमा %d भन्दा धेरै शर्टकट थप्न मिल्दैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">एक पटकमा %d वटाभन्दा धेरै शर्टकट थप्न मिल्दैन।</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d यन्त्र हटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d यन्त्रहरू हटाउने हो?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d शर्टकट थपियो।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा शर्टकटहरू थपियो।</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सेव गरिएको %d पेज मेटाउने हो?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सेव गरिएका %d पेजहरू मेटाउने हो?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पेज सेव गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d पेजहरू सेव गरिए</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d पेज सेव गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d पेजहरू सेव गरिए</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">सेव गरिएको %d पेज सिंक गर्नका लागि तयार छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">सेव गरिएका %d पेजहरू सिंक गर्नका लागि तयार छन्</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d पटक बाधा पुग्यो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d पटक बाधा पुग्यो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d अवरोधलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वटा अवरोधहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d एपलाई इन्टरनेट एप खोल्नबाट ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा एपहरूलाई इन्टरनेट एप खोल्नबाट ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d एपलाई इन्टरनेट एप खोल्नबाट ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वटा एपहरूलाई इन्टरनेट एप खोल्नबाट ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पप-अप ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा पप-अपहरू ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d पप-अप ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वटा पप-अपहरू ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ब्याकवर्ड रिडिरेक्शनलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा ब्याकवर्ड रिडिरेक्शनहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आज %d ब्याकवर्ड रिडिरेक्शनलाई ब्लक गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">आज %d वटा ब्याकवर्ड रिडिरेक्शनहरूलाई ब्लक गरियो</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">थप %d ट्र्याकर ब्लक गरिएको हुन सक्छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">थप %d वटा ट्र्याकर ब्लक गरिएका हुन सक्छन्</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तपाईंलाई बन्द गर्न लगाउनका लागि %d ट्याब चयन गरिएको छ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">तपाईंलाई बन्द गर्न लगाउनका लागि %d वटा ट्याब चयन गरिएका छन्</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">हामीले इच्छा भएमा तपाईंले बन्द गर्न मिल्ने %d ट्याब पत्ता लगाएका छौँ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">हामीले इच्छा भएमा तपाईंले बन्द गर्न मिल्ने %d वटा ट्याब पत्ता लगाएका छौँ</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d भन्दा धेरै ट्याबलाई लक गर्न सकिँदैन।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d भन्दा धेरै ट्याबहरूलाई लक गर्न सकिँदैन।</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">भोलि म्याद सकिन्छ</item>
+        <item quantity="other">%d दिनमा म्याद सकिन्छ</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वस्तु चयन गरियो</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वस्तुहरू चयन गरिए</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वेबपेज</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा वेबपेजहरू</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वेबसाइट</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d वटा वेबसाइटहरू</item>
+    </plurals>
+</resources>

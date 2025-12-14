@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceScreen android:title="@string/update_type_debug_description" android:key="app_update_description" android:dialogTitle="@string/update_type_debug_description" />
+    <androidx.preference.EditTextPreference android:title="@string/update_type_debug_fake_current_version" android:key="fake_current_version" />
+    <androidx.preference.EditTextPreference android:title="@string/update_type_debug_edit_recommend_version" android:key="edit_recommend" />
+    <androidx.preference.EditTextPreference android:title="@string/update_type_debug_edit_force_version" android:key="edit_force" />
+    <androidx.preference.PreferenceScreen android:title="@string/update_type_debug_restore" android:key="app_update_restore" android:summary="@string/update_type_debug_restore_configuration" />
+</androidx.preference.PreferenceScreen>

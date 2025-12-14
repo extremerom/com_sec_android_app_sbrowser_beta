@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/content_blocker_error_popup_message_text_size" android:textColor="@color/content_blocker_error_popup_message_text_color" android:ellipsize="end" android:id="@id/error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_blocker_error_popup_margin_top" android:layout_marginBottom="@dimen/content_blocker_error_popup_margin_bottom" android:text="@string/content_blocker_error_apps_popup_updated_message_single" android:lineSpacingExtra="@dimen/winset_description_line_space" android:layout_marginStart="@dimen/content_blocker_error_popup_margin_start_end" android:layout_marginEnd="@dimen/content_blocker_error_popup_margin_start_end" style="@style/RobotoRegular" />
+</FrameLayout>

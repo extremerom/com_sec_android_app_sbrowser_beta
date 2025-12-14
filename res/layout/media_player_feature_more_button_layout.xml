@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/media_player_feature_btn" android:layout_width="@dimen/media_player_title_controller_more_btn_size" android:layout_height="match_parent" android:tint="@color/media_player_controller_feature_button_default_tint_color" />
+    <FrameLayout android:id="@id/media_player_feature_btn_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/media_player_title_controller_more_background_margin_top_bottom" android:layout_marginBottom="@dimen/media_player_title_controller_more_background_margin_top_bottom" />
+</merge>

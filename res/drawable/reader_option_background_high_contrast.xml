@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/reader_option_popup_background_color_high_contrast" />
+    <corners android:radius="@dimen/reader_option_popup_radius" />
+    <stroke android:width="@dimen/reader_option_popup_stroke_width_high_contrast" android:color="@color/reader_option_popup_stroke_color_high_contrast" />
+</shape>

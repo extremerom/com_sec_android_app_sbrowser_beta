@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/basic_description_text_size" android:textColor="@color/basic_description_text_color" android:id="@id/content_blocker_blocked_items_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/content_blocker_blocked_items_text_margin_top_bottom" android:layout_marginBottom="@dimen/content_blocker_blocked_items_text_margin_top_bottom" android:layout_centerVertical="true" android:layout_marginStart="0.0dp" android:layout_marginEnd="0.0dp" style="@style/RobotoRegular" />
+</RelativeLayout>

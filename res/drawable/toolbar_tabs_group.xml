@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/internet_ic_tabs_grouptabs" android:tint="@color/toolbar_icon_tabs_group_color" />
+    </item>
+</selector>

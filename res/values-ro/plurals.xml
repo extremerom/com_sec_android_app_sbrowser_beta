@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încercați peste %d secundă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încercați peste %d secunde.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Încercați peste %d secunde.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">S-au selectat %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d folder de marcaje și toate marcajele din el?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d foldere de marcaje și toate marcajele din ele?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d foldere de marcaje și toate marcajele din ele?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d folder de marcaje?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d foldere de marcaje?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d foldere de marcaje?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d element mutat în %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d elemente mutate în %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d elemente mutate în %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d marcaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d marcaje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d marcaje</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d marcaj adăugat astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d marcaje adăugate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d marcaje adăugate astăzi</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d marcaj?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d marcaje?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d marcaje?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d marcaj pregătit pt. sincr.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d marcaje pregătite pt. sincr.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d marcaje pregătite pt. sincr.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anunț a fost blocat în această săptămână.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d anunțuri au fost blocate în această săptămână.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anunțuri au fost blocate în această săptămână.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anunț a fost blocat astăzi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d anunțuri au fost blocate astăzi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anunțuri au fost blocate astăzi.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anunț blocat pe ultima pagină.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d anunțuri blocate pe ultima pagină.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anunțuri blocate pe ultima pagină.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecționare blocată în ultima săptămână</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d redirecționări blocate în ultima săptămână</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecționări blocate în ultima săptămână</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecționare ar fi putut fi blocată în ultima săptămână</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d redirecționări ar fi putut fi blocate în ultima săptămână</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecționări ar fi putut fi blocate în ultima săptămână</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj pop-up blocat în ultima săptămână</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje pop-up blocate în ultima săptămână</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje pop-up blocate în ultima săptămână</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mesaj pop-up ar fi putut fi blocat în ultima săptămână</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mesaje pop-up ar fi putut fi blocate în ultima săptămână</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d mesaje pop-up ar fi putut fi blocate în ultima săptămână</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avertizări furnizate pentru %d site web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Avertizări furnizate pentru %d site-uri web</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Avertizări furnizate pentru %d site-uri web</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d site web rău intenționat accesat fără avertizare</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d site-uri web rău intenționate accesate fără avertizări</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d site-uri web rău intenționate accesate fără avertizări</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">De %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">De %d ori</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total, %d fișier audio</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total, %d fișiere audio</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total, %d fișiere audio</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total, %d document</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total, %d documente</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total, %d documente</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier descărcat astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere descărcate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fișiere descărcate astăzi</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total, %d fișier</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total, %d fișiere</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total, %d fișiere</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total, %d imagine</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total, %d imagini</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total, %d imagini</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În total, %d videoclip</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">În total, %d videoclipuri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">În total, %d videoclipuri</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d fișier?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d fișiere?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d fișiere?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d element din descărcările secrete în descărcările publice?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d elemente din descărcările secrete în descărcările publice?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Mutați %d elemente din descărcările secrete în descărcările publice?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Elim. %d element din istoricul descărcărilor?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Elim. %d elemente din istoricul descărcărilor?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Elim. %d elemente din istoricul descărcărilor?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine descărcată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini descărcate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d imagini descărcate</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">1 imagine descărcată, 1 imagine nereușită</item>
+        <item quantity="other">%d imagini descărcate, 1 imagine nereușită</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Nu s-a putut descărca imaginea</item>
+        <item quantity="other">Nu s-au putut descărca imaginile</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">1 imagine descărcată, %d imagini nereușite</item>
+        <item quantity="other">%1$d imagini descărcate, %2$d imagini nereușite</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Descărcare întreruptă</item>
+        <item quantity="other">Întreruptă (%1$d/%2$d imagini descărcate)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier descărcat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere descărcate.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d fișiere descărcate.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi până la ștergere</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile până la ștergere</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zile până la ștergere</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d pagină web vizitată la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d pagini web vizitate la %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d pagini web vizitate la %2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină web accesată astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini web accesate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini web accesate astăzi</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină web accesată ieri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini web accesate ieri</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini web accesate ieri</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d element din istoric?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d elemente din istoric?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d elemente din istoric?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A încercat să deschidă Samsung Internet: %d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">A încercat să deschidă Samsung Internet: de %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A încercat să deschidă Samsung Internet: de %d ori</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A încercat să deschidă aplicația Internet: %d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">A încercat să deschidă aplicația Internet: de %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">A încercat să deschidă aplicația Internet: de %d ori</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Blocat: %d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Blocat: de %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Blocat: de %d ori</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Accesat %d dată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Accesat de %d ori</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Accesat de %d ori</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate deschide mai mult de %d fereastră a aplicației.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot deschide mai mult de %d ferestre ale aplicației.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot deschide mai mult de %d ferestre ale aplicației.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d element din istoric?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d elemente din istoric?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d elemente din istoric?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d secunde</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Notificările de la %1$s vor fi blocate timp de %2$d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Notificările de la %1$s vor fi blocate timp de %2$d zile.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Notificările de la %1$s vor fi blocate timp de %2$d zile.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate adăuga mai mult de %d abțibild.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot adăuga mai mult de %d abțibilduri.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot adăuga mai mult de %d abțibilduri.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți adăuga mai mult de %d abțibild. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți adăuga mai mult de %d abțibilduri. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu puteți adăuga mai mult de %d abțibilduri. Accesați editorul foto din Galerie pentru a elimina abțibilduri.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Este necesar să aveți cel puțin %1$d an pentru a utiliza %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Este necesar să aveți cel puțin %1$d ani pentru a utiliza %2$s.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza instrumentele inteligente avansate ale Galaxy AI.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza caracteristicile inteligente.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza caracteristicile inteligente.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza caracteristicile inteligente.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anunț blocat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d anunțuri blocate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anunțuri blocate</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d modul cookie utilizat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d module cookie utilizate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d module cookie utilizate</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d încercare de urmărire blocată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d încercări de urmărire blocate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d încercări de urmărire blocate</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anunț a fost blocat în această săptămână.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d anunțuri au fost blocate în această săptămână.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d anunțuri au fost blocate în această săptămână.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V-ați protejat de %d încercare de urmărire în această săptămână.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">V-ați protejat de %d încercări de urmărire în această săptămână.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V-ați protejat de %d încercări de urmărire în această săptămână.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V-ați protejat de %d încercare de urmărire astăzi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">V-ați protejat de %d încercări de urmărire astăzi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V-ați protejat de %d încercări de urmărire astăzi.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecționare nedorită a fost blocată în această săptămână.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d redirecționări nedorite au fost blocate în această săptămână.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecționări nedorite au fost blocate în această săptămână.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fereastră pop-up a fost blocată în această săptămână.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ferestre pop-up au fost blocate în această săptămână.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ferestre pop-up au fost blocate în această săptămână.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d comandă rapidă ștearsă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d comenzi rapide șterse.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d comenzi rapide șterse.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate adăuga mai mult de %d comandă rapidă simultan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot adăuga mai mult de %d comenzi rapide simultan.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot adăuga mai mult de %d comenzi rapide simultan.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminați %d dispozitiv?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eliminați %d dispozitive?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Eliminați %d dispozitive?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d comandă rapidă adăugată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d comenzi rapide adăugate.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d comenzi rapide adăugate.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d pagină salvată?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d pagini salvate?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ștergeți %d pagini salvate?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină salvată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini salvate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini salvate</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină salvată astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini salvate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini salvate astăzi</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină salvată preg. pt. sincr.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini salvate preg. pt. sincr.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini salvate preg. pt. sincr.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d întrerupere astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d întreruperi astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d întreruperi astăzi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element de distragere a atenției a fost blocat astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente de distragere a atenției au fost blocate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elemente de distragere a atenției au fost blocate astăzi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru %d aplicație a fost blocată posib. de a deschide aplic. Internet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru %d aplicații a fost blocată posib. de a deschide aplic. Internet</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru %d aplicații a fost blocată posib. de a deschide aplic. Internet</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pentru %d aplicație a fost blocată posibilitatea de a deschide aplicația Internet astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pentru %d aplicații a fost blocată posibilitatea de a deschide aplicația Internet astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pentru %d aplicații a fost blocată posibilitatea de a deschide aplicația Internet astăzi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fereastră pop-up a fost blocată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ferestre pop-up au fost blocate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ferestre pop-up au fost blocate</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fereastră pop-up a fost blocată astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ferestre pop-up au fost blocate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ferestre pop-up au fost blocate astăzi</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecționare înapoi a fost blocată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d redirecționări înapoi au fost blocate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecționări înapoi au fost blocate</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d redirecționare înapoi blocată astăzi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d redirecționări înapoi blocate astăzi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d redirecționări înapoi blocate astăzi</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alt sistem de urmărire ar fi putut fi blocat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d alte sisteme de urmărire ar fi putut fi blocate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d alte sisteme de urmărire ar fi putut fi blocate</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d filă selectată pentru închidere</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d file selectate pentru închidere</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d file selectate pentru închidere</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am găsit %d filă pe care ați putea dori să o închideți</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Am găsit %d file pe care ați putea dori să le închideți</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Am găsit %d file pe care ați putea dori să le închideți</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate bloca mai mult de %d filă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot bloca mai mult de %d file.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nu se pot bloca mai mult de %d file.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Expiră mâine</item>
+        <item quantity="few">Expiră peste %d zile</item>
+        <item quantity="other">Expiră peste %d de zile</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element selectat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente selectate</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d elemente selectate</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pagină web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pagini web</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pagini web</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d site web</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d site-uri web</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d site-uri web</item>
+    </plurals>
+</resources>

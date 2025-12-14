@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>सर्व कुकीसना अनुमती द्या</item>
+        <item>तृतीय-पक्ष कुकीसना ब्लॉक करा</item>
+        <item>सर्व कुकीस ब्लॉक करा</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>उपकरण</item>
+        <item>SD कार्ड</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>डिफॉल्ट</item>
+        <item>क्वीक एक्सेस</item>
+        <item>वर्तमान पृष्‍ठ</item>
+        <item>कस्टमाईजेशन पृष्‍ठ</item>
+    </string-array>
+</resources>

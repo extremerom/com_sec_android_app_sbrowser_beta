@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 k.</item>
+        <item>0,5 k.</item>
+        <item>0,75 k.</item>
+        <item>Įprasta</item>
+        <item>1,25 k.</item>
+        <item>1,5 k.</item>
+        <item>2 k.</item>
+    </string-array>
+    <array name="locale_paks">
+        <item>@raw/lt</item>
+        <item>@raw/en_us</item>
+    </array>
+    <string-array name="pref_accept_cookies_label">
+        <item>Leisti visus slapukus</item>
+        <item>Blokuoti trečiųjų šalių slapukus</item>
+        <item>Blokuoti visus slapukus</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Įrenginys</item>
+        <item>SD kortelė</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Numatytasis</item>
+        <item>Sparčioji prieiga</item>
+        <item>Dabartinis puslapis</item>
+        <item>Pasirinktinis puslapis</item>
+    </string-array>
+</resources>

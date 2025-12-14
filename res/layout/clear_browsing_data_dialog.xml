@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/features" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:nextFocusForward="@id/delete_button" android:accessibilityTraversalBefore="@id/delete_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/check" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/conatiner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_delete_data_item_margin" android:layout_marginBottom="@dimen/settings_delete_data_item_margin" android:layout_marginStart="@dimen/radio_preference_margin_start" android:layout_toEndOf="@id/check">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/settings_preference_title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegular" />
+        <TextView android:textAppearance="@style/SettingsThemeListItemSmall" android:textColor="@color/radio_preference_summary_text_color" android:id="@id/helptext" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegular" />
+        <TextView android:textAppearance="@style/SettingsThemeListItemSmall" android:textColor="@color/color_palette_list_view_point_text_color" android:id="@id/data_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/RobotoRegular" />
+    </LinearLayout>
+    <View android:id="@id/div" android:background="@color/radio_preference_divider_bg_color" android:layout_width="match_parent" android:layout_height="1.0px" android:layout_below="@id/conatiner" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/radio_preference_divider_margin_start" android:layout_marginEnd="@dimen/radio_preference_divider_margin_end" android:layout_toEndOf="@id/check" />
+</RelativeLayout>

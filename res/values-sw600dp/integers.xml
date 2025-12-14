@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="min_screen_width_bucket">2</integer>
+    <integer name="multi_tab_grid_span_count_landscape">4</integer>
+    <integer name="multi_tab_grid_span_count_portrait">3</integer>
+    <integer name="quickaccess_num_columns">7</integer>
+    <integer name="reader_header_margin_bottom">24</integer>
+    <integer name="reader_header_margin_top">24</integer>
+    <integer name="reader_page_margin">24</integer>
+    <integer name="widget_setting_bottom_navigation_weight">6</integer>
+</resources>

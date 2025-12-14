@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.multi_tab.tab_stack.views.tab_list.TabListView android:scrollbarStyle="outsideOverlay" android:id="@id/multi_tab_list_listview" android:background="@android:color/transparent" android:paddingLeft="@dimen/multi_tab_list_item_margin" android:paddingRight="@dimen/multi_tab_list_item_margin" android:focusable="true" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/color_transparent" android:divider="@color/color_transparent" android:overScrollMode="never" android:splitMotionEvents="false" android:nestedScrollingEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

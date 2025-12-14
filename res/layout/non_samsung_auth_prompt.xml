@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/auth_verification_background" android:background="@color/auth_lock_screen_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/auth_verification_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/basic_dialog_margin_start" android:layout_marginEnd="@dimen/basic_dialog_margin_end">
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/auth_verification_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/basic_dialog_margin_top" android:layout_marginBottom="@dimen/basic_dialog_title_margin_bottom" android:text="@string/auth_verification_title" android:maxLines="4" style="@style/BasicDialogTitle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/basic_dialog_content_margin_bottom" android:layout_below="@id/auth_verification_title" android:layout_centerHorizontal="true">
+                <TextView android:ellipsize="end" android:id="@id/auth_verification_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_scan_description" android:maxLines="4" android:layout_centerVertical="true" style="@style/BasicDescription" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.sec.android.app.sbrowser.common.widget.RaisedButton android:id="@id/reset_secret_mode" android:layout_marginBottom="@dimen/basic_dialog_margin_bottom" android:text="@string/reset_secret_mode_text_abb" android:layout_below="@id/auth_verification_container" style="@style/RaisedButton" />
+        <com.sec.android.app.sbrowser.common.widget.ShapedButton android:id="@id/cancel_auth" android:layout_marginBottom="@dimen/basic_dialog_margin_bottom" android:text="@string/lockpassword_cancel_label" android:layout_below="@id/reset_secret_mode" style="@style/BasicDialogActionCenterButton" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>ସମସ୍ତ କୁକୀ ଅନୁମତି ଦିଅନ୍ତୁ</item>
+        <item>ତୃତୀୟ-ପକ୍ଷ କୁକୀଗୁଡିକ ବ୍ଲକ୍ କରନ୍ତୁ</item>
+        <item>ସମସ୍ତ କୁକୀ ବ୍ଲକ୍ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ଡିଭାଇସ୍‌</item>
+        <item>SD କାର୍ଡ୍</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ଡିଫଲ୍ଟ</item>
+        <item>ଦ୍ରୁତ ଆକସେସ୍</item>
+        <item>ସମ୍ପ୍ରତି ପୃଷ୍ଠା</item>
+        <item>କଷ୍ଟମ୍ ପୃଷ୍ଠା</item>
+    </string-array>
+</resources>

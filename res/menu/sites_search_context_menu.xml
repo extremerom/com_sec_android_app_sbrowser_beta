@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/sites_search_context_menu">
+        <item android:id="@id/context_menu_open" android:title="@string/contextmenu_open" />
+        <item android:id="@id/context_menu_open_in_new_tab" android:title="@string/contextmenu_openlink_newtab" />
+        <item android:id="@id/context_menu_open_in_new_window" android:title="@string/contextmenu_open_in_new_window" />
+        <item android:id="@id/context_menu_open_in_secret_mode" android:title="@string/contextmenu_openlink_secret_mode" />
+        <item android:id="@id/context_menu_edit_bookmark" android:title="@string/contextmenu_edit" />
+        <item android:id="@id/context_menu_edit_folder" android:title="@string/show_bookmarks_rename_command" />
+        <item android:id="@id/context_menu_delete" android:title="@string/delete" />
+        <item android:id="@id/context_menu_share" android:title="@string/action_share" />
+        <item android:id="@id/context_menu_create_folder" android:title="@string/show_bookmarks_create_command" />
+    </group>
+</menu>

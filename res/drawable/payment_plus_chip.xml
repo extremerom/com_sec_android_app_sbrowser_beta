@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/internet_ic_add_to" android:tint="@color/payment_add_chip_icon_dim_color" />
+    </item>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/internet_ic_add_to" android:tint="@color/payment_add_chip_icon_color" />
+    </item>
+</selector>

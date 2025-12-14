@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:title="@string/pref_enable_partial_custom_tab" android:key="pref_enable_partial_custom_tab" android:defaultValue="false" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_initial_height_px" android:key="pref_custom_tabs_launcher_initial_height_px" android:inputType="numberDecimal" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_debug_settings_height_resize_behavior_entries" android:title="@string/pref_custom_tabs_launcher_height_resize_behavior" android:key="pref_custom_tabs_launcher_height_resize_behavior" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_debug_settings_height_resize_behavior_values" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_toolbar_radius_dp" android:key="pref_custom_tabs_launcher_toolbar_radius_dp" android:inputType="numberDecimal" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_enable_background_interaction" android:key="pref_custom_tabs_launcher_enable_background_interaction" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/pref_enable_partial_custom_tab_side_sheet" android:key="pref_enable_partial_custom_tab_side_sheet" android:defaultValue="false" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_initial_width_px" android:key="pref_custom_tabs_launcher_initial_width_px" android:inputType="numberDecimal" />
+    <EditTextPreference android:title="@string/pref_custom_tabs_launcher_break_point_dp" android:key="pref_custom_tabs_launcher_break_point_dp" android:inputType="numberDecimal" />
+    <SwitchPreferenceCompat android:title="@string/pref_custom_tabs_launcher_show_maximize_button" android:key="pref_custom_tabs_launcher_show_maximize_button" android:defaultValue="false" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_debug_settings_side_sheet_position_entries" android:title="@string/pref_custom_tabs_launcher_side_sheet_position" android:key="pref_custom_tabs_launcher_side_sheet_position" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_debug_settings_side_sheet_position_values" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_side_sheet_decoration_type_entries" android:title="@string/pref_custom_tabs_launcher_side_sheet_decoration_type" android:key="pref_custom_tabs_launcher_side_sheet_decoration_type" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_side_sheet_decoration_type_values" />
+    <ListPreference android:entries="@array/custom_tabs_launcher_side_sheet_rounded_corner_position_entries" android:title="@string/pref_custom_tabs_launcher_side_sheet_rounded_corner_position" android:key="pref_custom_tabs_launcher_side_sheet_rounded_corner_position" android:summary="%s" android:defaultValue="0" android:entryValues="@array/custom_tabs_launcher_side_sheet_rounded_corner_position_values" />
+</PreferenceScreen>

@@ -1,0 +1,354 @@
+//Template
+//"engineName(Vary)": {
+//- Label: Human readable label,
+//- Keyword: empty string if the engine has no keyword. (currently unused)
+//- Favicon URL : It is not used due to url redirection. We can't rely on the original favicon url.
+//- Search URL
+//- Encoding
+//- Suggest URL: empty string if this engine has no suggest feature
+
+//The parameters enclosed in curly braces come from the OpenSearch specification, see
+//http://www.opensearch.org/Specifications/OpenSearch/1.1/Draft_4#OpenSearch_1.1_parameters
+
+{
+    "variables": {
+        "version": "1.0",
+        "Num": "20.0"
+    },
+    "google": {
+        "Label": "Google",
+        "Keyword": "google.com",
+        "FaviconURL": "https://www.google.com/images/branding/product/ico/googleg_alldp.ico",
+        "SearchURL": "https://www.google.com/search?ie={inputEncoding}&client={CID}&source=android-browser&q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}client=samsung-mobile&{tpsf}&xssi=t&q={searchTerms}&{google:inputType}{google:cursorPosition}{google:currentPageUrl}{google:pageClassification}{google:searchVersion}{google:sessionToken}{google:prefetchQuery}sugkey={google:suggestAPIKeyParameter}"
+    },
+    "youtube": {
+        "Label": "YouTube",
+        "Keyword": "youtube.com",
+        "FaviconURL": "https://www.youtube.com/s/desktop/fadc8afc/img/favicon_48x48.png",
+        "SearchURL": "https://m.youtube.com/results?search_query={searchTerms}&utm_source={packageName}&utm_medium=search_bar&utm_campaign=samsung_browser",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "DuckDuckGo": {
+        "Label": "DuckDuckGo",
+        "Keyword": "duckduckgo.com",
+        "FaviconURL": "https://duckduckgo.com/favicon.ico",
+        "SearchURL": "https://duckduckgo.com/?q={searchTerms}&t=samsung",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
+    },
+    "yahoo_br": {
+        "Label": "Yahoo! Brasil",
+        "Keyword": "br.yahoo.com",
+        "FaviconURL": "https://br.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://br.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://br.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_jp": {
+        "Label": "Yahoo! JAPAN",
+        "Keyword": "yahoo.co.jp",
+        "FaviconURL": "https://search.yahoo.co.jp/favicon.ico",
+        "SearchURL": "https://search.yahoo.co.jp/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "yahoo_uk": {
+        "Label": "Yahoo! UK & Ireland",
+        "Keyword": "uk.yahoo.com",
+        "FaviconURL": "https://uk.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://uk.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://uk.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "ask_uk": {
+        "Label": "Ask Jeeves",
+        "Keyword": "uk.ask.com",
+        "FaviconURL": "https://uk.ask.com/favicon.ico",
+        "SearchURL": "https://uk.ask.com/web?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://ss.uk.ask.com/query?q={searchTerms}&li=ff"
+    },
+    "uol": {
+        "Label": "UOL Busca",
+        "Keyword": "busca.uol.com.br",
+        "FaviconURL": "https://busca.uol.com.br/favicon.ico",
+        "SearchURL": "https://busca.uol.com.br/result.html?term={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "yahoo_ch": {
+        "Label": "Yahoo! Suche",
+        "Keyword": "ch.yahoo.com",
+        "FaviconURL": "https://ch.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://ch.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://ch.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "ask_es": {
+        "Label": "Ask.com España",
+        "Keyword": "es.ask.com",
+        "FaviconURL": "https://es.ask.com/favicon.ico",
+        "SearchURL": "https://es.ask.com/web?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://ss.es.ask.com/query?q={searchTerms}&li=ff"
+    },
+    "mail_ru": {
+        "Label": "@MAIL.RU",
+        "Keyword": "mail.ru",
+        "FaviconURL": "https://home.imgsmail.ru/resplash/123689/i/meta/favicon.ico",
+        "SearchURL": "https://go.mail.ru/search?q={searchTerms}",
+        "Encoding": "windows-1251",
+        "SuggestURL": "https://suggests.go.mail.ru/chrome?q={searchTerms}"
+    },
+    "bing_zh_CN": {
+        "Label": "必应",
+        "Keyword": "bing.com",
+        "FaviconURL": "https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico",
+        "SearchURL": "https://www.bing.com/search?setmkt=zh-CN&q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://api.bing.com/osjson.aspx?query={searchTerms}&language={language}"
+    },
+    "goo": {
+        "Label": "goo",
+        "Keyword": "search.goo.ne.jp",
+        "FaviconURL": "https://search.goo.ne.jp/cdn/common/img/favicon.ico",
+        "SearchURL": "https://search.goo.ne.jp/web.jsp?MT={searchTerms}&IE={inputEncoding}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "sapo": {
+        "Label": "SAPO",
+        "Keyword": "sapo.pt",
+        "FaviconURL": "http://imgs.sapo.pt/images/sapo.ico",
+        "SearchURL": "http://pesquisa.sapo.pt/?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://pesquisa.sapo.pt/livesapo?q={searchTerms}"
+    },
+    "yahoo_dk": {
+        "Label": "Yahoo! Danmark",
+        "Keyword": "dk.yahoo.com",
+        "FaviconURL": "https://dk.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://dk.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "yahoo_de": {
+        "Label": "Yahoo! Deutschland",
+        "Keyword": "de.yahoo.com",
+        "FaviconURL": "https://de.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://de.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://de.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_tw": {
+        "Label": "Yahoo!奇摩",
+        "Keyword": "tw.yahoo.com",
+        "FaviconURL": "https://tw.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://tw.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://tw.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_es": {
+        "Label": "Yahoo! España",
+        "Keyword": "es.yahoo.com",
+        "FaviconURL": "https://es.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://es.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://es.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_nl": {
+        "Label": "Yahoo! Nederland",
+        "Keyword": "nl.yahoo.com",
+        "FaviconURL": "https://nl.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://nl.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://nl.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_no": {
+        "Label": "Yahoo! Norge",
+        "Keyword": "no.yahoo.com",
+        "FaviconURL": "https://no.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://no.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "daum": {
+        "Label": "다음",
+        "Keyword": "daum.net",
+        "FaviconURL": "https://search.daum.net/favicon.ico",
+        "SearchURL": "https://search.daum.net/search?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://vmsuggest.search.daum.net/sushi/opensearch/mobile?DA=I9T&q={searchTerms}"
+    },
+    "yahoo_fr": {
+        "Label": "Yahoo! France",
+        "Keyword": "fr.yahoo.com",
+        "FaviconURL": "https://fr.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://fr.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://fr.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "ask_nl": {
+        "Label": "Ask.com Nederland",
+        "Keyword": "nl.ask.com",
+        "FaviconURL": "https://nl.ask.com/favicon.ico",
+        "SearchURL": "https://nl.ask.com/web?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://ss.nl.ask.com/query?q={searchTerms}&li=ff"
+    },
+    "seznam": {
+        "Label": "Seznam",
+        "Keyword": "seznam.cz",
+        "FaviconURL": "https://search.seznam.cz/re/media/favicon.192a42730e.ico",
+        "SearchURL": "https://search.seznam.cz/?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://suggest.fulltext.seznam.cz/?dict=fulltext_ff&phrase={searchTerms}&encoding={inputEncoding}&response_encoding=utf-8"
+    },
+    "kvasir": {
+        "Label": "Kvasir",
+        "Keyword": "kvasir.no",
+        "FaviconURL": "https://sol.no/app/simg/h_16,w_16/static/site-icons/kvasir-favicon.ico",
+        "SearchURL": "https://www.kvasir.no/nettsok/searchResult.html?searchExpr={searchTerms}",
+        "Encoding": "ISO-8859-1",
+        "SuggestURL": ""
+    },
+    "yahoo": {
+        "Label": "Yahoo!",
+        "Keyword": "yahoo.com",
+        "FaviconURL": "https://search.yahoo.com/favicon.ico",
+        "SearchURL": "https://search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "ask_it": {
+        "Label": "Ask.com Italia",
+        "Keyword": "it.ask.com",
+        "FaviconURL": "https://it.ask.com/favicon.ico",
+        "SearchURL": "https://it.ask.com/web?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://ss.it.ask.com/query?q={searchTerms}&li=ff"
+    },
+    "yandex_ru": {
+        "Label": "Яндекс",
+        "Keyword": "yandex.ru",
+        "FaviconURL": "https://ya.ru/favicon.ico",
+        "SearchURL": "https://ya.ru/search/touch/?text={searchTerms}&clid=2253637",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}"
+    },
+    "ask_de": {
+        "Label": "Ask.com Deutschland",
+        "Keyword": "de.ask.com",
+        "FaviconURL": "https://de.ask.com/favicon.ico",
+        "SearchURL": "https://de.ask.com/web?q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "http://ss.de.ask.com/query?q={searchTerms}&li=ff"
+    },
+    "yahoo_hk": {
+        "Label": "Yahoo! Hong Kong",
+        "Keyword": "hk.yahoo.com",
+        "FaviconURL": "https://hk.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://hk.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://hk.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_sg": {
+        "Label": "Yahoo! Singapore",
+        "Keyword": "sg.yahoo.com",
+        "FaviconURL": "https://sg.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://sg.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://sg.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "yahoo_se": {
+        "Label": "Yahoo! Sverige",
+        "Keyword": "se.yahoo.com",
+        "FaviconURL": "https://se.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://se.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": ""
+    },
+    "search_de_CH": {
+        "Label": "search.ch(de)",
+        "Keyword": "search.ch.de",
+        "FaviconURL": "https://www.search.ch/favicon.ico",
+        "SearchURL": "https://www.search.ch/index.de.html?q={searchTerms}",
+        "Encoding": "ISO-8859-1",
+        "SuggestURL": ""
+    },
+    "search_fr_CH": {
+        "Label": "search.ch(fr)",
+        "Keyword": "search.ch.fr",
+        "FaviconURL": "https://www.search.ch/favicon.ico",
+        "SearchURL": "https://www.search.ch/index.fr.html?q={searchTerms}",
+        "Encoding": "ISO-8859-1",
+        "SuggestURL": ""
+    },
+    "yahoo_it": {
+        "Label": "Yahoo! Italia",
+        "Keyword": "it.yahoo.com",
+        "FaviconURL": "https://it.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://it.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://it-sayt.ff.search.yahoo.com/gossip-it-sayt?output=fxjson&command={searchTerms}"
+    },
+    "yahoo_at": {
+        "Label": "Yahoo! Suche",
+        "Keyword": "at.yahoo.com",
+        "FaviconURL": "https://at.search.yahoo.com/favicon.ico",
+        "SearchURL": "https://at.search.yahoo.com/search?ei={inputEncoding}&p={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://at.search.yahoo.com/sugg/chrome?output=fxjson&appid=crmas&command={searchTerms}"
+    },
+    "bing": {
+        "Label": "Bing",
+        "Keyword": "bing.com",
+        "FaviconURL": "https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico",
+        "SearchURL": "https://www.bing.com/search?setmkt={language}&q={searchTerms}",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://api.bing.com/osjson.aspx?query={searchTerms}&language={language}"
+    },
+    "naver": {
+        "Label": "네이버",
+        "Keyword": "naver.com",
+        "FaviconURL": "https://search.naver.com/favicon.ico",
+        "SearchURL": "https://search.naver.com/search.naver?ie={inputEncoding}&query={searchTerms}&sm=and_hty",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://mac.search.naver.com/m/ac?of=os&ie={inputEncoding}&q={searchTerms}&oe=utf-8"
+    },
+    "DuckDuckGo": {
+        "Label": "DuckDuckGo",
+        "Keyword": "duckduckgo.com",
+        "FaviconURL": "https://duckduckgo.com/favicon.ico",
+        "SearchURL": "https://duckduckgo.com/?q={searchTerms}&t=samsung",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
+    },
+    "StartPage": {
+        "Label": "StartPage",
+        "Keyword": "startpage.com",
+        "FaviconURL": "https://www.startpage.com/favicon.ico",
+        "SearchURL": "https://www.startpage.com/rsa/search?query={searchTerms}&language=auto",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://www.startpage.com/do/suggest?limit=10&lang=deutsch&format=json&type=rsa&query={searchTerms}"
+    },
+    "yandex_com": {
+        "Label": "Yandex.com",
+        "Keyword": "yandex.com",
+        "FaviconURL": "https://yandex.com/favicon.ico",
+        "SearchURL": "https://yandex.com/search/touch/?text={searchTerms}&clid=2253637",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}"
+    },
+    "qwant": {
+        "Label": "Qwant",
+        "Keyword": "qwant.com",
+        "FaviconURL": "https://www.qwant.com/favicon-64.png",
+        "SearchURL": "https://www.qwant.com/?q={searchTerms}&client=brz-samsung",
+        "Encoding": "UTF-8",
+        "SuggestURL": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch"
+    }
+}

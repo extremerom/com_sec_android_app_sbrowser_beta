@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/context_menu_list_item_divider_dot_size" android:color="@color/context_menu_list_item_divider_color" android:dashWidth="@dimen/context_menu_list_item_divider_dot_size" android:dashGap="@dimen/context_menu_list_item_divider_dash_gap" />
+</shape>

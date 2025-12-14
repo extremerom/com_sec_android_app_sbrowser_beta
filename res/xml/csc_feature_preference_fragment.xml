@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.EditTextPreference android:id="@id/ims_config_mdmn_type" android:maxLines="1" android:title="@string/csc_feature_ims_config_mdmn_type" android:key="@string/csc_feature_ims_config_mdmn_type" android:summary="@string/csc_feature_ims_config_mdmn_type_summary" />
+    <androidx.preference.EditTextPreference android:id="@id/set_homepage_url" android:maxLines="1" android:title="@string/csc_feature_set_homepage_url" android:key="@string/csc_feature_set_homepage_url" android:summary="@string/csc_feature_set_homepage_url_summary" android:inputType="textUri" />
+    <androidx.preference.EditTextPreference android:id="@id/set_user_agent" android:maxLines="1" android:title="@string/csc_feature_set_user_agent" android:key="@string/csc_feature_set_user_agent" android:summary="@string/csc_feature_set_user_agent_summary" />
+    <androidx.preference.SwitchPreferenceCompat android:id="@id/disable_all_search_engine_except_google" android:title="@string/csc_feature_disable_all_search_engine_except_google" android:key="@string/csc_feature_disable_all_search_engine_except_google" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:id="@id/use_chameleon" android:title="@string/csc_feature_use_chameleon" android:key="@string/csc_feature_use_chameleon" android:defaultValue="false" />
+    <androidx.preference.SwitchPreferenceCompat android:id="@id/enable_prompt_to_exit" android:title="@string/csc_feature_enable_prompt_to_exit" android:key="@string/csc_feature_enable_prompt_to_exit" android:defaultValue="false" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/browsing_assist" android:key="pref_browsing_assist"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" android:key="pref_category_browsing_assist" />
+    <com.sec.android.app.sbrowser.artificial_intelligence.common.view.BrowsingAssistThumbnailPreferences android:selectable="false" android:key="pref_browsing_assist_thumbnail" />
+    <com.sec.android.app.sbrowser.artificial_intelligence.common.view.BrowsingAssistLandThumbnailDescPreferences android:selectable="false" android:key="pref_browsing_assist_land_thumbnail_desc" />
+    <com.sec.android.app.sbrowser.common.settings.DescriptionPreference android:title="@string/browsing_assist_description_1" android:selectable="false" android:key="pref_browsing_assist_description" />
+    <androidx.preference.PreferenceCategory android:title="@string/browsing_assist_features_category_title" android:selectable="false" android:key="pref_category_browsing_assist" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/ai_summarize" android:key="pref_summarize" android:fragment="com.sec.android.app.sbrowser.settings.browsing_assist.SummarizePreferenceFragment" app:sa_eventId="@string/sa_event_click_summarize" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/language_translator" android:key="pref_translator" android:fragment="com.sec.android.app.sbrowser.settings.TranslatorPreferenceFragment" app:sa_eventId="@string/sa_event_click_translate" searchable="true" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/ai_read_articles_aloud" android:key="pref_read_articles_aloud" android:fragment="com.sec.android.app.sbrowser.settings.browsing_assist.ReadArticlesAloudPreferenceFragment" app:sa_eventId="@string/sa_event_click_read_articles_aloud" searchable="true" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" />
+    <com.sec.android.app.sbrowser.common.settings.PreferenceCustom android:title="@string/browsing_assist_intelligence_title" android:key="pref_intelligence_feature" searchable="true" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/summary_body_text_size" android:textColor="@color/summary_contents_text_color" android:id="@id/ai_summarize_popup_body_sentence" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/summary_popup_contentview_bottom_margin" android:singleLine="false" android:textIsSelectable="true" style="@style/RobotoRegular" />
+</LinearLayout>

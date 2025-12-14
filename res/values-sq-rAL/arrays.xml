@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>Lejo të gjitha cookies</item>
+        <item>Blloko cookies nga palë të treta</item>
+        <item>Blloko gjithë cookies</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Pajisja</item>
+        <item>Kartë SD</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>Parazgjedhje</item>
+        <item>Aksesi i shpejtë</item>
+        <item>Faqja e tanishme</item>
+        <item>Faqe e personalizuar</item>
+    </string-array>
+</resources>

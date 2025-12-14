@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="media_player_flex_feature_view_additional_padding">0.0dp</dimen>
+    <dimen name="media_player_progressbar_margin">88.0dp</dimen>
+    <dimen name="multi_tab_grid_item_max_width_land">350.0dp</dimen>
+</resources>

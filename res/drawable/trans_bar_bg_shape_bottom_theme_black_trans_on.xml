@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-2.0dp" android:right="-2.0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transbar_container_bg_color_theme_black_trans_on" />
+            <stroke android:width="1.0dp" android:color="@color/transbar_container_border_color_theme_black" />
+        </shape>
+    </item>
+</layer-list>

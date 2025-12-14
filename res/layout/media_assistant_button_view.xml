@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/MPfloatingTheme" android:id="@id/media_assistant_button_main_layout" android:background="@android:color/transparent" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center|bottom" android:id="@id/media_assistant_remove_layout_stub" android:layout="@layout/media_assistant_remove_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/media_assistant_button_preview_stub" android:layout="@layout/media_assistant_button_preview_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/media_assistant_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/media_assistant_button_view_img_tint_color" android:foregroundGravity="center" android:paddingStart="@dimen/media_assistant_button_view_margin" android:paddingEnd="@dimen/media_assistant_button_view_margin" />
+</FrameLayout>

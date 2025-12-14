@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/parental_control_view_button_radius" />
+            <solid android:color="@color/parental_control_view_request_button_color" />
+            <stroke android:width="@dimen/parental_control_view_button_stroke" android:color="@color/parental_control_view_request_button_color" />
+        </shape>
+    </item>
+</ripple>

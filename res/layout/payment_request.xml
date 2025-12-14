@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.payments.standard.widget.BoundedLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/payment_sheet" android:background="@drawable/payment_sheet_background" sbrowser:maxWidth="@dimen/payments_ui_max_dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/payment_request_header" />
+    <include layout="@layout/payment_request_spinny" />
+    <ScrollView android:id="@id/option_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/payment_container_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/PaymentsUiSectionWarningText" android:id="@id/retry_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/button_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:background="@color/color_palette_list_view_action_bar_bg_color" style="@style/BasicBottomBar.TwoButtonContainer"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.sec.android.app.sbrowser.common.widget.ShapedButton android:textSize="@dimen/sites_menu_bottom_bar_text_size_without_icon" android:id="@id/cancel_button_bar" android:background="@drawable/basic_bottom_bar_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/add_bookmarks_save_cancel_button_layout_width" android:layout_height="match_parent" android:text="@string/cancel" android:layout_weight="1.0" style="@style/RobotoMedium" />
+            <com.sec.android.app.sbrowser.common.widget.ShapedButton android:textSize="@dimen/sites_menu_bottom_bar_text_size_without_icon" android:id="@id/pay_button_bar" android:background="@drawable/basic_bottom_bar_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/add_bookmarks_save_cancel_button_layout_width" android:layout_height="match_parent" android:text="@string/payments_pay_button" android:layout_weight="1.0" style="@style/RobotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</com.sec.android.app.sbrowser.payments.standard.widget.BoundedLinearLayout>

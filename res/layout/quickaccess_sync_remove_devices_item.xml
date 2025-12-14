@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_palette_list_view_item_bg_color" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/quickaccess_sync_item_foreground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/quickaccess_sync_item_margin_vertical">
+        <androidx.appcompat.widget.AppCompatCheckBox android:layout_gravity="center_vertical" android:id="@id/sync_item_checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="@dimen/quickaccess_sync_checkbox_size" android:layout_height="@dimen/quickaccess_sync_checkbox_size" android:layout_marginStart="@dimen/quickaccess_sync_margin_start" />
+        <TextView android:textSize="@dimen/quickaccess_sync_item_title_text_size" android:textColor="@color/quickaccess_sync_item_title_color" android:layout_gravity="center_vertical" android:id="@id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/quickaccess_sync_title_margin_start" style="@style/RobotoRegular" />
+    </LinearLayout>
+    <View android:id="@id/remove_device_divider" android:background="@color/quickaccess_sync_remove_device_item_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/quickaccess_sync_remove_device_item_divider_height" android:layout_marginStart="@dimen/quickaccess_sync_remove_device_item_divider_margin_start" android:layout_marginEnd="@dimen/quickaccess_sync_remove_device_item_divider_margin_end" />
+</LinearLayout>

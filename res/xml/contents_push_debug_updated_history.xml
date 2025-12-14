@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference android:title="@string/contents_push_debug_max_history_count" android:key="pref_contents_push_max_updated_history_count" />
+    <androidx.preference.Preference android:title="@string/contents_push_debug_accumulated_history_count" android:key="pref_contents_push_accumulated_updated_history_count" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:color="@color/tabmanager_toolbar_bg_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center_horizontal" android:src="@drawable/tw_ic_ab_more_mtrl" />
+    </item>
+</layer-list>

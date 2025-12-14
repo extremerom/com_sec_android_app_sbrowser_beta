@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_accept_cookies_label">
+        <item>ಎಲ್ಲ ಕುಕಿಗಳಿಗೆ ಅನುಮತಿಸಿ</item>
+        <item>ಮೂರನೇ-ಪಾರ್ಟಿ ಕುಕಿಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ</item>
+        <item>ಎಲ್ಲ ಕುಕಿಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ಸಾಧನ</item>
+        <item>SD ಕಾರ್ಡ್</item>
+    </string-array>
+    <string-array name="pref_homepage_choices_new">
+        <item>ಡೀಫಾಲ್ಟ್</item>
+        <item>ತ್ವರಿತ ಪ್ರವೇಶ</item>
+        <item>ಪ್ರಸ್ತುತ ಪುಟ</item>
+        <item>ಕಸ್ಟಮ್ ಪುಟ</item>
+    </string-array>
+</resources>

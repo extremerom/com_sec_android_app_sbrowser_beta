@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נסה לאחר %d שנייה.</item>
+        <item quantity="two">נסה לאחר %d שניות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נסה לאחר %d שניות.</item>
+        <item quantity="other">נסה לאחר %d שניות.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק תיקיית סימניות %d ואת כל הסימניות שבה?</item>
+        <item quantity="two">למחוק %d תיקיות סימניות‎ ואת כל הסימניות שבהן?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d תיקיות סימניות‎ ואת כל הסימניות שבהן?</item>
+        <item quantity="other">למחוק %d תיקיות סימניות‎ ואת כל הסימניות שבהן?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק תיקיית סימניות %d?</item>
+        <item quantity="two">האם למחוק %d תיקיות של סימניות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d תיקיות של סימניות?</item>
+        <item quantity="other">האם למחוק %d תיקיות של סימניות?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט %1$d הועבר אל %2$s.</item>
+        <item quantity="two">%1$d פריטים הועברו אל %2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d פריטים הועברו אל %2$s.</item>
+        <item quantity="other">%1$d פריטים הועברו אל %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סימנייה %d</item>
+        <item quantity="two">%d סימניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d סימניות</item>
+        <item quantity="other">%d סימניות</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d סימנייה נוספה היום</item>
+        <item quantity="two">%d סימניות נוספו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d סימניות נוספו היום</item>
+        <item quantity="other">%d סימניות נוספו היום</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d סימנייה?</item>
+        <item quantity="two">האם למחוק %d סימניות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d סימניות?</item>
+        <item quantity="other">האם למחוק %d סימניות?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d סימנייה מוכנה לסינכרון</item>
+        <item quantity="two">%d סימניות מוכנות לסינכרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d סימניות מוכנות לסינכרון</item>
+        <item quantity="other">%d סימניות מוכנות לסינכרון</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מודעה %d נחסמה השבוע.</item>
+        <item quantity="two">%d מודעות נחסמו השבוע.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מודעות נחסמו השבוע.</item>
+        <item quantity="other">%d מודעות נחסמו השבוע.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מודעה %d נחסמה היום.</item>
+        <item quantity="two">%d מודעות נחסמו היום.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מודעות נחסמו היום.</item>
+        <item quantity="other">%d מודעות נחסמו היום.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d מודעה נחסמה בדף האחרון.</item>
+        <item quantity="two">%d מודעות נחסמו בדף האחרון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מודעות נחסמו בדף האחרון.</item>
+        <item quantity="other">%d מודעות נחסמו בדף האחרון.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתוב מחדש %d נחסם בשבוע האחרון</item>
+        <item quantity="two">%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+        <item quantity="other">%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ייתכן שניתוב מחדש %d נחסם בשבוע האחרון</item>
+        <item quantity="two">ייתכן ש-%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ייתכן ש-%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+        <item quantity="other">ייתכן ש-%d ניתובים מחדש נחסמו בשבוע האחרון</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חלון קופץ %d נחסם בשבוע האחרון</item>
+        <item quantity="two">%d חלונות קופצים נחסמו בשבוע האחרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חלונות קופצים נחסמו בשבוע האחרון</item>
+        <item quantity="other">%d חלונות קופצים נחסמו בשבוע האחרון</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ייתכן שחלון קופץ %d נחסם בשבוע האחרון</item>
+        <item quantity="two">ייתכן ש-%d חלונות קופצים נחסמו בשבוע האחרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ייתכן ש-%d חלונות קופצים נחסמו בשבוע האחרון</item>
+        <item quantity="other">ייתכן ש-%d חלונות קופצים נחסמו בשבוע האחרון</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סופקו אזהרות עבור אתר אינטרנט %d</item>
+        <item quantity="two">סופקו אזהרות עבור %d אתרי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סופקו אזהרות עבור %d אתרי אינטרנט</item>
+        <item quantity="other">סופקו אזהרות עבור %d אתרי אינטרנט</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בוצע ביקור באתר אינטרנט זדוני %d ללא אזהרה</item>
+        <item quantity="two">בוצע ביקור ב- %d אתרי אינטרנט זדוניים ללא אזהרות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בוצע ביקור ב- %d אתרי אינטרנט זדוניים ללא אזהרות</item>
+        <item quantity="other">בוצע ביקור ב- %d אתרי אינטרנט זדוניים ללא אזהרות</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פעם %d</item>
+        <item quantity="two">%d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פעמים</item>
+        <item quantity="other">%d פעמים</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ שמע בסך הכל</item>
+        <item quantity="two">סה״ב %d קובצי שמע</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d קובצי שמע</item>
+        <item quantity="other">סה״כ %d קובצי שמע</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d מסמך בסך הכל</item>
+        <item quantity="two">סה״כ %d מסמכים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d מסמכים</item>
+        <item quantity="other">סה״כ %d מסמכים</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הורדת %d קבצים בוצעה בהצלחה</item>
+        <item quantity="two">%d קבצים הורדו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הורדת %d קבצים בוצעה בהצלחה</item>
+        <item quantity="other">הורדת %d קבצים בוצעה בהצלחה</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ בסך הכל</item>
+        <item quantity="two">סה״כ %d קבצים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d קבצים</item>
+        <item quantity="other">סה״כ %d קבצים</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תמונה בסך הכל</item>
+        <item quantity="two">סה״כ %d תמונות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d תמונות</item>
+        <item quantity="other">סה״כ %d תמונות</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d סרטון בסך הכל</item>
+        <item quantity="two">סה״כ %d סרטונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d סרטונים</item>
+        <item quantity="other">סה״כ %d סרטונים</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק קובץ %d?</item>
+        <item quantity="two">למחוק %d קבצים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d קבצים?</item>
+        <item quantity="other">למחוק %d קבצים?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר פריט %d מההורדות הסודיות להורדות הציבוריות?</item>
+        <item quantity="two">להעביר %d פריטים מההורדות הסודיות להורדות הציבוריות?‬</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d פריטים מההורדות הסודיות להורדות הציבוריות?‬</item>
+        <item quantity="other">להעביר %d פריטים מההורדות הסודיות להורדות הציבוריות?‬</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להסיר %d פריט מהיסטוריית ההורדות שלך?</item>
+        <item quantity="two">האם להסיר %d פריטים מהיסטוריית ההורדות שלך?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להסיר %d פריטים מהיסטוריית ההורדות שלך?</item>
+        <item quantity="other">האם להסיר %d פריטים מהיסטוריית ההורדות שלך?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תמונה הורדה</item>
+        <item quantity="two">%d תמונות הורדו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תמונות הורדו</item>
+        <item quantity="other">%d תמונות הורדו</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">תמונה אחת הורדה, ההורדה של תמונה אחת נכשלה</item>
+        <item quantity="other">%d תמונות הורדו, ההורדה של תמונה אחת נכשלה</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">לא ניתן להוריד תמונה</item>
+        <item quantity="other">לא ניתן להוריד תמונות</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">תמונה אחת הורדה, ההורדה של %d תמונות נכשלה</item>
+        <item quantity="other">%1$d תמונות הורדו, ההורדה של %2$d תמונות נכשלה</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">ההורדה הושהתה</item>
+        <item quantity="other">בהשהיה (הורדו %1$d/%2$d תמונות)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הורד קובץ %d.</item>
+        <item quantity="two">הורדו %d קבצים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הורדו %d קבצים.</item>
+        <item quantity="other">הורדו %d קבצים.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">הרצה %d שניות קדימה</item>
+        <item quantity="two">הרצה %d שניות קדימה</item>
+        <item quantity="other">הרצה %d שניות קדימה</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">הרצה %d שניות אחורה</item>
+        <item quantity="two">הרצה %d שניות אחורה</item>
+        <item quantity="other">הרצה %d שניות אחורה</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום %d עד למחיקה</item>
+        <item quantity="two">%d ימים עד למחיקה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים עד למחיקה</item>
+        <item quantity="other">%d ימים עד למחיקה</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דף אינטרנט %1$d ביקר ב-%2$s</item>
+        <item quantity="two">%1$d דפי אינטרנט ביקרו ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d דפי אינטרנט ביקרו ב-%2$s</item>
+        <item quantity="other">%1$d דפי אינטרנט ביקרו ב-%2$s</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היום ביקרת ב-%d דף אינטרנט</item>
+        <item quantity="two">היום ביקרת ב-%d דפי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היום ביקרת ב-%d דפי אינטרנט</item>
+        <item quantity="other">היום ביקרת ב-%d דפי אינטרנט</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אתמול ביקרת ב-%d דף אינטרנט</item>
+        <item quantity="two">אתמול ביקרת ב-%d דפי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">אתמול ביקרת ב-%d דפי אינטרנט</item>
+        <item quantity="other">אתמול ביקרת ב-%d דפי אינטרנט</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d פריט מההיסטוריה שלך?</item>
+        <item quantity="two">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+        <item quantity="other">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניסיון לפתיחת Samsung Internet: פעם %d</item>
+        <item quantity="two">ניסיון לפתיחת Samsung Internet: %d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניסיון לפתיחת Samsung Internet: %d פעמים</item>
+        <item quantity="other">ניסיון לפתיחת Samsung Internet: %d פעמים</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניסיון לפתיחת יישום אינטרנט: פעם אחת ( %d)</item>
+        <item quantity="two">ניסיון לפתיחת יישום אינטרנט: %d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניסיון לפתיחת יישום אינטרנט: %d פעמים</item>
+        <item quantity="other">ניסיון לפתיחת יישום אינטרנט: %d פעמים</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חסום: פעם אחת (%d)</item>
+        <item quantity="two">חסום: %d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חסום: %d פעמים</item>
+        <item quantity="other">חסום: %d פעמים</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נפתח פעם %d</item>
+        <item quantity="two">נפתח %d פעמים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נפתח %d פעמים</item>
+        <item quantity="other">נפתח %d פעמים</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לפתוח לכל היותר %d חלון של יישום.</item>
+        <item quantity="two">ניתן לפתוח לכל היותר %d חלונות של יישומים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לפתוח לכל היותר %d חלונות של יישומים.</item>
+        <item quantity="other">ניתן לפתוח לכל היותר %d חלונות של יישומים.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d פריט מההיסטוריה שלך?</item>
+        <item quantity="two">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+        <item quantity="other">האם למחוק %d פריטים מההיסטוריה שלך?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d שנ'"</item>
+        <item quantity="two">"%d שנ'"</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"%d שנ'"</item>
+        <item quantity="other">"%d שנ'"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראות מ-%1$s ייחסמו ליום %2$d.</item>
+        <item quantity="two">התראות מ-%1$s ייחסמו ל-%2$d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התראות מ-%1$s ייחסמו ל-%2$d ימים.</item>
+        <item quantity="other">התראות מ-%1$s ייחסמו ל-%2$d ימים.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להוסיף לכל היותר %d מדבקה.</item>
+        <item quantity="two">ניתן להוסיף לכל היותר %d מדבקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להוסיף לכל היותר %d מדבקות.</item>
+        <item quantity="other">ניתן להוסיף לכל היותר %d מדבקות.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר ממדבקה %d. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d מדבקות. עבור לעורך התמונות בגלריה כדי להסיר מדבקות.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="two">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+        <item quantity="other">עליך להיות בן %1$d לפחות כדי להשתמש ב-%2$s.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות לפחות בן %d שנה כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="two">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+        <item quantity="other">עליך להיות לפחות בן או בת %d שנים כדי להשתמש בתכונות החכמות המתקדמות של Galaxy AI.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עליך להיות בן %d לפחות כדי להשתמש בתכונות חכמות.</item>
+        <item quantity="two">עליך להיות בן %d לפחות כדי להשתמש בתכונות חכמות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עליך להיות בן %d לפחות כדי להשתמש בתכונות חכמות.</item>
+        <item quantity="other">עליך להיות בן %d לפחות כדי להשתמש בתכונות חכמות.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מודעה %d נחסמה</item>
+        <item quantity="two">%d מודעות נחסמו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מודעות נחסמו</item>
+        <item quantity="other">%d מודעות נחסמו</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קובץ Cookie ‏%d בשימוש</item>
+        <item quantity="two">%d קובצי Cookie בשימוש</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קובצי Cookie בשימוש</item>
+        <item quantity="other">%d קובצי Cookie בשימוש</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניסיון מעקב %d נחסם</item>
+        <item quantity="two">%d ניסיונות מעקב נחסמו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ניסיונות מעקב נחסמו</item>
+        <item quantity="other">%d ניסיונות מעקב נחסמו</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מודעה %d נחסמה השבוע.</item>
+        <item quantity="two">%d מודעות נחסמו השבוע.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מודעות נחסמו השבוע.</item>
+        <item quantity="other">%d מודעות נחסמו השבוע.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הגנו עליך מפני ניסיון מעקב %d השבוע.</item>
+        <item quantity="two">הגנו עליך מפני %d ניסיונות מעקב השבוע.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הגנו עליך מפני %d ניסיונות מעקב השבוע.</item>
+        <item quantity="other">הגנו עליך מפני %d ניסיונות מעקב השבוע.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הגנו עליך מפני ניסיון מעקב %d היום.</item>
+        <item quantity="two">הגנו עליך מפני %d ניסיונות מעקב היום.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הגנו עליך מפני %d ניסיונות מעקב היום.</item>
+        <item quantity="other">הגנו עליך מפני %d ניסיונות מעקב היום.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפניה לא רצויה %d נחסמה השבוע.</item>
+        <item quantity="two">%d הפניות לא רצויות נחסמו השבוע.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הפניות לא רצויות נחסמו השבוע.</item>
+        <item quantity="other">%d הפניות לא רצויות נחסמו השבוע.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חלון מוקפץ %d נחסם השבוע.</item>
+        <item quantity="two">%d חלונות מוקפצים נחסמו השבוע.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חלונות מוקפצים נחסמו השבוע.</item>
+        <item quantity="other">%d חלונות מוקפצים נחסמו השבוע.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמחק %d קיצור דרך.</item>
+        <item quantity="two">נמחקו %d קיצורי דרך.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמחקו %d קיצורי דרך.</item>
+        <item quantity="other">נמחקו %d קיצורי דרך.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מקיצור דרך %d בו-זמנית.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d קיצורי דרך בו-זמנית.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d קיצורי דרך בו-זמנית.</item>
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d קיצורי דרך בו-זמנית.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להסיר מכשיר %d?</item>
+        <item quantity="two">להסיר %d מכשירים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להסיר %d מכשירים?</item>
+        <item quantity="other">להסיר %d מכשירים?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קיצור דרך %d נוסף.</item>
+        <item quantity="two">%d קיצורי דרך נוספו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קיצורי דרך נוספו.</item>
+        <item quantity="other">%d קיצורי דרך נוספו.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d דף שנשמר?</item>
+        <item quantity="two">האם למחוק %d דפים שנשמרו?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d דפים שנשמרו?</item>
+        <item quantity="other">האם למחוק %d דפים שנשמרו?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דף נשמר</item>
+        <item quantity="two">%d דפים נשמרו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דפים נשמרו</item>
+        <item quantity="other">%d דפים נשמרו</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דף נשמר היום</item>
+        <item quantity="two">%d דפים נשמרו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דפים נשמרו היום</item>
+        <item quantity="other">%d דפים נשמרו היום</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d דף שמור מוכן לסינכרון</item>
+        <item quantity="two">%d דפים שמורים מוכנים לסינכרון</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דפים שמורים מוכנים לסינכרון</item>
+        <item quantity="other">%d דפים שמורים מוכנים לסינכרון</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפרעה %d היום</item>
+        <item quantity="two">%d הפרעות היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הפרעות היום</item>
+        <item quantity="other">%d הפרעות היום</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הסחת דעת %d נחסמה היום</item>
+        <item quantity="two">%d הסחות דעת נחסמו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הסחות דעת נחסמו היום</item>
+        <item quantity="other">%d הסחות דעת נחסמו היום</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d נחסם מפתיחת האינטרנט</item>
+        <item quantity="two">%d יישומים נחסמו מפתיחת האינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים נחסמו מפתיחת האינטרנט</item>
+        <item quantity="other">%d יישומים נחסמו מפתיחת האינטרנט</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום %d נחסם מפתיחת יישום האינטרנט היום</item>
+        <item quantity="two">%d יישומים נחסמו מפתיחת יישום האינטרנט היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים נחסמו מפתיחת יישום האינטרנט היום</item>
+        <item quantity="other">%d יישומים נחסמו מפתיחת יישום האינטרנט היום</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט מוקפץ %d נחסם</item>
+        <item quantity="two">%d פריטים מוקפצים נחסמו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים מוקפצים נחסמו</item>
+        <item quantity="other">%d פריטים מוקפצים נחסמו</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט מוקפץ %d נחסם היום</item>
+        <item quantity="two">%d פריטים מוקפצים נחסמו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים מוקפצים נחסמו היום</item>
+        <item quantity="other">%d פריטים מוקפצים נחסמו היום</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפנייה %d לאחור נחסמה</item>
+        <item quantity="two">%d הפניות לאחור נחסמו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הפניות לאחור נחסמו</item>
+        <item quantity="other">%d הפניות לאחור נחסמו</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הפניה %d לאחור נחסמה היום</item>
+        <item quantity="two">%d הפניות לאחור נחסמו היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הפניות לאחור נחסמו היום</item>
+        <item quantity="other">%d הפניות לאחור נחסמו היום</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היה ניתן לחסום עוד כלי מעקב אחד (%d)</item>
+        <item quantity="two">היה ניתן לחסום עוד %d כלי מעקב</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היה ניתן לחסום עוד %d כלי מעקב</item>
+        <item quantity="other">היה ניתן לחסום עוד %d כלי מעקב</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נבחרה עבורך כרטיסייה %d לסגירה</item>
+        <item quantity="two">נבחרו עבורך %d כרטיסיות לסגירה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נבחרו עבורך %d כרטיסיות לסגירה</item>
+        <item quantity="other">נבחרו עבורך %d כרטיסיות לסגירה</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">גילינו כרטיסייה %d שייתכן שתרצה לסגור</item>
+        <item quantity="two">גילינו %d כרטיסיות שייתכן שתרצה לסגור</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">גילינו %d כרטיסיות שייתכן שתרצה לסגור</item>
+        <item quantity="other">גילינו %d כרטיסיות שייתכן שתרצה לסגור</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לנעול רק %d כרטיסייה.</item>
+        <item quantity="two">ניתן לנעול לכל היותר %d כרטיסיות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לנעול לכל היותר %d כרטיסיות.</item>
+        <item quantity="other">ניתן לנעול לכל היותר %d כרטיסיות.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">התוקף יפוג מחר</item>
+        <item quantity="two">התוקף יפוג בעוד יומיים</item>
+        <item quantity="other">התוקף יפוג בעוד %d ימים</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d פריט נבחר</item>
+        <item quantity="two">נבחרו %d פריטים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נבחרו %d פריטים</item>
+        <item quantity="other">נבחרו %d פריטים</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דף אינטרנט %d</item>
+        <item quantity="two">%d דפי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דפי אינטרנט</item>
+        <item quantity="other">%d דפי אינטרנט</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אתר אינטרנט %d</item>
+        <item quantity="two">%d אתרי אינטרנט</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אתרי אינטרנט</item>
+        <item quantity="other">%d אתרי אינטרנט</item>
+    </plurals>
+</resources>

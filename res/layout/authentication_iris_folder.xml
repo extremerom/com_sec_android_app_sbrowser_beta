@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/secret_mode_iris_partial_bg_folder" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/bio_guide" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bio_guide_margin_top">
+            <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_text_cancel" style="@style/PrivacyDialogButton" />
+        </LinearLayout>
+        <ImageView android:orientation="horizontal" android:id="@id/preview" android:background="@color/iris_preview_background" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_below="@id/bio_guide" />
+        <TextView android:textColor="@color/winset_default_text" android:gravity="center" android:orientation="horizontal" android:id="@id/preview_fallback" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:text="@string/secret_mode_open_flip_phone" android:layout_below="@id/bio_guide" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/iris_preview_height" android:layout_alignTop="@id/preview" android:alpha="0.1" android:layout_alignStart="@id/preview">
+            <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" android:layout_marginEnd="@dimen/iris_ring_margin" />
+            <View android:background="@drawable/iris_ring" android:layout_width="@dimen/iris_ring_size" android:layout_height="@dimen/iris_ring_size" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

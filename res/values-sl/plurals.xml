@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auth_try_after_in_time">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskusite čez %d sekundo.</item>
+        <item quantity="two">Poskusite čez %d sekundi.</item>
+        <item quantity="few">Poskusite čez %d sekunde.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskusite čez %d sekund.</item>
+    </plurals>
+    <plurals name="basic_actionbar_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrano: %d</item>
+        <item quantity="two">Izbrano: %d</item>
+        <item quantity="few">Izbrano: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izbrano: %d</item>
+    </plurals>
+    <plurals name="bookmark_confirm_dialog_multiple_folder_contains_bookmark_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d mapo z zaznamki in vse zaznamke v njej?</item>
+        <item quantity="two">Želite izbrisati %d mapi z zaznamki in vse zaznamke v njima?</item>
+        <item quantity="few">Želite izbrisati %d mape z zaznamki in vse zaznamke v njih?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d map z zaznamki in vse zaznamke v njih?</item>
+    </plurals>
+    <plurals name="bookmark_folder_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d mapo z zaznamki?</item>
+        <item quantity="two">Želite izbrisati %d mapi z zaznamki?</item>
+        <item quantity="few">Želite izbrisati %d mape z zaznamki?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d map z zaznamki?</item>
+    </plurals>
+    <plurals name="bookmark_select_folder_url_items_move">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d element je premaknjen v %2$s.</item>
+        <item quantity="two">%1$d elementa sta premaknjena v %2$s.</item>
+        <item quantity="few">%1$d elementi so premaknjeni v %2$s.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d elementov je premaknjenih v %2$s.</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zaznamek</item>
+        <item quantity="two">%d zaznamka</item>
+        <item quantity="few">%d zaznamki</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zaznamkov</item>
+    </plurals>
+    <plurals name="bookmarks_appbar_title_multiple_saved">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes je bil dodan %d zaznamek</item>
+        <item quantity="two">Danes sta bila dod. %d zaznamka</item>
+        <item quantity="few">Danes so bili dodani %d zaznamki</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes je bilo dod. %d zaznamkov</item>
+    </plurals>
+    <plurals name="bookmarks_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d zaznamek?</item>
+        <item quantity="two">Želite izbrisati %d zaznamka?</item>
+        <item quantity="few">Želite izbrisati %d zaznamke?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d zaznamkov?</item>
+    </plurals>
+    <plurals name="bookmarks_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zaznamek pripravlj. na sinhr.</item>
+        <item quantity="two">%d zaznamka pripravlj. na sinhr.</item>
+        <item quantity="few">%d zaznamki pripravlj. na sinhr.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d zaznamkov pripravl. na sinhr.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta teden je bil blokiran %d oglas.</item>
+        <item quantity="two">Ta teden sta bila blokirana %d oglasa.</item>
+        <item quantity="few">Ta teden so bili blokirani %d oglasi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ta teden je bilo blokiranih %d oglasov.</item>
+    </plurals>
+    <plurals name="content_blocker_ads_blocked_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes je bil blokiran %d oglas.</item>
+        <item quantity="two">Danes sta bila blokirana %d oglasa.</item>
+        <item quantity="few">Danes so bili blokirani %d oglasi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes je bilo blokiranih %d oglasov.</item>
+    </plurals>
+    <plurals name="content_blocker_blocked_items_description">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na zadnji strani je bil blokiran %d oglas.</item>
+        <item quantity="two">Na zadnji strani sta bila blokirana %d oglasa.</item>
+        <item quantity="few">Na zadnji strani so bili blokirani %d oglasi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Na zadnji strani je bilo blokiranih %d oglasov.</item>
+    </plurals>
+    <plurals name="detail_page_summary_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V zadnjem tednu je bila blokirana %d preusmeritev</item>
+        <item quantity="two">V zadnjem tednu sta bili blokirani %d preusmeritvi</item>
+        <item quantity="few">V zadnjem tednu so bile blokirane %d preusmeritve</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V zadnjem tednu je bilo blokiranih %d preusmeritev</item>
+    </plurals>
+    <plurals name="detail_page_summary_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V zadnjem tednu bi lahko bila blokirana %d preusmeritev</item>
+        <item quantity="two">V zadnjem tednu bi lahko bili blokirani %d preusmeritvi</item>
+        <item quantity="few">V zadnjem tednu bi lahko bile blokirane %d preusmeritve</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V zadnjem tednu bi lahko bilo blokiranih %d preusmeritev</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V zadnjem tednu je bilo blokirano %d pojavno okno</item>
+        <item quantity="two">V zadnjem tednu sta bili blokirani %d pojavni okni</item>
+        <item quantity="few">V zadnjem tednu so bila blokirana %d pojavna okna</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V zadnjem tednu je bilo blokiranih %d pojavnih oken</item>
+    </plurals>
+    <plurals name="detail_page_summary_popup_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V zadnjem tednu bi lahko bilo blokirano %d pojavno okno</item>
+        <item quantity="two">V zadnjem tednu bi lahko bili blokirani %d pojavni okni</item>
+        <item quantity="few">V zadnjem tednu bi lahko bila blokirana %d pojavna okna</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">V zadnjem tednu bi lahko bilo blokiranih %d pojavnih oken</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opozorila so bila izdana za %d spletno mesto</item>
+        <item quantity="two">Opozorila so bila izdana za %d spletni mesti</item>
+        <item quantity="few">Opozorila so bila izdana za %d spletna mesta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Opozorila so bila izdana za %d spletnih mest</item>
+    </plurals>
+    <plurals name="detail_page_summary_safe_not_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Brez opozorila je bilo obiskano %d zlonamerno spletno mesto</item>
+        <item quantity="two">Brez opozorila sta bili obiskani %d zlonamerni spletni mesti</item>
+        <item quantity="few">Brez opozorila so bila obiskana %d zlonamerna spletna mesta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Brez opozorila je bilo obiskanih %d zlonamernih spletnih mest</item>
+    </plurals>
+    <plurals name="detail_page_summary_sat_n_times">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-krat</item>
+        <item quantity="two">%d-krat</item>
+        <item quantity="few">%d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-krat</item>
+    </plurals>
+    <plurals name="download_history_appbar_audio_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skupaj %d zvočna datoteka</item>
+        <item quantity="two">Skupaj %d zvočni datoteki</item>
+        <item quantity="few">Skupaj %d zvočne datoteke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Skupaj %d zvočnih datotek</item>
+    </plurals>
+    <plurals name="download_history_appbar_documents_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skupaj %d dokument</item>
+        <item quantity="two">Skupaj %d dokumenta</item>
+        <item quantity="few">Skupaj %d dokumenti</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Skupaj %d dokumentov</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_downloaded_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes prenesena %d datoteka</item>
+        <item quantity="two">Danes preneseni %d datoteki</item>
+        <item quantity="few">Danes prenesene %d datoteke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes prenesenih %d datotek</item>
+    </plurals>
+    <plurals name="download_history_appbar_files_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skupaj %d datoteka</item>
+        <item quantity="two">Skupaj %d datoteki</item>
+        <item quantity="few">Skupaj %d datoteke</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Skupaj %d datotek</item>
+    </plurals>
+    <plurals name="download_history_appbar_images_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skupaj %d slika</item>
+        <item quantity="two">Skupaj %d sliki</item>
+        <item quantity="few">Skupaj %d slike</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Skupaj %d slik</item>
+    </plurals>
+    <plurals name="download_history_appbar_videos_stored">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skupaj %d video</item>
+        <item quantity="two">Skupaj %d videa</item>
+        <item quantity="few">Skupaj %d videi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Skupaj %d videov</item>
+    </plurals>
+    <plurals name="download_history_confirm_delete_files">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d datoteko?</item>
+        <item quantity="two">Želite izbrisati %d datoteki?</item>
+        <item quantity="few">Želite izbrisati %d datoteke?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d datotek?</item>
+    </plurals>
+    <plurals name="download_move_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite %d element premakniti iz skrivnih prenosov v javne prenose?</item>
+        <item quantity="two">Želite %d elementa premakniti iz skrivnih prenosov v javne prenose?</item>
+        <item quantity="few">Želite %d elemente premakniti iz skrivnih prenosov v javne prenose?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite %d elementov premakniti iz skrivnih prenosov v javne prenose?</item>
+    </plurals>
+    <plurals name="download_remove_from_history_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite odstr. %d element iz zgod. prenosov?</item>
+        <item quantity="two">Želite odstr. %d elementa iz zgod. prenosov?</item>
+        <item quantity="few">Želite odstr. %d elemente iz zgod. prenosov?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite odstr. %d elementov iz zgod. prenosov?</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_complete_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d slika je prenesena</item>
+        <item quantity="two">%d sliki sta preneseni</item>
+        <item quantity="few">%d slike so prenesene</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d slik je prenesenih</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_1_text">
+        <item quantity="one">Št. prenesenih slik: 1, št. neuspešno prenesenih slik: 1</item>
+        <item quantity="other">Št. prenesenih slik: %d, št. neuspešno prenesenih slik: 1</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_all_text">
+        <item quantity="one">Slike ni bilo mogoče prenesti</item>
+        <item quantity="other">Slik ni bilo mogoče prenesti</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_failed_many_text">
+        <item quantity="one">Št. prenesenih slik: 1, št. neuspešno prenesenih slik: %d</item>
+        <item quantity="other">Št. prenesenih slik: %1$d, št. neuspešno prenesenih slik: %2$d</item>
+    </plurals>
+    <plurals name="download_save_all_images_notification_paused">
+        <item quantity="one">Prenos je začasno ustavljen</item>
+        <item quantity="other">Začasno ustavljeno (št. prenesenih slik: %1$d/%2$d)</item>
+    </plurals>
+    <plurals name="download_succeed_infobar_message_other">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d datoteka je prenesena.</item>
+        <item quantity="two">%d datoteki sta preneseni.</item>
+        <item quantity="few">%d datoteke so prenesene.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d datotek je prenesenih.</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Premik naprej za %d sekundo</item>
+        <item quantity="two">Premik naprej za %d sekundi</item>
+        <item quantity="few">Premik naprej za %d sekunde</item>
+        <item quantity="other">Premik naprej za %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Premik nazaj za %d sekundo</item>
+        <item quantity="two">Premik nazaj za %d sekundi</item>
+        <item quantity="few">Premik nazaj za %d sekunde</item>
+        <item quantity="other">Premik nazaj za %d sekund</item>
+    </plurals>
+    <plurals name="expiring_text_days">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Še %d dan do izbrisa</item>
+        <item quantity="two">Še %d dneva do izbrisa</item>
+        <item quantity="few">Še %d dni do izbrisa</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Še %d dni do izbrisa</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dne %2$s ste obiskali %1$d spletno stran</item>
+        <item quantity="two">Dne %2$s ste obiskali %1$d spletni strani</item>
+        <item quantity="few">Dne %2$s ste obiskali %1$d spletne strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dne %2$s ste obiskali %1$d spletnih strani</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes obiskana %d spletna stran</item>
+        <item quantity="two">Danes obiskani %d spletni strani</item>
+        <item quantity="few">Danes obiskane %d spletne strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes obisk. %d spletnih strani</item>
+    </plurals>
+    <plurals name="history_appbar_title_pages_visited_yesterday">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Včeraj obiskana %d spletna stran</item>
+        <item quantity="two">Včeraj obiskani %d spletni strani</item>
+        <item quantity="few">Včeraj obiskane %d spletne strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Včeraj obiskanih %d spletnih strani</item>
+    </plurals>
+    <plurals name="history_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d element iz zgodovine?</item>
+        <item quantity="two">Želite izbrisati %d elementa iz zgodovine?</item>
+        <item quantity="few">Želite izbrisati %d elemente iz zgodovine?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d elementov iz zgodovine?</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskus odpiranja aplikacije Samsung Internet: %d-krat</item>
+        <item quantity="two">Poskus odpiranja aplikacije Samsung Internet: %d-krat</item>
+        <item quantity="few">Poskus odpiranja aplikacije Samsung Internet: %d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskus odpiranja aplikacije Samsung Internet: %d-krat</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_first_japan">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskus odpiranja aplikacije Internet: %d-krat</item>
+        <item quantity="two">Poskus odpiranja aplikacije Internet: %d-krat</item>
+        <item quantity="few">Poskus odpiranja aplikacije Internet: %d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskus odpiranja aplikacije Internet: %d-krat</item>
+    </plurals>
+    <plurals name="intent_blocker_history_desc_second">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Blokirano: %d-krat</item>
+        <item quantity="two">Blokirano: %d-krat</item>
+        <item quantity="few">Blokirano: %d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Blokirano: %d-krat</item>
+    </plurals>
+    <plurals name="intent_blocker_item_n_times_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odprto %d-krat</item>
+        <item quantity="two">Odprto %d-krat</item>
+        <item quantity="few">Odprto %d-krat</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Odprto %d-krat</item>
+    </plurals>
+    <plurals name="max_instance_warning_dex">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odprete lahko največ %d okno aplikacije.</item>
+        <item quantity="two">Odprete lahko največ %d okni aplikacij.</item>
+        <item quantity="few">Odprete lahko največ %d okna aplikacij.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Odprete lahko največ %d oken aplikacij.</item>
+    </plurals>
+    <plurals name="media_history_delete_item">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d element iz zgodovine?</item>
+        <item quantity="two">Želite izbrisati %d elementa iz zgodovine?</item>
+        <item quantity="few">Želite izbrisati %d elemente iz zgodovine?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d elementov iz zgodovine?</item>
+    </plurals>
+    <plurals name="media_player_seek_sec">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">%d novih obvestil</item>
+    </plurals>
+    <plurals name="notifications_temporarily_blocked">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Obvestila z domene %1$s bodo blokirana %2$d dan.</item>
+        <item quantity="two">Obvestila z domene %1$s bodo blokirana %2$d dneva.</item>
+        <item quantity="few">Obvestila z domene %1$s bodo blokirana %2$d dni.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Obvestila z domene %1$s bodo blokirana %2$d dni.</item>
+    </plurals>
+    <plurals name="object_capture_cant_add_more_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dodate lahko največ %d nalepko.</item>
+        <item quantity="two">Dodate lahko največ %d nalepki.</item>
+        <item quantity="few">Dodate lahko največ %d nalepke.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dodate lahko največ %d nalepk.</item>
+    </plurals>
+    <plurals name="object_capture_toast_could_not_add_more_than_n_stickers">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dodate lahko največ %d nalepko. Če želite odstraniti nalepke, odprite urejevalnik fotografij v aplikaciji Galerija.</item>
+        <item quantity="two">Dodate lahko največ %d nalepki. Če želite odstraniti nalepke, odprite urejevalnik fotografij v aplikaciji Galerija.</item>
+        <item quantity="few">Dodate lahko največ %d nalepke. Če želite odstraniti nalepke, odprite urejevalnik fotografij v aplikaciji Galerija.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dodate lahko največ %d nalepk. Če želite odstraniti nalepke, odprite urejevalnik fotografij v aplikaciji Galerija.</item>
+    </plurals>
+    <plurals name="page_info_tracking_protection_title_off">
+        <item quantity="one">Protections are off until tomorrow</item>
+        <item quantity="other">Protections are off for %d days</item>
+    </plurals>
+    <plurals name="parental_control_block_browsing_assist">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Če želite uporabljati %2$s, morate biti stari vsaj %1$d leto.</item>
+        <item quantity="two">Če želite uporabljati %2$s, morate biti stari vsaj %1$d leti.</item>
+        <item quantity="few">Če želite uporabljati %2$s, morate biti stari vsaj %1$d leta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Če želite uporabljati %2$s, morate biti stari vsaj %1$d let.</item>
+    </plurals>
+    <plurals name="parental_control_block_galaxy_ai">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leto.</item>
+        <item quantity="two">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leti.</item>
+        <item quantity="few">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d leta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Če želiš uporabljati funkcije napredne inteligence, ki jih ponuja Galaxy AI, moraš biti star(-a) vsaj %d let.</item>
+    </plurals>
+    <plurals name="parental_control_block_intelligent_features">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Če želite uporabljati pametne funkcije, morate biti stari vsaj %d leto.</item>
+        <item quantity="two">Če želite uporabljati pametne funkcije, morate biti stari vsaj %d leti.</item>
+        <item quantity="few">Če želite uporabljati pametne funkcije, morate biti stari vsaj %d leta.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Če želite uporabljati pametne funkcije, morate biti stari vsaj %d let.</item>
+    </plurals>
+    <plurals name="privacy_info_adblocker_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d blokiran oglas</item>
+        <item quantity="two">%d blokirana oglasa</item>
+        <item quantity="few">%d blokirani oglasi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d blokiranih oglasov</item>
+    </plurals>
+    <plurals name="privacy_info_cookie_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d piškotek v uporabi</item>
+        <item quantity="two">%d piškotka v uporabi</item>
+        <item quantity="few">%d piškotki v uporabi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d piškotkov v uporabi</item>
+    </plurals>
+    <plurals name="privacy_info_sat_usage">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d blokiran poskus sledenja</item>
+        <item quantity="two">%d blokirana poskusa sledenja</item>
+        <item quantity="few">%d blokirani poskusi sledenja</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d blokiranih poskusov sledenja</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_ads_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta teden je bil blokiran %d oglas.</item>
+        <item quantity="two">Ta teden sta bila blokirana %d oglasa.</item>
+        <item quantity="few">Ta teden so bili blokirani %d oglasi.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ta teden je bilo blokiranih %d oglasov.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta teden ste bili zaščiteni pred %d poskusom sledenja.</item>
+        <item quantity="two">Ta teden ste bili zaščiteni pred %d poskusoma sledenja.</item>
+        <item quantity="few">Ta teden ste bili zaščiteni pred %d poskusi sledenja.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ta teden ste bili zaščiteni pred %d poskusi sledenja.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_tracking_attempts_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes ste bili zaščiteni pred %d poskusom sledenja.</item>
+        <item quantity="two">Danes ste bili zaščiteni pred %d poskusoma sledenja.</item>
+        <item quantity="few">Danes ste bili zaščiteni pred %d poskusi sledenja.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes ste bili zaščiteni pred %d poskusi sledenja.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_board_unwanted_redirects_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta teden je bila blokirana %d neželena preusmeritev.</item>
+        <item quantity="two">Ta teden sta bili blokirani %d neželeni preusmeritvi.</item>
+        <item quantity="few">Ta teden so bile blokirane %d neželene preusmeritve.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ta teden je bilo blokiranih %d neželenih preusmeritev.</item>
+    </plurals>
+    <plurals name="quickaccess_privacy_popups_blocked_this_week">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta teden je bilo blokirano %d pojavno okno.</item>
+        <item quantity="two">Ta teden sta bili blokirani %d pojavni okni.</item>
+        <item quantity="few">Ta teden so bila blokirana %d pojavna okna.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Ta teden je bilo blokiranih %d pojavnih oken.</item>
+    </plurals>
+    <plurals name="quickaccess_shortcut_deleted_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bližnjica je izbrisana.</item>
+        <item quantity="two">%d bližnjici sta izbrisani.</item>
+        <item quantity="few">%d bližnjice so izbrisane.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d bližnjic je izbrisanih.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_cant_add_more_than_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dodate lahko največ %d bližnjico hkrati.</item>
+        <item quantity="two">Dodate lahko največ %d bližnjici hkrati.</item>
+        <item quantity="few">Dodate lahko največ %d bližnjice hkrati.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Dodate lahko največ %d bližnjic hkrati.</item>
+    </plurals>
+    <plurals name="quickaccess_sync_remove_devices_dialog_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite odstraniti %d napravo?</item>
+        <item quantity="two">Želite odstraniti %d napravi?</item>
+        <item quantity="few">Želite odstraniti %d naprave?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite odstraniti %d naprav?</item>
+    </plurals>
+    <plurals name="quickaccess_sync_shortcuts_added_msg">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bližnjica je dodana.</item>
+        <item quantity="two">%d bližnjici sta dodani.</item>
+        <item quantity="few">%d bližnjice so dodane.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d bližnjic je dodanih.</item>
+    </plurals>
+    <plurals name="save_page_confirm_dialog_multiple_item_title">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite izbrisati %d shranjeno stran?</item>
+        <item quantity="two">Želite izbrisati %d shranjeni strani?</item>
+        <item quantity="few">Želite izbrisati %d shranjene strani?</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Želite izbrisati %d shranjenih strani?</item>
+    </plurals>
+    <plurals name="saved_page_appbar_subtitle_total_pages">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shranjena stran</item>
+        <item quantity="two">%d shranjeni strani</item>
+        <item quantity="few">%d shranjene strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d shranjenih strani</item>
+    </plurals>
+    <plurals name="saved_page_appbar_title_pages_saved_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes je bila shranjena %d stran</item>
+        <item quantity="two">Danes sta bili shranj. %d strani</item>
+        <item quantity="few">Danes so bile shranj. %d strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes je bilo shranj. %d strani</item>
+    </plurals>
+    <plurals name="saved_pages_remained_to_be_synced">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shr. stran pripr. za sinhr.</item>
+        <item quantity="two">%d shr. strani pripr. za sinhr.</item>
+        <item quantity="few">%d shr. strani pripr. za sinhr.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d shr. strani pripr. za sinhr.</item>
+    </plurals>
+    <plurals name="security_panel_clean_graph_no_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d prekinitev danes</item>
+        <item quantity="two">%d prekinitvi danes</item>
+        <item quantity="few">%d prekinitve danes</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d prekinitev danes</item>
+    </plurals>
+    <plurals name="security_panel_clean_working">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes je bila blokirana %d motnja</item>
+        <item quantity="two">Danes sta bili blokirani %d motnji</item>
+        <item quantity="few">Danes so bile blokirane %d motnje</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes je bilo blokiranih %d motenj</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikacija ima blokirano odpiranje aplikacije Internet</item>
+        <item quantity="two">%d aplikaciji imata blokirano odpiranje aplikacije Internet</item>
+        <item quantity="few">%d aplikacije imajo blokirano odpiranje aplikacije Internet</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aplikacij ima blokirano odpiranje aplikacije Internet</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_allowedapps_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Danes je bil %d aplikaciji blokirano odpiranje aplikacije Internet</item>
+        <item quantity="two">Danes je bilo %d aplikacijam blokirano odpiranje aplikacije Internet</item>
+        <item quantity="few">Danes je bilo %d aplikacijam blokirano odpiranje aplikacije Internet</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Danes je bilo %d aplikacijam blokirano odpiranje aplikacije Internet</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pojavno okno je bilo blokirano</item>
+        <item quantity="two">%d pojavni okni sta bili blokirani</item>
+        <item quantity="few">%d pojavna okna so bila blokirana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pojavnih oken je bilo blokiranih</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_popup_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pojavno okno je bilo danes blokirano</item>
+        <item quantity="two">%d pojavni okni sta bili danes blokirani</item>
+        <item quantity="few">%d pojavna okna so bila danes blokirana</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d pojavnih oken je bilo danes blokiranih</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d preusmeritev nazaj je bila blokirana</item>
+        <item quantity="two">%d preusmeritvi nazaj sta bili blokirani</item>
+        <item quantity="few">%d preusmeritve nazaj so bile blokirane</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d preusmeritev nazaj je bilo blokiranih</item>
+    </plurals>
+    <plurals name="security_panel_clean_working_redirect_today">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d preusmeritev nazaj je bila blokirana danes</item>
+        <item quantity="two">%d preusmeritvi nazaj sta bili blokirani danes</item>
+        <item quantity="few">%d preusmeritve nazaj so bile blokirane danes</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d preusmeritev nazaj je bilo blokiranih danes</item>
+    </plurals>
+    <plurals name="security_panel_privacy_graph_basic_mode">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Blokirati bi bilo mogoče še %d sledilnik</item>
+        <item quantity="two">Blokirati bi bilo mogoče še %d sledilnika</item>
+        <item quantity="few">Blokirati bi bilo mogoče še %d sledilnike</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Blokirati bi bilo mogoče še %d sledilnikov</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_expandable_app_bar_selected_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbran je %d zavihek, ki ga lahko zaprete</item>
+        <item quantity="two">Izbrana sta %d zavihka, ki ju lahko zaprete</item>
+        <item quantity="few">Izbrani so %d zavihki, ki jih lahko zaprete</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izbranih je %d zavihkov, ki jih lahko zaprete</item>
+    </plurals>
+    <plurals name="tab_delete_suggestion_tip_card_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Našli smo %d zavihek, ki ga boste morda želeli zapreti</item>
+        <item quantity="two">Našli smo %d zavihka, ki ju boste morda želeli zapreti</item>
+        <item quantity="few">Našli smo %d zavihke, ki jih boste morda želeli zapreti</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Našli smo %d zavihkov, ki jih boste morda želeli zapreti</item>
+    </plurals>
+    <plurals name="tab_lock_limit_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zaklenete lahko največ %d zavihek.</item>
+        <item quantity="two">Zaklenete lahko največ %d zavihka.</item>
+        <item quantity="few">Zaklenete lahko največ %d zavihke.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Zaklenete lahko največ %d zavihkov.</item>
+    </plurals>
+    <plurals name="tracking_protection_expires_label">
+        <item quantity="one">Poteče jutri</item>
+        <item quantity="two">Poteče čez %d dneva</item>
+        <item quantity="few">Poteče čez %d dni</item>
+        <item quantity="other">Poteče čez %d dni</item>
+    </plurals>
+    <plurals name="tts_items_selected">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d izbran element</item>
+        <item quantity="two">%d izbrana elementa</item>
+        <item quantity="few">%d izbrani elementi</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d izbranih elementov</item>
+    </plurals>
+    <plurals name="webpage_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d spletna stran</item>
+        <item quantity="two">%d spletni strani</item>
+        <item quantity="few">%d spletne strani</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d spletnih strani</item>
+    </plurals>
+    <plurals name="websites_infotext">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d spletno mesto</item>
+        <item quantity="two">%d spletni mesti</item>
+        <item quantity="few">%d spletna mesta</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d spletnih mest</item>
+    </plurals>
+</resources>

@@ -1,0 +1,42 @@
+.class public final LJc/t;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LJc/l;
+
+
+# instance fields
+.field public final a:LJc/l;
+
+.field public final b:Lsb/k;
+
+
+# direct methods
+.method public constructor <init>(LJc/l;Lsb/k;)V
+    .locals 1
+
+    const-string v0, "transformer"
+
+    invoke-static {p2, v0}, Ltb/k;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LJc/t;->a:LJc/l;
+
+    iput-object p2, p0, LJc/t;->b:Lsb/k;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final iterator()Ljava/util/Iterator;
+    .locals 1
+
+    new-instance v0, LJc/s;
+
+    invoke-direct {v0, p0}, LJc/s;-><init>(LJc/t;)V
+
+    return-object v0
+.end method

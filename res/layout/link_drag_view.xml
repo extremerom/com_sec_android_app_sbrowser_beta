@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/drag_view_background_shadow" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/min_drag_view_width" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/drag_view_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/drag_view_background_shadow_size" android:paddingHorizontal="@dimen/drag_view_padding_horizontal" android:paddingVertical="@dimen/drag_view_padding_vertical">
+        <TextView android:textSize="@dimen/drag_view_link_title_size" android:textColor="@color/drag_view_text" android:ellipsize="end" android:gravity="start" android:id="@id/link_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RobotoMedium" />
+        <TextView android:textSize="@dimen/drag_view_link_url_size" android:textColor="@color/drag_view_link_url" android:ellipsize="middle" android:gravity="start" android:id="@id/link_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drag_view_link_title_url_spacing" android:singleLine="true" android:fontFamily="@style/RobotoRegular" />
+    </LinearLayout>
+</FrameLayout>

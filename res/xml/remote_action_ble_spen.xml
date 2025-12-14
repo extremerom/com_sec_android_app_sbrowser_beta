@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions enable_key="676F46FC" version="1.2">
+    <action id="back" label="@string/bottombar_backward" priority="1" trigger_key="ALT_LEFT+DPAD_LEFT">
+        <preference name="gesture" value="click|swipe_left" />
+    </action>
+    <action id="forward" label="@string/bottombar_forward" priority="2" trigger_key="ALT_LEFT+DPAD_RIGHT">
+        <preference name="gesture" value="double_click|swipe_right" />
+    </action>
+    <action id="page_down" label="@string/scroll_down" priority="3" trigger_key="PAGE_DOWN">
+        <preference name="gesture" value="swipe_up" />
+    </action>
+    <action id="page_up" label="@string/scroll_up" priority="4" trigger_key="PAGE_UP">
+        <preference name="gesture" value="swipe_down" />
+    </action>
+    <action id="refresh" label="@string/shortcut_helper_refresh" priority="5" trigger_key="F5">
+        <preference name="gesture" value="circle_ccw|circle_cw" />
+    </action>
+    <action id="previous_tab" label="@string/shortcut_go_to_previous_tab" priority="6" trigger_key="CTRL+SHIFT+TAB" />
+    <action id="next_tab" label="@string/shortcut_go_to_next_tab" priority="7" trigger_key="CTRL+TAB" />
+</remote-actions>

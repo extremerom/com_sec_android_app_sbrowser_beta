@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.blockers.content_block.view.ContentBlockDescriptionItemsPreference android:persistent="false" android:selectable="false" android:key="content_blocker_blocked_items_description" />
+    <androidx.preference.PreferenceCategory android:title="@string/content_blocker_installed_title" android:selectable="false" android:key="content_blocker_installed_category" />
+    <androidx.preference.PreferenceCategory android:title="@string/content_blocker_suggested_title" android:selectable="false" android:key="content_blocker_suggested_category" />
+    <androidx.preference.PreferenceCategory android:title="@string/content_blocker_other_title" android:selectable="false" android:key="content_blocker_other_category" />
+    <androidx.preference.PreferenceCategory android:title="" android:selectable="false" android:key="content_blocker_dummy_category" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/summary_view" android:paddingBottom="@dimen/detail_page_view_padding_bottom" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/winset_list_description_margin_start" android:layout_marginEnd="@dimen/winset_list_description_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/detail_page_summary_textsize" android:textColor="@color/winset_list_main_text" android:id="@id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/RobotoMedium" />
+    <View android:id="@id/tracker_list_divider" android:background="@color/winset_list_divider_light" android:layout_width="match_parent" android:layout_height="@dimen/winset_list_item_divider_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/winset_list_item_divider_margin" android:layout_marginEnd="@dimen/winset_list_item_divider_margin" />
+</LinearLayout>

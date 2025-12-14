@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/available_menu_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.sec.android.app.sbrowser.toolbar.MoreMenuPagerView android:id="@id/available_menu_view_pager" android:layout_width="match_parent" android:layout_height="@dimen/customize_toolbar_tools_secondary_view_height" />
+    </FrameLayout>
+    <com.sec.android.app.sbrowser.settings.customize_toolbar.ui.view.CustomizeToolbarPageIndicator android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/available_menu_page_indicator" android:layout_width="match_parent" android:layout_height="@dimen/customize_toolbar_page_indicator_height" />
+</LinearLayout>

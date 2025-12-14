@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/payments_editor_content_spacing" android:paddingStart="@dimen/payments_editor_item_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.payments.standard.widget.CustomTextInputLayout android:theme="@style/PaymentTextInputLayout" android:id="@id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/TextFieldErrorAppearance">
+        <AutoCompleteTextView android:id="@id/text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" style="@style/AutofillEditText" />
+    </com.sec.android.app.sbrowser.payments.standard.widget.CustomTextInputLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/icons_layer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/value_icon" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/payments_editor_textview_icon_height" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="@dimen/payments_editor_textview_icon_start_margin" />
+        <ImageView android:id="@id/action_icon" android:padding="@dimen/payments_editor_textview_action_icon_padding" android:visibility="gone" android:layout_width="@dimen/payments_editor_textview_action_icon" android:layout_height="@dimen/payments_editor_textview_action_icon" android:contentDescription="@null" />
+    </LinearLayout>
+</FrameLayout>

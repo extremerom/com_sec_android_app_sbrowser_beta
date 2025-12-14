@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sbrowser="http://schemas.android.com/apk/res-auto">
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_disable_fingerprint_by_force" android:summary="@string/pref_disable_fingerprint_by_force" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_disable_fingerprint_by_force" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_disable_iris_by_force" android:summary="@string/pref_disable_iris_by_force" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_disable_iris_by_force" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_disable_face_by_force" android:summary="@string/pref_disable_face_by_force" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_disable_face_by_force" />
+    <com.sec.android.app.sbrowser.settings.debug.DebugSwitchPreference android:title="@string/pref_disable_intelligent_scan_by_force" android:summary="@string/pref_disable_intelligent_scan_by_force" sbrowser:debugDefaultValue="false" sbrowser:debugKey="pref_disable_intelligent_scan_by_force" />
+</androidx.preference.PreferenceScreen>

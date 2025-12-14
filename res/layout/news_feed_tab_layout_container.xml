@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/news_feed_tab_layout_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@color/quickaccess_wallpaper_foreground_color" android:layout_alignTop="@id/tab_layout_container" android:layout_alignBottom="@id/tab_layout_container" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_layout_container" android:paddingBottom="@dimen/news_feed_tab_main_layout_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/news_feed_tab_main_layout_end_padding">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:focusable="true" android:clickable="true" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/news_feed_tab_layout_horizontal_margin" app:tabGravity="start" app:tabMode="scrollable" />
+        <ImageView android:id="@id/news_feed_tab_add_button" android:layout_width="@dimen/news_feed_tab_add_button_size" android:layout_height="@dimen/news_feed_tab_add_button_size" android:src="@drawable/internet_ic_add" android:tint="@color/news_feed_icon_tint_color" android:layout_marginHorizontal="@dimen/news_feed_tab_add_button_horizontal_margin" />
+    </LinearLayout>
+</RelativeLayout>

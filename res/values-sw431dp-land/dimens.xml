@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="style_graph_small_title_text_size">@dimen/arc_progress_text_dp_30</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:height="@dimen/media_assistant_remove_button_view_height" android:width="@dimen/media_assistant_remove_button_view_width" android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/media_assistant_remove_button_view_radius" />
+    <solid android:color="@color/media_assistant_remove_button_background" />
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/InnerRelativeLayout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/bottom_corner_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/security_panel_bottom_bar_layout">
+            <ImageView android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/bottom_left" android:tint="@color/sites_tab_widget_color" android:layout_alignParentStart="true" />
+            <ImageView android:layout_width="@dimen/sites_rounded_corner_image_width" android:layout_height="@dimen/sites_rounded_corner_image_width" android:src="@drawable/bottom_right" android:tint="@color/sites_tab_widget_color" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:id="@id/security_panel_bottom_bar_layout" android:background="@color/color_palette_list_view_bottom_bar_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/sites_menu_bottom_bar_height" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/common_delete" android:background="@drawable/sites_bottom_bar_background" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/sites_menu_bottom_bar_margin_start" android:layout_marginEnd="@dimen/sites_menu_bottom_bar_margin_end">
+                <ImageView android:id="@id/delete_icon" android:duplicateParentState="true" android:layout_width="@dimen/sites_menu_bottom_bar_icon_size" android:layout_height="@dimen/sites_menu_bottom_bar_icon_size" android:layout_marginTop="@dimen/infobar_top_padding" android:src="@drawable/internet_ic_delete" android:tint="@color/color_palette_list_view_bottom_bar_icon_color" />
+                <com.sec.android.app.sbrowser.common.widget.AutoScaleTextView android:textSize="@dimen/sites_menu_bottom_bar_text_size" android:textColor="@color/color_palette_list_view_bottom_bar_text_color" android:gravity="center" android:id="@id/delete_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/infobar_shadow_padding" android:text="@string/action_delete" android:textAllCaps="false" app:textSizeDp="@dimen/sites_menu_bottom_bar_max_text_size" style="@style/RobotoRegular" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

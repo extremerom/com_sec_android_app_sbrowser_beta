@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/custom_tab_handle_view_shape" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.customtabs.features.partialcustomtab.CustomTabDragBar android:id="@id/custom_tab_drag_bar" android:background="@drawable/custom_tab_handle_view_shape" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/custom_tab_handle_height" android:importantForAccessibility="no" />
+    <ImageView android:layout_gravity="center|top" android:id="@id/custom_tab_drag_handle" android:paddingTop="@dimen/custom_tab_drag_handle_padding_top" android:paddingBottom="@dimen/custom_tab_drag_handle_padding_bottom" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/custom_tab_drag_handle_bar" android:importantForAccessibility="no" android:paddingStart="@dimen/custom_tab_drag_handle_padding_side" android:paddingEnd="@dimen/custom_tab_drag_handle_padding_side" />
+</FrameLayout>
