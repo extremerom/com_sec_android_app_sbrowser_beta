@@ -553,9 +553,15 @@
 
     aget-object v6, v3, v5
 
+    if-eqz v6, :cond_continue_loop
+
     iget-object v7, v6, Landroid/accounts/Account;->name:Ljava/lang/String;
 
+    if-eqz v7, :cond_continue_loop
+
     iget-object v8, v2, Landroid/accounts/Account;->name:Ljava/lang/String;
+
+    if-eqz v8, :cond_continue_loop
 
     invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -563,9 +569,25 @@
 
     if-eqz v7, :cond_continue_loop
 
+    const-string v7, "SamsungAccountServerAPI"
+
+    const-string v8, "Removing duplicate account before adding new one"
+
+    invoke-static {v7, v8}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     iget-object v7, p0, Lcom/sec/android/app/sbrowser/scloud/account/SamsungAccountServerAPI;->mAccountManager:Landroid/accounts/AccountManager;
 
     invoke-virtual {v7, v6}, Landroid/accounts/AccountManager;->removeAccountExplicitly(Landroid/accounts/Account;)Z
+
+    move-result v7
+
+    if-nez v7, :cond_continue_loop
+
+    const-string v7, "SamsungAccountServerAPI"
+
+    const-string v8, "Failed to remove duplicate account"
+
+    invoke-static {v7, v8}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_continue_loop
     add-int/lit8 v5, v5, 0x1
