@@ -166,13 +166,7 @@
 .method public shouldDisableDebugSettings(Ljava/lang/String;)Z
     .locals 0
 
-    const-string p0, "internet://debug/"
-
-    invoke-static {p1, p0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
-
-    move-result p0
-
-    xor-int/lit8 p0, p0, 0x1
+    const/4 p0, 0x0
 
     return p0
 .end method
