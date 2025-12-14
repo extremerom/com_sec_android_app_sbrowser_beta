@@ -106,59 +106,12 @@
 
     invoke-static {p2, p3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {}, Lcom/sec/android/app/sbrowser/common/sync/SyncAccountUtil;->isSignedInInternetAccount()Z
+    # Removed check for existing account to allow re-authentication
+    # This fixes the issue where modified APKs cannot sign in with Samsung account
+    # invoke-static {}, Lcom/sec/android/app/sbrowser/common/sync/SyncAccountUtil;->isSignedInInternetAccount()Z
+    # move-result p2
+    # if-eqz p2, :cond_1
 
-    move-result p2
-
-    if-eqz p2, :cond_1
-
-    new-instance p1, Landroid/os/Bundle;
-
-    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
-
-    iget-object p2, p0, Lcom/sec/android/app/sbrowser/scloud/account/Authenticator;->mContext:Landroid/content/Context;
-
-    invoke-static {}, Lcom/sec/android/app/sbrowser/common/device/DeviceSettings;->isReplaceSecBrandAsGalaxy()Z
-
-    move-result p3
-
-    if-eqz p3, :cond_0
-
-    const p3, 0x7f140da6
-
-    goto :goto_0
-
-    :cond_0
-    const p3, 0x7f140da5
-
-    :goto_0
-    invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    move-result-object p2
-
-    const-string p3, "errorCode"
-
-    const/16 p4, 0xb
-
-    invoke-virtual {p1, p3, p4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    const-string p3, "errorMessage"
-
-    invoke-virtual {p1, p3, p2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    new-instance p3, Landroid/os/Handler;
-
-    invoke-direct {p3}, Landroid/os/Handler;-><init>()V
-
-    new-instance p4, Lcom/sec/android/app/sbrowser/scloud/account/Authenticator$1;
-
-    invoke-direct {p4, p0, p2}, Lcom/sec/android/app/sbrowser/scloud/account/Authenticator$1;-><init>(Lcom/sec/android/app/sbrowser/scloud/account/Authenticator;Ljava/lang/String;)V
-
-    invoke-virtual {p3, p4}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    return-object p1
-
-    :cond_1
     new-instance p0, Landroid/content/Intent;
 
     const-string p2, "com.sec.android.app.sbrowser.beta.SIGN_IN_SAMSUNG_ACCOUNT_SDK"
