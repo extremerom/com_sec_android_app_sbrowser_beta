@@ -106,11 +106,7 @@
 
     invoke-static {p2, p3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    # Removed check for existing account to allow re-authentication
-    # This fixes the issue where modified APKs cannot sign in with Samsung account
-    # invoke-static {}, Lcom/sec/android/app/sbrowser/common/sync/SyncAccountUtil;->isSignedInInternetAccount()Z
-    # move-result p2
-    # if-eqz p2, :cond_1
+    # Removed duplicate account check to allow re-authentication in modified APKs
 
     new-instance p0, Landroid/content/Intent;
 
