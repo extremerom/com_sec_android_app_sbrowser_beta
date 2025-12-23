@@ -39,7 +39,7 @@
 
     move-result v0
 
-    const/16 v1, 0x63
+    const/16 v1, 0x1f4
 
     if-eq v0, v1, :cond_0
 
@@ -58,7 +58,7 @@
     :cond_0
     sput v1, Lcom/sec/android/app/sbrowser/multi_instance/MultiInstanceTabCountManager;->MAX_TAB_COUNT:I
 
-    const/16 p0, 0x13
+    const/16 p0, 0x64
 
     sput p0, Lcom/sec/android/app/sbrowser/multi_instance/MultiInstanceTabCountManager;->MAX_LOCK_TAB_COUNT:I
 
